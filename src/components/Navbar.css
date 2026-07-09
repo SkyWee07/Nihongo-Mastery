@@ -93,3 +93,23 @@
   background: rgba(255,255,255,0.05);
   text-shadow: 0 0 10px rgba(255,255,255,0.3);
 }
+
+/* Mobile Navbar */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.8rem 1rem;
+    margin: 0.5rem;
+    top: 0.5rem;
+  }
+
+  .nav-brand a {
+    font-size: 1.15rem;
+  }
+
+  .nav-links-container {
+    right: 0;
+    left: 0;
+    min-width: unset;
+    margin: 0 0.5rem;
+  }
+}
