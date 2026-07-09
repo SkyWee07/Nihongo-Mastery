@@ -17,6 +17,16 @@
   -webkit-text-fill-color: transparent;
 }
 
+.voice-warning {
+  color: #f59e0b;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: rgba(245, 158, 11, 0.1);
+  border-radius: 8px;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
 .toggle-btn {
   margin-top: 1rem;
   background: var(--primary-color);

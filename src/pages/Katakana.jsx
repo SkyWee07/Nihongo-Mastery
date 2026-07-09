@@ -1,19 +1,52 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import katakanaData from '../data/katakanaData.json';
 import './Katakana.css';
 
 export default function Katakana() {
   const [showRomaji, setShowRomaji] = useState(false);
   const [activeTab, setActiveTab] = useState('basic');
+  const [voicesReady, setVoicesReady] = useState(false);
+  const japaneseVoiceRef = useRef(null);
+
+  useEffect(() => {
+    const loadVoices = () => {
+      const voices = window.speechSynthesis.getVoices();
+      if (voices.length > 0) {
+        const jpVoice = voices.find(v => v.lang.startsWith('ja'));
+        japaneseVoiceRef.current = jpVoice || null;
+        setVoicesReady(true);
+      }
+    };
+
+    if ('speechSynthesis' in window) {
+      loadVoices();
+      window.speechSynthesis.onvoiceschanged = loadVoices;
+    }
+
+    return () => {
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.onvoiceschanged = null;
+      }
+    };
+  }, []);
 
   const speakKana = (kana) => {
-    if ('speechSynthesis' in window && kana) {
-      window.speechSynthesis.cancel();
+    if (!('speechSynthesis' in window) || !kana) return;
+    
+    window.speechSynthesis.cancel();
+
+    setTimeout(() => {
       const utterance = new SpeechSynthesisUtterance(kana);
       utterance.lang = 'ja-JP';
       utterance.rate = 0.8;
+      utterance.volume = 1;
+      
+      if (japaneseVoiceRef.current) {
+        utterance.voice = japaneseVoiceRef.current;
+      }
+
       window.speechSynthesis.speak(utterance);
-    }
+    }, 50);
   };
 
   const renderGrid = (data, isYoon = false) => (
@@ -44,6 +77,10 @@ export default function Katakana() {
         <h1>Katakana (カタカナ)</h1>
         <p>Katakana digunakan untuk menulis kata serapan asing, nama, dan istilah teknis. Klik kartu untuk mendengar pengucapannya!</p>
         
+        {!voicesReady && (
+          <p className="voice-warning">⚠️ Suara belum siap. Pastikan browser mendukung Text-to-Speech dan bahasa Jepang sudah terinstal di Windows.</p>
+        )}
+
         <button 
           className="toggle-btn"
           onClick={() => setShowRomaji(!showRomaji)}

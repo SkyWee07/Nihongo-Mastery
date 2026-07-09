@@ -1,19 +1,58 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import hiraganaData from '../data/hiraganaData.json';
 import './Hiragana.css';
 
 export default function Hiragana() {
   const [showRomaji, setShowRomaji] = useState(false);
   const [activeTab, setActiveTab] = useState('basic');
+  const [voicesReady, setVoicesReady] = useState(false);
+  const japaneseVoiceRef = useRef(null);
+
+  // Muat voices saat komponen pertama kali tampil
+  useEffect(() => {
+    const loadVoices = () => {
+      const voices = window.speechSynthesis.getVoices();
+      if (voices.length > 0) {
+        // Cari voice Jepang yang tersedia
+        const jpVoice = voices.find(v => v.lang.startsWith('ja'));
+        japaneseVoiceRef.current = jpVoice || null;
+        setVoicesReady(true);
+      }
+    };
+
+    if ('speechSynthesis' in window) {
+      loadVoices();
+      // Chrome memuat voices secara asinkron, jadi kita perlu listener
+      window.speechSynthesis.onvoiceschanged = loadVoices;
+    }
+
+    return () => {
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.onvoiceschanged = null;
+      }
+    };
+  }, []);
 
   const speakKana = (kana) => {
-    if ('speechSynthesis' in window && kana) {
-      window.speechSynthesis.cancel();
+    if (!('speechSynthesis' in window) || !kana) return;
+    
+    // Cancel utterance yang sedang berjalan
+    window.speechSynthesis.cancel();
+
+    // Beri sedikit delay setelah cancel agar tidak bentrok
+    setTimeout(() => {
       const utterance = new SpeechSynthesisUtterance(kana);
       utterance.lang = 'ja-JP';
       utterance.rate = 0.8;
+      utterance.volume = 1;
+      
+      // Gunakan voice Jepang spesifik jika tersedia
+      if (japaneseVoiceRef.current) {
+        utterance.voice = japaneseVoiceRef.current;
+      }
+
       window.speechSynthesis.speak(utterance);
-    }
+    }, 50);
   };
 
   const renderGrid = (data, isYoon = false) => (
@@ -44,6 +83,10 @@ export default function Hiragana() {
         <h1>Hiragana (ひらがな)</h1>
         <p>Pelajari dan hafalkan seluruh karakter Hiragana. Klik kartu untuk mendengar pengucapannya!</p>
         
+        {!voicesReady && (
+          <p className="voice-warning">⚠️ Suara belum siap. Pastikan browser mendukung Text-to-Speech dan bahasa Jepang sudah terinstal di Windows.</p>
+        )}
+
         <button 
           className="toggle-btn"
           onClick={() => setShowRomaji(!showRomaji)}
