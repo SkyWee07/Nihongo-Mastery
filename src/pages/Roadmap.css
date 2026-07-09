@@ -1,0 +1,113 @@
+.roadmap-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.roadmap-header {
+  padding: 2rem;
+  text-align: center;
+}
+
+.roadmap-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(90deg, #34d399, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.progress-bar-bg {
+  background: rgba(255,255,255,0.1);
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #10b981, #3b82f6);
+  transition: width 0.5s ease;
+}
+
+.roadmap-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.roadmap-item {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  gap: 1.5rem;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  cursor: pointer;
+}
+
+.roadmap-item:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255,255,255,0.3);
+}
+
+.roadmap-item.completed {
+  opacity: 0.8;
+  border-left: 4px solid var(--accent);
+}
+
+.item-number {
+  font-size: 2rem;
+  font-weight: 800;
+  color: rgba(255,255,255,0.2);
+  min-width: 50px;
+}
+
+.roadmap-item.completed .item-number {
+  color: var(--accent);
+}
+
+.item-content {
+  flex-grow: 1;
+}
+
+.item-content h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.item-content p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.item-target {
+  display: inline-block;
+  background: rgba(255,255,255,0.1);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: var(--text-main);
+}
+
+.check-btn {
+  background: transparent;
+  border: 1px solid var(--text-muted);
+  color: var(--text-main);
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.check-btn:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.check-btn.checked {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}

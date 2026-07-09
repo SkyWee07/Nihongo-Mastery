@@ -1,0 +1,36 @@
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
+
+export default function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  return (
+    <nav className="navbar glass-panel">
+      <div className="nav-brand">
+        <Link to="/" onClick={() => setIsMenuOpen(false)}>⛩️ Nihongo Mastery</Link>
+      </div>
+      
+      {/* Hamburger Toggle Button */}
+      <button 
+        className="hamburger-btn" 
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
+        aria-label="Toggle menu"
+      >
+        <span className={`hamburger-line ${isMenuOpen ? 'open' : ''}`}></span>
+        <span className={`hamburger-line ${isMenuOpen ? 'open' : ''}`}></span>
+        <span className={`hamburger-line ${isMenuOpen ? 'open' : ''}`}></span>
+      </button>
+
+      {/* Flyout Menu */}
+      <div className={`nav-links-container ${isMenuOpen ? 'active' : ''} glass-panel`}>
+        <div className="nav-links">
+          <Link to="/" onClick={() => setIsMenuOpen(false)}>Roadmap</Link>
+          <Link to="/hiragana" onClick={() => setIsMenuOpen(false)}>Hiragana</Link>
+          <Link to="/katakana" onClick={() => setIsMenuOpen(false)}>Katakana (Coming Soon)</Link>
+          {/* Materi lain akan ditambahkan di sini secara berkala */}
+        </div>
+      </div>
+    </nav>
+  );
+}
