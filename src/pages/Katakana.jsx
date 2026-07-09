@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import hiraganaData from '../data/hiraganaData.json';
-import './Hiragana.css';
+import katakanaData from '../data/katakanaData.json';
+import './Katakana.css';
 
-export default function Hiragana() {
+export default function Katakana() {
   const [showRomaji, setShowRomaji] = useState(false);
   const [activeTab, setActiveTab] = useState('basic');
 
@@ -23,7 +23,7 @@ export default function Hiragana() {
         return (
           <div 
             key={char.id} 
-            className="kana-card glass-panel"
+            className="kana-card glass-panel" 
             onClick={() => speakKana(char.kana)}
             title="Klik untuk mendengar pengucapan"
           >
@@ -41,8 +41,8 @@ export default function Hiragana() {
   return (
     <div className="kana-container">
       <div className="kana-header glass-panel">
-        <h1>Hiragana (ひらがな)</h1>
-        <p>Pelajari dan hafalkan seluruh karakter Hiragana. Klik kartu untuk mendengar pengucapannya!</p>
+        <h1>Katakana (カタカナ)</h1>
+        <p>Katakana digunakan untuk menulis kata serapan asing, nama, dan istilah teknis. Klik kartu untuk mendengar pengucapannya!</p>
         
         <button 
           className="toggle-btn"
@@ -73,9 +73,9 @@ export default function Hiragana() {
         </div>
       </div>
 
-      {activeTab === 'basic' && renderGrid(hiraganaData.basic)}
-      {activeTab === 'dakuon' && renderGrid(hiraganaData.dakuon)}
-      {activeTab === 'yoon' && renderGrid(hiraganaData.yoon, true)}
+      {activeTab === 'basic' && renderGrid(katakanaData.basic)}
+      {activeTab === 'dakuon' && renderGrid(katakanaData.dakuon)}
+      {activeTab === 'yoon' && renderGrid(katakanaData.yoon, true)}
     </div>
   );
 }

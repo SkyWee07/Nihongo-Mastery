@@ -132,3 +132,14 @@
 .yoon-grid {
   grid-template-columns: repeat(3, 1fr);
 }
+
+.kana-card .audio-icon {
+  font-size: 0.8rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  margin-top: 0.3rem;
+}
+
+.kana-card:not(.empty):hover .audio-icon {
+  opacity: 0.7;
+}
