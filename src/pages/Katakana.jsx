@@ -1,11 +1,13 @@
 import { useState, useEffect, useRef } from 'react';
 import katakanaData from '../data/katakanaData.json';
+import WritingCanvas from '../components/WritingCanvas';
 import './Katakana.css';
 
 export default function Katakana() {
   const [showRomaji, setShowRomaji] = useState(false);
   const [activeTab, setActiveTab] = useState('basic');
   const [voicesReady, setVoicesReady] = useState(false);
+  const [writingChar, setWritingChar] = useState(null);
   const japaneseVoiceRef = useRef(null);
 
   useEffect(() => {
@@ -64,7 +66,19 @@ export default function Katakana() {
             <span className={`kana-romaji ${showRomaji ? 'visible' : ''}`}>
               {char.romaji}
             </span>
-            <span className="audio-icon">🔊</span>
+            <div className="card-actions">
+              <span className="audio-icon">🔊</span>
+              <button 
+                className="write-icon-btn" 
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setWritingChar(char.kana);
+                }}
+                title="Latihan Menulis"
+              >
+                ✍️
+              </button>
+            </div>
           </div>
         );
       })}
@@ -113,6 +127,13 @@ export default function Katakana() {
       {activeTab === 'basic' && renderGrid(katakanaData.basic)}
       {activeTab === 'dakuon' && renderGrid(katakanaData.dakuon)}
       {activeTab === 'yoon' && renderGrid(katakanaData.yoon, true)}
+
+      {writingChar && (
+        <WritingCanvas 
+          character={writingChar} 
+          onClose={() => setWritingChar(null)} 
+        />
+      )}
     </div>
   );
 }

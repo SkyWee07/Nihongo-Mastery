@@ -1,11 +1,13 @@
 import { useState, useEffect, useRef } from 'react';
 import hiraganaData from '../data/hiraganaData.json';
+import WritingCanvas from '../components/WritingCanvas';
 import './Hiragana.css';
 
 export default function Hiragana() {
   const [showRomaji, setShowRomaji] = useState(false);
   const [activeTab, setActiveTab] = useState('basic');
   const [voicesReady, setVoicesReady] = useState(false);
+  const [writingChar, setWritingChar] = useState(null);
   const japaneseVoiceRef = useRef(null);
 
   // Muat voices saat komponen pertama kali tampil
@@ -70,7 +72,19 @@ export default function Hiragana() {
             <span className={`kana-romaji ${showRomaji ? 'visible' : ''}`}>
               {char.romaji}
             </span>
-            <span className="audio-icon">🔊</span>
+            <div className="card-actions">
+              <span className="audio-icon">🔊</span>
+              <button 
+                className="write-icon-btn" 
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setWritingChar(char.kana);
+                }}
+                title="Latihan Menulis"
+              >
+                ✍️
+              </button>
+            </div>
           </div>
         );
       })}
@@ -119,6 +133,13 @@ export default function Hiragana() {
       {activeTab === 'basic' && renderGrid(hiraganaData.basic)}
       {activeTab === 'dakuon' && renderGrid(hiraganaData.dakuon)}
       {activeTab === 'yoon' && renderGrid(hiraganaData.yoon, true)}
+      
+      {writingChar && (
+        <WritingCanvas 
+          character={writingChar} 
+          onClose={() => setWritingChar(null)} 
+        />
+      )}
     </div>
   );
 }
