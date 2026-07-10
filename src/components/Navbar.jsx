@@ -25,7 +25,7 @@ export default function Navbar() {
       {/* Flyout Menu */}
       <div className={`nav-links-container ${isMenuOpen ? 'active' : ''} glass-panel`}>
         <div className="nav-links">
-          <Link to="/" onClick={() => setIsMenuOpen(false)}>🗺️ Roadmap</Link>
+          <Link to="/learn" onClick={() => setIsMenuOpen(false)}>🗺️ Roadmap</Link>
           <Link to="/hiragana" onClick={() => setIsMenuOpen(false)}>あ Hiragana</Link>
           <Link to="/katakana" onClick={() => setIsMenuOpen(false)}>カ Katakana</Link>
           <Link to="/quiz" onClick={() => setIsMenuOpen(false)}>🎯 Kuis Kana</Link>

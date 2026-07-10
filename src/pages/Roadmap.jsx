@@ -1,29 +1,15 @@
-import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import useStore from '../store/useStore';
 import roadmapData from '../data/roadmapData.json';
 import './Roadmap.css';
 
 export default function Roadmap() {
-  const [progress, setProgress] = useState([]);
+  const { progress, toggleProgress, getProgressPercentage } = useStore();
   const navigate = useNavigate();
 
-  useEffect(() => {
-    const saved = localStorage.getItem('nihongo-roadmap');
-    if (saved) {
-      setProgress(JSON.parse(saved));
-    }
-  }, []);
-
   const toggleCheck = (e, id) => {
-    e.stopPropagation(); // Mencegah klik menembus ke kotak (card)
-    let newProgress;
-    if (progress.includes(id)) {
-      newProgress = progress.filter(item => item !== id);
-    } else {
-      newProgress = [...progress, id];
-    }
-    setProgress(newProgress);
-    localStorage.setItem('nihongo-roadmap', JSON.stringify(newProgress));
+    e.stopPropagation();
+    toggleProgress(id);
   };
 
   const handleCardClick = (path) => {
@@ -32,19 +18,16 @@ export default function Roadmap() {
     }
   };
 
-  const calculatePercentage = () => {
-    if (roadmapData.length === 0) return 0;
-    return Math.round((progress.length / roadmapData.length) * 100);
-  };
+  const percentage = getProgressPercentage(roadmapData.length);
 
   return (
     <div className="roadmap-container">
       <div className="roadmap-header glass-panel">
         <h1>Peta Perjalanan Belajar</h1>
         <div className="progress-bar-bg">
-          <div className="progress-bar-fill" style={{ width: `${calculatePercentage()}%` }}></div>
+          <div className="progress-bar-fill" style={{ width: `${percentage}%` }}></div>
         </div>
-        <p>{calculatePercentage()}% Selesai ({progress.length} dari {roadmapData.length} langkah)</p>
+        <p>{percentage}% Selesai ({progress.length} dari {roadmapData.length} langkah)</p>
       </div>
 
       <div className="roadmap-list">
