@@ -188,7 +188,7 @@ export default function Landing() {
           <p>⛩️ <strong>Nihongo Mastery</strong> — Platform Belajar Bahasa Jepang Open Source</p>
           <p className="footer-credits">
             Data: JMdict/KANJIDIC (CC), KanjiVG (CC), Tatoeba (CC) | 
-            Dibuat dengan ❤️ untuk semua pelajar bahasa Jepang
+            Dibuat oleh Skywee untuk semua pelajar bahasa Jepang
           </p>
           <div className="footer-links">
             <a href="https://github.com/SkyWee07/Nihongo-Mastery" target="_blank" rel="noopener noreferrer">GitHub</a>
