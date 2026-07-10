@@ -1,27 +1,326 @@
 [
   {
     "id": 1,
-    "pattern": "～かもしれない",
-    "arti": "Mungkin",
-    "penjelasan": "Digunakan untuk menyatakan kemungkinan (sekitar 50%). Digabungkan dengan bentuk biasa (plain form).",
+    "pattern": "～ことができます",
+    "arti": "Bisa ~",
+    "penjelasan": "Menyatakan kesanggupan atau kemampuan melakukan sesuatu. Diikuti kata kerja bentuk kamus.",
     "contoh": [
       {
-        "jp": "明日は雨かもしれない。",
-        "id": "Ashita wa ame kamoshirenai.",
-        "id_arti": "Besok mungkin hujan."
+        "jp": "にほんごをはなすことができます。",
+        "id": "Nihongo o hanasu koto ga dekimasu.",
+        "id_arti": "(Saya) bisa berbicara bahasa Jepang."
       }
     ]
   },
   {
     "id": 2,
-    "pattern": "～ために",
-    "arti": "Untuk / Demi",
-    "penjelasan": "Menyatakan tujuan (purpose) atau alasan (reason).",
+    "pattern": "～たことがあります",
+    "arti": "Pernah ~",
+    "penjelasan": "Menyatakan pengalaman di masa lampau. Menggunakan kata kerja bentuk lampau -ta.",
     "contoh": [
       {
-        "jp": "家族のために働きます。",
-        "id": "Kazoku no tame ni hatarakimasu.",
-        "id_arti": "Saya bekerja demi keluarga."
+        "jp": "にほんへいったことがあります。",
+        "id": "Nihon e itta koto ga arimasu.",
+        "id_arti": "(Saya) pernah pergi ke Jepang."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "pattern": "～たり、～たりします",
+    "arti": "Melakukan ~ dan ~ (di antara aktivitas lain)",
+    "penjelasan": "Mendaftar contoh aksi yang tidak berurutan dan bukan merupakan daftar lengkap.",
+    "contoh": [
+      {
+        "jp": "えいがをみたり、ほんをよんだりします。",
+        "id": "Eiga o mitari, hon o yondari shimasu.",
+        "id_arti": "(Saya) kadang menonton film, kadang membaca buku."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "pattern": "～ほうがいいです",
+    "arti": "Sebaiknya ~",
+    "penjelasan": "Memberikan saran atau nasihat.",
+    "contoh": [
+      {
+        "jp": "くすりをのんだほうがいいですよ。",
+        "id": "Kusuri o nonda hou ga ii desu yo.",
+        "id_arti": "Sebaiknya Anda meminum obat."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "pattern": "～つもりです",
+    "arti": "Bermaksud untuk ~",
+    "penjelasan": "Menyatakan niat atau rencana pasti.",
+    "contoh": [
+      {
+        "jp": "あした、かいものにいくつもりです。",
+        "id": "Ashita, kaimono ni iku tsumori desu.",
+        "id_arti": "Saya bermaksud pergi belanja besok."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "pattern": "～でしょう",
+    "arti": "Mungkin / ~kan?",
+    "penjelasan": "Menyatakan dugaan halus atau meminta persetujuan.",
+    "contoh": [
+      {
+        "jp": "あしたはあめがふるでしょう。",
+        "id": "Ashita wa ame ga furu deshou.",
+        "id_arti": "Mungkin besok akan hujan."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "pattern": "～かもしれません",
+    "arti": "Mungkin saja ~",
+    "penjelasan": "Menyatakan probabilitas yang lebih rendah (sekitar 50%).",
+    "contoh": [
+      {
+        "jp": "かれはこないかもしれません。",
+        "id": "Kare wa konai kamoshiremasen.",
+        "id_arti": "Mungkin saja dia tidak datang."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "pattern": "～なければなりません",
+    "arti": "Harus ~",
+    "penjelasan": "Menyatakan kewajiban keras. Berasal dari 'kalau tidak ~ maka tidak boleh'.",
+    "contoh": [
+      {
+        "jp": "しゅくだいをしなければなりません。",
+        "id": "Shukudai o shinakereba narimasen.",
+        "id_arti": "(Saya) harus mengerjakan PR."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "pattern": "～なくてもいいです",
+    "arti": "Tidak usah / Tidak perlu ~",
+    "penjelasan": "Menyatakan bahwa suatu tindakan tidak wajib dilakukan.",
+    "contoh": [
+      {
+        "jp": "あしたはこなくてもいいです。",
+        "id": "Ashita wa konakutemo ii desu.",
+        "id_arti": "Besok Anda tidak perlu datang."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "pattern": "～てから",
+    "arti": "Setelah ~",
+    "penjelasan": "Menekankan bahwa aksi kedua terjadi SETELAH aksi pertama selesai.",
+    "contoh": [
+      {
+        "jp": "てをあらってから、ごはんをたべます。",
+        "id": "Te o aratte kara, gohan o tabemasu.",
+        "id_arti": "Setelah mencuci tangan, (saya) makan nasi."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "pattern": "～ば (Bentuk Pengandaian)",
+    "arti": "Jika / Kalau ~",
+    "penjelasan": "Syarat logis. Jika A terjadi, maka B pasti terjadi.",
+    "contoh": [
+      {
+        "jp": "はるになれば、さくらがさきます。",
+        "id": "Haru ni nareba, sakura ga sakimasu.",
+        "id_arti": "Jika musim semi tiba, bunga sakura mekar."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "pattern": "～なら",
+    "arti": "Jika (Kontekstual)",
+    "penjelasan": "Memberikan syarat atau menyarankan berdasarkan topik yang diangkat.",
+    "contoh": [
+      {
+        "jp": "にほんへいくなら、きょうとがいいですよ。",
+        "id": "Nihon e iku nara, Kyouto ga ii desu yo.",
+        "id_arti": "Jika (kamu bilang) pergi ke Jepang, Kyoto itu bagus lho."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "pattern": "～てしまう",
+    "arti": "Telah (menyesal / tuntas)",
+    "penjelasan": "Menyatakan aksi telah selesai (biasanya dengan kesan penyesalan).",
+    "contoh": [
+      {
+        "jp": "パスポートをわすれてしまいました。",
+        "id": "Pasupooto o wasurete shimaimashita.",
+        "id_arti": "(Gawat), saya lupa bawa paspor."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "pattern": "～ておく",
+    "arti": "Melakukan sesuatu sebagai persiapan",
+    "penjelasan": "Tindakan yang dilakukan terlebih dahulu untuk keperluan nanti.",
+    "contoh": [
+      {
+        "jp": "ホテルをよやくしておきます。",
+        "id": "Hoteru o yoyaku shite okimasu.",
+        "id_arti": "(Saya) mem-booking hotel (sebagai persiapan)."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "pattern": "～てある",
+    "arti": "Telah di~ (Status)",
+    "penjelasan": "Menyatakan hasil dari sebuah tindakan disengaja yang statusnya masih tersisa (Transitif).",
+    "contoh": [
+      {
+        "jp": "ドアがあけてあります。",
+        "id": "Doa ga akete arimasu.",
+        "id_arti": "Pintu telah (sengaja) dibuka."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "pattern": "～てみる",
+    "arti": "Mencoba ~",
+    "penjelasan": "Mencoba melakukan sesuatu untuk melihat bagaimana hasilnya.",
+    "contoh": [
+      {
+        "jp": "このくつをはいてみてもいいですか。",
+        "id": "Kono kutsu o haite mite mo ii desu ka.",
+        "id_arti": "Bolehkah saya mencoba memakai sepatu ini?"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "pattern": "～すぎる",
+    "arti": "Terlalu ~",
+    "penjelasan": "Menyatakan kelebihan (biasanya berkonotasi negatif).",
+    "contoh": [
+      {
+        "jp": "このラーメンはからすぎます。",
+        "id": "Kono raamen wa karasugimasu.",
+        "id_arti": "Ramen ini terlalu pedas."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "pattern": "～やすい / ～にくい",
+    "arti": "Mudah di~ / Sulit di~",
+    "penjelasan": "Menyatakan tingkat kesulitan suatu tindakan.",
+    "contoh": [
+      {
+        "jp": "このほんはよみやすいです。",
+        "id": "Kono hon wa yomiyasui desu.",
+        "id_arti": "Buku ini mudah dibaca."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "pattern": "～そうです (Dugaan Visual)",
+    "arti": "Kelihatannya ~",
+    "penjelasan": "Dugaan berdasarkan apa yang terlihat oleh mata pada saat itu.",
+    "contoh": [
+      {
+        "jp": "あめがふりそうです。",
+        "id": "Ame ga furisou desu.",
+        "id_arti": "Kelihatannya mau hujan."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "pattern": "～そうです (Kabar Hearsay)",
+    "arti": "Katanya ~ / Kudengar ~",
+    "penjelasan": "Menyampaikan kembali informasi yang didapat dari pihak lain. Disambung dengan bentuk biasa.",
+    "contoh": [
+      {
+        "jp": "あしたはあめがふるそうです。",
+        "id": "Ashita wa ame ga furu sou desu.",
+        "id_arti": "Katanya besok akan hujan."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "pattern": "～ようにする",
+    "arti": "Berusaha untuk ~",
+    "penjelasan": "Menyatakan niat atau rutinitas untuk mencoba mencapai suatu kebiasaan.",
+    "contoh": [
+      {
+        "jp": "まいにちうんどうするようにしています。",
+        "id": "Mainichi undou suru you ni shite imasu.",
+        "id_arti": "(Saya) berusaha olahraga setiap hari."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "pattern": "～ようになる",
+    "arti": "Menjadi bisa ~",
+    "penjelasan": "Perubahan status dari tidak bisa menjadi bisa.",
+    "contoh": [
+      {
+        "jp": "にほんごがはなせるようになりました。",
+        "id": "Nihongo ga hanaseru you ni narimashita.",
+        "id_arti": "Saya menjadi bisa berbicara bahasa Jepang."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "pattern": "～ために",
+    "arti": "Demi / Untuk ~",
+    "penjelasan": "Menyatakan tujuan secara konkret dan kuat.",
+    "contoh": [
+      {
+        "jp": "けんこうのために、やさいをたべます。",
+        "id": "Kenkou no tame ni, yasai o tabemasu.",
+        "id_arti": "Demi kesehatan, saya makan sayur."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "pattern": "～のに",
+    "arti": "Meskipun ~",
+    "penjelasan": "Menyatakan kekecewaan atau keterkejutan karena bertentangan dengan ekspektasi.",
+    "contoh": [
+      {
+        "jp": "たくさんべんきょうしたのに、テストがだめでした。",
+        "id": "Takusan benkyou shita noni, tesuto ga dame deshita.",
+        "id_arti": "Meskipun sudah belajar banyak, ulangannya jelek."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "pattern": "～という (To iu)",
+    "arti": "Yang bernama ~",
+    "penjelasan": "Digunakan untuk mendeskripsikan atau memperkenalkan kata benda.",
+    "contoh": [
+      {
+        "jp": "これはドラえもんというアニメです。",
+        "id": "Kore wa Doraemon to iu anime desu.",
+        "id_arti": "Ini adalah anime yang bernama Doraemon."
       }
     ]
   }

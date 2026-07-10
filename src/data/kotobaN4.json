@@ -1,47 +1,227 @@
 [
   {
     "id": 1,
-    "kanji": "息子",
-    "kana": "むすこ",
-    "romaji": "musuko",
-    "arti": "Anak laki-laki",
-    "tipe": "Noun",
-    "contoh": "私の息子です。"
+    "kanji": "挨拶",
+    "kana": "あいさつ",
+    "romaji": "aisatsu",
+    "arti": "Salam",
+    "tipe": "Kata Benda",
+    "contoh": "あいさつをします。(Memberi salam.)"
   },
   {
     "id": 2,
-    "kanji": "娘",
-    "kana": "むすめ",
-    "romaji": "musume",
-    "arti": "Anak perempuan",
-    "tipe": "Noun",
-    "contoh": "娘は学生です。"
+    "kanji": "間",
+    "kana": "あいだ",
+    "romaji": "aida",
+    "arti": "Di antara",
+    "tipe": "Kata Benda",
+    "contoh": "AとBのあいだ。(Di antara A dan B.)"
   },
   {
     "id": 3,
-    "kanji": "片付ける",
-    "kana": "かたづける",
-    "romaji": "katadukeru",
-    "arti": "Membereskan",
-    "tipe": "Verb (Ru)",
-    "contoh": "部屋を片付ける。"
+    "kanji": "合う",
+    "kana": "あう",
+    "romaji": "au",
+    "arti": "Cocok, Pas",
+    "tipe": "Kata Kerja",
+    "contoh": "サイズがあいます。(Ukurannya pas.)"
   },
   {
     "id": 4,
-    "kanji": "複雑",
-    "kana": "ふくざつ",
-    "romaji": "fukuzatsu",
-    "arti": "Rumit",
-    "tipe": "Na-Adj",
-    "contoh": "複雑な問題。"
+    "kanji": "赤ん坊",
+    "kana": "あかんぼう",
+    "romaji": "akanbou",
+    "arti": "Bayi",
+    "tipe": "Kata Benda",
+    "contoh": "あかんぼうがなく。(Bayi menangis.)"
   },
   {
     "id": 5,
-    "kanji": "急に",
-    "kana": "きゅうに",
-    "romaji": "kyuuni",
-    "arti": "Tiba-tiba",
-    "tipe": "Adverb",
-    "contoh": "急に雨が降った。"
+    "kanji": "浅い",
+    "kana": "あさい",
+    "romaji": "asai",
+    "arti": "Dangkal",
+    "tipe": "Kata Sifat I",
+    "contoh": "あさいかわ。(Sungai yang dangkal.)"
+  },
+  {
+    "id": 6,
+    "kanji": "味",
+    "kana": "あじ",
+    "romaji": "aji",
+    "arti": "Rasa",
+    "tipe": "Kata Benda",
+    "contoh": "いいあじがします。(Rasanya enak.)"
+  },
+  {
+    "id": 7,
+    "kanji": "明日",
+    "kana": "あす",
+    "romaji": "asu",
+    "arti": "Besok",
+    "tipe": "Kata Benda",
+    "contoh": "あすはやすみです。(Besok libur.)"
+  },
+  {
+    "id": 8,
+    "kanji": "遊び",
+    "kana": "あそび",
+    "romaji": "asobi",
+    "arti": "Permainan",
+    "tipe": "Kata Benda",
+    "contoh": "あそびにいく。(Pergi bermain.)"
+  },
+  {
+    "id": 9,
+    "kanji": "集る",
+    "kana": "あつまる",
+    "romaji": "atsumaru",
+    "arti": "Berkumpul",
+    "tipe": "Kata Kerja",
+    "contoh": "ひとがあつまる。(Orang berkumpul.)"
+  },
+  {
+    "id": 10,
+    "kanji": "集める",
+    "kana": "あつめる",
+    "romaji": "atsumeru",
+    "arti": "Mengumpulkan",
+    "tipe": "Kata Kerja",
+    "contoh": "きってをあつめる。(Mengumpulkan prangko.)"
+  },
+  {
+    "id": 11,
+    "kanji": "謝る",
+    "kana": "あやまる",
+    "romaji": "ayamaru",
+    "arti": "Meminta Maaf",
+    "tipe": "Kata Kerja",
+    "contoh": "ははにあやまる。(Minta maaf pada ibu.)"
+  },
+  {
+    "id": 12,
+    "kanji": "安心",
+    "kana": "あんしん",
+    "romaji": "anshin",
+    "arti": "Lega, Tenang",
+    "tipe": "Kata Benda, Suru",
+    "contoh": "あんしんしました。(Saya lega.)"
+  },
+  {
+    "id": 13,
+    "kanji": "安全",
+    "kana": "あんぜん",
+    "romaji": "anzen",
+    "arti": "Aman",
+    "tipe": "Kata Sifat Na",
+    "contoh": "あんぜんなばしょ。(Tempat yang aman.)"
+  },
+  {
+    "id": 14,
+    "kanji": "以下",
+    "kana": "いか",
+    "romaji": "ika",
+    "arti": "Kurang dari, Di bawah",
+    "tipe": "Kata Benda",
+    "contoh": "10さいいか。(Di bawah 10 tahun.)"
+  },
+  {
+    "id": 15,
+    "kanji": "以外",
+    "kana": "いがい",
+    "romaji": "igai",
+    "arti": "Selain",
+    "tipe": "Kata Benda",
+    "contoh": "これいがい。(Selain ini.)"
+  },
+  {
+    "id": 16,
+    "kanji": "医学",
+    "kana": "いがく",
+    "romaji": "igaku",
+    "arti": "Ilmu Kedokteran",
+    "tipe": "Kata Benda",
+    "contoh": "いがくをまなぶ。(Belajar kedokteran.)"
+  },
+  {
+    "id": 17,
+    "kanji": "生きる",
+    "kana": "いきる",
+    "romaji": "ikiru",
+    "arti": "Hidup",
+    "tipe": "Kata Kerja",
+    "contoh": "ながくいきる。(Hidup lama.)"
+  },
+  {
+    "id": 18,
+    "kanji": "意見",
+    "kana": "いけん",
+    "romaji": "iken",
+    "arti": "Pendapat",
+    "tipe": "Kata Benda",
+    "contoh": "いけんをいう。(Menyampaikan pendapat.)"
+  },
+  {
+    "id": 19,
+    "kanji": "石",
+    "kana": "いし",
+    "romaji": "ishi",
+    "arti": "Batu",
+    "tipe": "Kata Benda",
+    "contoh": "いしをなげる。(Melempar batu.)"
+  },
+  {
+    "id": 20,
+    "kanji": "苛める",
+    "kana": "いじめる",
+    "romaji": "ijimeru",
+    "arti": "Membully",
+    "tipe": "Kata Kerja",
+    "contoh": "いじめてはいけない。(Tidak boleh membully.)"
+  },
+  {
+    "id": 21,
+    "kanji": "以上",
+    "kana": "いじょう",
+    "romaji": "ijou",
+    "arti": "Lebih dari, Ke atas",
+    "tipe": "Kata Benda",
+    "contoh": "20さいいじょう。(20 tahun ke atas.)"
+  },
+  {
+    "id": 22,
+    "kanji": "急ぐ",
+    "kana": "いそぐ",
+    "romaji": "isogu",
+    "arti": "Buru-buru",
+    "tipe": "Kata Kerja",
+    "contoh": "えきへいそぐ。(Buru-buru ke stasiun.)"
+  },
+  {
+    "id": 23,
+    "kanji": "致す",
+    "kana": "いたす",
+    "romaji": "itasu",
+    "arti": "Melakukan (sopan)",
+    "tipe": "Kata Kerja",
+    "contoh": "わたしがいたします。(Biar saya yang melakukan.)"
+  },
+  {
+    "id": 24,
+    "kanji": "一度",
+    "kana": "いちど",
+    "romaji": "ichido",
+    "arti": "Satu kali",
+    "tipe": "Kata Benda",
+    "contoh": "いちどだけ。(Hanya sekali.)"
+  },
+  {
+    "id": 25,
+    "kanji": "一生懸命",
+    "kana": "いっしょうけんめい",
+    "romaji": "isshoukenmei",
+    "arti": "Dengan sungguh-sungguh",
+    "tipe": "Kata Sifat Na",
+    "contoh": "いっしょうけんめいべんきょうする。(Belajar sungguh-sungguh.)"
   }
 ]

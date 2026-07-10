@@ -34,12 +34,31 @@ export default function Kanji() {
     return <Navigate to="/learn" replace />;
   }
 
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 30;
+
+  // Reset page when search changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [search]);
+
   const filteredData = data.filter(item => 
     item.arti.toLowerCase().includes(search.toLowerCase()) || 
     item.kanji.includes(search) || 
     item.onyomi.includes(search) ||
     item.kunyomi.includes(search)
   );
+
+  const totalPages = Math.ceil(filteredData.length / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const currentData = filteredData.slice(startIndex, startIndex + itemsPerPage);
+
+  const handlePageChange = (page) => {
+    if (page >= 1 && page <= totalPages) {
+      setCurrentPage(page);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
 
   return (
     <div className="kanji-container">
@@ -59,43 +78,65 @@ export default function Kanji() {
       {loading ? (
         <div className="loading">Memuat data...</div>
       ) : (
-        <div className="kanji-grid">
-          {filteredData.map(kanji => (
-            <div key={kanji.id} className="kanji-card glass-panel">
-              <div className="kanji-main">
-                <span className="kanji-char">{kanji.kanji}</span>
-              </div>
-              <div className="kanji-details">
-                <div className="kanji-arti">{kanji.arti}</div>
-                <div className="kanji-reading">
-                  <div className="reading-row">
-                    <span className="reading-label">On:</span>
-                    <span className="reading-value">{kanji.onyomi}</span>
+        <>
+          <div className="kanji-grid">
+            {currentData.map(kanji => (
+              <div key={kanji.id} className="kanji-card glass-panel">
+                <div className="kanji-main">
+                  <span className="kanji-char">{kanji.kanji}</span>
+                </div>
+                <div className="kanji-details">
+                  <div className="kanji-arti">{kanji.arti}</div>
+                  <div className="kanji-reading">
+                    <div className="reading-row">
+                      <span className="reading-label">On:</span>
+                      <span className="reading-value">{kanji.onyomi}</span>
+                    </div>
+                    <div className="reading-row">
+                      <span className="reading-label">Kun:</span>
+                      <span className="reading-value">{kanji.kunyomi}</span>
+                    </div>
                   </div>
-                  <div className="reading-row">
-                    <span className="reading-label">Kun:</span>
-                    <span className="reading-value">{kanji.kunyomi}</span>
+                  <div className="kanji-contoh">
+                    Contoh: <strong>{kanji.contoh}</strong>
                   </div>
                 </div>
-                <div className="kanji-contoh">
-                  Contoh: <strong>{kanji.contoh}</strong>
+                
+                <div className="kanji-actions">
+                  <button 
+                    className="write-kanji-btn"
+                    onClick={() => setWritingChar(kanji.kanji)}
+                  >
+                    ✍️ Latihan Menulis
+                  </button>
                 </div>
               </div>
-              
-              <div className="kanji-actions">
-                <button 
-                  className="write-kanji-btn"
-                  onClick={() => setWritingChar(kanji.kanji)}
-                >
-                  ✍️ Latihan Menulis
-                </button>
-              </div>
+            ))}
+            {filteredData.length === 0 && (
+              <div className="no-results">Tidak ada kanji yang cocok.</div>
+            )}
+          </div>
+
+          {totalPages > 1 && (
+            <div className="pagination">
+              <button 
+                onClick={() => handlePageChange(currentPage - 1)} 
+                disabled={currentPage === 1}
+                className="page-btn"
+              >
+                &laquo; Prev
+              </button>
+              <span className="page-info">Halaman {currentPage} dari {totalPages}</span>
+              <button 
+                onClick={() => handlePageChange(currentPage + 1)} 
+                disabled={currentPage === totalPages}
+                className="page-btn"
+              >
+                Next &raquo;
+              </button>
             </div>
-          ))}
-          {filteredData.length === 0 && (
-            <div className="no-results">Tidak ada kanji yang cocok.</div>
           )}
-        </div>
+        </>
       )}
 
       {writingChar && (

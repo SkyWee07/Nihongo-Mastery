@@ -1,32 +1,346 @@
 [
   {
     "id": 1,
-    "pattern": "～は～です",
-    "arti": "Adalah (Kalimat Positif)",
-    "penjelasan": "Digunakan untuk menyatakan identitas, pekerjaan, atau sifat dari subjek. 'は' dibaca 'wa'.",
+    "pattern": "～は～です (wa... desu)",
+    "arti": "Adalah (Penanda Subjek)",
+    "penjelasan": "Pola kalimat paling dasar dalam bahasa Jepang. 'は' (dibaca wa) menandakan subjek, dan 'です' digunakan sebagai predikat penegas (adalah).",
     "contoh": [
       {
-        "jp": "私は学生です。",
+        "jp": "わたしはがくせいです。",
         "id": "Watashi wa gakusei desu.",
-        "id_arti": "Saya adalah siswa."
+        "id_arti": "Saya adalah seorang siswa."
       },
       {
-        "jp": "彼は医者です。",
-        "id": "Kare wa isha desu.",
-        "id_arti": "Dia adalah dokter."
+        "jp": "かれはせんせいです。",
+        "id": "Kare wa sensei desu.",
+        "id_arti": "Dia (laki-laki) adalah seorang guru."
       }
     ]
   },
   {
     "id": 2,
     "pattern": "～は～ではありません",
-    "arti": "Bukan (Kalimat Negatif)",
-    "penjelasan": "Bentuk negatif dari 'です'.",
+    "arti": "Bukan (Bentuk Negatif)",
+    "penjelasan": "Bentuk negatif dari です. Digunakan untuk menyangkal identitas atau keadaan.",
     "contoh": [
       {
-        "jp": "私は先生ではありません。",
+        "jp": "わたしはせんせいではありません。",
         "id": "Watashi wa sensei dewa arimasen.",
-        "id_arti": "Saya bukan guru."
+        "id_arti": "Saya bukan seorang guru."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "pattern": "～か (ka)",
+    "arti": "Apakah (Partikel Tanya)",
+    "penjelasan": "Menambahkan 'か' di akhir kalimat menjadikannya kalimat tanya.",
+    "contoh": [
+      {
+        "jp": "あなたはがくせいですか。",
+        "id": "Anata wa gakusei desu ka.",
+        "id_arti": "Apakah kamu seorang siswa?"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "pattern": "～の (no)",
+    "arti": "Milik (Partikel Kepemilikan)",
+    "penjelasan": "Partikel 'の' menggabungkan dua kata benda, biasanya berarti kepemilikan.",
+    "contoh": [
+      {
+        "jp": "これはわたしのほんです。",
+        "id": "Kore wa watashi no hon desu.",
+        "id_arti": "Ini adalah buku milik saya."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "pattern": "～も (mo)",
+    "arti": "Juga",
+    "penjelasan": "Partikel 'も' menggantikan 'は' untuk menyatakan 'juga' atau kesamaan.",
+    "contoh": [
+      {
+        "jp": "わたしもがくせいです。",
+        "id": "Watashi mo gakusei desu.",
+        "id_arti": "Saya juga seorang siswa."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "pattern": "これ / それ / あれ",
+    "arti": "Ini / Itu / Itu (Jauh)",
+    "penjelasan": "Kata ganti penunjuk benda. Kore (dekat pembicara), Sore (dekat lawan bicara), Are (jauh dari keduanya).",
+    "contoh": [
+      {
+        "jp": "それはなんですか。",
+        "id": "Sore wa nan desu ka.",
+        "id_arti": "Itu apa?"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "pattern": "この / その / あの",
+    "arti": "~ Ini / ~ Itu",
+    "penjelasan": "Kata penunjuk benda yang harus diikuti langsung oleh Kata Benda.",
+    "contoh": [
+      {
+        "jp": "このほんはわたしのです。",
+        "id": "Kono hon wa watashi no desu.",
+        "id_arti": "Buku ini milik saya."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "pattern": "ここ / そこ / あそこ",
+    "arti": "Di sini / Di sana / Di sana (Jauh)",
+    "penjelasan": "Kata penunjuk tempat.",
+    "contoh": [
+      {
+        "jp": "トイレはあそこです。",
+        "id": "Toire wa asoko desu.",
+        "id_arti": "Toilet ada di sana."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "pattern": "～に～があります/います",
+    "arti": "Di ~ ada ~",
+    "penjelasan": "Menunjukkan keberadaan. 'Arimasu' untuk benda mati/tanaman. 'Imasu' untuk makhluk hidup.",
+    "contoh": [
+      {
+        "jp": "つくえのうえにほんがあります。",
+        "id": "Tsukue no ue ni hon ga arimasu.",
+        "id_arti": "Di atas meja ada buku."
+      },
+      {
+        "jp": "にわにいぬがいます。",
+        "id": "Niwa ni inu ga imasu.",
+        "id_arti": "Di taman ada anjing."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "pattern": "～を (wo/o)",
+    "arti": "Partikel Objek",
+    "penjelasan": "Menunjukkan objek dari kata kerja transitif.",
+    "contoh": [
+      {
+        "jp": "ごはんをたべます。",
+        "id": "Gohan o tabemasu.",
+        "id_arti": "Makan nasi."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "pattern": "～へ (e)",
+    "arti": "Partikel Arah",
+    "penjelasan": "Menunjukkan arah pergerakan. Ditulis dengan hiragana 'he' tapi dibaca 'e'.",
+    "contoh": [
+      {
+        "jp": "がっこうへいきます。",
+        "id": "Gakkou e ikimasu.",
+        "id_arti": "Pergi ke sekolah."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "pattern": "～で (de)",
+    "arti": "Di / Menggunakan (Metode)",
+    "penjelasan": "Menunjukkan tempat terjadinya aksi, atau alat/metode yang digunakan.",
+    "contoh": [
+      {
+        "jp": "バスでいきます。",
+        "id": "Basu de ikimasu.",
+        "id_arti": "Pergi menggunakan bus."
+      },
+      {
+        "jp": "レストランでごはんをたべます。",
+        "id": "Resutoran de gohan o tabemasu.",
+        "id_arti": "Makan nasi di restoran."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "pattern": "～と (to)",
+    "arti": "Dan / Bersama",
+    "penjelasan": "Menggabungkan kata benda atau menyatakan penyertaan.",
+    "contoh": [
+      {
+        "jp": "ほんとペン",
+        "id": "Hon to pen.",
+        "id_arti": "Buku dan pena."
+      },
+      {
+        "jp": "ともだちといきます。",
+        "id": "Tomodachi to ikimasu.",
+        "id_arti": "Pergi bersama teman."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "pattern": "～ませんか",
+    "arti": "Maukah / Tidakkah (Ajakan)",
+    "penjelasan": "Bentuk tanya negatif dari kata kerja yang digunakan untuk mengajak dengan sopan.",
+    "contoh": [
+      {
+        "jp": "いっしょにえいがをみませんか。",
+        "id": "Issho ni eiga o mimasen ka.",
+        "id_arti": "Maukah menonton film bersama?"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "pattern": "～ましょう",
+    "arti": "Mari kita ~",
+    "penjelasan": "Digunakan untuk mengajak atau menawarkan sesuatu bersama-sama.",
+    "contoh": [
+      {
+        "jp": "いきましょう。",
+        "id": "Ikimashou.",
+        "id_arti": "Mari kita pergi."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "pattern": "～たい (tai)",
+    "arti": "Ingin ~",
+    "penjelasan": "Menyatakan keinginan untuk melakukan suatu aksi. Ditambahkan pada bentuk masu-stem.",
+    "contoh": [
+      {
+        "jp": "みずをのみたいです。",
+        "id": "Mizu o nomitai desu.",
+        "id_arti": "Saya ingin minum air."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "pattern": "～て (Te-form)",
+    "arti": "Bentuk -te",
+    "penjelasan": "Bentuk sambung kata kerja. Digunakan untuk merangkai aksi atau perintah halus.",
+    "contoh": [
+      {
+        "jp": "これをみてください。",
+        "id": "Kore o mite kudasai.",
+        "id_arti": "Tolong lihat ini."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "pattern": "～ています (te imasu)",
+    "arti": "Sedang ~",
+    "penjelasan": "Menyatakan aksi yang sedang berlangsung (present continuous) atau suatu status/keadaan.",
+    "contoh": [
+      {
+        "jp": "いま、ほんをよんでいます。",
+        "id": "Ima, hon o yonde imasu.",
+        "id_arti": "Sekarang sedang membaca buku."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "pattern": "～てもいいですか",
+    "arti": "Bolehkah saya ~ ?",
+    "penjelasan": "Digunakan untuk meminta izin.",
+    "contoh": [
+      {
+        "jp": "しゃしんをとってもいいですか。",
+        "id": "Shashin o totte mo ii desu ka.",
+        "id_arti": "Bolehkah saya mengambil foto?"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "pattern": "～てはいけません",
+    "arti": "Tidak boleh ~",
+    "penjelasan": "Digunakan untuk melarang (larangan keras).",
+    "contoh": [
+      {
+        "jp": "ここでタバコをすってはいけません。",
+        "id": "Koko de tabako o sutte wa ikemasen.",
+        "id_arti": "Tidak boleh merokok di sini."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "pattern": "～から / ～まで",
+    "arti": "Dari ~ / Sampai ~",
+    "penjelasan": "Menunjukkan titik awal dan titik akhir waktu atau tempat.",
+    "contoh": [
+      {
+        "jp": "９じから５じまで。",
+        "id": "Kuji kara goji made.",
+        "id_arti": "Dari jam 9 sampai jam 5."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "pattern": "～がすきです",
+    "arti": "Suka ~",
+    "penjelasan": "Menyatakan kesukaan terhadap suatu objek. Menggunakan partikel が.",
+    "contoh": [
+      {
+        "jp": "わたしはねこがすきです。",
+        "id": "Watashi wa neko ga suki desu.",
+        "id_arti": "Saya suka kucing."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "pattern": "～がじょうずです",
+    "arti": "Pintar / Ahli dalam ~",
+    "penjelasan": "Menyatakan keahlian diri sendiri atau orang lain.",
+    "contoh": [
+      {
+        "jp": "かれはにほんごがじょうずです。",
+        "id": "Kare wa nihongo ga jouzu desu.",
+        "id_arti": "Dia pintar bahasa Jepang."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "pattern": "～ないでください",
+    "arti": "Tolong jangan ~",
+    "penjelasan": "Meminta seseorang untuk tidak melakukan sesuatu.",
+    "contoh": [
+      {
+        "jp": "わすれないでください。",
+        "id": "Wasurenai de kudasai.",
+        "id_arti": "Tolong jangan lupa."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "pattern": "～のがすきです",
+    "arti": "Suka melakukan ~",
+    "penjelasan": "Menjadikan kata kerja sebagai kata benda (nominalisasi) untuk menyatakan suka pada suatu aktivitas.",
+    "contoh": [
+      {
+        "jp": "ほんをよむのがすきです。",
+        "id": "Hon o yomu no ga suki desu.",
+        "id_arti": "Suka membaca buku."
       }
     ]
   }
