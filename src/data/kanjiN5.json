@@ -1,634 +1,746 @@
 [
   {
     "id": 1,
-    "kanji": "日",
-    "onyomi": "ニチ, ジツ",
-    "kunyomi": "ひ, -び, -か",
-    "arti": "Hari, Matahari",
-    "contoh": "日曜日 (にちようび)"
+    "karakter": "日",
+    "onyomi": "ジツ, ニチ",
+    "kunyomi": "-か, -び, ひ",
+    "arti": "Japan, counter for days, day, sun",
+    "contoh": ""
   },
   {
     "id": 2,
-    "kanji": "一",
-    "onyomi": "イチ, イツ",
-    "kunyomi": "ひと-, ひと.つ",
-    "arti": "Satu",
-    "contoh": "一つ (ひとつ)"
+    "karakter": "月",
+    "onyomi": "ガツ, ゲツ",
+    "kunyomi": "つき",
+    "arti": "month, moon",
+    "contoh": ""
   },
   {
     "id": 3,
-    "kanji": "国",
-    "onyomi": "コク",
-    "kunyomi": "くに",
-    "arti": "Negara",
-    "contoh": "外国 (がいこく)"
+    "karakter": "火",
+    "onyomi": "カ",
+    "kunyomi": "-び, ひ, ほ-",
+    "arti": "fire",
+    "contoh": ""
   },
   {
     "id": 4,
-    "kanji": "人",
-    "onyomi": "ジン, ニン",
-    "kunyomi": "ひと",
-    "arti": "Orang",
-    "contoh": "日本人 (にほんじん)"
+    "karakter": "水",
+    "onyomi": "スイ",
+    "kunyomi": "みず, みず-",
+    "arti": "water",
+    "contoh": ""
   },
   {
     "id": 5,
-    "kanji": "年",
-    "onyomi": "ネン",
-    "kunyomi": "とし",
-    "arti": "Tahun",
-    "contoh": "今年 (ことし)"
+    "karakter": "木",
+    "onyomi": "ボク, モク",
+    "kunyomi": "き, こ-",
+    "arti": "tree, wood",
+    "contoh": ""
   },
   {
     "id": 6,
-    "kanji": "大",
-    "onyomi": "ダイ, タイ",
-    "kunyomi": "おお-, おお.きい, -おお.いに",
-    "arti": "Besar",
-    "contoh": "大きい (おおきい)"
+    "karakter": "金",
+    "onyomi": "キン, コン, ゴン",
+    "kunyomi": "-がね, かな-, かね",
+    "arti": "gold",
+    "contoh": ""
   },
   {
     "id": 7,
-    "kanji": "十",
-    "onyomi": "ジュウ, ジッ, ジュッ",
-    "kunyomi": "とお, と",
-    "arti": "Sepuluh",
-    "contoh": "十 (とお)"
+    "karakter": "土",
+    "onyomi": "ト, ド",
+    "kunyomi": "つち",
+    "arti": "Turkey, earth, ground, soil",
+    "contoh": ""
   },
   {
     "id": 8,
-    "kanji": "二",
-    "onyomi": "ニ, ジ",
-    "kunyomi": "ふた, ふた.つ, ふたた.び",
-    "arti": "Dua",
-    "contoh": "二つ (ふたつ)"
+    "karakter": "山",
+    "onyomi": "サン, セン",
+    "kunyomi": "やま",
+    "arti": "mountain",
+    "contoh": ""
   },
   {
     "id": 9,
-    "kanji": "本",
-    "onyomi": "ホン",
-    "kunyomi": "もと",
-    "arti": "Buku, Asal",
-    "contoh": "本 (ほん)"
+    "karakter": "川",
+    "onyomi": "セン",
+    "kunyomi": "かわ",
+    "arti": "river, river or three-stroke river radical (no. 47), stream",
+    "contoh": ""
   },
   {
     "id": 10,
-    "kanji": "中",
-    "onyomi": "チュウ",
-    "kunyomi": "なか, うち, あた.る",
-    "arti": "Di dalam, Tengah",
-    "contoh": "中国 (ちゅうごく)"
+    "karakter": "田",
+    "onyomi": "デン",
+    "kunyomi": "た",
+    "arti": "rice field, rice paddy",
+    "contoh": ""
   },
   {
     "id": 11,
-    "kanji": "長",
-    "onyomi": "チョウ",
-    "kunyomi": "なが.い, おさ",
-    "arti": "Panjang, Ketua",
-    "contoh": "長い (ながい)"
+    "karakter": "人",
+    "onyomi": "ジン, ニン",
+    "kunyomi": "-と, -り, ひと",
+    "arti": "person",
+    "contoh": ""
   },
   {
     "id": 12,
-    "kanji": "出",
-    "onyomi": "シュツ, スイ",
-    "kunyomi": "で.る, -で, だ.す, -だ.す",
-    "arti": "Keluar",
-    "contoh": "出る (でる)"
+    "karakter": "口",
+    "onyomi": "ク, コウ",
+    "kunyomi": "くち",
+    "arti": "mouth",
+    "contoh": ""
   },
   {
     "id": 13,
-    "kanji": "三",
-    "onyomi": "サン, ゾウ",
-    "kunyomi": "み, み.つ, みっ.つ",
-    "arti": "Tiga",
-    "contoh": "三つ (みっつ)"
+    "karakter": "目",
+    "onyomi": "ボク, モク",
+    "kunyomi": "-め, ま-, め",
+    "arti": "care, class, experience, eye, favor, insight, look",
+    "contoh": ""
   },
   {
     "id": 14,
-    "kanji": "時",
+    "karakter": "耳",
     "onyomi": "ジ",
-    "kunyomi": "とき, -どき",
-    "arti": "Waktu, Jam",
-    "contoh": "時間 (じかん)"
+    "kunyomi": "みみ",
+    "arti": "ear",
+    "contoh": ""
   },
   {
     "id": 15,
-    "kanji": "行",
-    "onyomi": "コウ, ギョウ, アン",
-    "kunyomi": "い.く, ゆ.く, -ゆ.き, -ゆき, -い.き, -いき, おこな.う",
-    "arti": "Pergi",
-    "contoh": "行く (いく)"
+    "karakter": "手",
+    "onyomi": "シュ, ズ",
+    "kunyomi": "-て, た-, て, て-",
+    "arti": "hand",
+    "contoh": ""
   },
   {
     "id": 16,
-    "kanji": "見",
-    "onyomi": "ケン",
-    "kunyomi": "み.る, み.える, み.せる",
-    "arti": "Melihat",
-    "contoh": "見る (みる)"
+    "karakter": "足",
+    "onyomi": "ソク",
+    "kunyomi": "あし, た.す, た.りる, た.る",
+    "arti": "be sufficient, counter for pairs of footwear, foot, leg",
+    "contoh": ""
   },
   {
     "id": 17,
-    "kanji": "月",
-    "onyomi": "ゲツ, ガツ",
-    "kunyomi": "つき",
-    "arti": "Bulan",
-    "contoh": "月曜日 (げつようび)"
+    "karakter": "力",
+    "onyomi": "リイ, リキ, リョク",
+    "kunyomi": "ちから",
+    "arti": "bear up, exert, power, strain, strength, strong",
+    "contoh": ""
   },
   {
     "id": 18,
-    "kanji": "後",
-    "onyomi": "ゴ, コウ",
-    "kunyomi": "のち, うし.ろ, うしろ, あと, おく.れる",
-    "arti": "Belakang, Setelah",
-    "contoh": "後ろ (うしろ)"
+    "karakter": "女",
+    "onyomi": "ジョ, ニョ, ニョウ",
+    "kunyomi": "おんな, め",
+    "arti": "female, woman",
+    "contoh": ""
   },
   {
     "id": 19,
-    "kanji": "前",
-    "onyomi": "ゼン",
-    "kunyomi": "まえ, -まえ",
-    "arti": "Depan, Sebelum",
-    "contoh": "名前 (なまえ)"
+    "karakter": "男",
+    "onyomi": "ダン, ナン",
+    "kunyomi": "お, おとこ",
+    "arti": "male",
+    "contoh": ""
   },
   {
     "id": 20,
-    "kanji": "生",
-    "onyomi": "セイ, ショウ",
-    "kunyomi": "い.きる, い.かす, い.ける, う.まれる, う.まれ, うまれ, う.む, お.う, は.える, は.やす, き, なま, なま-, な.る, な.す, む.す, -う",
-    "arti": "Hidup, Lahir",
-    "contoh": "先生 (せんせい)"
+    "karakter": "子",
+    "onyomi": "シ, ス, ツ",
+    "kunyomi": "-こ, こ, ね",
+    "arti": "11PM-1AM, child, first sign of Chinese zodiac, sign of the rat",
+    "contoh": ""
   },
   {
     "id": 21,
-    "kanji": "五",
-    "onyomi": "ゴ",
-    "kunyomi": "いつ, いつ.つ",
-    "arti": "Lima",
-    "contoh": "五つ (いつつ)"
+    "karakter": "学",
+    "onyomi": "ガク",
+    "kunyomi": "まな.ぶ",
+    "arti": "learning, science, study",
+    "contoh": ""
   },
   {
     "id": 22,
-    "kanji": "間",
-    "onyomi": "カン, ケン",
-    "kunyomi": "あいだ, ま, あい",
-    "arti": "Antara, Jeda",
-    "contoh": "時間 (じかん)"
+    "karakter": "校",
+    "onyomi": "キョウ, コウ",
+    "kunyomi": "",
+    "arti": "correction, exam, printing, proof, school",
+    "contoh": ""
   },
   {
     "id": 23,
-    "kanji": "上",
-    "onyomi": "ジョウ, ショウ, シャン",
-    "kunyomi": "うえ, -うえ, うわ-, かみ, あ.げる, -あ.げる, あ.がる, -あ.がる, あ.がり, -あ.がり, のぼ.る, のぼ.り, のぼ.せる, のぼ.す, よ.す",
-    "arti": "Atas",
-    "contoh": "上 (うえ)"
+    "karakter": "先",
+    "onyomi": "セン",
+    "kunyomi": "さき, ま.ず",
+    "arti": "ahead, before, future, precedence, previous",
+    "contoh": ""
   },
   {
     "id": 24,
-    "kanji": "東",
-    "onyomi": "トウ",
-    "kunyomi": "ひがし",
-    "arti": "Timur",
-    "contoh": "東京 (とうきょう)"
+    "karakter": "生",
+    "onyomi": "ショウ, セイ",
+    "kunyomi": "-う, い.かす, い.きる, い.ける, う.まれ, う.まれる, う.む, うま.れる, うまれ, お.う, き, な.す, な.る, なま, なま-, は.える, は.やす, む.す",
+    "arti": "birth, genuine, life",
+    "contoh": ""
   },
   {
     "id": 25,
-    "kanji": "四",
-    "onyomi": "シ",
-    "kunyomi": "よ, よ.つ, よっ.つ, よん",
-    "arti": "Empat",
-    "contoh": "四つ (よっつ)"
+    "karakter": "本",
+    "onyomi": "ホン",
+    "kunyomi": "もと",
+    "arti": "book, counter for long cylindrical things, main, origin, present, real, true",
+    "contoh": ""
   },
   {
     "id": 26,
-    "kanji": "今",
-    "onyomi": "コン, キン",
-    "kunyomi": "いま",
-    "arti": "Sekarang",
-    "contoh": "今日 (きょう)"
+    "karakter": "字",
+    "onyomi": "ジ",
+    "kunyomi": "-な, あざ, あざな",
+    "arti": "character, letter, section of village, word",
+    "contoh": ""
   },
   {
     "id": 27,
-    "kanji": "金",
-    "onyomi": "キン, コン, ゴン",
-    "kunyomi": "かね, かな-, -がね",
-    "arti": "Emas, Uang",
-    "contoh": "お金 (おかね)"
+    "karakter": "文",
+    "onyomi": "ブン, モン",
+    "kunyomi": "あや, ふみ",
+    "arti": "art, decoration, figures, literary radical (no. 67), literature, plan, sentence, style",
+    "contoh": ""
   },
   {
     "id": 28,
-    "kanji": "九",
-    "onyomi": "キュウ, ク",
-    "kunyomi": "ここの, ここの.つ",
-    "arti": "Sembilan",
-    "contoh": "九つ (ここのつ)"
+    "karakter": "教",
+    "onyomi": "キョウ",
+    "kunyomi": "おし.える, おそ.わる",
+    "arti": "doctrine, faith, teach",
+    "contoh": ""
   },
   {
     "id": 29,
-    "kanji": "入",
-    "onyomi": "ニュウ, ジュ",
-    "kunyomi": "い.る, -い.る, -い.り, い.れる, -い.れ, はい.る",
-    "arti": "Masuk",
-    "contoh": "入る (はいる)"
+    "karakter": "会",
+    "onyomi": "エ, カイ",
+    "kunyomi": "あ.う, あ.わせる, あつ.まる",
+    "arti": "association, interview, join, meet, meeting, party",
+    "contoh": ""
   },
   {
     "id": 30,
-    "kanji": "学",
-    "onyomi": "ガク",
-    "kunyomi": "まな.ぶ",
-    "arti": "Belajar",
-    "contoh": "学生 (がくせい)"
+    "karakter": "社",
+    "onyomi": "シャ",
+    "kunyomi": "やしろ",
+    "arti": "association, company, firm, office, shrine",
+    "contoh": ""
   },
   {
     "id": 31,
-    "kanji": "高",
-    "onyomi": "コウ",
-    "kunyomi": "たか.い, たか, -だか, たか.まる, たか.める",
-    "arti": "Tinggi, Mahal",
-    "contoh": "高い (たかい)"
+    "karakter": "店",
+    "onyomi": "テン",
+    "kunyomi": "たな, みせ",
+    "arti": "shop, store",
+    "contoh": ""
   },
   {
     "id": 32,
-    "kanji": "円",
-    "onyomi": "エン",
-    "kunyomi": "まる.い, まる, まど, まど.か, まろ.やか",
-    "arti": "Lingkaran, Yen",
-    "contoh": "百円 (ひゃくえん)"
+    "karakter": "買",
+    "onyomi": "バイ",
+    "kunyomi": "か.う",
+    "arti": "buy",
+    "contoh": ""
   },
   {
     "id": 33,
-    "kanji": "子",
-    "onyomi": "シ, ス, ツ",
-    "kunyomi": "こ, -こ, ね",
-    "arti": "Anak",
-    "contoh": "子供 (こども)"
+    "karakter": "行",
+    "onyomi": "アン, ギョウ, コウ",
+    "kunyomi": "-い.き, -いき, -ゆ.き, -ゆき, い.く, おこ.なう, おこな.う, ゆ.く",
+    "arti": "act, bank, carry out, conduct, going, journey, line, row",
+    "contoh": ""
   },
   {
     "id": 34,
-    "kanji": "外",
-    "onyomi": "ガイ, ゲ",
-    "kunyomi": "そと, ほか, はず.す, はず.れる, と-",
-    "arti": "Luar",
-    "contoh": "外国 (がいこく)"
+    "karakter": "来",
+    "onyomi": "タイ, ライ",
+    "kunyomi": "き, き.たす, き.たる, きた.す, きた.る, く.る, こ",
+    "arti": "become, cause, come, due, next",
+    "contoh": ""
   },
   {
     "id": 35,
-    "kanji": "八",
-    "onyomi": "ハチ",
-    "kunyomi": "や, や.つ, やっ.つ, よう",
-    "arti": "Delapan",
-    "contoh": "八つ (やっつ)"
+    "karakter": "帰",
+    "onyomi": "キ",
+    "kunyomi": "おく.る, かえ.す, かえ.る, とつ.ぐ",
+    "arti": "arrive at, homecoming, lead to, result in",
+    "contoh": ""
   },
   {
     "id": 36,
-    "kanji": "六",
-    "onyomi": "ロク, リク",
-    "kunyomi": "む, む.つ, むっ.つ, むい",
-    "arti": "Enam",
-    "contoh": "六つ (むっつ)"
+    "karakter": "見",
+    "onyomi": "ケン",
+    "kunyomi": "み.える, み.せる, み.る",
+    "arti": "chances, hopes, idea, look at, opinion, see, visible",
+    "contoh": ""
   },
   {
     "id": 37,
-    "kanji": "下",
-    "onyomi": "カ, ゲ",
-    "kunyomi": "した, しも, もと, さ.げる, さ.がる, くだ.る, くだ.り, くだ.す, -くだ.す, くだ.さる, お.ろす, お.りる",
-    "arti": "Bawah",
-    "contoh": "下 (した)"
+    "karakter": "聞",
+    "onyomi": "ブン, モン",
+    "kunyomi": "き.く, き.こえる",
+    "arti": "ask, hear, listen",
+    "contoh": ""
   },
   {
     "id": 38,
-    "kanji": "来",
-    "onyomi": "ライ, タイ",
-    "kunyomi": "く.る, きた.る, きた.す, き.たす, き.たる, き, こ",
-    "arti": "Datang",
-    "contoh": "来る (くる)"
+    "karakter": "読",
+    "onyomi": "トウ, トク, ドク",
+    "kunyomi": "-よ.み, よ.む",
+    "arti": "read",
+    "contoh": ""
   },
   {
     "id": 39,
-    "kanji": "気",
-    "onyomi": "キ, ケ",
-    "kunyomi": "いき",
-    "arti": "Udara, Jiwa, Pikiran",
-    "contoh": "元気 (げんき)"
+    "karakter": "書",
+    "onyomi": "ショ",
+    "kunyomi": "-が.き, -がき, か.く",
+    "arti": "write",
+    "contoh": ""
   },
   {
     "id": 40,
-    "kanji": "小",
-    "onyomi": "ショウ",
-    "kunyomi": "ちい.さい, こ-, お-, さ-",
-    "arti": "Kecil",
-    "contoh": "小さい (ちいさい)"
+    "karakter": "話",
+    "onyomi": "ワ",
+    "kunyomi": "はな.す, はなし",
+    "arti": "tale, talk",
+    "contoh": ""
   },
   {
     "id": 41,
-    "kanji": "七",
-    "onyomi": "シチ",
-    "kunyomi": "なな, なな.つ, なの",
-    "arti": "Tujuh",
-    "contoh": "七つ (ななつ)"
+    "karakter": "食",
+    "onyomi": "ショク, ジキ",
+    "kunyomi": "く.う, く.らう, た.べる, は.む",
+    "arti": "eat, food",
+    "contoh": ""
   },
   {
     "id": 42,
-    "kanji": "山",
-    "onyomi": "サン, セン",
-    "kunyomi": "やま",
-    "arti": "Gunung",
-    "contoh": "山 (やま)"
+    "karakter": "飲",
+    "onyomi": "イン, オン",
+    "kunyomi": "-の.み, の.む",
+    "arti": "drink, smoke, take",
+    "contoh": ""
   },
   {
     "id": 43,
-    "kanji": "話",
-    "onyomi": "ワ",
-    "kunyomi": "はな.す, はなし",
-    "arti": "Berbicara",
-    "contoh": "話す (はなす)"
+    "karakter": "立",
+    "onyomi": "リットル, リツ, リュウ",
+    "kunyomi": "-た.つ, -た.て, -た.てる, -だ.て, -だ.てる, た.ち-, た.つ, た.て-, た.てる, たて-",
+    "arti": "erect, rise, set up, stand up",
+    "contoh": ""
   },
   {
     "id": 44,
-    "kanji": "女",
-    "onyomi": "ジョ, ニョ, ニョウ",
-    "kunyomi": "おんな, め",
-    "arti": "Wanita",
-    "contoh": "女の人 (おんなのひと)"
+    "karakter": "座",
+    "onyomi": "ザ",
+    "kunyomi": "すわ.る",
+    "arti": "cushion, gathering, seat, sit, squat",
+    "contoh": ""
   },
   {
     "id": 45,
-    "kanji": "北",
-    "onyomi": "ホク",
-    "kunyomi": "きた",
-    "arti": "Utara",
-    "contoh": "北 (きた)"
+    "karakter": "休",
+    "onyomi": "キュウ",
+    "kunyomi": "やす.まる, やす.む, やす.める",
+    "arti": "day off, rest, retire, sleep",
+    "contoh": ""
   },
   {
     "id": 46,
-    "kanji": "午",
-    "onyomi": "ゴ",
-    "kunyomi": "うま",
-    "arti": "Siang",
-    "contoh": "午前 (ごぜん)"
+    "karakter": "寝",
+    "onyomi": "シン",
+    "kunyomi": "い.ぬ, ね.かす, ね.る, みたまや, や.める",
+    "arti": "bed, lie down, remain unsold, rest, sleep",
+    "contoh": ""
   },
   {
     "id": 47,
-    "kanji": "百",
-    "onyomi": "ヒャク, ビャク",
-    "kunyomi": "もも",
-    "arti": "Seratus",
-    "contoh": "百 (ひゃく)"
+    "karakter": "起",
+    "onyomi": "キ",
+    "kunyomi": "お.きる, お.こす, お.こる, おこ.す, た.つ",
+    "arti": "get up, rouse, wake up",
+    "contoh": ""
   },
   {
     "id": 48,
-    "kanji": "書",
-    "onyomi": "ショ",
-    "kunyomi": "か.く, -が.き, -がき",
-    "arti": "Menulis",
-    "contoh": "書く (かく)"
+    "karakter": "言",
+    "onyomi": "ゲン, ゴン",
+    "kunyomi": "い.う, こと",
+    "arti": "say, word",
+    "contoh": ""
   },
   {
     "id": 49,
-    "kanji": "先",
-    "onyomi": "セン",
-    "kunyomi": "さき, ま.ず",
-    "arti": "Sebelum, Ujung",
-    "contoh": "先生 (せんせい)"
+    "karakter": "買",
+    "onyomi": "バイ",
+    "kunyomi": "か.う",
+    "arti": "buy",
+    "contoh": ""
   },
   {
     "id": 50,
-    "kanji": "名",
-    "onyomi": "メイ, ミョウ",
-    "kunyomi": "な, -な",
-    "arti": "Nama",
-    "contoh": "名前 (なまえ)"
+    "karakter": "売",
+    "onyomi": "バイ",
+    "kunyomi": "う.る, う.れる",
+    "arti": "sell",
+    "contoh": ""
   },
   {
     "id": 51,
-    "kanji": "川",
-    "onyomi": "セン",
-    "kunyomi": "かわ",
-    "arti": "Sungai",
-    "contoh": "川 (かわ)"
+    "karakter": "車",
+    "onyomi": "シャ",
+    "kunyomi": "くるま",
+    "arti": "car",
+    "contoh": ""
   },
   {
     "id": 52,
-    "kanji": "千",
-    "onyomi": "セン",
-    "kunyomi": "ち",
-    "arti": "Seribu",
-    "contoh": "三千 (さんぜん)"
+    "karakter": "電",
+    "onyomi": "デン",
+    "kunyomi": "",
+    "arti": "electricity",
+    "contoh": ""
   },
   {
     "id": 53,
-    "kanji": "水",
-    "onyomi": "スイ",
-    "kunyomi": "みず, みず-",
-    "arti": "Air",
-    "contoh": "水 (みず)"
+    "karakter": "天",
+    "onyomi": "テン",
+    "kunyomi": "あま-, あまつ, あめ",
+    "arti": "heavens, imperial, sky",
+    "contoh": ""
   },
   {
     "id": 54,
-    "kanji": "半",
-    "onyomi": "ハン",
-    "kunyomi": "なか.ば",
-    "arti": "Setengah",
-    "contoh": "半分 (はんぶん)"
+    "karakter": "気",
+    "onyomi": "キ, ケ",
+    "kunyomi": "き",
+    "arti": "air, atmosphere, mind, mood, spirit",
+    "contoh": ""
   },
   {
     "id": 55,
-    "kanji": "男",
-    "onyomi": "ダン, ナン",
-    "kunyomi": "おとこ, お",
-    "arti": "Laki-laki",
-    "contoh": "男の人 (おとこのひと)"
+    "karakter": "雨",
+    "onyomi": "ウ",
+    "kunyomi": "-さめ, あま-, あめ",
+    "arti": "rain",
+    "contoh": ""
   },
   {
     "id": 56,
-    "kanji": "西",
-    "onyomi": "セイ, サイ, ス",
-    "kunyomi": "にし",
-    "arti": "Barat",
-    "contoh": "西 (にし)"
+    "karakter": "雪",
+    "onyomi": "セツ",
+    "kunyomi": "ゆき",
+    "arti": "snow",
+    "contoh": ""
   },
   {
     "id": 57,
-    "kanji": "電",
-    "onyomi": "デン",
-    "kunyomi": "",
-    "arti": "Listrik",
-    "contoh": "電車 (でんしゃ)"
+    "karakter": "風",
+    "onyomi": "フ, フウ",
+    "kunyomi": "かざ-, かぜ",
+    "arti": "air, manner, style, wind",
+    "contoh": ""
   },
   {
     "id": 58,
-    "kanji": "校",
-    "onyomi": "コウ, キョウ",
-    "kunyomi": "",
-    "arti": "Sekolah",
-    "contoh": "学校 (がっこう)"
+    "karakter": "南",
+    "onyomi": "ナ, ナン",
+    "kunyomi": "みなみ",
+    "arti": "south",
+    "contoh": ""
   },
   {
     "id": 59,
-    "kanji": "語",
-    "onyomi": "ゴ",
-    "kunyomi": "かた.る, かた.らう",
-    "arti": "Bahasa, Kata",
-    "contoh": "日本語 (にほんご)"
+    "karakter": "北",
+    "onyomi": "ホク",
+    "kunyomi": "きた",
+    "arti": "north",
+    "contoh": ""
   },
   {
     "id": 60,
-    "kanji": "土",
-    "onyomi": "ド, ト",
-    "kunyomi": "つち",
-    "arti": "Tanah",
-    "contoh": "土曜日 (どようび)"
+    "karakter": "東",
+    "onyomi": "トウ",
+    "kunyomi": "ひがし",
+    "arti": "east",
+    "contoh": ""
   },
   {
     "id": 61,
-    "kanji": "木",
-    "onyomi": "ボク, モク",
-    "kunyomi": "き, こ-",
-    "arti": "Pohon, Kayu",
-    "contoh": "木 (き)"
+    "karakter": "西",
+    "onyomi": "サイ, ス, セイ",
+    "kunyomi": "にし",
+    "arti": "Spain, west",
+    "contoh": ""
   },
   {
     "id": 62,
-    "kanji": "聞",
-    "onyomi": "ブン, モン",
-    "kunyomi": "き.く, き.こえる",
-    "arti": "Mendengar",
-    "contoh": "聞く (きく)"
+    "karakter": "上",
+    "onyomi": "シャン, ショウ, ジョウ",
+    "kunyomi": "-あ.がり, -あ.がる, -あ.げる, -うえ, あ.がり, あ.がる, あ.げる, うえ, うわ-, かみ, たてまつ.る, のぼ.す, のぼ.せる, のぼ.り, のぼ.る",
+    "arti": "above, up",
+    "contoh": ""
   },
   {
     "id": 63,
-    "kanji": "食",
-    "onyomi": "ショク, ジキ",
-    "kunyomi": "く.う, く.らう, た.べる, は.む",
-    "arti": "Makan",
-    "contoh": "食べる (たべる)"
+    "karakter": "下",
+    "onyomi": "カ, ゲ",
+    "kunyomi": "-くだ.す, お.りる, お.ろす, くだ.さる, くだ.す, くだ.り, くだ.る, さ.がる, さ.げる, した, しも, もと",
+    "arti": "below, descend, down, give, inferior, low",
+    "contoh": ""
   },
   {
     "id": 64,
-    "kanji": "車",
-    "onyomi": "シャ",
-    "kunyomi": "くるま",
-    "arti": "Mobil, Kendaraan",
-    "contoh": "車 (くるま)"
+    "karakter": "左",
+    "onyomi": "サ, シャ",
+    "kunyomi": "ひだり",
+    "arti": "left",
+    "contoh": ""
   },
   {
     "id": 65,
-    "kanji": "何",
-    "onyomi": "カ",
-    "kunyomi": "なに, なん, なに-, なん-",
-    "arti": "Apa",
-    "contoh": "何 (なに)"
+    "karakter": "右",
+    "onyomi": "ウ, ユウ",
+    "kunyomi": "みぎ",
+    "arti": "right",
+    "contoh": ""
   },
   {
     "id": 66,
-    "kanji": "南",
-    "onyomi": "ナン, ナ",
-    "kunyomi": "みなみ",
-    "arti": "Selatan",
-    "contoh": "南 (みなみ)"
+    "karakter": "中",
+    "onyomi": "チュウ",
+    "kunyomi": "あた.る, うち, なか",
+    "arti": "center, in, inside, mean, middle",
+    "contoh": ""
   },
   {
     "id": 67,
-    "kanji": "万",
-    "onyomi": "マン, バン",
-    "kunyomi": "よろず",
-    "arti": "Sepuluh ribu",
-    "contoh": "一万 (いちまん)"
+    "karakter": "外",
+    "onyomi": "ガイ, ゲ",
+    "kunyomi": "そと, と-, はず.す, はず.れる, ほか",
+    "arti": "outside",
+    "contoh": ""
   },
   {
     "id": 68,
-    "kanji": "毎",
-    "onyomi": "マイ",
-    "kunyomi": "ごと, -ごと.に",
-    "arti": "Setiap",
-    "contoh": "毎日 (まいにち)"
+    "karakter": "前",
+    "onyomi": "ゼン",
+    "kunyomi": "-まえ, まえ",
+    "arti": "before, in front",
+    "contoh": ""
   },
   {
     "id": 69,
-    "kanji": "白",
-    "onyomi": "ハク, ビャク",
-    "kunyomi": "しろ, しら-, しろ.い",
-    "arti": "Putih",
-    "contoh": "白い (しろい)"
+    "karakter": "後",
+    "onyomi": "コウ, ゴ",
+    "kunyomi": "あと, うし.ろ, うしろ, おく.れる, のち",
+    "arti": "back, behind, later",
+    "contoh": ""
   },
   {
     "id": 70,
-    "kanji": "天",
-    "onyomi": "テン",
-    "kunyomi": "あまつ, あめ, あま-",
-    "arti": "Surga, Langit",
-    "contoh": "天気 (てんき)"
+    "karakter": "何",
+    "onyomi": "カ",
+    "kunyomi": "なに, なに-, なん, なん-",
+    "arti": "what",
+    "contoh": ""
   },
   {
     "id": 71,
-    "kanji": "母",
-    "onyomi": "ボ",
-    "kunyomi": "はは, も",
-    "arti": "Ibu",
-    "contoh": "お母さん (おかあさん)"
+    "karakter": "半",
+    "onyomi": "ハン",
+    "kunyomi": "なか.ば",
+    "arti": "half, middle, odd number, part-, semi-",
+    "contoh": ""
   },
   {
     "id": 72,
-    "kanji": "火",
-    "onyomi": "カ",
-    "kunyomi": "ひ, -び, ほ-",
-    "arti": "Api",
-    "contoh": "火曜日 (かようび)"
+    "karakter": "分",
+    "onyomi": "フン, ブ, ブン",
+    "kunyomi": "わ.かつ, わ.かる, わ.かれる, わ.け, わ.ける",
+    "arti": "1%, chances, degree, duty, know, minute of time, one's lot, part, rate, segment, shaku/100, share, understand",
+    "contoh": ""
   },
   {
     "id": 73,
-    "kanji": "右",
-    "onyomi": "ウ, ユウ",
-    "kunyomi": "みぎ",
-    "arti": "Kanan",
-    "contoh": "右 (みぎ)"
+    "karakter": "時",
+    "onyomi": "ジ",
+    "kunyomi": "-どき, とき",
+    "arti": "hour, time",
+    "contoh": ""
   },
   {
     "id": 74,
-    "kanji": "読",
-    "onyomi": "ドク, トク, トウ",
-    "kunyomi": "よ.む, -よ.み",
-    "arti": "Membaca",
-    "contoh": "読む (よむ)"
+    "karakter": "間",
+    "onyomi": "カン, ケン",
+    "kunyomi": "あい, あいだ, ま",
+    "arti": "interval, space",
+    "contoh": ""
   },
   {
     "id": 75,
-    "kanji": "友",
-    "onyomi": "ユウ",
-    "kunyomi": "とも",
-    "arti": "Teman",
-    "contoh": "友達 (ともだち)"
+    "karakter": "午",
+    "onyomi": "ゴ",
+    "kunyomi": "うま",
+    "arti": "11AM-1PM, noon, seventh sign of Chinese zodiac, sign of the horse",
+    "contoh": ""
   },
   {
     "id": 76,
-    "kanji": "左",
-    "onyomi": "サ, シャ",
-    "kunyomi": "ひだり",
-    "arti": "Kiri",
-    "contoh": "左 (ひだり)"
+    "karakter": "年",
+    "onyomi": "ネン",
+    "kunyomi": "とし",
+    "arti": "counter for years, year",
+    "contoh": ""
   },
   {
     "id": 77,
-    "kanji": "休",
-    "onyomi": "キュウ",
-    "kunyomi": "やす.む, やす.まる, やす.める",
-    "arti": "Istirahat",
-    "contoh": "休む (やすむ)"
+    "karakter": "今",
+    "onyomi": "キン, コン",
+    "kunyomi": "いま",
+    "arti": "now",
+    "contoh": ""
   },
   {
     "id": 78,
-    "kanji": "父",
-    "onyomi": "フ",
-    "kunyomi": "ちち",
-    "arti": "Ayah",
-    "contoh": "お父さん (おとうさん)"
+    "karakter": "週",
+    "onyomi": "シュウ",
+    "kunyomi": "",
+    "arti": "week",
+    "contoh": ""
   },
   {
     "id": 79,
-    "kanji": "雨",
-    "onyomi": "ウ",
-    "kunyomi": "あめ, あま-, -さめ",
-    "arti": "Hujan",
-    "contoh": "雨 (あめ)"
+    "karakter": "毎",
+    "onyomi": "マイ",
+    "kunyomi": "-ごと.に, ごと",
+    "arti": "every",
+    "contoh": ""
+  },
+  {
+    "id": 80,
+    "karakter": "新",
+    "onyomi": "シン",
+    "kunyomi": "あたら.しい, あら-, あら.た, にい-",
+    "arti": "new",
+    "contoh": ""
+  },
+  {
+    "id": 81,
+    "karakter": "古",
+    "onyomi": "コ",
+    "kunyomi": "-ふる.す, ふる-, ふる.い",
+    "arti": "old",
+    "contoh": ""
+  },
+  {
+    "id": 82,
+    "karakter": "高",
+    "onyomi": "コウ",
+    "kunyomi": "-だか, たか, たか.い, たか.まる, たか.める",
+    "arti": "expensive, high, tall",
+    "contoh": ""
+  },
+  {
+    "id": 83,
+    "karakter": "安",
+    "onyomi": "アン",
+    "kunyomi": "やす, やす.い, やす.まる, やす.らか",
+    "arti": "cheap, contented, low, peaceful, quiet, relax, rested",
+    "contoh": ""
+  },
+  {
+    "id": 84,
+    "karakter": "大",
+    "onyomi": "タイ, ダイ",
+    "kunyomi": "-おお.いに, おお-, おお.きい",
+    "arti": "big, large",
+    "contoh": ""
+  },
+  {
+    "id": 85,
+    "karakter": "小",
+    "onyomi": "ショウ",
+    "kunyomi": "お-, こ-, さ-, ちい.さい",
+    "arti": "little, small",
+    "contoh": ""
+  },
+  {
+    "id": 86,
+    "karakter": "多",
+    "onyomi": "タ",
+    "kunyomi": "おお.い, まさ.に, まさ.る",
+    "arti": "frequent, many, much",
+    "contoh": ""
+  },
+  {
+    "id": 87,
+    "karakter": "少",
+    "onyomi": "ショウ",
+    "kunyomi": "すく.ない, すこ.し",
+    "arti": "few, little",
+    "contoh": ""
+  },
+  {
+    "id": 88,
+    "karakter": "長",
+    "onyomi": "チョウ",
+    "kunyomi": "おさ, なが.い",
+    "arti": "leader, long, senior, superior",
+    "contoh": ""
+  },
+  {
+    "id": 89,
+    "karakter": "短",
+    "onyomi": "タン",
+    "kunyomi": "みじか.い",
+    "arti": "brevity, defect, fault, short, weak point",
+    "contoh": ""
+  },
+  {
+    "id": 90,
+    "karakter": "白",
+    "onyomi": "ハク, ビャク",
+    "kunyomi": "しら-, しろ, しろ.い",
+    "arti": "white",
+    "contoh": ""
+  },
+  {
+    "id": 91,
+    "karakter": "黒",
+    "onyomi": "コク",
+    "kunyomi": "くろ, くろ.い, くろ.ずむ",
+    "arti": "black",
+    "contoh": ""
+  },
+  {
+    "id": 92,
+    "karakter": "赤",
+    "onyomi": "シャク, セキ",
+    "kunyomi": "あか, あか-, あか.い, あか.らむ, あか.らめる",
+    "arti": "red",
+    "contoh": ""
+  },
+  {
+    "id": 93,
+    "karakter": "青",
+    "onyomi": "ショウ, セイ",
+    "kunyomi": "あお, あお-, あお.い",
+    "arti": "blue, green",
+    "contoh": ""
   }
 ]

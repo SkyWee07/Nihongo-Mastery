@@ -1,227 +1,5195 @@
 [
   {
     "id": 1,
-    "kanji": "挨拶",
-    "kana": "あいさつ",
-    "romaji": "aisatsu",
-    "arti": "Salam",
-    "tipe": "Kata Benda",
-    "contoh": "あいさつをします。(Memberi salam.)"
+    "kanji": "周り",
+    "kana": "まわり",
+    "romaji": "-",
+    "arti": "circumference, girth",
+    "tipe": "Noun",
+    "contoh": ""
   },
   {
     "id": 2,
-    "kanji": "間",
-    "kana": "あいだ",
-    "romaji": "aida",
-    "arti": "Di antara",
-    "tipe": "Kata Benda",
-    "contoh": "AとBのあいだ。(Di antara A dan B.)"
+    "kanji": "上げる",
+    "kana": "あげる",
+    "romaji": "-",
+    "arti": "to raise, to elevate",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
   },
   {
     "id": 3,
-    "kanji": "合う",
-    "kana": "あう",
-    "romaji": "au",
-    "arti": "Cocok, Pas",
-    "tipe": "Kata Kerja",
-    "contoh": "サイズがあいます。(Ukurannya pas.)"
+    "kanji": "腕",
+    "kana": "うで",
+    "romaji": "-",
+    "arti": "arm",
+    "tipe": "Noun",
+    "contoh": ""
   },
   {
     "id": 4,
-    "kanji": "赤ん坊",
-    "kana": "あかんぼう",
-    "romaji": "akanbou",
-    "arti": "Bayi",
-    "tipe": "Kata Benda",
-    "contoh": "あかんぼうがなく。(Bayi menangis.)"
+    "kanji": "人形",
+    "kana": "にんぎょう",
+    "romaji": "-",
+    "arti": "doll, puppet, marionette",
+    "tipe": "Noun",
+    "contoh": ""
   },
   {
     "id": 5,
-    "kanji": "浅い",
-    "kana": "あさい",
-    "romaji": "asai",
-    "arti": "Dangkal",
-    "tipe": "Kata Sifat I",
-    "contoh": "あさいかわ。(Sungai yang dangkal.)"
+    "kanji": "文化",
+    "kana": "ぶんか",
+    "romaji": "-",
+    "arti": "culture, civilization, civilisation",
+    "tipe": "Noun",
+    "contoh": ""
   },
   {
     "id": 6,
-    "kanji": "味",
-    "kana": "あじ",
-    "romaji": "aji",
-    "arti": "Rasa",
-    "tipe": "Kata Benda",
-    "contoh": "いいあじがします。(Rasanya enak.)"
+    "kanji": "海岸",
+    "kana": "かいがん",
+    "romaji": "-",
+    "arti": "seashore, coast, seaside, waterfront, beach",
+    "tipe": "Noun",
+    "contoh": ""
   },
   {
     "id": 7,
-    "kanji": "明日",
-    "kana": "あす",
-    "romaji": "asu",
-    "arti": "Besok",
-    "tipe": "Kata Benda",
-    "contoh": "あすはやすみです。(Besok libur.)"
+    "kanji": "産業",
+    "kana": "さんぎょう",
+    "romaji": "-",
+    "arti": "industry",
+    "tipe": "Noun",
+    "contoh": ""
   },
   {
     "id": 8,
-    "kanji": "遊び",
-    "kana": "あそび",
-    "romaji": "asobi",
-    "arti": "Permainan",
-    "tipe": "Kata Benda",
-    "contoh": "あそびにいく。(Pergi bermain.)"
+    "kanji": "動物園",
+    "kana": "どうぶつえん",
+    "romaji": "-",
+    "arti": "zoo, zoological gardens",
+    "tipe": "Noun",
+    "contoh": ""
   },
   {
     "id": 9,
-    "kanji": "集る",
-    "kana": "あつまる",
-    "romaji": "atsumaru",
-    "arti": "Berkumpul",
-    "tipe": "Kata Kerja",
-    "contoh": "ひとがあつまる。(Orang berkumpul.)"
+    "kanji": "美術館",
+    "kana": "びじゅつかん",
+    "romaji": "-",
+    "arti": "art museum, art gallery",
+    "tipe": "Noun",
+    "contoh": ""
   },
   {
     "id": 10,
-    "kanji": "集める",
-    "kana": "あつめる",
-    "romaji": "atsumeru",
-    "arti": "Mengumpulkan",
-    "tipe": "Kata Kerja",
-    "contoh": "きってをあつめる。(Mengumpulkan prangko.)"
+    "kanji": "飛行場",
+    "kana": "ひこうじょう",
+    "romaji": "-",
+    "arti": "airfield, airport, aerodrome",
+    "tipe": "Noun",
+    "contoh": ""
   },
   {
     "id": 11,
-    "kanji": "謝る",
-    "kana": "あやまる",
-    "romaji": "ayamaru",
-    "arti": "Meminta Maaf",
-    "tipe": "Kata Kerja",
-    "contoh": "ははにあやまる。(Minta maaf pada ibu.)"
+    "kanji": "水道",
+    "kana": "すいどう",
+    "romaji": "-",
+    "arti": "water supply, water service, waterworks, tap water",
+    "tipe": "Noun",
+    "contoh": ""
   },
   {
     "id": 12,
-    "kanji": "安心",
-    "kana": "あんしん",
-    "romaji": "anshin",
-    "arti": "Lega, Tenang",
-    "tipe": "Kata Benda, Suru",
-    "contoh": "あんしんしました。(Saya lega.)"
+    "kanji": "葡萄",
+    "kana": "ぶどう",
+    "romaji": "-",
+    "arti": "grape, grapevine",
+    "tipe": "Noun",
+    "contoh": ""
   },
   {
     "id": 13,
-    "kanji": "安全",
-    "kana": "あんぜん",
-    "romaji": "anzen",
-    "arti": "Aman",
-    "tipe": "Kata Sifat Na",
-    "contoh": "あんぜんなばしょ。(Tempat yang aman.)"
+    "kanji": "事故",
+    "kana": "じこ",
+    "romaji": "-",
+    "arti": "accident, incident, trouble",
+    "tipe": "Noun",
+    "contoh": ""
   },
   {
     "id": 14,
-    "kanji": "以下",
-    "kana": "いか",
-    "romaji": "ika",
-    "arti": "Kurang dari, Di bawah",
-    "tipe": "Kata Benda",
-    "contoh": "10さいいか。(Di bawah 10 tahun.)"
+    "kanji": "息子",
+    "kana": "むすこ",
+    "romaji": "-",
+    "arti": "son",
+    "tipe": "Noun",
+    "contoh": ""
   },
   {
     "id": 15,
-    "kanji": "以外",
-    "kana": "いがい",
-    "romaji": "igai",
-    "arti": "Selain",
-    "tipe": "Kata Benda",
-    "contoh": "これいがい。(Selain ini.)"
+    "kanji": "生活",
+    "kana": "せいかつ",
+    "romaji": "-",
+    "arti": "life, living",
+    "tipe": "Noun, Suru verb, Intransitive verb",
+    "contoh": ""
   },
   {
     "id": 16,
-    "kanji": "医学",
-    "kana": "いがく",
-    "romaji": "igaku",
-    "arti": "Ilmu Kedokteran",
-    "tipe": "Kata Benda",
-    "contoh": "いがくをまなぶ。(Belajar kedokteran.)"
+    "kanji": "注意",
+    "kana": "ちゅうい",
+    "romaji": "-",
+    "arti": "attention, notice, heed",
+    "tipe": "Noun, Suru verb, Intransitive verb",
+    "contoh": ""
   },
   {
     "id": 17,
     "kanji": "生きる",
     "kana": "いきる",
-    "romaji": "ikiru",
-    "arti": "Hidup",
-    "tipe": "Kata Kerja",
-    "contoh": "ながくいきる。(Hidup lama.)"
+    "romaji": "-",
+    "arti": "to live, to exist",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
   },
   {
     "id": 18,
-    "kanji": "意見",
-    "kana": "いけん",
-    "romaji": "iken",
-    "arti": "Pendapat",
-    "tipe": "Kata Benda",
-    "contoh": "いけんをいう。(Menyampaikan pendapat.)"
+    "kanji": "女性",
+    "kana": "じょせい",
+    "romaji": "-",
+    "arti": "woman, female",
+    "tipe": "Noun, Noun which may take the genitive case particle 'no'",
+    "contoh": ""
   },
   {
     "id": 19,
-    "kanji": "石",
-    "kana": "いし",
-    "romaji": "ishi",
-    "arti": "Batu",
-    "tipe": "Kata Benda",
-    "contoh": "いしをなげる。(Melempar batu.)"
+    "kanji": "船",
+    "kana": "ふね",
+    "romaji": "-",
+    "arti": "ship, boat, watercraft, vessel, seaplane",
+    "tipe": "Noun",
+    "contoh": ""
   },
   {
     "id": 20,
-    "kanji": "苛める",
-    "kana": "いじめる",
-    "romaji": "ijimeru",
-    "arti": "Membully",
-    "tipe": "Kata Kerja",
-    "contoh": "いじめてはいけない。(Tidak boleh membully.)"
+    "kanji": "説明",
+    "kana": "せつめい",
+    "romaji": "-",
+    "arti": "explanation, exposition, description, account, caption, legend",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
   },
   {
     "id": 21,
-    "kanji": "以上",
-    "kana": "いじょう",
-    "romaji": "ijou",
-    "arti": "Lebih dari, Ke atas",
-    "tipe": "Kata Benda",
-    "contoh": "20さいいじょう。(20 tahun ke atas.)"
+    "kanji": "警察",
+    "kana": "けいさつ",
+    "romaji": "-",
+    "arti": "police",
+    "tipe": "Noun",
+    "contoh": ""
   },
   {
     "id": 22,
-    "kanji": "急ぐ",
-    "kana": "いそぐ",
-    "romaji": "isogu",
-    "arti": "Buru-buru",
-    "tipe": "Kata Kerja",
-    "contoh": "えきへいそぐ。(Buru-buru ke stasiun.)"
+    "kanji": "危険",
+    "kana": "きけん",
+    "romaji": "-",
+    "arti": "danger, peril, hazard",
+    "tipe": "Noun, Na-adjective (keiyodoshi)",
+    "contoh": ""
   },
   {
     "id": 23,
-    "kanji": "致す",
-    "kana": "いたす",
-    "romaji": "itasu",
-    "arti": "Melakukan (sopan)",
-    "tipe": "Kata Kerja",
-    "contoh": "わたしがいたします。(Biar saya yang melakukan.)"
+    "kanji": "世界",
+    "kana": "せかい",
+    "romaji": "-",
+    "arti": "the world, society, the universe",
+    "tipe": "Noun",
+    "contoh": ""
   },
   {
     "id": 24,
-    "kanji": "一度",
-    "kana": "いちど",
-    "romaji": "ichido",
-    "arti": "Satu kali",
-    "tipe": "Kata Benda",
-    "contoh": "いちどだけ。(Hanya sekali.)"
+    "kanji": "戦争",
+    "kana": "せんそう",
+    "romaji": "-",
+    "arti": "war",
+    "tipe": "Noun, Suru verb, Intransitive verb",
+    "contoh": ""
   },
   {
     "id": 25,
+    "kanji": "小説",
+    "kana": "しょうせつ",
+    "romaji": "-",
+    "arti": "novel, story, (work of) fiction",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 26,
+    "kanji": "関係",
+    "kana": "かんけい",
+    "romaji": "-",
+    "arti": "relation, relationship, connection",
+    "tipe": "Noun, Suru verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 27,
+    "kanji": "研究",
+    "kana": "けんきゅう",
+    "romaji": "-",
+    "arti": "research, study, investigation",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 28,
+    "kanji": "会議",
+    "kana": "かいぎ",
+    "romaji": "-",
+    "arti": "meeting, conference, session, assembly, council, convention, congress",
+    "tipe": "Noun, Suru verb, Intransitive verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 29,
+    "kanji": "音",
+    "kana": "おと",
+    "romaji": "-",
+    "arti": "sound, noise",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 30,
+    "kanji": "普通",
+    "kana": "ふつう",
+    "romaji": "-",
+    "arti": "normal, ordinary, regular, usual, common, average",
+    "tipe": "Noun which may take the genitive case particle 'no', Na-adjective (keiyodoshi)",
+    "contoh": ""
+  },
+  {
+    "id": 31,
+    "kanji": "湖",
+    "kana": "みずうみ",
+    "romaji": "-",
+    "arti": "lake",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 32,
+    "kanji": "夢",
+    "kana": "ゆめ",
+    "romaji": "-",
+    "arti": "dream",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 33,
+    "kanji": "空港",
+    "kana": "くうこう",
+    "romaji": "-",
+    "arti": "airport",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 34,
+    "kanji": "数学",
+    "kana": "すうがく",
+    "romaji": "-",
+    "arti": "mathematics",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 35,
+    "kanji": "教育",
+    "kana": "きょういく",
+    "romaji": "-",
+    "arti": "education, schooling, training, instruction, teaching, upbringing",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 36,
+    "kanji": "赤ちゃん",
+    "kana": "あかちゃん",
+    "romaji": "-",
+    "arti": "baby, infant",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 37,
+    "kanji": "火",
+    "kana": "ひ",
+    "romaji": "-",
+    "arti": "fire, flame, blaze",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 38,
+    "kanji": "自由",
+    "kana": "じゆう",
+    "romaji": "-",
+    "arti": "freedom, liberty",
+    "tipe": "Noun, Na-adjective (keiyodoshi)",
+    "contoh": ""
+  },
+  {
+    "id": 39,
+    "kanji": "森",
+    "kana": "もり",
+    "romaji": "-",
+    "arti": "forest",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 40,
+    "kanji": "法律",
+    "kana": "ほうりつ",
+    "romaji": "-",
+    "arti": "law, legislation, act",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 41,
+    "kanji": "気分",
+    "kana": "きぶん",
+    "romaji": "-",
+    "arti": "feeling, mood",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 42,
+    "kanji": "壁",
+    "kana": "かべ",
+    "romaji": "-",
+    "arti": "wall, partition",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 43,
+    "kanji": "田舎",
+    "kana": "いなか",
+    "romaji": "-",
+    "arti": "rural area, countryside, the sticks",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 44,
+    "kanji": "気",
+    "kana": "き",
+    "romaji": "-",
+    "arti": "spirit, mind, heart",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 45,
+    "kanji": "男性",
+    "kana": "だんせい",
+    "romaji": "-",
+    "arti": "man, male",
+    "tipe": "Noun, Noun which may take the genitive case particle 'no'",
+    "contoh": ""
+  },
+  {
+    "id": 46,
+    "kanji": "地震",
+    "kana": "じしん",
+    "romaji": "-",
+    "arti": "earthquake",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 47,
+    "kanji": "故障",
+    "kana": "こしょう",
+    "romaji": "-",
+    "arti": "fault, trouble, breakdown, failure, being out of order",
+    "tipe": "Noun, Suru verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 48,
+    "kanji": "人口",
+    "kana": "じんこう",
+    "romaji": "-",
+    "arti": "population",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 49,
+    "kanji": "残念",
+    "kana": "ざんねん",
+    "romaji": "-",
+    "arti": "regrettable, unfortunate, disappointing, vexing",
+    "tipe": "Na-adjective (keiyodoshi), Noun",
+    "contoh": ""
+  },
+  {
+    "id": 50,
+    "kanji": "島",
+    "kana": "しま",
+    "romaji": "-",
+    "arti": "island",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 51,
+    "kanji": "教会",
+    "kana": "きょうかい",
+    "romaji": "-",
+    "arti": "church, congregation",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 52,
+    "kanji": "歴史",
+    "kana": "れきし",
+    "romaji": "-",
+    "arti": "history",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 53,
+    "kanji": "社会",
+    "kana": "しゃかい",
+    "romaji": "-",
+    "arti": "society, public, community, the world",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 54,
+    "kanji": "住所",
+    "kana": "じゅうしょ",
+    "romaji": "-",
+    "arti": "address (of a home, business, etc.), residence, domicile",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 55,
+    "kanji": "工場",
+    "kana": "こうじょう",
+    "romaji": "-",
+    "arti": "factory, plant, mill, workshop",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 56,
+    "kanji": "趣味",
+    "kana": "しゅみ",
+    "romaji": "-",
+    "arti": "hobby, pastime",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 57,
+    "kanji": "経済",
+    "kana": "けいざい",
+    "romaji": "-",
+    "arti": "economy, economics",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 58,
+    "kanji": "台風",
+    "kana": "たいふう",
+    "romaji": "-",
+    "arti": "typhoon, hurricane",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 59,
+    "kanji": "卒業",
+    "kana": "そつぎょう",
+    "romaji": "-",
+    "arti": "graduation, completion (of a course)",
+    "tipe": "Noun, Suru verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 60,
+    "kanji": "雲",
+    "kana": "くも",
+    "romaji": "-",
+    "arti": "cloud",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 61,
+    "kanji": "贈り物",
+    "kana": "おくりもの",
+    "romaji": "-",
+    "arti": "present, gift",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 62,
+    "kanji": "科学",
+    "kana": "かがく",
+    "romaji": "-",
+    "arti": "science",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 63,
+    "kanji": "光",
+    "kana": "ひかり",
+    "romaji": "-",
+    "arti": "light",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 64,
+    "kanji": "政治",
+    "kana": "せいじ",
+    "romaji": "-",
+    "arti": "politics, government",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 65,
+    "kanji": "特別",
+    "kana": "とくべつ",
+    "romaji": "-",
+    "arti": "special, particular, extraordinary, exceptional, especial",
+    "tipe": "Na-adjective (keiyodoshi), Noun which may take the genitive case particle 'no', Adverb (fukushi), Noun",
+    "contoh": ""
+  },
+  {
+    "id": 66,
+    "kanji": "水泳",
+    "kana": "すいえい",
+    "romaji": "-",
+    "arti": "swimming",
+    "tipe": "Noun, Suru verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 67,
+    "kanji": "講義",
+    "kana": "こうぎ",
+    "romaji": "-",
+    "arti": "lecture",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 68,
+    "kanji": "指",
+    "kana": "ゆび",
+    "romaji": "-",
+    "arti": "finger, toe, digit",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 69,
+    "kanji": "生産",
+    "kana": "せいさん",
+    "romaji": "-",
+    "arti": "production, manufacture",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 70,
+    "kanji": "会話",
+    "kana": "かいわ",
+    "romaji": "-",
+    "arti": "conversation, talk, chat",
+    "tipe": "Noun, Suru verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 71,
+    "kanji": "玩具",
+    "kana": "おもちゃ",
+    "romaji": "-",
+    "arti": "toy",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 72,
+    "kanji": "季節",
+    "kana": "きせつ",
+    "romaji": "-",
+    "arti": "season, time of year",
+    "tipe": "Noun, Noun which may take the genitive case particle 'no'",
+    "contoh": ""
+  },
+  {
+    "id": 73,
+    "kanji": "翻訳",
+    "kana": "ほんやく",
+    "romaji": "-",
+    "arti": "translation",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 74,
+    "kanji": "貿易",
+    "kana": "ぼうえき",
+    "romaji": "-",
+    "arti": "(foreign) trade, (international) commerce, importing and exporting",
+    "tipe": "Noun, Suru verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 75,
+    "kanji": "文学",
+    "kana": "ぶんがく",
+    "romaji": "-",
+    "arti": "literature",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 76,
+    "kanji": "葉",
+    "kana": "は",
+    "romaji": "-",
+    "arti": "leaf, blade (of grass), (pine) needle, frond, foliage",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 77,
+    "kanji": "交通",
+    "kana": "こうつう",
+    "romaji": "-",
+    "arti": "traffic, transportation",
+    "tipe": "Noun, Suru verb",
+    "contoh": ""
+  },
+  {
+    "id": 78,
+    "kanji": "遊び",
+    "kana": "あそび",
+    "romaji": "-",
+    "arti": "play, playing, game",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 79,
+    "kanji": "道具",
+    "kana": "どうぐ",
+    "romaji": "-",
+    "arti": "tool, implement, instrument, utensil, apparatus, device",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 80,
+    "kanji": "背中",
+    "kana": "せなか",
+    "romaji": "-",
+    "arti": "back (of the body)",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 81,
+    "kanji": "入学",
+    "kana": "にゅうがく",
+    "romaji": "-",
+    "arti": "admission (to a school or university), entrance, enrolment, enrollment, matriculation",
+    "tipe": "Noun, Suru verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 82,
+    "kanji": "発音",
+    "kana": "はつおん",
+    "romaji": "-",
+    "arti": "pronunciation",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 83,
+    "kanji": "指輪",
+    "kana": "ゆびわ",
+    "romaji": "-",
+    "arti": "(finger) ring",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 84,
+    "kanji": "医学",
+    "kana": "いがく",
+    "romaji": "-",
+    "arti": "medicine, medical science",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 85,
+    "kanji": "漫画",
+    "kana": "まんが",
+    "romaji": "-",
+    "arti": "cartoon, comic, comic strip, manga",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 86,
+    "kanji": "鏡",
+    "kana": "かがみ",
+    "romaji": "-",
+    "arti": "mirror, looking-glass",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 87,
+    "kanji": "電報",
+    "kana": "でんぽう",
+    "romaji": "-",
+    "arti": "telegram",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 88,
+    "kanji": "校長",
+    "kana": "こうちょう",
+    "romaji": "-",
+    "arti": "principal, head teacher, headmaster, headmistress",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 89,
+    "kanji": "国際",
+    "kana": "こくさい",
+    "romaji": "-",
+    "arti": "international",
+    "tipe": "Noun which may take the genitive case particle 'no', Noun",
+    "contoh": ""
+  },
+  {
+    "id": 90,
+    "kanji": "郊外",
+    "kana": "こうがい",
+    "romaji": "-",
+    "arti": "suburb, residential area on the outskirt of a city, commuter belt",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 91,
+    "kanji": "市民",
+    "kana": "しみん",
+    "romaji": "-",
+    "arti": "citizen (of a country), citizenry",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 92,
+    "kanji": "砂",
+    "kana": "すな",
+    "romaji": "-",
+    "arti": "sand, grit, fine gravel",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 93,
+    "kanji": "手袋",
+    "kana": "てぶくろ",
+    "romaji": "-",
+    "arti": "glove, mitten, mitt",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 94,
+    "kanji": "日記",
+    "kana": "にっき",
+    "romaji": "-",
+    "arti": "diary, journal",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 95,
+    "kanji": "絹",
+    "kana": "きぬ",
+    "romaji": "-",
+    "arti": "silk",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 96,
+    "kanji": "文法",
+    "kana": "ぶんぽう",
+    "romaji": "-",
+    "arti": "grammar",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 97,
+    "kanji": "糸",
+    "kana": "いと",
+    "romaji": "-",
+    "arti": "thread, yarn, string",
+    "tipe": "Noun, Noun, used as a suffix",
+    "contoh": ""
+  },
+  {
+    "id": 98,
+    "kanji": "神社",
+    "kana": "じんじゃ",
+    "romaji": "-",
+    "arti": "Shinto shrine",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 99,
+    "kanji": "小学校",
+    "kana": "しょうがっこう",
+    "romaji": "-",
+    "arti": "primary school, elementary school, grade school",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 100,
+    "kanji": "駐車場",
+    "kana": "ちゅうしゃじょう",
+    "romaji": "-",
+    "arti": "parking lot, car park, carpark, parking garage",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 101,
+    "kanji": "駐車場",
+    "kana": "ちゅうしゃじょう",
+    "romaji": "-",
+    "arti": "parking lot, car park, carpark, parking garage",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 102,
+    "kanji": "西洋",
+    "kana": "せいよう",
+    "romaji": "-",
+    "arti": "the West, the Occident, Western countries",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 103,
+    "kanji": "先輩",
+    "kana": "せんぱい",
+    "romaji": "-",
+    "arti": "senior (at school, work, etc.), superior, elder, older person, predecessor",
+    "tipe": "Noun, Suffix",
+    "contoh": ""
+  },
+  {
+    "id": 104,
+    "kanji": "坂",
+    "kana": "さか",
+    "romaji": "-",
+    "arti": "slope, incline, hill",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 105,
+    "kanji": "注射",
+    "kana": "ちゅうしゃ",
+    "romaji": "-",
+    "arti": "injection, jab, shot",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 106,
+    "kanji": "乗り物",
+    "kana": "のりもの",
+    "romaji": "-",
+    "arti": "vehicle, conveyance, (means of) transport",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 107,
+    "kanji": "旅館",
+    "kana": "りょかん",
+    "romaji": "-",
+    "arti": "ryokan, traditional Japanese inn",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 108,
+    "kanji": "林",
+    "kana": "はやし",
+    "romaji": "-",
+    "arti": "wood, woods, forest, grove, copse, thicket",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 109,
+    "kanji": "布団",
+    "kana": "ふとん",
+    "romaji": "-",
+    "arti": "futon, Japanese bedding consisting of a mattress and a duvet",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 110,
+    "kanji": "研究室",
+    "kana": "けんきゅうしつ",
+    "romaji": "-",
+    "arti": "laboratory",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 111,
+    "kanji": "会議室",
+    "kana": "かいぎしつ",
+    "romaji": "-",
+    "arti": "conference room, council room",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 112,
+    "kanji": "柔道",
+    "kana": "じゅうどう",
+    "romaji": "-",
+    "arti": "judo",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 113,
+    "kanji": "中学校",
+    "kana": "ちゅうがっこう",
+    "romaji": "-",
+    "arti": "junior high school, middle school, lower secondary school",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 114,
+    "kanji": "高等学校",
+    "kana": "こうとうがっこう",
+    "romaji": "-",
+    "arti": "senior high school, high school",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 115,
+    "kanji": "花見",
+    "kana": "はなみ",
+    "romaji": "-",
+    "arti": "cherry blossom viewing, flower viewing",
+    "tipe": "Noun, Suru verb",
+    "contoh": ""
+  },
+  {
+    "id": 116,
+    "kanji": "公務員",
+    "kana": "こうむいん",
+    "romaji": "-",
+    "arti": "public employee, government employee, public-sector worker, public servant, civil servant",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 117,
+    "kanji": "辞典",
+    "kana": "じてん",
+    "romaji": "-",
+    "arti": "dictionary, lexicon",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 118,
+    "kanji": "心",
+    "kana": "こころ",
+    "romaji": "-",
+    "arti": "mind, heart, spirit",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 119,
+    "kanji": "力",
+    "kana": "ちから",
+    "romaji": "-",
+    "arti": "force, strength, might, vigour, vigor, energy",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 120,
+    "kanji": "喧嘩",
+    "kana": "けんか",
+    "romaji": "-",
+    "arti": "quarrel, brawl, fight, squabble, scuffle, argument",
+    "tipe": "Noun, Suru verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 121,
+    "kanji": "天気予報",
+    "kana": "てんきよほう",
+    "romaji": "-",
+    "arti": "weather forecast, weather report",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 122,
+    "kanji": "髭",
+    "kana": "ひげ",
+    "romaji": "-",
+    "arti": "moustache, mustache, beard, whiskers, sideburns, facial hair",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 123,
+    "kanji": "押入れ",
+    "kana": "おしいれ",
+    "romaji": "-",
+    "arti": "closet (built into the wall, usu. with sliding doors), (built-in) wardrobe",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 124,
+    "kanji": "味噌",
+    "kana": "みそ",
+    "romaji": "-",
+    "arti": "miso, fermented condiment usu. made from soybeans",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 125,
+    "kanji": "皆",
+    "kana": "みな",
+    "romaji": "-",
+    "arti": "everyone, everybody, all",
+    "tipe": "Noun, Pronoun, Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 126,
+    "kanji": "明日",
+    "kana": "あした",
+    "romaji": "-",
+    "arti": "tomorrow",
+    "tipe": "Noun, Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 127,
+    "kanji": "掛ける",
+    "kana": "かける",
+    "romaji": "-",
+    "arti": "to hang up (e.g. a coat, a picture on the wall), to let hang, to suspend (from), to hoist (e.g. sail), to raise (e.g. flag)",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 128,
+    "kanji": "降りる",
+    "kana": "おりる",
+    "romaji": "-",
+    "arti": "to descend (e.g. a mountain), to go down, to come down",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 129,
+    "kanji": "彼",
+    "kana": "かれ",
+    "romaji": "-",
+    "arti": "he, him",
+    "tipe": "Pronoun",
+    "contoh": ""
+  },
+  {
+    "id": 130,
+    "kanji": "客",
+    "kana": "きゃく",
+    "romaji": "-",
+    "arti": "guest, visitor",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 131,
+    "kanji": "祖父",
+    "kana": "そふ",
+    "romaji": "-",
+    "arti": "grandfather",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 132,
+    "kanji": "高校",
+    "kana": "こうこう",
+    "romaji": "-",
+    "arti": "senior high school, high school",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 133,
+    "kanji": "近所",
+    "kana": "きんじょ",
+    "romaji": "-",
+    "arti": "neighbourhood, neighborhood, vicinity",
+    "tipe": "Noun, Noun which may take the genitive case particle 'no'",
+    "contoh": ""
+  },
+  {
+    "id": 134,
+    "kanji": "番組",
+    "kana": "ばんぐみ",
+    "romaji": "-",
+    "arti": "program (e.g. TV), programme",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 135,
+    "kanji": "見物",
+    "kana": "けんぶつ",
+    "romaji": "-",
+    "arti": "sightseeing, watching, viewing",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 136,
+    "kanji": "亜米利加",
+    "kana": "アメリカ",
+    "romaji": "-",
+    "arti": "(United States of) America, United States, US, USA",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 137,
+    "kanji": "彼女",
+    "kana": "かのじょ",
+    "romaji": "-",
+    "arti": "she, her",
+    "tipe": "Pronoun",
+    "contoh": ""
+  },
+  {
+    "id": 138,
+    "kanji": "思う",
+    "kana": "おもう",
+    "romaji": "-",
+    "arti": "to think, to consider, to believe, to reckon",
+    "tipe": "Godan verb with 'u' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 139,
+    "kanji": "僕",
+    "kana": "ぼく",
+    "romaji": "-",
+    "arti": "I, me",
+    "tipe": "Pronoun",
+    "contoh": ""
+  },
+  {
+    "id": 140,
+    "kanji": "必要",
+    "kana": "ひつよう",
+    "romaji": "-",
+    "arti": "necessary, needed, essential, indispensable",
+    "tipe": "Na-adjective (keiyodoshi)",
+    "contoh": ""
+  },
+  {
+    "id": 141,
+    "kanji": "見える",
+    "kana": "みえる",
+    "romaji": "-",
+    "arti": "to be seen, to be visible, to be in sight",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 142,
+    "kanji": "考える",
+    "kana": "かんがえる",
+    "romaji": "-",
+    "arti": "to think (about, of), to think over, to ponder, to contemplate, to reflect (on), to meditate (on)",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 143,
+    "kanji": "為",
+    "kana": "ため",
+    "romaji": "-",
+    "arti": "good, advantage, benefit, welfare",
+    "tipe": "Noun, Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 144,
+    "kanji": "始める",
+    "kana": "はじめる",
+    "romaji": "-",
+    "arti": "to start, to begin, to commence, to initiate, to originate",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 145,
+    "kanji": "受ける",
+    "kana": "うける",
+    "romaji": "-",
+    "arti": "to receive, to get",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 146,
+    "kanji": "美しい",
+    "kana": "うつくしい",
+    "romaji": "-",
+    "arti": "beautiful, pretty, lovely, sweet, pure (heart, friendship, etc.)",
+    "tipe": "I-adjective (keiyoushi)",
+    "contoh": ""
+  },
+  {
+    "id": 147,
+    "kanji": "試験",
+    "kana": "しけん",
+    "romaji": "-",
+    "arti": "examination, exam, test",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 148,
+    "kanji": "親切",
+    "kana": "しんせつ",
+    "romaji": "-",
+    "arti": "kind, gentle, considerate, generous, friendly, nice",
+    "tipe": "Na-adjective (keiyodoshi), Noun",
+    "contoh": ""
+  },
+  {
+    "id": 149,
+    "kanji": "失敗",
+    "kana": "しっぱい",
+    "romaji": "-",
+    "arti": "failure, mistake, blunder",
+    "tipe": "Noun, Suru verb, Transitive verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 150,
+    "kanji": "以上",
+    "kana": "いじょう",
+    "romaji": "-",
+    "arti": "not less than ..., ... and over, ... and above, ... and upwards, ... or more",
+    "tipe": "Noun, used as a suffix",
+    "contoh": ""
+  },
+  {
+    "id": 151,
+    "kanji": "意見",
+    "kana": "いけん",
+    "romaji": "-",
+    "arti": "opinion, view, comment",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 152,
+    "kanji": "決して",
+    "kana": "けっして",
+    "romaji": "-",
+    "arti": "(not) ever, (not) by any means, (not) in the least, (not) in any way, (not) at all",
+    "tipe": "Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 153,
+    "kanji": "十分",
+    "kana": "じゅうぶん",
+    "romaji": "-",
+    "arti": "enough, sufficient, plenty, adequate, satisfactory",
+    "tipe": "Na-adjective (keiyodoshi)",
+    "contoh": ""
+  },
+  {
+    "id": 154,
+    "kanji": "試合",
+    "kana": "しあい",
+    "romaji": "-",
+    "arti": "match, game, bout, contest",
+    "tipe": "Noun, Suru verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 155,
     "kanji": "一生懸命",
     "kana": "いっしょうけんめい",
-    "romaji": "isshoukenmei",
-    "arti": "Dengan sungguh-sungguh",
-    "tipe": "Kata Sifat Na",
-    "contoh": "いっしょうけんめいべんきょうする。(Belajar sungguh-sungguh.)"
+    "romaji": "-",
+    "arti": "very hard, with utmost effort, as hard as one can, with all one's might, for dear life, eagerly, desperately",
+    "tipe": "Adverb (fukushi), Na-adjective (keiyodoshi), Noun",
+    "contoh": ""
+  },
+  {
+    "id": 156,
+    "kanji": "子",
+    "kana": "こ",
+    "romaji": "-",
+    "arti": "child, kid, teenager, youngster, young (non-adult) person",
+    "tipe": "Noun, Noun, used as a suffix",
+    "contoh": ""
+  },
+  {
+    "id": 157,
+    "kanji": "探す",
+    "kana": "さがす",
+    "romaji": "-",
+    "arti": "to search for, to look for, to hunt for, to seek",
+    "tipe": "Godan verb with 'su' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 158,
+    "kanji": "急ぐ",
+    "kana": "いそぐ",
+    "romaji": "-",
+    "arti": "to hurry, to rush, to hasten, to make something happen sooner",
+    "tipe": "Godan verb with 'gu' ending, Intransitive verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 159,
+    "kanji": "選ぶ",
+    "kana": "えらぶ",
+    "romaji": "-",
+    "arti": "to choose, to select, to pick (out)",
+    "tipe": "Godan verb with 'bu' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 160,
+    "kanji": "送る",
+    "kana": "おくる",
+    "romaji": "-",
+    "arti": "to send, to dispatch, to forward, to transmit, to ship, to remit",
+    "tipe": "Godan verb with 'ru' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 161,
+    "kanji": "必ず",
+    "kana": "かならず",
+    "romaji": "-",
+    "arti": "always, without exception, necessarily, certainly, without fail, positively, invariably",
+    "tipe": "Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 162,
+    "kanji": "怒る",
+    "kana": "おこる",
+    "romaji": "-",
+    "arti": "to get angry, to get mad, to lose one's temper",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 163,
+    "kanji": "最近",
+    "kana": "さいきん",
+    "romaji": "-",
+    "arti": "recently, lately, these days, nowadays, right now",
+    "tipe": "Noun, Noun which may take the genitive case particle 'no', Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 164,
+    "kanji": "払う",
+    "kana": "はらう",
+    "romaji": "-",
+    "arti": "to pay (e.g. money, bill)",
+    "tipe": "Godan verb with 'u' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 165,
+    "kanji": "点",
+    "kana": "てん",
+    "romaji": "-",
+    "arti": "dot, spot, point, speck, mark",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 166,
+    "kanji": "合う",
+    "kana": "あう",
+    "romaji": "-",
+    "arti": "to come together, to merge, to unite, to meet",
+    "tipe": "Godan verb with 'u' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 167,
+    "kanji": "決める",
+    "kana": "きめる",
+    "romaji": "-",
+    "arti": "to decide, to choose, to determine, to make up one's mind, to resolve, to set one's heart on, to settle, to arrange, to set, to appoint, to fix",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 168,
+    "kanji": "笑う",
+    "kana": "わらう",
+    "romaji": "-",
+    "arti": "to laugh",
+    "tipe": "Godan verb with 'u' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 169,
+    "kanji": "最初",
+    "kana": "さいしょ",
+    "romaji": "-",
+    "arti": "beginning, outset, first, onset",
+    "tipe": "Noun which may take the genitive case particle 'no', Noun, Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 170,
+    "kanji": "反対",
+    "kana": "はんたい",
+    "romaji": "-",
+    "arti": "opposition, resistance, antagonism, hostility, objection, dissent",
+    "tipe": "Noun, Suru verb, Intransitive verb, Noun which may take the genitive case particle 'no', Na-adjective (keiyodoshi)",
+    "contoh": ""
+  },
+  {
+    "id": 171,
+    "kanji": "娘",
+    "kana": "むすめ",
+    "romaji": "-",
+    "arti": "daughter",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 172,
+    "kanji": "喜ぶ",
+    "kana": "よろこぶ",
+    "romaji": "-",
+    "arti": "to be delighted, to be glad, to be pleased, to rejoice",
+    "tipe": "Godan verb with 'bu' ending, Transitive verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 173,
+    "kanji": "理由",
+    "kana": "りゆう",
+    "romaji": "-",
+    "arti": "reason, grounds, pretext, excuse, motive",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 174,
+    "kanji": "昔",
+    "kana": "むかし",
+    "romaji": "-",
+    "arti": "the old days, the past, former times, a long time ago",
+    "tipe": "Noun, Noun which may take the genitive case particle 'no', Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 175,
+    "kanji": "約束",
+    "kana": "やくそく",
+    "romaji": "-",
+    "arti": "promise, agreement, arrangement, one's word, contract, pact",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 176,
+    "kanji": "思い出す",
+    "kana": "おもいだす",
+    "romaji": "-",
+    "arti": "to recall, to remember, to recollect",
+    "tipe": "Godan verb with 'su' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 177,
+    "kanji": "変わ��",
+    "kana": "かわる",
+    "romaji": "-",
+    "arti": "to change, to be transformed, to be altered, to vary",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 178,
+    "kanji": "正しい",
+    "kana": "ただしい",
+    "romaji": "-",
+    "arti": "right, correct",
+    "tipe": "I-adjective (keiyoushi)",
+    "contoh": ""
+  },
+  {
+    "id": 179,
+    "kanji": "落ちる",
+    "kana": "おちる",
+    "romaji": "-",
+    "arti": "to fall, to drop, to come down, to crash, to collapse, to cave in, to give way",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 180,
+    "kanji": "場所",
+    "kana": "ばしょ",
+    "romaji": "-",
+    "arti": "place, location, spot, position, area",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 181,
+    "kanji": "楽しむ",
+    "kana": "たのしむ",
+    "romaji": "-",
+    "arti": "to enjoy, to take pleasure in, to have a good time, to have fun, to amuse oneself",
+    "tipe": "Godan verb with 'mu' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 182,
+    "kanji": "利用",
+    "kana": "りよう",
+    "romaji": "-",
+    "arti": "use, utilization, utilisation, application",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 183,
+    "kanji": "間に合う",
+    "kana": "まにあう",
+    "romaji": "-",
+    "arti": "to be in time (for)",
+    "tipe": "Godan verb with 'u' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 184,
+    "kanji": "今度",
+    "kana": "こんど",
+    "romaji": "-",
+    "arti": "this time, now",
+    "tipe": "Noun, Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 185,
+    "kanji": "予定",
+    "kana": "よてい",
+    "romaji": "-",
+    "arti": "plans, arrangement, schedule, program, programme, expectation, estimate",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 186,
+    "kanji": "訪ねる",
+    "kana": "たずねる",
+    "romaji": "-",
+    "arti": "to visit, to call on, to pay a visit to",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 187,
+    "kanji": "赤ん坊",
+    "kana": "あかんぼう",
+    "romaji": "-",
+    "arti": "baby, infant",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 188,
+    "kanji": "進む",
+    "kana": "すすむ",
+    "romaji": "-",
+    "arti": "to advance, to go forward",
+    "tipe": "Godan verb with 'mu' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 189,
+    "kanji": "最後",
+    "kana": "さいご",
+    "romaji": "-",
+    "arti": "end, conclusion",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 190,
+    "kanji": "向かう",
+    "kana": "むかう",
+    "romaji": "-",
+    "arti": "to face",
+    "tipe": "Godan verb with 'u' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 191,
+    "kanji": "通る",
+    "kana": "とおる",
+    "romaji": "-",
+    "arti": "to go by, to go past, to go along, to travel along, to pass through, to use (a road), to take (a route), to go via, to go by way of",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 192,
+    "kanji": "興味",
+    "kana": "きょうみ",
+    "romaji": "-",
+    "arti": "interest (in something), curiosity (about something), zest (for)",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 193,
+    "kanji": "時代",
+    "kana": "じだい",
+    "romaji": "-",
+    "arti": "period, epoch, era, age",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 194,
+    "kanji": "途中",
+    "kana": "とちゅう",
+    "romaji": "-",
+    "arti": "on the way, en route",
+    "tipe": "Noun, Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 195,
+    "kanji": "返事",
+    "kana": "へんじ",
+    "romaji": "-",
+    "arti": "reply, answer, response",
+    "tipe": "Noun, Suru verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 196,
+    "kanji": "簡単",
+    "kana": "かんたん",
+    "romaji": "-",
+    "arti": "simple, easy, uncomplicated",
+    "tipe": "Na-adjective (keiyodoshi), Noun",
+    "contoh": ""
+  },
+  {
+    "id": 197,
+    "kanji": "深い",
+    "kana": "ふかい",
+    "romaji": "-",
+    "arti": "deep",
+    "tipe": "I-adjective (keiyoushi)",
+    "contoh": ""
+  },
+  {
+    "id": 198,
+    "kanji": "起こす",
+    "kana": "おこす",
+    "romaji": "-",
+    "arti": "to raise, to raise up, to set up, to pick up",
+    "tipe": "Godan verb with 'su' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 199,
+    "kanji": "夫",
+    "kana": "おっと",
+    "romaji": "-",
+    "arti": "husband",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 200,
+    "kanji": "場合",
+    "kana": "ばあい",
+    "romaji": "-",
+    "arti": "case, occasion, situation, circumstances",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 201,
+    "kanji": "一度",
+    "kana": "いちど",
+    "romaji": "-",
+    "arti": "once, one time, on one occasion",
+    "tipe": "Noun, Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 202,
+    "kanji": "運ぶ",
+    "kana": "はこぶ",
+    "romaji": "-",
+    "arti": "to carry, to transport, to move, to convey",
+    "tipe": "Godan verb with 'bu' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 203,
+    "kanji": "今夜",
+    "kana": "こんや",
+    "romaji": "-",
+    "arti": "this evening, tonight",
+    "tipe": "Noun, Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 204,
+    "kanji": "盗む",
+    "kana": "ぬすむ",
+    "romaji": "-",
+    "arti": "to steal",
+    "tipe": "Godan verb with 'mu' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 205,
+    "kanji": "習慣",
+    "kana": "しゅうかん",
+    "romaji": "-",
+    "arti": "habit",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 206,
+    "kanji": "大抵",
+    "kana": "たいてい",
+    "romaji": "-",
+    "arti": "mostly, ordinarily, usually, generally",
+    "tipe": "Na-adjective (keiyodoshi), Adverb (fukushi), Noun",
+    "contoh": ""
+  },
+  {
+    "id": 207,
+    "kanji": "残る",
+    "kana": "のこる",
+    "romaji": "-",
+    "arti": "to remain, to be left",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 208,
+    "kanji": "上がる",
+    "kana": "あがる",
+    "romaji": "-",
+    "arti": "to rise, to go up, to come up, to ascend, to be raised",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 209,
+    "kanji": "席",
+    "kana": "せき",
+    "romaji": "-",
+    "arti": "seat",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 210,
+    "kanji": "値段",
+    "kana": "ねだん",
+    "romaji": "-",
+    "arti": "price, cost",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 211,
+    "kanji": "将来",
+    "kana": "しょうらい",
+    "romaji": "-",
+    "arti": "future, (future) prospects",
+    "tipe": "Noun, Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 212,
+    "kanji": "優しい",
+    "kana": "やさしい",
+    "romaji": "-",
+    "arti": "tender, kind, gentle, graceful, affectionate, amiable",
+    "tipe": "I-adjective (keiyoushi)",
+    "contoh": ""
+  },
+  {
+    "id": 213,
+    "kanji": "致す",
+    "kana": "いたす",
+    "romaji": "-",
+    "arti": "to do",
+    "tipe": "Godan verb with 'su' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 214,
+    "kanji": "逃げる",
+    "kana": "にげる",
+    "romaji": "-",
+    "arti": "to run away, to flee, to get away (e.g. from danger), to escape, to break out, to leave (e.g. one's spouse), to take cover",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 215,
+    "kanji": "空気",
+    "kana": "くうき",
+    "romaji": "-",
+    "arti": "air, atmosphere",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 216,
+    "kanji": "役に立つ",
+    "kana": "やくにたつ",
+    "romaji": "-",
+    "arti": "to be helpful, to be useful",
+    "tipe": "Expressions (phrases, clauses, etc.), Godan verb with 'tsu' ending",
+    "contoh": ""
+  },
+  {
+    "id": 217,
+    "kanji": "機会",
+    "kana": "きかい",
+    "romaji": "-",
+    "arti": "chance, opportunity, occasion",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 218,
+    "kanji": "予約",
+    "kana": "よやく",
+    "romaji": "-",
+    "arti": "reservation, appointment, booking, advance order",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 219,
+    "kanji": "原因",
+    "kana": "げんいん",
+    "romaji": "-",
+    "arti": "cause, origin, source",
+    "tipe": "Noun, Suru verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 220,
+    "kanji": "火事",
+    "kana": "かじ",
+    "romaji": "-",
+    "arti": "fire, conflagration",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 221,
+    "kanji": "泥棒",
+    "kana": "どろぼう",
+    "romaji": "-",
+    "arti": "thief, burglar, robber",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 222,
+    "kanji": "髪",
+    "kana": "かみ",
+    "romaji": "-",
+    "arti": "hair (on the head)",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 223,
+    "kanji": "行う",
+    "kana": "おこなう",
+    "romaji": "-",
+    "arti": "to perform, to do, to conduct oneself, to carry out",
+    "tipe": "Godan verb with 'u' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 224,
+    "kanji": "代わり",
+    "kana": "かわり",
+    "romaji": "-",
+    "arti": "substitute, replacement, substituting, replacing",
+    "tipe": "Noun, Noun which may take the genitive case particle 'no'",
+    "contoh": ""
+  },
+  {
+    "id": 225,
+    "kanji": "見つかる",
+    "kana": "みつかる",
+    "romaji": "-",
+    "arti": "to be found, to be discovered",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 226,
+    "kanji": "打つ",
+    "kana": "うつ",
+    "romaji": "-",
+    "arti": "to hit, to strike, to knock, to beat, to punch, to slap, to tap, to bang, to clap, to pound",
+    "tipe": "Godan verb with 'tsu' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 227,
+    "kanji": "厳しい",
+    "kana": "きびしい",
+    "romaji": "-",
+    "arti": "severe, strict, rigid, unsparing, relentless",
+    "tipe": "I-adjective (keiyoushi)",
+    "contoh": ""
+  },
+  {
+    "id": 228,
+    "kanji": "増える",
+    "kana": "ふえる",
+    "romaji": "-",
+    "arti": "to increase, to multiply",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 229,
+    "kanji": "迎える",
+    "kana": "むかえる",
+    "romaji": "-",
+    "arti": "to go out to meet, to receive, to welcome, to greet, to salute, to hail",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 230,
+    "kanji": "怖い",
+    "kana": "こわい",
+    "romaji": "-",
+    "arti": "scary, frightening, eerie, dreadful",
+    "tipe": "I-adjective (keiyoushi)",
+    "contoh": ""
+  },
+  {
+    "id": 231,
+    "kanji": "紹介",
+    "kana": "しょうかい",
+    "romaji": "-",
+    "arti": "introduction, presentation, referral, showcase (of a product)",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 232,
+    "kanji": "社長",
+    "kana": "しゃちょう",
+    "romaji": "-",
+    "arti": "company president, manager, director",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 233,
+    "kanji": "集める",
+    "kana": "あつめる",
+    "romaji": "-",
+    "arti": "to collect, to assemble, to gather",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 234,
+    "kanji": "事務所",
+    "kana": "じむしょ",
+    "romaji": "-",
+    "arti": "office",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 235,
+    "kanji": "星",
+    "kana": "ほし",
+    "romaji": "-",
+    "arti": "star (usu. excluding the Sun), planet (usu. excluding Earth), heavenly body",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 236,
+    "kanji": "特に",
+    "kana": "とくに",
+    "romaji": "-",
+    "arti": "particularly, especially, in particular, expressly",
+    "tipe": "Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 237,
+    "kanji": "集まる",
+    "kana": "あつまる",
+    "romaji": "-",
+    "arti": "to gather, to collect, to assemble",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 238,
+    "kanji": "比べる",
+    "kana": "くらべる",
+    "romaji": "-",
+    "arti": "to compare, to make a comparison (between)",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 239,
+    "kanji": "無理",
+    "kana": "むり",
+    "romaji": "-",
+    "arti": "unreasonable, unnatural, unjustifiable",
+    "tipe": "Na-adjective (keiyodoshi), Noun",
+    "contoh": ""
+  },
+  {
+    "id": 240,
+    "kanji": "用意",
+    "kana": "ようい",
+    "romaji": "-",
+    "arti": "preparation, arrangements, provision, getting ready, laying out (e.g. a meal)",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 241,
+    "kanji": "落とす",
+    "kana": "おとす",
+    "romaji": "-",
+    "arti": "to drop, to lose, to let fall, to shed (light), to cast (one's gaze), to pour in (liquid), to leave behind",
+    "tipe": "Godan verb with 'su' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 242,
+    "kanji": "具合",
+    "kana": "ぐあい",
+    "romaji": "-",
+    "arti": "condition, state",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 243,
+    "kanji": "壊れる",
+    "kana": "こわれる",
+    "romaji": "-",
+    "arti": "to be broken, to break, to fall apart, to collapse, to be destroyed, to be damaged",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 244,
+    "kanji": "倒れる",
+    "kana": "たおれる",
+    "romaji": "-",
+    "arti": "to fall (over, down), to collapse, to take a fall, to topple",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 245,
+    "kanji": "味",
+    "kana": "あじ",
+    "romaji": "-",
+    "arti": "flavor, flavour, taste",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 246,
+    "kanji": "安全",
+    "kana": "あんぜん",
+    "romaji": "-",
+    "arti": "safety, security",
+    "tipe": "Noun, Na-adjective (keiyodoshi)",
+    "contoh": ""
+  },
+  {
+    "id": 247,
+    "kanji": "変",
+    "kana": "へん",
+    "romaji": "-",
+    "arti": "strange, odd, peculiar, weird, curious, eccentric, funny, suspicious, fishy",
+    "tipe": "Na-adjective (keiyodoshi)",
+    "contoh": ""
+  },
+  {
+    "id": 248,
+    "kanji": "連絡",
+    "kana": "れんらく",
+    "romaji": "-",
+    "arti": "contacting, (making) contact, getting in touch, communication, correspondence, call, message",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 249,
+    "kanji": "祖母",
+    "kana": "そぼ",
+    "romaji": "-",
+    "arti": "grandmother",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 250,
+    "kanji": "大事",
+    "kana": "だいじ",
+    "romaji": "-",
+    "arti": "important, serious, crucial",
+    "tipe": "Na-adjective (keiyodoshi)",
+    "contoh": ""
+  },
+  {
+    "id": 251,
+    "kanji": "下がる",
+    "kana": "さがる",
+    "romaji": "-",
+    "arti": "to come down, to go down, to fall, to drop, to sink, to get lower",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 252,
+    "kanji": "壊す",
+    "kana": "こわす",
+    "romaji": "-",
+    "arti": "to break, to destroy, to demolish",
+    "tipe": "Godan verb with 'su' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 253,
+    "kanji": "決まる",
+    "kana": "きまる",
+    "romaji": "-",
+    "arti": "to be decided, to be settled, to be fixed, to be arranged",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 254,
+    "kanji": "確か",
+    "kana": "たしか",
+    "romaji": "-",
+    "arti": "sure, certain, positive, definite",
+    "tipe": "Na-adjective (keiyodoshi)",
+    "contoh": ""
+  },
+  {
+    "id": 255,
+    "kanji": "楽しみ",
+    "kana": "たのしみ",
+    "romaji": "-",
+    "arti": "enjoyment, pleasure, amusement, delight, joy, fun, diversion, hobby",
+    "tipe": "Noun, Na-adjective (keiyodoshi)",
+    "contoh": ""
+  },
+  {
+    "id": 256,
+    "kanji": "汽車",
+    "kana": "きしゃ",
+    "romaji": "-",
+    "arti": "steam locomotive, steam train",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 257,
+    "kanji": "隅",
+    "kana": "すみ",
+    "romaji": "-",
+    "arti": "corner, nook, recess",
+    "tipe": "Noun, Noun, used as a suffix",
+    "contoh": ""
+  },
+  {
+    "id": 258,
+    "kanji": "可笑しい",
+    "kana": "おかしい",
+    "romaji": "-",
+    "arti": "funny, amusing, comical, laughable, ridiculous",
+    "tipe": "I-adjective (keiyoushi)",
+    "contoh": ""
+  },
+  {
+    "id": 259,
+    "kanji": "競争",
+    "kana": "きょうそう",
+    "romaji": "-",
+    "arti": "competition, contest, rivalry, race",
+    "tipe": "Noun, Suru verb, Transitive verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 260,
+    "kanji": "入院",
+    "kana": "にゅういん",
+    "romaji": "-",
+    "arti": "hospitalization, hospitalisation",
+    "tipe": "Noun, Suru verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 261,
+    "kanji": "形",
+    "kana": "かたち",
+    "romaji": "-",
+    "arti": "(physical) form, shape, figure",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 262,
+    "kanji": "景色",
+    "kana": "けしき",
+    "romaji": "-",
+    "arti": "scenery, scene, landscape",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 263,
+    "kanji": "留守",
+    "kana": "るす",
+    "romaji": "-",
+    "arti": "absence, being away from home",
+    "tipe": "Noun, Suru verb, Transitive verb, Intransitive verb, Noun which may take the genitive case particle 'no'",
+    "contoh": ""
+  },
+  {
+    "id": 264,
+    "kanji": "仕方",
+    "kana": "しかた",
+    "romaji": "-",
+    "arti": "way, method, means, resource, course",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 265,
+    "kanji": "首",
+    "kana": "くび",
+    "romaji": "-",
+    "arti": "neck",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 266,
+    "kanji": "君",
+    "kana": "きみ",
+    "romaji": "-",
+    "arti": "you, buddy, pal",
+    "tipe": "Pronoun",
+    "contoh": ""
+  },
+  {
+    "id": 267,
+    "kanji": "血",
+    "kana": "ち",
+    "romaji": "-",
+    "arti": "blood",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 268,
+    "kanji": "以内",
+    "kana": "いない",
+    "romaji": "-",
+    "arti": "within, inside of, less than",
+    "tipe": "Noun, Noun, used as a suffix, Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 269,
+    "kanji": "例えば",
+    "kana": "たとえば",
+    "romaji": "-",
+    "arti": "for example, for instance, e.g.",
+    "tipe": "Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 270,
+    "kanji": "別れる",
+    "kana": "わかれる",
+    "romaji": "-",
+    "arti": "to part (usu. of people), to part from, to part with, to be apart from",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 271,
+    "kanji": "棚",
+    "kana": "たな",
+    "romaji": "-",
+    "arti": "shelf, ledge, rack",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 272,
+    "kanji": "引っ越す",
+    "kana": "ひっこす",
+    "romaji": "-",
+    "arti": "to move (house), to change residence",
+    "tipe": "Godan verb with 'su' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 273,
+    "kanji": "複雑",
+    "kana": "ふくざつ",
+    "romaji": "-",
+    "arti": "complex, complicated, intricate, mixed (feelings)",
+    "tipe": "Na-adjective (keiyodoshi), Noun",
+    "contoh": ""
+  },
+  {
+    "id": 274,
+    "kanji": "申し上げる",
+    "kana": "もうしあげる",
+    "romaji": "-",
+    "arti": "to say, to tell, to state, to express, to offer, to extend (greetings, congratulations, etc.)",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 275,
+    "kanji": "品物",
+    "kana": "しなもの",
+    "romaji": "-",
+    "arti": "article, item, thing, goods, wares",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 276,
+    "kanji": "技術",
+    "kana": "ぎじゅつ",
+    "romaji": "-",
+    "arti": "technology, engineering",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 277,
+    "kanji": "ご存知",
+    "kana": "ごぞんじ",
+    "romaji": "-",
+    "arti": "knowing, being aware (of)",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 278,
+    "kanji": "草",
+    "kana": "くさ",
+    "romaji": "-",
+    "arti": "grass, weed, herb, thatch",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 279,
+    "kanji": "以下",
+    "kana": "いか",
+    "romaji": "-",
+    "arti": "not exceeding ..., not more than ..., ... and under, ... and below, ... or fewer",
+    "tipe": "Noun, used as a suffix",
+    "contoh": ""
+  },
+  {
+    "id": 280,
+    "kanji": "倍",
+    "kana": "ばい",
+    "romaji": "-",
+    "arti": "double, twice (as much)",
+    "tipe": "Noun, Noun which may take the genitive case particle 'no'",
+    "contoh": ""
+  },
+  {
+    "id": 281,
+    "kanji": "両方",
+    "kana": "りょうほう",
+    "romaji": "-",
+    "arti": "both, both sides, both parties",
+    "tipe": "Noun, Noun which may take the genitive case particle 'no'",
+    "contoh": ""
+  },
+  {
+    "id": 282,
+    "kanji": "安心",
+    "kana": "あんしん",
+    "romaji": "-",
+    "arti": "peace of mind, relief, (sense of) security, safety, assurance, confidence",
+    "tipe": "Noun, Na-adjective (keiyodoshi), Suru verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 283,
+    "kanji": "港",
+    "kana": "みなと",
+    "romaji": "-",
+    "arti": "harbour, harbor, port",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 284,
+    "kanji": "大体",
+    "kana": "だいたい",
+    "romaji": "-",
+    "arti": "generally, on the whole, mostly, almost, nearly, approximately, roughly, about",
+    "tipe": "Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 285,
+    "kanji": "線",
+    "kana": "せん",
+    "romaji": "-",
+    "arti": "line, stripe, stria",
+    "tipe": "Noun, Noun, used as a suffix",
+    "contoh": ""
+  },
+  {
+    "id": 286,
+    "kanji": "下げる",
+    "kana": "さげる",
+    "romaji": "-",
+    "arti": "to hang, to suspend, to wear (e.g. decoration)",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 287,
+    "kanji": "虫",
+    "kana": "むし",
+    "romaji": "-",
+    "arti": "insect, bug, cricket, moth",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 288,
+    "kanji": "小鳥",
+    "kana": "ことり",
+    "romaji": "-",
+    "arti": "small bird, little bird",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 289,
+    "kanji": "高校生",
+    "kana": "こうこうせい",
+    "romaji": "-",
+    "arti": "senior high school student",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 290,
+    "kanji": "乗り換える",
+    "kana": "のりかえる",
+    "romaji": "-",
+    "arti": "to transfer (trains), to change (bus, train)",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 291,
+    "kanji": "枝",
+    "kana": "えだ",
+    "romaji": "-",
+    "arti": "branch, bough, limb, twig, sprig, spray",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 292,
+    "kanji": "寺",
+    "kana": "てら",
+    "romaji": "-",
+    "arti": "temple (Buddhist)",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 293,
+    "kanji": "通う",
+    "kana": "かよう",
+    "romaji": "-",
+    "arti": "to go to and from (a place), to go back and forth between, to run between (e.g. bus, train, etc.), to ply between",
+    "tipe": "Godan verb with 'u' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 294,
+    "kanji": "店員",
+    "kana": "てんいん",
+    "romaji": "-",
+    "arti": "employee (of a store), shop assistant, clerk, salesperson",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 295,
+    "kanji": "終わり",
+    "kana": "おわり",
+    "romaji": "-",
+    "arti": "end, ending, close, conclusion",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 296,
+    "kanji": "帰り",
+    "kana": "かえり",
+    "romaji": "-",
+    "arti": "return, coming back",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 297,
+    "kanji": "着物",
+    "kana": "きもの",
+    "romaji": "-",
+    "arti": "kimono, Japanese traditional clothing (esp. full-length)",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 298,
+    "kanji": "騒ぐ",
+    "kana": "さわぐ",
+    "romaji": "-",
+    "arti": "to make noise, to make racket, to be noisy",
+    "tipe": "Godan verb with 'gu' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 299,
+    "kanji": "柔らかい",
+    "kana": "やわらかい",
+    "romaji": "-",
+    "arti": "soft, tender, supple, flexible, limber, limp",
+    "tipe": "I-adjective (keiyoushi)",
+    "contoh": ""
+  },
+  {
+    "id": 300,
+    "kanji": "踏む",
+    "kana": "ふむ",
+    "romaji": "-",
+    "arti": "to step on, to tread on, to trample on",
+    "tipe": "Godan verb with 'mu' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 301,
+    "kanji": "丁寧",
+    "kana": "ていねい",
+    "romaji": "-",
+    "arti": "polite, courteous, civil",
+    "tipe": "Na-adjective (keiyodoshi), Noun",
+    "contoh": ""
+  },
+  {
+    "id": 302,
+    "kanji": "裏",
+    "kana": "うら",
+    "romaji": "-",
+    "arti": "opposite side, bottom, other side, side hidden from view, undersurface, reverse side",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 303,
+    "kanji": "真ん中",
+    "kana": "まんなか",
+    "romaji": "-",
+    "arti": "middle, centre, center, midpoint, heart",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 304,
+    "kanji": "冷える",
+    "kana": "ひえる",
+    "romaji": "-",
+    "arti": "to grow cold, to get chilly, to cool down",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 305,
+    "kanji": "飾る",
+    "kana": "かざる",
+    "romaji": "-",
+    "arti": "to decorate, to ornament, to adorn",
+    "tipe": "Godan verb with 'ru' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 306,
+    "kanji": "遠慮",
+    "kana": "えんりょ",
+    "romaji": "-",
+    "arti": "reserve, constraint, restraint, modesty, diffidence, hesitation, holding back, discretion, tact, thoughtfulness",
+    "tipe": "Noun, Suru verb, Transitive verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 307,
+    "kanji": "表",
+    "kana": "おもて",
+    "romaji": "-",
+    "arti": "surface",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 308,
+    "kanji": "都合",
+    "kana": "つごう",
+    "romaji": "-",
+    "arti": "circumstances, condition, convenience",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 309,
+    "kanji": "暮れる",
+    "kana": "くれる",
+    "romaji": "-",
+    "arti": "to get dark, to grow dark",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 310,
+    "kanji": "昼間",
+    "kana": "ひるま",
+    "romaji": "-",
+    "arti": "daytime, during the day, time from sunrise until sunset, diurnal period",
+    "tipe": "Noun, Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 311,
+    "kanji": "部長",
+    "kana": "ぶちょう",
+    "romaji": "-",
+    "arti": "head (chief, director) of a section or department",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 312,
+    "kanji": "急",
+    "kana": "きゅう",
+    "romaji": "-",
+    "arti": "sudden, abrupt, unexpected",
+    "tipe": "Na-adjective (keiyodoshi)",
+    "contoh": ""
+  },
+  {
+    "id": 313,
+    "kanji": "引き出し",
+    "kana": "ひきだし",
+    "romaji": "-",
+    "arti": "drawer",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 314,
+    "kanji": "久しぶり",
+    "kana": "ひさしぶり",
+    "romaji": "-",
+    "arti": "a long time (since the last time), first in a long time",
+    "tipe": "Noun which may take the genitive case particle 'no', Na-adjective (keiyodoshi), Noun",
+    "contoh": ""
+  },
+  {
+    "id": 315,
+    "kanji": "会場",
+    "kana": "かいじょう",
+    "romaji": "-",
+    "arti": "assembly hall, meeting place, venue, site, grounds",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 316,
+    "kanji": "又は",
+    "kana": "または",
+    "romaji": "-",
+    "arti": "or, either ... or ...",
+    "tipe": "Conjunction",
+    "contoh": ""
+  },
+  {
+    "id": 317,
+    "kanji": "急行",
+    "kana": "きゅうこう",
+    "romaji": "-",
+    "arti": "hurrying (to somewhere), rushing, hastening",
+    "tipe": "Noun, Suru verb, Noun which may take the genitive case particle 'no', Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 318,
+    "kanji": "地理",
+    "kana": "ちり",
+    "romaji": "-",
+    "arti": "geography",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 319,
+    "kanji": "電灯",
+    "kana": "でんとう",
+    "romaji": "-",
+    "arti": "electric light",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 320,
+    "kanji": "踊り",
+    "kana": "おどり",
+    "romaji": "-",
+    "arti": "dance",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 321,
+    "kanji": "適当",
+    "kana": "てきとう",
+    "romaji": "-",
+    "arti": "suitable, proper, appropriate, adequate, fit, fair",
+    "tipe": "Na-adjective (keiyodoshi), Noun",
+    "contoh": ""
+  },
+  {
+    "id": 322,
+    "kanji": "細かい",
+    "kana": "こまかい",
+    "romaji": "-",
+    "arti": "small",
+    "tipe": "I-adjective (keiyoushi)",
+    "contoh": ""
+  },
+  {
+    "id": 323,
+    "kanji": "課長",
+    "kana": "かちょう",
+    "romaji": "-",
+    "arti": "section manager, section chief",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 324,
+    "kanji": "盛ん",
+    "kana": "さかん",
+    "romaji": "-",
+    "arti": "prosperous, flourishing, thriving, successful",
+    "tipe": "Na-adjective (keiyodoshi)",
+    "contoh": ""
+  },
+  {
+    "id": 325,
+    "kanji": "引き出す",
+    "kana": "ひきだす",
+    "romaji": "-",
+    "arti": "to pull out, to take out, to draw out",
+    "tipe": "Godan verb with 'su' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 326,
+    "kanji": "割合",
+    "kana": "わりあい",
+    "romaji": "-",
+    "arti": "rate, ratio, percentage, proportion",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 327,
+    "kanji": "暖房",
+    "kana": "だんぼう",
+    "romaji": "-",
+    "arti": "(indoor) heating",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 328,
+    "kanji": "申す",
+    "kana": "もうす",
+    "romaji": "-",
+    "arti": "to say, to be called",
+    "tipe": "Godan verb with 'su' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 329,
+    "kanji": "退院",
+    "kana": "たいいん",
+    "romaji": "-",
+    "arti": "leaving hospital, discharge from hospital",
+    "tipe": "Noun, Suru verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 330,
+    "kanji": "売り場",
+    "kana": "うりば",
+    "romaji": "-",
+    "arti": "selling area, counter, section, department, sales floor",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 331,
+    "kanji": "苦い",
+    "kana": "にがい",
+    "romaji": "-",
+    "arti": "bitter",
+    "tipe": "I-adjective (keiyoushi)",
+    "contoh": ""
+  },
+  {
+    "id": 332,
+    "kanji": "受付",
+    "kana": "うけつけ",
+    "romaji": "-",
+    "arti": "reception (desk), information desk, receptionist, information clerk",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 333,
+    "kanji": "下宿",
+    "kana": "げしゅく",
+    "romaji": "-",
+    "arti": "boarding, lodging, board and lodging, room and board",
+    "tipe": "Noun, Suru verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 334,
+    "kanji": "講堂",
+    "kana": "こうどう",
+    "romaji": "-",
+    "arti": "auditorium, lecture hall",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 335,
+    "kanji": "不便",
+    "kana": "ふべん",
+    "romaji": "-",
+    "arti": "inconvenience, inexpediency, unhandiness",
+    "tipe": "Noun, Na-adjective (keiyodoshi)",
+    "contoh": ""
+  },
+  {
+    "id": 336,
+    "kanji": "食料品",
+    "kana": "しょくりょうひん",
+    "romaji": "-",
+    "arti": "foodstuff, groceries",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 337,
+    "kanji": "新聞社",
+    "kana": "しんぶんしゃ",
+    "romaji": "-",
+    "arti": "newspaper company",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 338,
+    "kanji": "湯",
+    "kana": "ゆ",
+    "romaji": "-",
+    "arti": "hot water",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 339,
+    "kanji": "写す",
+    "kana": "うつす",
+    "romaji": "-",
+    "arti": "to copy, to duplicate, to reproduce, to trace, to transcribe",
+    "tipe": "Godan verb with 'su' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 340,
+    "kanji": "工業",
+    "kana": "こうぎょう",
+    "romaji": "-",
+    "arti": "(manufacturing) industry",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 341,
+    "kanji": "工業",
+    "kana": "こうぎょう",
+    "romaji": "-",
+    "arti": "(manufacturing) industry",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 342,
+    "kanji": "下着",
+    "kana": "したぎ",
+    "romaji": "-",
+    "arti": "underwear, undergarment, underclothes, lingerie",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 343,
+    "kanji": "冷房",
+    "kana": "れいぼう",
+    "romaji": "-",
+    "arti": "air conditioning, air cooling",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 344,
+    "kanji": "畳",
+    "kana": "たたみ",
+    "romaji": "-",
+    "arti": "tatami mat, Japanese straw floor coverings",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 345,
+    "kanji": "お嬢さん",
+    "kana": "おじょうさん",
+    "romaji": "-",
+    "arti": "(another's) daughter",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 346,
+    "kanji": "沸かす",
+    "kana": "わかす",
+    "romaji": "-",
+    "arti": "to boil, to heat (a liquid), to prepare (a bath, hot drink)",
+    "tipe": "Godan verb with 'su' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 347,
+    "kanji": "漬ける",
+    "kana": "つける",
+    "romaji": "-",
+    "arti": "to soak (in), to steep, to dip, to dunk",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 348,
+    "kanji": "特急",
+    "kana": "とっきゅう",
+    "romaji": "-",
+    "arti": "limited express (train for which a limited-express ticket is required)",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 349,
+    "kanji": "呉れる",
+    "kana": "くれる",
+    "romaji": "-",
+    "arti": "to give, to let (one) have",
+    "tipe": "Ichidan verb - kureru special class, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 350,
+    "kanji": "過ぎる",
+    "kana": "すぎる",
+    "romaji": "-",
+    "arti": "to pass through, to pass by, to go beyond",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 351,
+    "kanji": "積もり",
+    "kana": "つもり",
+    "romaji": "-",
+    "arti": "intention, plan, purpose, expectation",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 352,
+    "kanji": "殆ど",
+    "kana": "ほとんど",
+    "romaji": "-",
+    "arti": "almost, nearly, mostly, practically, virtually, basically, just about, all but",
+    "tipe": "Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 353,
+    "kanji": "止める",
+    "kana": "とめる",
+    "romaji": "-",
+    "arti": "to stop, to turn off",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 354,
+    "kanji": "酷い",
+    "kana": "ひどい",
+    "romaji": "-",
+    "arti": "cruel, heartless, hard, harsh, severe",
+    "tipe": "I-adjective (keiyoushi)",
+    "contoh": ""
+  },
+  {
+    "id": 355,
+    "kanji": "遅れる",
+    "kana": "おくれる",
+    "romaji": "-",
+    "arti": "to be late, to be delayed, to fall behind schedule, to be overdue",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 356,
+    "kanji": "続ける",
+    "kana": "つづける",
+    "romaji": "-",
+    "arti": "to continue, to keep up, to keep on",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 357,
+    "kanji": "手伝う",
+    "kana": "てつだう",
+    "romaji": "-",
+    "arti": "to help, to assist, to aid",
+    "tipe": "Godan verb with 'u' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 358,
+    "kanji": "見つける",
+    "kana": "みつける",
+    "romaji": "-",
+    "arti": "to find, to discover, to come across, to spot, to catch (someone doing)",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 359,
+    "kanji": "驚く",
+    "kana": "おどろく",
+    "romaji": "-",
+    "arti": "to be surprised, to be taken aback, to be amazed, to be astonished, to be shocked",
+    "tipe": "Godan verb with 'ku' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 360,
+    "kanji": "開く",
+    "kana": "ひらく",
+    "romaji": "-",
+    "arti": "to open, to undo, to unseal, to unpack",
+    "tipe": "Godan verb with 'ku' ending, Intransitive verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 361,
+    "kanji": "眠る",
+    "kana": "ねむる",
+    "romaji": "-",
+    "arti": "to sleep",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 362,
+    "kanji": "勝つ",
+    "kana": "かつ",
+    "romaji": "-",
+    "arti": "to win, to gain victory",
+    "tipe": "Godan verb with 'tsu' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 363,
+    "kanji": "聞こえる",
+    "kana": "きこえる",
+    "romaji": "-",
+    "arti": "to be heard, to be audible, to reach one's ears",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 364,
+    "kanji": "尋ねる",
+    "kana": "たずねる",
+    "romaji": "-",
+    "arti": "to ask, to enquire, to inquire",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 365,
+    "kanji": "慣れる",
+    "kana": "なれる",
+    "romaji": "-",
+    "arti": "to get used to, to grow accustomed to, to become familiar with",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 366,
+    "kanji": "泣く",
+    "kana": "なく",
+    "romaji": "-",
+    "arti": "to cry, to shed tears, to weep, to sob",
+    "tipe": "Godan verb with 'ku' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 367,
+    "kanji": "似る",
+    "kana": "にる",
+    "romaji": "-",
+    "arti": "to resemble, to look like, to be like, to be alike, to be similar, to take after",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 368,
+    "kanji": "屹度",
+    "kana": "きっと",
+    "romaji": "-",
+    "arti": "surely, undoubtedly, almost certainly, most likely (e.g. 90 percent)",
+    "tipe": "Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 369,
+    "kanji": "戻る",
+    "kana": "もどる",
+    "romaji": "-",
+    "arti": "to turn back (e.g. half-way)",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 370,
+    "kanji": "調べる",
+    "kana": "しらべる",
+    "romaji": "-",
+    "arti": "to examine, to look up, to investigate, to check up, to sense, to study, to inquire, to search",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 371,
+    "kanji": "伝える",
+    "kana": "つたえる",
+    "romaji": "-",
+    "arti": "to convey, to report, to transmit, to communicate, to tell, to impart, to propagate, to teach, to bequeath",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 372,
+    "kanji": "筈",
+    "kana": "はず",
+    "romaji": "-",
+    "arti": "should (be), bound (to be), expected (to be), must (be)",
+    "tipe": "Auxiliary",
+    "contoh": ""
+  },
+  {
+    "id": 373,
+    "kanji": "無くなる",
+    "kana": "なくなる",
+    "romaji": "-",
+    "arti": "to be lost (e.g. luggage), to be missing",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 374,
+    "kanji": "動く",
+    "kana": "うごく",
+    "romaji": "-",
+    "arti": "to move, to stir, to shift, to shake, to swing",
+    "tipe": "Godan verb with 'ku' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 375,
+    "kanji": "知らせる",
+    "kana": "しらせる",
+    "romaji": "-",
+    "arti": "to notify, to advise, to inform",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 376,
+    "kanji": "続く",
+    "kana": "つづく",
+    "romaji": "-",
+    "arti": "to continue, to last, to go on",
+    "tipe": "Godan verb with 'ku' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 377,
+    "kanji": "別",
+    "kana": "べつ",
+    "romaji": "-",
+    "arti": "distinction, difference, discrimination",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 378,
+    "kanji": "鳴る",
+    "kana": "なる",
+    "romaji": "-",
+    "arti": "to sound, to ring, to resound, to echo, to roar, to rumble",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 379,
+    "kanji": "市",
+    "kana": "し",
+    "romaji": "-",
+    "arti": "city",
+    "tipe": "Noun, Noun, used as a suffix",
+    "contoh": ""
+  },
+  {
+    "id": 380,
+    "kanji": "負ける",
+    "kana": "まける",
+    "romaji": "-",
+    "arti": "to lose, to be defeated, to be beaten",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 381,
+    "kanji": "悲しい",
+    "kana": "かなしい",
+    "romaji": "-",
+    "arti": "sad, miserable, unhappy, sorrowful",
+    "tipe": "I-adjective (keiyoushi)",
+    "contoh": ""
+  },
+  {
+    "id": 382,
+    "kanji": "亡くなる",
+    "kana": "なくなる",
+    "romaji": "-",
+    "arti": "to die, to pass away",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 383,
+    "kanji": "以外",
+    "kana": "いがい",
+    "romaji": "-",
+    "arti": "excluding, except (for), apart from, other than, besides, in addition to",
+    "tipe": "Noun, used as a suffix",
+    "contoh": ""
+  },
+  {
+    "id": 384,
+    "kanji": "直す",
+    "kana": "なおす",
+    "romaji": "-",
+    "arti": "to repair, to mend, to fix, to correct (a mistake, bad habit, etc.), to put right, to restore, to straighten (e.g. a tie), to tidy up (one's hair, make-up, etc.), to revive (one's spirits)",
+    "tipe": "Godan verb with 'su' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 385,
+    "kanji": "暫く",
+    "kana": "しばらく",
+    "romaji": "-",
+    "arti": "for a moment, for a minute",
+    "tipe": "Adverb (fukushi), Suru verb",
+    "contoh": ""
+  },
+  {
+    "id": 386,
+    "kanji": "回る",
+    "kana": "まわる",
+    "romaji": "-",
+    "arti": "to turn, to rotate, to revolve, to spin",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 387,
+    "kanji": "間違える",
+    "kana": "まちがえる",
+    "romaji": "-",
+    "arti": "to make a mistake (in), to commit an error, to get wrong, to do incorrectly",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 388,
+    "kanji": "捨てる",
+    "kana": "すてる",
+    "romaji": "-",
+    "arti": "to throw away, to cast away, to dump, to discard",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 389,
+    "kanji": "確り",
+    "kana": "しっかり",
+    "romaji": "-",
+    "arti": "tightly (holding on), firmly, securely",
+    "tipe": "Adverb (fukushi), Adverb taking the 'to' particle, Suru verb",
+    "contoh": ""
+  },
+  {
+    "id": 390,
+    "kanji": "育てる",
+    "kana": "そだてる",
+    "romaji": "-",
+    "arti": "to raise, to rear, to bring up",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 391,
+    "kanji": "褒める",
+    "kana": "ほめる",
+    "romaji": "-",
+    "arti": "to praise, to commend, to compliment, to speak well of, to speak highly of",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 392,
+    "kanji": "石",
+    "kana": "いし",
+    "romaji": "-",
+    "arti": "stone, rock, pebble",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 393,
+    "kanji": "恥ずかしい",
+    "kana": "はずかしい",
+    "romaji": "-",
+    "arti": "embarrassing, embarrassed, ashamed, humiliated, shy",
+    "tipe": "I-adjective (keiyoushi)",
+    "contoh": ""
+  },
+  {
+    "id": 394,
+    "kanji": "塗る",
+    "kana": "ぬる",
+    "romaji": "-",
+    "arti": "to paint, to spread, to plaster, to apply (cream, lotion), to smear, to lacquer, to varnish, to put up (wallpaper)",
+    "tipe": "Godan verb with 'ru' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 395,
+    "kanji": "泊まる",
+    "kana": "とまる",
+    "romaji": "-",
+    "arti": "to stay at (e.g. hotel)",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 396,
+    "kanji": "片付ける",
+    "kana": "かたづける",
+    "romaji": "-",
+    "arti": "to put in order, to tidy up, to clean up, to put away, to clear away",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 397,
+    "kanji": "止む",
+    "kana": "やむ",
+    "romaji": "-",
+    "arti": "to cease, to stop, to be over",
+    "tipe": "Godan verb with 'mu' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 398,
+    "kanji": "遠く",
+    "kana": "とおく",
+    "romaji": "-",
+    "arti": "far away, distant place, a (great) distance, a long way off, afar",
+    "tipe": "Noun, Adverb (fukushi), Noun which may take the genitive case particle 'no'",
+    "contoh": ""
+  },
+  {
+    "id": 399,
+    "kanji": "済む",
+    "kana": "すむ",
+    "romaji": "-",
+    "arti": "to finish, to end, to be completed, to be resolved",
+    "tipe": "Godan verb with 'mu' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 400,
+    "kanji": "到頭",
+    "kana": "とうとう",
+    "romaji": "-",
+    "arti": "finally, at last, in the end, ultimately",
+    "tipe": "Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 401,
+    "kanji": "捕まえる",
+    "kana": "つかまえる",
+    "romaji": "-",
+    "arti": "to catch, to capture, to arrest, to seize, to restrain",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 402,
+    "kanji": "踊る",
+    "kana": "おどる",
+    "romaji": "-",
+    "arti": "to dance (orig. a hopping dance)",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 403,
+    "kanji": "足りる",
+    "kana": "たりる",
+    "romaji": "-",
+    "arti": "to be sufficient, to be enough",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 404,
+    "kanji": "治る",
+    "kana": "なおる",
+    "romaji": "-",
+    "arti": "to get better, to get well, to recover (from an illness), to be cured, to be restored, to heal",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 405,
+    "kanji": "為さる",
+    "kana": "なさる",
+    "romaji": "-",
+    "arti": "to do",
+    "tipe": "Godan verb - -aru special class, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 406,
+    "kanji": "硬い",
+    "kana": "かたい",
+    "romaji": "-",
+    "arti": "hard, solid, tough",
+    "tipe": "I-adjective (keiyoushi)",
+    "contoh": ""
+  },
+  {
+    "id": 407,
+    "kanji": "建てる",
+    "kana": "たてる",
+    "romaji": "-",
+    "arti": "to build, to construct",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 408,
+    "kanji": "凄い",
+    "kana": "すごい",
+    "romaji": "-",
+    "arti": "terrible, dreadful",
+    "tipe": "I-adjective (keiyoushi)",
+    "contoh": ""
+  },
+  {
+    "id": 409,
+    "kanji": "謝る",
+    "kana": "あやまる",
+    "romaji": "-",
+    "arti": "to apologize (apologise)",
+    "tipe": "Godan verb with 'ru' ending, Transitive verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 410,
+    "kanji": "此れから",
+    "kana": "これから",
+    "romaji": "-",
+    "arti": "from now on, after this, in the future, in future",
+    "tipe": "Expressions (phrases, clauses, etc.)",
+    "contoh": ""
+  },
+  {
+    "id": 411,
+    "kanji": "立てる",
+    "kana": "たてる",
+    "romaji": "-",
+    "arti": "to stand up, to put up, to set up, to erect, to raise",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 412,
+    "kanji": "寂しい",
+    "kana": "さびしい",
+    "romaji": "-",
+    "arti": "lonely, lonesome, solitary, desolate",
+    "tipe": "I-adjective (keiyoushi)",
+    "contoh": ""
+  },
+  {
+    "id": 413,
+    "kanji": "濡れる",
+    "kana": "ぬれる",
+    "romaji": "-",
+    "arti": "to get wet",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 414,
+    "kanji": "投げる",
+    "kana": "なげる",
+    "romaji": "-",
+    "arti": "to throw, to hurl, to fling, to toss, to cast",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 415,
+    "kanji": "太る",
+    "kana": "ふとる",
+    "romaji": "-",
+    "arti": "to put on weight, to gain weight, to grow fat, to get stout",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 416,
+    "kanji": "寄る",
+    "kana": "よる",
+    "romaji": "-",
+    "arti": "to approach, to draw near, to come near, to be close to",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 417,
+    "kanji": "歯医者",
+    "kana": "はいしゃ",
+    "romaji": "-",
+    "arti": "dentist",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 418,
+    "kanji": "参る",
+    "kana": "まいる",
+    "romaji": "-",
+    "arti": "to go, to come, to call",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 419,
+    "kanji": "召し上がる",
+    "kana": "めしあがる",
+    "romaji": "-",
+    "arti": "to eat, to drink",
+    "tipe": "Godan verb with 'ru' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 420,
+    "kanji": "珍しい",
+    "kana": "めずらしい",
+    "romaji": "-",
+    "arti": "rare, uncommon, unusual, curious",
+    "tipe": "I-adjective (keiyoushi)",
+    "contoh": ""
+  },
+  {
+    "id": 421,
+    "kanji": "揺れる",
+    "kana": "ゆれる",
+    "romaji": "-",
+    "arti": "to shake, to sway, to rock, to swing, to tremble, to jolt, to pitch, to roll, to flicker",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 422,
+    "kanji": "祈る",
+    "kana": "いのる",
+    "romaji": "-",
+    "arti": "to pray, to say a prayer, to say grace",
+    "tipe": "Godan verb with 'ru' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 423,
+    "kanji": "硝子",
+    "kana": "ガラス",
+    "romaji": "-",
+    "arti": "glass, pane",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 424,
+    "kanji": "込む",
+    "kana": "こむ",
+    "romaji": "-",
+    "arti": "to be crowded, to be packed, to be congested, to be thronged (with)",
+    "tipe": "Godan verb with 'mu' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 425,
+    "kanji": "折る",
+    "kana": "おる",
+    "romaji": "-",
+    "arti": "to break, to fracture, to break off, to snap off, to pick (e.g. flowers)",
+    "tipe": "Godan verb with 'ru' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 426,
+    "kanji": "大学生",
+    "kana": "だいがくせい",
+    "romaji": "-",
+    "arti": "university student, college student",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 427,
+    "kanji": "お礼",
+    "kana": "おれい",
+    "romaji": "-",
+    "arti": "thanks, gratitude",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 428,
+    "kanji": "眠い",
+    "kana": "ねむい",
+    "romaji": "-",
+    "arti": "sleepy, drowsy, somnolent",
+    "tipe": "I-adjective (keiyoushi)",
+    "contoh": ""
+  },
+  {
+    "id": 429,
+    "kanji": "それ程",
+    "kana": "それほど",
+    "romaji": "-",
+    "arti": "to that degree, to that extent, that much",
+    "tipe": "Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 430,
+    "kanji": "痩せる",
+    "kana": "やせる",
+    "romaji": "-",
+    "arti": "to become thin, to lose weight, to slim",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 431,
+    "kanji": "偶に",
+    "kana": "たまに",
+    "romaji": "-",
+    "arti": "occasionally, once in a while, now and then",
+    "tipe": "Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 432,
+    "kanji": "噛む",
+    "kana": "かむ",
+    "romaji": "-",
+    "arti": "to bite",
+    "tipe": "Godan verb with 'mu' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 433,
+    "kanji": "瓦斯",
+    "kana": "ガス",
+    "romaji": "-",
+    "arti": "gas (as a fuel)",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 434,
+    "kanji": "億",
+    "kana": "おく",
+    "romaji": "-",
+    "arti": "hundred million, 100,000,000, 10^8",
+    "tipe": "Numeric",
+    "contoh": ""
+  },
+  {
+    "id": 435,
+    "kanji": "触る",
+    "kana": "さわる",
+    "romaji": "-",
+    "arti": "to touch, to feel, to handle",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 436,
+    "kanji": "掏摸",
+    "kana": "すり",
+    "romaji": "-",
+    "arti": "pickpocket",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 437,
+    "kanji": "成る程",
+    "kana": "なるほど",
+    "romaji": "-",
+    "arti": "I see, that's right, indeed",
+    "tipe": "Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 438,
+    "kanji": "拾う",
+    "kana": "ひろう",
+    "romaji": "-",
+    "arti": "to pick up, to gather",
+    "tipe": "Godan verb with 'u' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 439,
+    "kanji": "焼く",
+    "kana": "やく",
+    "romaji": "-",
+    "arti": "to burn",
+    "tipe": "Godan verb with 'ku' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 440,
+    "kanji": "割れる",
+    "kana": "われる",
+    "romaji": "-",
+    "arti": "to break, to be smashed",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 441,
+    "kanji": "滑る",
+    "kana": "すべる",
+    "romaji": "-",
+    "arti": "to slide, to glide, to skate, to ski",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 442,
+    "kanji": "些とも",
+    "kana": "ちっとも",
+    "romaji": "-",
+    "arti": "(not) at all, (not) a bit, (not) in the least, (not) in the slightest",
+    "tipe": "Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 443,
+    "kanji": "お宅",
+    "kana": "おたく",
+    "romaji": "-",
+    "arti": "your house, your home, your family",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 444,
+    "kanji": "折れる",
+    "kana": "おれる",
+    "romaji": "-",
+    "arti": "to break, to be broken, to snap, to fracture",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 445,
+    "kanji": "移る",
+    "kana": "うつる",
+    "romaji": "-",
+    "arti": "to move (to another place or state), to change (e.g. of state, affiliation, scenery, etc.), to be transferred",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 446,
+    "kanji": "光る",
+    "kana": "ひかる",
+    "romaji": "-",
+    "arti": "to shine, to glitter, to be bright",
+    "tipe": "Godan verb with 'ru' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 447,
+    "kanji": "植える",
+    "kana": "うえる",
+    "romaji": "-",
+    "arti": "to plant, to grow, to raise",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 448,
+    "kanji": "字",
+    "kana": "じ",
+    "romaji": "-",
+    "arti": "character (esp. kanji), letter, written text",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 449,
+    "kanji": "差し上げる",
+    "kana": "さしあげる",
+    "romaji": "-",
+    "arti": "to lift up, to hold up, to raise",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 450,
+    "kanji": "焼ける",
+    "kana": "やける",
+    "romaji": "-",
+    "arti": "to burn, to burn down, to go down in flames",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 451,
+    "kanji": "取り替える",
+    "kana": "とりかえる",
+    "romaji": "-",
+    "arti": "to exchange, to swap, to barter, to trade",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 452,
+    "kanji": "釣る",
+    "kana": "つる",
+    "romaji": "-",
+    "arti": "to fish, to angle, to catch",
+    "tipe": "Godan verb with 'ru' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 453,
+    "kanji": "乾く",
+    "kana": "かわく",
+    "romaji": "-",
+    "arti": "to get dry",
+    "tipe": "Godan verb with 'ku' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 454,
+    "kanji": "用事",
+    "kana": "ようじ",
+    "romaji": "-",
+    "arti": "business, things to do, engagement, errand, affairs",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 455,
+    "kanji": "成るべく",
+    "kana": "なるべく",
+    "romaji": "-",
+    "arti": "as (much) as possible, as (much) as one can, wherever practicable, if possible",
+    "tipe": "Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 456,
+    "kanji": "苛める",
+    "kana": "いじめる",
+    "romaji": "-",
+    "arti": "to ill-treat, to bully, to torment, to pick on, to tease, to be cruel to, to persecute",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 457,
+    "kanji": "届ける",
+    "kana": "とどける",
+    "romaji": "-",
+    "arti": "to deliver, to forward, to send",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 458,
+    "kanji": "浅い",
+    "kana": "あさい",
+    "romaji": "-",
+    "arti": "shallow, superficial",
+    "tipe": "I-adjective (keiyoushi)",
+    "contoh": ""
+  },
+  {
+    "id": 459,
+    "kanji": "拝見",
+    "kana": "はいけん",
+    "romaji": "-",
+    "arti": "seeing, looking at",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 460,
+    "kanji": "お土産",
+    "kana": "おみやげ",
+    "romaji": "-",
+    "arti": "local specialty or souvenir bought as a gift while traveling (travelling)",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 461,
+    "kanji": "お土産",
+    "kana": "おみやげ",
+    "romaji": "-",
+    "arti": "local specialty or souvenir bought as a gift while traveling (travelling)",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 462,
+    "kanji": "足す",
+    "kana": "たす",
+    "romaji": "-",
+    "arti": "to add (numbers)",
+    "tipe": "Godan verb with 'su' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 463,
+    "kanji": "お釣り",
+    "kana": "おつり",
+    "romaji": "-",
+    "arti": "change (for a purchase)",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 464,
+    "kanji": "予習",
+    "kana": "よしゅう",
+    "romaji": "-",
+    "arti": "preparation for a lesson",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 465,
+    "kanji": "寝坊",
+    "kana": "ねぼう",
+    "romaji": "-",
+    "arti": "sleeping in late, oversleeping",
+    "tipe": "Noun, Suru verb, Intransitive verb, Na-adjective (keiyodoshi), Noun which may take the genitive case particle 'no'",
+    "contoh": ""
+  },
+  {
+    "id": 466,
+    "kanji": "沸く",
+    "kana": "わく",
+    "romaji": "-",
+    "arti": "to grow hot (e.g. water), to boil",
+    "tipe": "Godan verb with 'ku' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 467,
+    "kanji": "忘れ物",
+    "kana": "わすれもの",
+    "romaji": "-",
+    "arti": "lost article, thing left behind",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 468,
+    "kanji": "復習",
+    "kana": "ふくしゅう",
+    "romaji": "-",
+    "arti": "review (of learned material), revision",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 469,
+    "kanji": "ご主人",
+    "kana": "ごしゅじん",
+    "romaji": "-",
+    "arti": "your husband, her husband",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 470,
+    "kanji": "再来週",
+    "kana": "さらいしゅう",
+    "romaji": "-",
+    "arti": "week after next",
+    "tipe": "Noun, Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 471,
+    "kanji": "再来月",
+    "kana": "さらいげつ",
+    "romaji": "-",
+    "arti": "month after next",
+    "tipe": "Noun, Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 472,
+    "kanji": "付く",
+    "kana": "つく",
+    "romaji": "-",
+    "arti": "to be attached, to be connected with, to adhere, to stick, to cling",
+    "tipe": "Godan verb with 'ku' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 473,
+    "kanji": "変える",
+    "kana": "かえる",
+    "romaji": "-",
+    "arti": "to change, to alter, to transform, to convert, to turn, to vary",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 474,
+    "kanji": "阿弗利加",
+    "kana": "アフリカ",
+    "romaji": "-",
+    "arti": "Africa",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 475,
+    "kanji": "斯う",
+    "kana": "こう",
+    "romaji": "-",
+    "arti": "in this way, like this, so, thus",
+    "tipe": "Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 476,
+    "kanji": "看護師",
+    "kana": "かんごし",
+    "romaji": "-",
+    "arti": "(hospital) nurse, registered nurse, RN",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 477,
+    "kanji": "降り出す",
+    "kana": "ふりだす",
+    "romaji": "-",
+    "arti": "to begin to rain, to begin to snow",
+    "tipe": "Godan verb with 'su' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 478,
+    "kanji": "けど",
+    "kana": "けど",
+    "romaji": "-",
+    "arti": "but, however, although",
+    "tipe": "Conjunction, Particle",
+    "contoh": ""
+  },
+  {
+    "id": 479,
+    "kanji": "日",
+    "kana": "ひ",
+    "romaji": "-",
+    "arti": "day, days",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 480,
+    "kanji": "大分",
+    "kana": "だいぶ",
+    "romaji": "-",
+    "arti": "considerably, greatly, a lot",
+    "tipe": "Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 481,
+    "kanji": "間",
+    "kana": "あいだ",
+    "romaji": "-",
+    "arti": "space (between), gap, interval, distance, stretch",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 482,
+    "kanji": "親",
+    "kana": "おや",
+    "romaji": "-",
+    "arti": "parent, parents, mother and father",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 483,
+    "kanji": "熱",
+    "kana": "ねつ",
+    "romaji": "-",
+    "arti": "heat",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 484,
+    "kanji": "運転手",
+    "kana": "うんてんしゅ",
+    "romaji": "-",
+    "arti": "driver, chauffeur",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 485,
+    "kanji": "木綿",
+    "kana": "もめん",
+    "romaji": "-",
+    "arti": "cotton (material)",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 486,
+    "kanji": "消しゴム",
+    "kana": "けしゴム",
+    "romaji": "-",
+    "arti": "eraser, rubber",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 487,
+    "kanji": "テニス",
+    "kana": "テニス",
+    "romaji": "-",
+    "arti": "tennis",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 488,
+    "kanji": "ピアノ",
+    "kana": "ピアノ",
+    "romaji": "-",
+    "arti": "piano (instrument)",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 489,
+    "kanji": "コンピュータ",
+    "kana": "コンピュータ",
+    "romaji": "-",
+    "arti": "computer",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 490,
+    "kanji": "ケーキ",
+    "kana": "ケーキ",
+    "romaji": "-",
+    "arti": "cake",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 491,
+    "kanji": "カーテン",
+    "kana": "カーテン",
+    "romaji": "-",
+    "arti": "curtain, curtains",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 492,
+    "kanji": "ガソリン",
+    "kana": "ガソリン",
+    "romaji": "-",
+    "arti": "gasoline, petrol",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 493,
+    "kanji": "アルコール",
+    "kana": "アルコール",
+    "romaji": "-",
+    "arti": "alcohol",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 494,
+    "kanji": "サンドイッチ",
+    "kana": "サンドイッチ",
+    "romaji": "-",
+    "arti": "sandwich",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 495,
+    "kanji": "オートバイ",
+    "kana": "オートバイ",
+    "romaji": "-",
+    "arti": "motorcycle, motorbike",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 496,
+    "kanji": "サラダ",
+    "kana": "サラダ",
+    "romaji": "-",
+    "arti": "salad",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 497,
+    "kanji": "ソフト",
+    "kana": "ソフト",
+    "romaji": "-",
+    "arti": "soft",
+    "tipe": "Na-adjective (keiyodoshi), Noun which may take the genitive case particle 'no'",
+    "contoh": ""
+  },
+  {
+    "id": 498,
+    "kanji": "テキスト",
+    "kana": "テキスト",
+    "romaji": "-",
+    "arti": "text",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 499,
+    "kanji": "ガソリンスタンド",
+    "kana": "ガソリンスタンド",
+    "romaji": "-",
+    "arti": "gas station, petrol station, filling station",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 500,
+    "kanji": "ジャム",
+    "kana": "ジャム",
+    "romaji": "-",
+    "arti": "jam",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 501,
+    "kanji": "ステレオ",
+    "kana": "ステレオ",
+    "romaji": "-",
+    "arti": "stereo (sound)",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 502,
+    "kanji": "アナウンサー",
+    "kana": "アナウンサー",
+    "romaji": "-",
+    "arti": "announcer, presenter, broadcaster, reporter",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 503,
+    "kanji": "パート",
+    "kana": "パート",
+    "romaji": "-",
+    "arti": "part",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 504,
+    "kanji": "アクセサリー",
+    "kana": "アクセサリー",
+    "romaji": "-",
+    "arti": "accessory (fashion), jewelry",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 505,
+    "kanji": "エスカレーター",
+    "kana": "エスカレーター",
+    "romaji": "-",
+    "arti": "escalator",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 506,
+    "kanji": "あっ",
+    "kana": "あっ",
+    "romaji": "-",
+    "arti": "ah, oh",
+    "tipe": "",
+    "contoh": ""
+  },
+  {
+    "id": 507,
+    "kanji": "スーツケース",
+    "kana": "スーツケース",
+    "romaji": "-",
+    "arti": "suitcase",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 508,
+    "kanji": "ステーキ",
+    "kana": "ステーキ",
+    "romaji": "-",
+    "arti": "steak",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 509,
+    "kanji": "亜細亜",
+    "kana": "アジア",
+    "romaji": "-",
+    "arti": "Asia",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 510,
+    "kanji": "チェック",
+    "kana": "チェック",
+    "romaji": "-",
+    "arti": "check (pattern), plaid",
+    "tipe": "Noun, Noun which may take the genitive case particle 'no'",
+    "contoh": ""
+  },
+  {
+    "id": 511,
+    "kanji": "サンダル",
+    "kana": "サンダル",
+    "romaji": "-",
+    "arti": "sandal",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 512,
+    "kanji": "スクリーン",
+    "kana": "スクリーン",
+    "romaji": "-",
+    "arti": "screen",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 513,
+    "kanji": "開く",
+    "kana": "あく",
+    "romaji": "-",
+    "arti": "to open (e.g. doors)",
+    "tipe": "Godan verb with 'ku' ending, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 514,
+    "kanji": "一杯",
+    "kana": "いっぱい",
+    "romaji": "-",
+    "arti": "one cup (of), one glass (of), one bowl (of), cupful, glassful, bowlful, spoonful",
+    "tipe": "Noun, Noun which may take the genitive case particle 'no'",
+    "contoh": ""
+  },
+  {
+    "id": 515,
+    "kanji": "用",
+    "kana": "よう",
+    "romaji": "-",
+    "arti": "business, task, errand, engagement",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 516,
+    "kanji": "レジ",
+    "kana": "レジ",
+    "romaji": "-",
+    "arti": "(cash) register",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 517,
+    "kanji": "内",
+    "kana": "うち",
+    "romaji": "-",
+    "arti": "inside, within",
+    "tipe": "Noun, Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 518,
+    "kanji": "訳",
+    "kana": "わけ",
+    "romaji": "-",
+    "arti": "reason, cause, grounds",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 519,
+    "kanji": "お陰",
+    "kana": "おかげ",
+    "romaji": "-",
+    "arti": "grace (of God), benevolence (of Buddha), blessing",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 520,
+    "kanji": "もう直ぐ",
+    "kana": "もうすぐ",
+    "romaji": "-",
+    "arti": "soon, shortly, before long, nearly, almost",
+    "tipe": "Expressions (phrases, clauses, etc.), Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 521,
+    "kanji": "君",
+    "kana": "くん",
+    "romaji": "-",
+    "arti": "Mr, master, boy",
+    "tipe": "Suffix",
+    "contoh": ""
+  },
+  {
+    "id": 522,
+    "kanji": "包む",
+    "kana": "つつむ",
+    "romaji": "-",
+    "arti": "to wrap up, to pack, to bundle, to do up",
+    "tipe": "Godan verb with 'mu' ending, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 523,
+    "kanji": "毛",
+    "kana": "け",
+    "romaji": "-",
+    "arti": "hair",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 524,
+    "kanji": "泳ぎ方",
+    "kana": "およぎかた",
+    "romaji": "-",
+    "arti": "way of swimming",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 525,
+    "kanji": "都",
+    "kana": "と",
+    "romaji": "-",
+    "arti": "Metropolis (of Tokyo), (Tokyo) Metropolitan District, metropolitan prefecture",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 526,
+    "kanji": "家内",
+    "kana": "かない",
+    "romaji": "-",
+    "arti": "(my) wife",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 527,
+    "kanji": "お見舞い",
+    "kana": "おみまい",
+    "romaji": "-",
+    "arti": "visit (to someone affected by illness or misfortune), call, inquiry (about someone's health), expression of sympathy",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 528,
+    "kanji": "そう",
+    "kana": "そう",
+    "romaji": "-",
+    "arti": "appearing that, seeming that, looking like, having the appearance of",
+    "tipe": "Auxiliary, Na-adjective (keiyodoshi)",
+    "contoh": ""
+  },
+  {
+    "id": 529,
+    "kanji": "そんな",
+    "kana": "そんな",
+    "romaji": "-",
+    "arti": "such, that sort of, that kind of, like that",
+    "tipe": "Pre-noun adjectival (rentaishi)",
+    "contoh": ""
+  },
+  {
+    "id": 530,
+    "kanji": "若し",
+    "kana": "もし",
+    "romaji": "-",
+    "arti": "if, in case, supposing",
+    "tipe": "Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 531,
+    "kanji": "止める",
+    "kana": "やめる",
+    "romaji": "-",
+    "arti": "to stop (an activity), to cease, to discontinue, to end, to quit",
+    "tipe": "Ichidan verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 532,
+    "kanji": "非常に",
+    "kana": "ひじょうに",
+    "romaji": "-",
+    "arti": "very, extremely, exceedingly",
+    "tipe": "Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 533,
+    "kanji": "だから",
+    "kana": "だから",
+    "romaji": "-",
+    "arti": "so, therefore, accordingly, consequently, on those grounds, that is why, for that reason",
+    "tipe": "Conjunction",
+    "contoh": ""
+  },
+  {
+    "id": 534,
+    "kanji": "はっきり",
+    "kana": "はっきり",
+    "romaji": "-",
+    "arti": "clearly, plainly, distinctly",
+    "tipe": "Adverb (fukushi), Adverb taking the 'to' particle",
+    "contoh": ""
+  },
+  {
+    "id": 535,
+    "kanji": "すっかり",
+    "kana": "すっかり",
+    "romaji": "-",
+    "arti": "all, completely, totally, entirely, thoroughly",
+    "tipe": "Adverb (fukushi), Adverb taking the 'to' particle",
+    "contoh": ""
+  },
+  {
+    "id": 536,
+    "kanji": "コンサート",
+    "kana": "コンサート",
+    "romaji": "-",
+    "arti": "concert",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 537,
+    "kanji": "漸と",
+    "kana": "やっと",
+    "romaji": "-",
+    "arti": "at last, finally",
+    "tipe": "Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 538,
+    "kanji": "あんな",
+    "kana": "あんな",
+    "romaji": "-",
+    "arti": "that sort of, that kind of, like that, such, so",
+    "tipe": "Pre-noun adjectival (rentaishi)",
+    "contoh": ""
+  },
+  {
+    "id": 539,
+    "kanji": "プレゼント",
+    "kana": "プレゼント",
+    "romaji": "-",
+    "arti": "present, gift",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 540,
+    "kanji": "タイプ",
+    "kana": "タイプ",
+    "romaji": "-",
+    "arti": "type, kind, sort, style",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 541,
+    "kanji": "レポート",
+    "kana": "レポート",
+    "romaji": "-",
+    "arti": "report, paper",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 542,
+    "kanji": "仰る",
+    "kana": "おっしゃる",
+    "romaji": "-",
+    "arti": "to say, to speak, to tell",
+    "tipe": "Godan verb - -aru special class, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 543,
+    "kanji": "そろそろ",
+    "kana": "そろそろ",
+    "romaji": "-",
+    "arti": "soon, before long, any time now, momentarily",
+    "tipe": "Adverb (fukushi), Adverb taking the 'to' particle",
+    "contoh": ""
+  },
+  {
+    "id": 544,
+    "kanji": "米",
+    "kana": "こめ",
+    "romaji": "-",
+    "arti": "(husked grains of) rice",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 545,
+    "kanji": "ベル",
+    "kana": "ベル",
+    "romaji": "-",
+    "arti": "bell",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 546,
+    "kanji": "いらっしゃる",
+    "kana": "いらっしゃる",
+    "romaji": "-",
+    "arti": "to come, to go, to be (somewhere)",
+    "tipe": "Godan verb - -aru special class, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 547,
+    "kanji": "其れで",
+    "kana": "それで",
+    "romaji": "-",
+    "arti": "so, therefore, and, (and) then",
+    "tipe": "Conjunction",
+    "contoh": ""
+  },
+  {
+    "id": 548,
+    "kanji": "どんどん",
+    "kana": "どんどん",
+    "romaji": "-",
+    "arti": "drumming (noise), beating, pounding, banging, booming, stamping",
+    "tipe": "Adverb (fukushi), Adverb taking the 'to' particle",
+    "contoh": ""
+  },
+  {
+    "id": 549,
+    "kanji": "スーツ",
+    "kana": "スーツ",
+    "romaji": "-",
+    "arti": "suit (clothing)",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 550,
+    "kanji": "ワープロ",
+    "kana": "ワープロ",
+    "romaji": "-",
+    "arti": "word processor",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 551,
+    "kanji": "ちゃん",
+    "kana": "ちゃん",
+    "romaji": "-",
+    "arti": "suffix for familiar person",
+    "tipe": "Suffix",
+    "contoh": ""
+  },
+  {
+    "id": 552,
+    "kanji": "汚れる",
+    "kana": "よごれる",
+    "romaji": "-",
+    "arti": "to get dirty, to become dirty",
+    "tipe": "Ichidan verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 553,
+    "kanji": "パソコン",
+    "kana": "パソコン",
+    "romaji": "-",
+    "arti": "personal computer, PC",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 554,
+    "kanji": "ご馳走",
+    "kana": "ごちそう",
+    "romaji": "-",
+    "arti": "treat (esp. food and drink), entertainment, treating someone (to a meal), taking someone to dinner",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 555,
+    "kanji": "この頃",
+    "kana": "このごろ",
+    "romaji": "-",
+    "arti": "these days, nowadays, now, at present, recently, lately",
+    "tipe": "Adverb (fukushi), Noun",
+    "contoh": ""
+  },
+  {
+    "id": 556,
+    "kanji": "ハンドバッグ",
+    "kana": "ハンドバッグ",
+    "romaji": "-",
+    "arti": "handbag, purse",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 557,
+    "kanji": "すると",
+    "kana": "すると",
+    "romaji": "-",
+    "arti": "(and) then, and, thereupon, whereupon",
+    "tipe": "Conjunction",
+    "contoh": ""
+  },
+  {
+    "id": 558,
+    "kanji": "先",
+    "kana": "さっき",
+    "romaji": "-",
+    "arti": "a short while ago, a moment ago, just now, some time ago",
+    "tipe": "Noun, Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 559,
+    "kanji": "この間",
+    "kana": "このあいだ",
+    "romaji": "-",
+    "arti": "the other day, lately, recently, during this period",
+    "tipe": "Noun, Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 560,
+    "kanji": "其れに",
+    "kana": "それに",
+    "romaji": "-",
+    "arti": "besides, in addition, also, moreover",
+    "tipe": "Conjunction",
+    "contoh": ""
+  },
+  {
+    "id": 561,
+    "kanji": "ＦＡＸ",
+    "kana": "ファックス",
+    "romaji": "-",
+    "arti": "fax, facsimile",
+    "tipe": "Noun, Suru verb, Transitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 562,
+    "kanji": "すっと",
+    "kana": "すっと",
+    "romaji": "-",
+    "arti": "straight, quickly, directly, all of a sudden",
+    "tipe": "Adverb (fukushi), Suru verb",
+    "contoh": ""
+  },
+  {
+    "id": 563,
+    "kanji": "そんなに",
+    "kana": "そんなに",
+    "romaji": "-",
+    "arti": "so much, so, like that",
+    "tipe": "Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 564,
+    "kanji": "うん",
+    "kana": "うん",
+    "romaji": "-",
+    "arti": "yes, yeah, uh huh",
+    "tipe": "",
+    "contoh": ""
+  },
+  {
+    "id": 565,
+    "kanji": "ああ",
+    "kana": "ああ",
+    "romaji": "-",
+    "arti": "like that, so",
+    "tipe": "Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 566,
+    "kanji": "ご覧になる",
+    "kana": "ごらんになる",
+    "romaji": "-",
+    "arti": "to see, to look, to watch",
+    "tipe": "Expressions (phrases, clauses, etc.), Godan verb with 'ru' ending",
+    "contoh": ""
+  },
+  {
+    "id": 567,
+    "kanji": "妻",
+    "kana": "つま",
+    "romaji": "-",
+    "arti": "wife",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 568,
+    "kanji": "気持ち",
+    "kana": "きもち",
+    "romaji": "-",
+    "arti": "feeling, sensation, mood, state of mind",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 569,
+    "kanji": "答え",
+    "kana": "こたえ",
+    "romaji": "-",
+    "arti": "answer, reply, response",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 570,
+    "kanji": "昼休み",
+    "kana": "ひるやすみ",
+    "romaji": "-",
+    "arti": "lunch break, noon recess, noon rest period",
+    "tipe": "Noun, Adverb (fukushi)",
+    "contoh": ""
+  },
+  {
+    "id": 571,
+    "kanji": "二階建て",
+    "kana": "にかいだて",
+    "romaji": "-",
+    "arti": "two-storied building",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 572,
+    "kanji": "お祝い",
+    "kana": "おいわい",
+    "romaji": "-",
+    "arti": "congratulation, congratulations, celebration, festival",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 573,
+    "kanji": "お出でになる",
+    "kana": "おいでになる",
+    "romaji": "-",
+    "arti": "to be",
+    "tipe": "Expressions (phrases, clauses, etc.), Godan verb with 'ru' ending",
+    "contoh": ""
+  },
+  {
+    "id": 574,
+    "kanji": "ビル",
+    "kana": "ビル",
+    "romaji": "-",
+    "arti": "multi-floor building, multi-storey building",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 575,
+    "kanji": "お祭り",
+    "kana": "おまつり",
+    "romaji": "-",
+    "arti": "festival, feast, carnival, matsuri",
+    "tipe": "Noun",
+    "contoh": ""
+  },
+  {
+    "id": 576,
+    "kanji": "アルバイト",
+    "kana": "アルバイト",
+    "romaji": "-",
+    "arti": "part-time job, side job",
+    "tipe": "Noun, Suru verb, Intransitive verb",
+    "contoh": ""
+  },
+  {
+    "id": 577,
+    "kanji": "端",
+    "kana": "つま",
+    "romaji": "-",
+    "arti": "edge, tip, end",
+    "tipe": "Noun",
+    "contoh": ""
   }
 ]

@@ -42,12 +42,13 @@ export default function Kanji() {
     setCurrentPage(1);
   }, [search]);
 
-  const filteredData = data.filter(item => 
-    item.arti.toLowerCase().includes(search.toLowerCase()) || 
-    item.kanji.includes(search) || 
-    item.onyomi.includes(search) ||
-    item.kunyomi.includes(search)
-  );
+  const filteredData = data.filter(item => {
+    const char = item.kanji || item.karakter || '';
+    return item.arti.toLowerCase().includes(search.toLowerCase()) || 
+           char.includes(search) || 
+           (item.onyomi && item.onyomi.includes(search)) ||
+           (item.kunyomi && item.kunyomi.includes(search));
+  });
 
   const totalPages = Math.ceil(filteredData.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
@@ -80,10 +81,12 @@ export default function Kanji() {
       ) : (
         <>
           <div className="kanji-grid">
-            {currentData.map(kanji => (
-              <div key={kanji.id} className="kanji-card glass-panel">
+            {currentData.map(kanji => {
+              const char = kanji.kanji || kanji.karakter || '';
+              return (
+              <div key={kanji.id || char} className="kanji-card glass-panel">
                 <div className="kanji-main">
-                  <span className="kanji-char">{kanji.kanji}</span>
+                  <span className="kanji-char">{char}</span>
                 </div>
                 <div className="kanji-details">
                   <div className="kanji-arti">{kanji.arti}</div>
@@ -105,13 +108,14 @@ export default function Kanji() {
                 <div className="kanji-actions">
                   <button 
                     className="write-kanji-btn"
-                    onClick={() => setWritingChar(kanji.kanji)}
+                    onClick={() => setWritingChar(char)}
                   >
                     ✍️ Latihan Menulis
                   </button>
                 </div>
               </div>
-            ))}
+              );
+            })}
             {filteredData.length === 0 && (
               <div className="no-results">Tidak ada kanji yang cocok.</div>
             )}

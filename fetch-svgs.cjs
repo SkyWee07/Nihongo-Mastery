@@ -5,7 +5,7 @@ const https = require('https');
 const n5 = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'data', 'kanjiN5.json'), 'utf-8'));
 const n4 = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'data', 'kanjiN4.json'), 'utf-8'));
 
-const allKanji = [...n5, ...n4].map(k => k.kanji).filter(k => k.length === 1);
+const allKanji = [...n5, ...n4].map(k => k.kanji || k.karakter).filter(k => k && k.length === 1);
 
 const outDir = path.join(__dirname, 'public', 'strokeOrder');
 if (!fs.existsSync(outDir)) {
