@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "kanji": "家",
+    "onyomi": "カ, ケ",
+    "kunyomi": "いえ, や, うち",
+    "arti": "Rumah",
+    "contoh": "家族 (かぞく)"
+  },
+  {
+    "id": 2,
+    "kanji": "族",
+    "onyomi": "ゾク",
+    "kunyomi": "-",
+    "arti": "Keluarga, Suku",
+    "contoh": "家族 (かぞく)"
+  },
+  {
+    "id": 3,
+    "kanji": "勉",
+    "onyomi": "ベン",
+    "kunyomi": "つと.める",
+    "arti": "Berusaha, Belajar",
+    "contoh": "勉強 (べんきょう)"
+  },
+  {
+    "id": 4,
+    "kanji": "強",
+    "onyomi": "キョウ, ゴウ",
+    "kunyomi": "つよ.い, つよ.まる, し.いる",
+    "arti": "Kuat",
+    "contoh": "強い (つよい)"
+  },
+  {
+    "id": 5,
+    "kanji": "春",
+    "onyomi": "シュン",
+    "kunyomi": "はる",
+    "arti": "Musim Semi",
+    "contoh": "春休み (はるやすみ)"
+  }
+]

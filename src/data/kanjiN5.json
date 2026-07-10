@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "kanji": "一",
+    "onyomi": "イチ, イツ",
+    "kunyomi": "ひと, ひと.つ",
+    "arti": "Satu",
+    "contoh": "一つ (ひとつ)"
+  },
+  {
+    "id": 2,
+    "kanji": "二",
+    "onyomi": "ニ, ジ",
+    "kunyomi": "ふた, ふた.つ",
+    "arti": "Dua",
+    "contoh": "二つ (ふたつ)"
+  },
+  {
+    "id": 3,
+    "kanji": "人",
+    "onyomi": "ジン, ニン",
+    "kunyomi": "ひと",
+    "arti": "Orang",
+    "contoh": "日本人 (にほんじん)"
+  },
+  {
+    "id": 4,
+    "kanji": "日",
+    "onyomi": "ニチ, ジツ",
+    "kunyomi": "ひ, -び, -か",
+    "arti": "Matahari, Hari",
+    "contoh": "日本 (にほん)"
+  },
+  {
+    "id": 5,
+    "kanji": "木",
+    "onyomi": "ボク, モク",
+    "kunyomi": "き, こ-",
+    "arti": "Pohon, Kayu",
+    "contoh": "木曜日 (もくようび)"
+  }
+]

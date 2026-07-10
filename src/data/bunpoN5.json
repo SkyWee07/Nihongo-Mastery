@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "pattern": "～は～です",
+    "arti": "Adalah (Kalimat Positif)",
+    "penjelasan": "Digunakan untuk menyatakan identitas, pekerjaan, atau sifat dari subjek. 'は' dibaca 'wa'.",
+    "contoh": [
+      {
+        "jp": "私は学生です。",
+        "id": "Watashi wa gakusei desu.",
+        "id_arti": "Saya adalah siswa."
+      },
+      {
+        "jp": "彼は医者です。",
+        "id": "Kare wa isha desu.",
+        "id_arti": "Dia adalah dokter."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "pattern": "～は～ではありません",
+    "arti": "Bukan (Kalimat Negatif)",
+    "penjelasan": "Bentuk negatif dari 'です'.",
+    "contoh": [
+      {
+        "jp": "私は先生ではありません。",
+        "id": "Watashi wa sensei dewa arimasen.",
+        "id_arti": "Saya bukan guru."
+      }
+    ]
+  }
+]

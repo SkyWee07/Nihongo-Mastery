@@ -1,0 +1,125 @@
+.kotoba-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.kotoba-header {
+  padding: 2rem;
+  text-align: center;
+}
+
+.kotoba-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(90deg, #3b82f6, #10b981);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.search-bar {
+  margin-top: 1.5rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 50px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.05);
+  color: var(--text-main);
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.search-bar input:focus {
+  border-color: var(--primary-color);
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.2);
+}
+
+.kotoba-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.kotoba-card {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.kotoba-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(59, 130, 246, 0.5);
+}
+
+.kotoba-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding-bottom: 1rem;
+}
+
+.kotoba-kanji {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--text-main);
+}
+
+.kotoba-kana {
+  font-size: 1rem;
+  color: var(--accent);
+  min-height: 1.2rem;
+}
+
+.kotoba-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kotoba-arti {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.kotoba-tipe {
+  font-size: 0.8rem;
+  background: rgba(59, 130, 246, 0.2);
+  color: #60a5fa;
+  padding: 3px 8px;
+  border-radius: 12px;
+}
+
+.kotoba-contoh {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.loading, .no-results {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-muted);
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .kotoba-header h1 {
+    font-size: 2rem;
+  }
+  .kotoba-grid {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+  }
+}

@@ -29,7 +29,9 @@ export default function Navbar() {
           <Link to="/hiragana" onClick={() => setIsMenuOpen(false)}>あ Hiragana</Link>
           <Link to="/katakana" onClick={() => setIsMenuOpen(false)}>カ Katakana</Link>
           <Link to="/quiz" onClick={() => setIsMenuOpen(false)}>🎯 Kuis Kana</Link>
-          {/* Materi lain akan ditambahkan di sini secara berkala */}
+          <Link to="/kotoba/n5" onClick={() => setIsMenuOpen(false)}>📖 Kotoba N5</Link>
+          <Link to="/bunpo/n5" onClick={() => setIsMenuOpen(false)}>✏️ Bunpo N5</Link>
+          <Link to="/kanji/n5" onClick={() => setIsMenuOpen(false)}>漢 Kanji N5</Link>
         </div>
       </div>
     </nav>

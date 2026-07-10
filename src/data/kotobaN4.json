@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "kanji": "息子",
+    "kana": "むすこ",
+    "romaji": "musuko",
+    "arti": "Anak laki-laki",
+    "tipe": "Noun",
+    "contoh": "私の息子です。"
+  },
+  {
+    "id": 2,
+    "kanji": "娘",
+    "kana": "むすめ",
+    "romaji": "musume",
+    "arti": "Anak perempuan",
+    "tipe": "Noun",
+    "contoh": "娘は学生です。"
+  },
+  {
+    "id": 3,
+    "kanji": "片付ける",
+    "kana": "かたづける",
+    "romaji": "katadukeru",
+    "arti": "Membereskan",
+    "tipe": "Verb (Ru)",
+    "contoh": "部屋を片付ける。"
+  },
+  {
+    "id": 4,
+    "kanji": "複雑",
+    "kana": "ふくざつ",
+    "romaji": "fukuzatsu",
+    "arti": "Rumit",
+    "tipe": "Na-Adj",
+    "contoh": "複雑な問題。"
+  },
+  {
+    "id": 5,
+    "kanji": "急に",
+    "kana": "きゅうに",
+    "romaji": "kyuuni",
+    "arti": "Tiba-tiba",
+    "tipe": "Adverb",
+    "contoh": "急に雨が降った。"
+  }
+]

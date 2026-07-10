@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "pattern": "～かもしれない",
+    "arti": "Mungkin",
+    "penjelasan": "Digunakan untuk menyatakan kemungkinan (sekitar 50%). Digabungkan dengan bentuk biasa (plain form).",
+    "contoh": [
+      {
+        "jp": "明日は雨かもしれない。",
+        "id": "Ashita wa ame kamoshirenai.",
+        "id_arti": "Besok mungkin hujan."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "pattern": "～ために",
+    "arti": "Untuk / Demi",
+    "penjelasan": "Menyatakan tujuan (purpose) atau alasan (reason).",
+    "contoh": [
+      {
+        "jp": "家族のために働きます。",
+        "id": "Kazoku no tame ni hatarakimasu.",
+        "id_arti": "Saya bekerja demi keluarga."
+      }
+    ]
+  }
+]

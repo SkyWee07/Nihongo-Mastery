@@ -1,9 +1,9 @@
 [
   { "id": 1, "title": "Hiragana", "desc": "Kuasai 46 karakter, baca & tulis", "target": "Lancar baca", "phase": "Dasar", "path": "/hiragana" },
   { "id": 2, "title": "Katakana", "desc": "Kuasai 46 karakter, baca & tulis", "target": "Lancar baca", "phase": "Dasar", "path": "/katakana" },
-  { "id": 3, "title": "Kotoba (N5-N4)", "desc": "Bangun kosakata dasar (800-1500 kata)", "target": "Tema sehari-hari", "phase": "Dasar", "path": "/kotoba" },
-  { "id": 4, "title": "Bunpo (N5-N4)", "desc": "Pola kalimat dasar, partikel, bentuk te/ta", "target": "Minna no Nihongo", "phase": "Dasar", "path": "/bunpo" },
-  { "id": 5, "title": "Kanji (N5-N4)", "desc": "300-500 Kanji dasar", "target": "Mampu baca & tulis", "phase": "Menengah", "path": "/kanji" },
+  { "id": 3, "title": "Kotoba (N5-N4)", "desc": "Bangun kosakata dasar (800-1500 kata)", "target": "Tema sehari-hari", "phase": "Dasar", "path": "/kotoba/n5" },
+  { "id": 4, "title": "Bunpo (N5-N4)", "desc": "Pola kalimat dasar, partikel, bentuk te/ta", "target": "Minna no Nihongo", "phase": "Dasar", "path": "/bunpo/n5" },
+  { "id": 5, "title": "Kanji (N5-N4)", "desc": "300-500 Kanji dasar", "target": "Mampu baca & tulis", "phase": "Menengah", "path": "/kanji/n5" },
   { "id": 6, "title": "Ujian JLPT N4", "desc": "Lulus tes N4", "target": "Sertifikat", "phase": "Menengah", "path": "/jlpt-n4" },
   { "id": 7, "title": "Materi N3 (Menengah Atas)", "desc": "Kosakata, Tata Bahasa, Kanji N3", "target": "Percakapan kompleks", "phase": "Lanjut", "path": "/materi-n3" },
   { "id": 8, "title": "Ujian JLPT N3", "desc": "Lulus tes N3", "target": "Sertifikat", "phase": "Lanjut", "path": "/jlpt-n3" },
