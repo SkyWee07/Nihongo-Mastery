@@ -7,7 +7,7 @@ const features = [
   { icon: '✍️', title: 'Latihan Menulis', desc: 'Kanvas interaktif dengan panduan stroke order untuk setiap huruf.' },
   { icon: '🎯', title: 'Kuis Interaktif', desc: 'Uji pemahamanmu dengan kuis pilihan ganda dan sistem skor.' },
   { icon: '🔊', title: 'Audio Pengucapan', desc: 'Dengarkan cara baca setiap huruf dan kosakata langsung di browser.' },
-  { icon: '📴', title: 'Bisa Offline', desc: 'Semua materi tersimpan lokal. Belajar di mana saja tanpa internet.' },
+  { icon: '🎬', title: 'Video Pembelajaran', desc: 'Tonton koleksi video kurasi terbaik untuk mempercepat pemahamanmu.' },
   { icon: '📱', title: 'Mobile Friendly', desc: 'Tampilan responsif sempurna di HP, tablet, dan desktop.' },
 ];
 
