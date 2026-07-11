@@ -1,20 +1,39 @@
 import { useState, useEffect, useCallback } from 'react';
 import hiraganaData from '../data/hiraganaData.json';
 import katakanaData from '../data/katakanaData.json';
+import kotobaN5 from '../data/kotobaN5.json';
+import kotobaN4 from '../data/kotobaN4.json';
+import kanjiN5 from '../data/kanjiN5.json';
+import kanjiN4 from '../data/kanjiN4.json';
 import './Quiz.css';
 
-// Flatten all kana data into a single pool
-const buildPool = (data) => {
-  return [...data.basic, ...data.dakuon, ...data.yoon].filter(c => c.kana !== '');
+// Flatten kana
+const buildKanaPool = (data) => [...data.basic, ...data.dakuon, ...data.yoon].filter(c => c.kana !== '');
+
+const POOLS = {
+  kana: {
+    hiragana: buildKanaPool(hiraganaData),
+    katakana: buildKanaPool(katakanaData),
+    mixed: [...buildKanaPool(hiraganaData), ...buildKanaPool(katakanaData)]
+  },
+  kotoba: {
+    n5: kotobaN5,
+    n4: kotobaN4,
+    mixed: [...kotobaN5, ...kotobaN4]
+  },
+  kanji: {
+    n5: kanjiN5,
+    n4: kanjiN4,
+    mixed: [...kanjiN5, ...kanjiN4]
+  }
 };
 
-const HIRAGANA_POOL = buildPool(hiraganaData);
-const KATAKANA_POOL = buildPool(katakanaData);
-
 export default function Quiz() {
-  const [quizType, setQuizType] = useState('hiragana');
-  const [mode, setMode] = useState('kana-to-romaji'); // 'kana-to-romaji' or 'romaji-to-kana'
+  const [category, setCategory] = useState('kana'); // kana, kotoba, kanji
+  const [level, setLevel] = useState('hiragana'); // kana: hiragana/katakana/mixed, others: n5/n4/mixed
+  const [mode, setMode] = useState('kana-to-romaji');
   const [questionCount, setQuestionCount] = useState(10);
+  
   const [started, setStarted] = useState(false);
   const [questions, setQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -23,36 +42,39 @@ export default function Quiz() {
   const [finished, setFinished] = useState(false);
   const [answerHistory, setAnswerHistory] = useState([]);
 
-  const getPool = useCallback(() => {
-    if (quizType === 'hiragana') return HIRAGANA_POOL;
-    if (quizType === 'katakana') return KATAKANA_POOL;
-    return [...HIRAGANA_POOL, ...KATAKANA_POOL]; // campur
-  }, [quizType]);
+  // Reset level & mode when category changes
+  useEffect(() => {
+    if (category === 'kana') {
+      setLevel('hiragana');
+      setMode('kana-to-romaji');
+    } else if (category === 'kotoba') {
+      setLevel('n5');
+      setMode('jepang-to-arti');
+    } else if (category === 'kanji') {
+      setLevel('n5');
+      setMode('kanji-to-arti');
+    }
+  }, [category]);
 
   const generateQuestions = useCallback(() => {
-    const pool = getPool();
+    const pool = POOLS[category][level];
     const shuffled = [...pool].sort(() => Math.random() - 0.5);
     const selected = shuffled.slice(0, Math.min(questionCount, pool.length));
 
-    return selected.map(correctChar => {
-      // Buat 3 jawaban salah dari pool (tanpa duplikat)
-      const wrongAnswers = pool
-        .filter(c => c.id !== correctChar.id)
+    return selected.map(correctItem => {
+      // Pick 3 wrong options
+      const wrongOptions = pool
+        .filter(item => item.id !== correctItem.id)
         .sort(() => Math.random() - 0.5)
         .slice(0, 3);
-
-      const options = [...wrongAnswers, correctChar].sort(() => Math.random() - 0.5);
-
-      return {
-        correct: correctChar,
-        options,
-      };
+      
+      const options = [...wrongOptions, correctItem].sort(() => Math.random() - 0.5);
+      return { correct: correctItem, options };
     });
-  }, [getPool, questionCount]);
+  }, [category, level, questionCount]);
 
   const startQuiz = () => {
-    const q = generateQuestions();
-    setQuestions(q);
+    setQuestions(generateQuestions());
     setCurrentIndex(0);
     setScore(0);
     setSelectedAnswer(null);
@@ -62,14 +84,15 @@ export default function Quiz() {
   };
 
   const handleAnswer = (option) => {
-    if (selectedAnswer) return; // Sudah memilih
+    if (selectedAnswer) return;
     setSelectedAnswer(option);
     const isCorrect = option.id === questions[currentIndex].correct.id;
     if (isCorrect) setScore(prev => prev + 1);
-    setAnswerHistory(prev => [...prev, { 
-      question: questions[currentIndex].correct, 
-      selected: option, 
-      isCorrect 
+    
+    setAnswerHistory(prev => [...prev, {
+      question: questions[currentIndex].correct,
+      selected: option,
+      isCorrect
     }]);
   };
 
@@ -82,38 +105,93 @@ export default function Quiz() {
     }
   };
 
-  const speakKana = (kana) => {
-    if ('speechSynthesis' in window && kana) {
+  const speak = (text) => {
+    if ('speechSynthesis' in window && text) {
       window.speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(kana);
+      const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = 'ja-JP';
       utterance.rate = 0.8;
       window.speechSynthesis.speak(utterance);
     }
   };
 
-  // Setup Screen
+  // Renderer helpers
+  const getQuestionText = (item) => {
+    if (category === 'kana') {
+      return mode === 'kana-to-romaji' ? item.kana : item.romaji;
+    } else if (category === 'kotoba') {
+      return mode === 'jepang-to-arti' ? (item.kanji || item.kana) : item.arti;
+    } else if (category === 'kanji') {
+      return mode === 'kanji-to-arti' ? item.karakter : item.arti;
+    }
+  };
+
+  const getOptionText = (item) => {
+    if (category === 'kana') {
+      return mode === 'kana-to-romaji' ? item.romaji : item.kana;
+    } else if (category === 'kotoba') {
+      return mode === 'jepang-to-arti' ? item.arti : (item.kanji || item.kana);
+    } else if (category === 'kanji') {
+      return mode === 'kanji-to-arti' ? item.arti : item.karakter;
+    }
+  };
+
+  const getAudioText = (item) => {
+    if (category === 'kana') return item.kana;
+    if (category === 'kotoba') return item.kanji || item.kana;
+    if (category === 'kanji') return item.karakter;
+    return '';
+  };
+
   if (!started) {
     return (
       <div className="quiz-container">
         <div className="quiz-setup glass-panel">
-          <h1>🎯 Kuis Kana</h1>
-          <p>Uji kemampuan membaca Hiragana & Katakana kamu!</p>
+          <h1>🎯 Kuis Interaktif</h1>
+          <p>Uji kemampuan Kana, Kosakata, dan Kanji kamu secara acak!</p>
 
           <div className="setup-group">
-            <label>Pilih Jenis Huruf:</label>
+            <label>Pilih Kategori:</label>
             <div className="setup-options">
-              <button className={`setup-btn ${quizType === 'hiragana' ? 'active' : ''}`} onClick={() => setQuizType('hiragana')}>ひ Hiragana</button>
-              <button className={`setup-btn ${quizType === 'katakana' ? 'active' : ''}`} onClick={() => setQuizType('katakana')}>カ Katakana</button>
-              <button className={`setup-btn ${quizType === 'mixed' ? 'active' : ''}`} onClick={() => setQuizType('mixed')}>🔀 Campur</button>
+              <button className={`setup-btn ${category === 'kana' ? 'active' : ''}`} onClick={() => setCategory('kana')}>あ Kana</button>
+              <button className={`setup-btn ${category === 'kotoba' ? 'active' : ''}`} onClick={() => setCategory('kotoba')}>📝 Kosakata</button>
+              <button className={`setup-btn ${category === 'kanji' ? 'active' : ''}`} onClick={() => setCategory('kanji')}>漢 Kanji</button>
+            </div>
+          </div>
+
+          <div className="setup-group">
+            <label>Pilih Level/Materi:</label>
+            <div className="setup-options">
+              {category === 'kana' ? (
+                <>
+                  <button className={`setup-btn ${level === 'hiragana' ? 'active' : ''}`} onClick={() => setLevel('hiragana')}>Hiragana</button>
+                  <button className={`setup-btn ${level === 'katakana' ? 'active' : ''}`} onClick={() => setLevel('katakana')}>Katakana</button>
+                  <button className={`setup-btn ${level === 'mixed' ? 'active' : ''}`} onClick={() => setLevel('mixed')}>Campur</button>
+                </>
+              ) : (
+                <>
+                  <button className={`setup-btn ${level === 'n5' ? 'active' : ''}`} onClick={() => setLevel('n5')}>JLPT N5</button>
+                  <button className={`setup-btn ${level === 'n4' ? 'active' : ''}`} onClick={() => setLevel('n4')}>JLPT N4</button>
+                  <button className={`setup-btn ${level === 'mixed' ? 'active' : ''}`} onClick={() => setLevel('mixed')}>Campur N5+N4</button>
+                </>
+              )}
             </div>
           </div>
 
           <div className="setup-group">
             <label>Mode Kuis:</label>
             <div className="setup-options">
-              <button className={`setup-btn ${mode === 'kana-to-romaji' ? 'active' : ''}`} onClick={() => setMode('kana-to-romaji')}>Kana → Romaji</button>
-              <button className={`setup-btn ${mode === 'romaji-to-kana' ? 'active' : ''}`} onClick={() => setMode('romaji-to-kana')}>Romaji → Kana</button>
+              {category === 'kana' ? (
+                <>
+                  <button className={`setup-btn ${mode === 'kana-to-romaji' ? 'active' : ''}`} onClick={() => setMode('kana-to-romaji')}>Kana → Romaji</button>
+                  <button className={`setup-btn ${mode === 'romaji-to-kana' ? 'active' : ''}`} onClick={() => setMode('romaji-to-kana')}>Romaji → Kana</button>
+                </>
+              ) : (
+                <>
+                  <button className={`setup-btn ${mode === 'jepang-to-arti' || mode === 'kanji-to-arti' ? 'active' : ''}`} onClick={() => setMode(category === 'kanji' ? 'kanji-to-arti' : 'jepang-to-arti')}>Jepang → Arti</button>
+                  <button className={`setup-btn ${mode === 'arti-to-jepang' || mode === 'arti-to-kanji' ? 'active' : ''}`} onClick={() => setMode(category === 'kanji' ? 'arti-to-kanji' : 'arti-to-jepang')}>Arti → Jepang</button>
+                </>
+              )}
             </div>
           </div>
 
@@ -132,11 +210,9 @@ export default function Quiz() {
     );
   }
 
-  // Result Screen
   if (finished) {
     const percentage = Math.round((score / questions.length) * 100);
-    let grade = '';
-    let emoji = '';
+    let grade = ''; let emoji = '';
     if (percentage >= 90) { grade = 'Luar Biasa!'; emoji = '🏆'; }
     else if (percentage >= 70) { grade = 'Bagus Sekali!'; emoji = '🌟'; }
     else if (percentage >= 50) { grade = 'Lumayan!'; emoji = '💪'; }
@@ -156,12 +232,12 @@ export default function Quiz() {
             {answerHistory.map((item, i) => (
               <div key={i} className={`review-item ${item.isCorrect ? 'correct' : 'wrong'}`}>
                 <span className="review-num">#{i + 1}</span>
-                <span className="review-question">{item.question.kana}</span>
+                <span className="review-question">{getQuestionText(item.question)}</span>
                 <span className="review-answer">
-                  {item.isCorrect ? '✅' : '❌'} Jawabanmu: {mode === 'kana-to-romaji' ? item.selected.romaji : item.selected.kana}
+                  {item.isCorrect ? '✅' : '❌'} {getOptionText(item.selected)}
                 </span>
                 {!item.isCorrect && (
-                  <span className="review-correct">Jawaban benar: {mode === 'kana-to-romaji' ? item.question.romaji : item.question.kana}</span>
+                  <span className="review-correct">Benar: {getOptionText(item.question)}</span>
                 )}
               </div>
             ))}
@@ -169,16 +245,14 @@ export default function Quiz() {
 
           <div className="result-actions">
             <button className="start-btn" onClick={startQuiz}>Ulangi Kuis 🔄</button>
-            <button className="setup-btn back-btn" onClick={() => setStarted(false)}>Kembali ke Pengaturan</button>
+            <button className="setup-btn back-btn" onClick={() => setStarted(false)}>Kembali ke Menu</button>
           </div>
         </div>
       </div>
     );
   }
 
-  // Question Screen
-  const currentQuestion = questions[currentIndex];
-  const questionDisplay = mode === 'kana-to-romaji' ? currentQuestion.correct.kana : currentQuestion.correct.romaji;
+  const currentQ = questions[currentIndex];
 
   return (
     <div className="quiz-container">
@@ -195,28 +269,25 @@ export default function Quiz() {
       <div className="quiz-question glass-panel">
         <span 
           className="question-char" 
-          onClick={() => mode === 'kana-to-romaji' && speakKana(currentQuestion.correct.kana)}
-          title={mode === 'kana-to-romaji' ? 'Klik untuk mendengar' : ''}
+          onClick={() => (mode === 'kana-to-romaji' || mode === 'jepang-to-arti' || mode === 'kanji-to-arti') && speak(getAudioText(currentQ.correct))}
+          title="Klik untuk mendengar"
         >
-          {questionDisplay}
-          {mode === 'kana-to-romaji' && <span className="question-audio-hint">🔊</span>}
+          {getQuestionText(currentQ.correct)}
+          {(mode === 'kana-to-romaji' || mode === 'jepang-to-arti' || mode === 'kanji-to-arti') && <span className="question-audio-hint">🔊</span>}
         </span>
-        <p className="question-prompt">
-          {mode === 'kana-to-romaji' ? 'Apa bacaan romaji yang benar?' : 'Manakah huruf kana yang benar?'}
-        </p>
+        <p className="question-prompt">Pilih jawaban yang paling tepat!</p>
       </div>
 
       <div className="quiz-options">
-        {currentQuestion.options.map(option => {
+        {currentQ.options.map(option => {
           let btnClass = 'option-btn glass-panel';
           if (selectedAnswer) {
-            if (option.id === currentQuestion.correct.id) btnClass += ' correct';
+            if (option.id === currentQ.correct.id) btnClass += ' correct';
             else if (option.id === selectedAnswer.id) btnClass += ' wrong';
           }
-          const displayText = mode === 'kana-to-romaji' ? option.romaji : option.kana;
           return (
             <button key={option.id} className={btnClass} onClick={() => handleAnswer(option)}>
-              {displayText}
+              {getOptionText(option)}
             </button>
           );
         })}

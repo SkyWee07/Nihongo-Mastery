@@ -37,8 +37,6 @@ export default function Roadmap() {
             <div 
               key={item.id} 
               className={`roadmap-item glass-panel ${isCompleted ? 'completed' : ''}`}
-              onClick={() => handleCardClick(item.path)}
-              title={`Buka materi ${item.title}`}
             >
               <div className="item-number">{item.id}</div>
               <div className="item-content">
@@ -46,12 +44,22 @@ export default function Roadmap() {
                 <p>{item.desc}</p>
                 <span className="item-target">Target: {item.target}</span>
               </div>
-              <button 
-                className={`check-btn ${isCompleted ? 'checked' : ''}`}
-                onClick={(e) => toggleCheck(e, item.id)}
-              >
-                {isCompleted ? '✓ Selesai' : 'Tandai Selesai'}
-              </button>
+              <div className="item-actions">
+                {item.path && (
+                  <button 
+                    className="start-learning-btn"
+                    onClick={(e) => { e.stopPropagation(); handleCardClick(item.path); }}
+                  >
+                    Mulai Belajar 🚀
+                  </button>
+                )}
+                <button 
+                  className={`check-btn ${isCompleted ? 'checked' : ''}`}
+                  onClick={(e) => toggleCheck(e, item.id)}
+                >
+                  {isCompleted ? '✓ Selesai' : 'Tandai Selesai'}
+                </button>
+              </div>
             </div>
           )
         })}
