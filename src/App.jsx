@@ -8,6 +8,7 @@ import Quiz from './pages/Quiz'
 import Kotoba from './pages/Kotoba'
 import Bunpo from './pages/Bunpo'
 import Kanji from './pages/Kanji'
+import Video from './pages/Video'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/kotoba/:level" element={<Kotoba />} />
           <Route path="/bunpo/:level" element={<Bunpo />} />
           <Route path="/kanji/:level" element={<Kanji />} />
+          <Route path="/video" element={<Video />} />
         </Route>
       </Routes>
     </div>

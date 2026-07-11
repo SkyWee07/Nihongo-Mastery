@@ -32,6 +32,7 @@ export default function Navbar() {
           <Link to="/kotoba/n5" onClick={() => setIsMenuOpen(false)}>📖 Kotoba N5</Link>
           <Link to="/bunpo/n5" onClick={() => setIsMenuOpen(false)}>✏️ Bunpo N5</Link>
           <Link to="/kanji/n5" onClick={() => setIsMenuOpen(false)}>漢 Kanji N5</Link>
+          <Link to="/video" onClick={() => setIsMenuOpen(false)}>🎬 Video</Link>
         </div>
       </div>
     </nav>
