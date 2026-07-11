@@ -1,0 +1,9002 @@
+[
+  {
+    "id": 1,
+    "kanji": "",
+    "kana": "メガネ",
+    "arti": "glasses, eyeglasses, spectacles"
+  },
+  {
+    "id": 2,
+    "kanji": "煙草",
+    "kana": "タバコ",
+    "arti": "tobacco, cigarette, cigar"
+  },
+  {
+    "id": 3,
+    "kanji": "塩",
+    "kana": "しお",
+    "arti": "salt, common salt, table salt, sodium chloride"
+  },
+  {
+    "id": 4,
+    "kanji": "黄色",
+    "kana": "きいろ",
+    "arti": "yellow, amber"
+  },
+  {
+    "id": 5,
+    "kanji": "灰皿",
+    "kana": "はいざら",
+    "arti": "ashtray"
+  },
+  {
+    "id": 6,
+    "kanji": "可愛い",
+    "kana": "かわいい",
+    "arti": "cute, adorable, charming, lovely, pretty"
+  },
+  {
+    "id": 7,
+    "kanji": "音",
+    "kana": "おと",
+    "arti": "sound, noise"
+  },
+  {
+    "id": 8,
+    "kanji": "赤ちゃん",
+    "kana": "あかちゃん",
+    "arti": "baby, infant"
+  },
+  {
+    "id": 9,
+    "kanji": "玩具",
+    "kana": "おもちゃ",
+    "arti": "toy"
+  },
+  {
+    "id": 10,
+    "kanji": "商人",
+    "kana": "しょうにん",
+    "arti": "merchant, trader, tradesman, dealer, shopkeeper"
+  },
+  {
+    "id": 11,
+    "kanji": "国境",
+    "kana": "こっきょう",
+    "arti": "border (between countries), national border"
+  },
+  {
+    "id": 12,
+    "kanji": "少女",
+    "kana": "しょうじょ",
+    "arti": "girl (usu. between 7 and 17), young lady"
+  },
+  {
+    "id": 13,
+    "kanji": "釣り",
+    "kana": "つり",
+    "arti": "fishing, angling"
+  },
+  {
+    "id": 14,
+    "kanji": "銃",
+    "kana": "じゅう",
+    "arti": "gun, firearm, small arms (e.g. rifle, pistol, etc)"
+  },
+  {
+    "id": 15,
+    "kanji": "保証",
+    "kana": "ほしょう",
+    "arti": "guarantee, security, assurance, pledge"
+  },
+  {
+    "id": 16,
+    "kanji": "年寄り",
+    "kana": "としより",
+    "arti": "old person, elderly person, senior citizen"
+  },
+  {
+    "id": 17,
+    "kanji": "平均",
+    "kana": "へいきん",
+    "arti": "average, mean"
+  },
+  {
+    "id": 18,
+    "kanji": "雷",
+    "kana": "かみなり",
+    "arti": "lightning, thunder, thunderbolt"
+  },
+  {
+    "id": 19,
+    "kanji": "位置",
+    "kana": "いち",
+    "arti": "place, position, location"
+  },
+  {
+    "id": 20,
+    "kanji": "日付",
+    "kana": "ひづけ",
+    "arti": "date, dating"
+  },
+  {
+    "id": 21,
+    "kanji": "天皇",
+    "kana": "てんのう",
+    "arti": "Emperor of Japan"
+  },
+  {
+    "id": 22,
+    "kanji": "屡々",
+    "kana": "しばしば",
+    "arti": "often, again and again, frequently, repeatedly"
+  },
+  {
+    "id": 23,
+    "kanji": "",
+    "kana": "ネズミ",
+    "arti": "mouse, rat"
+  },
+  {
+    "id": 24,
+    "kanji": "良い",
+    "kana": "よい",
+    "arti": "good, excellent, fine, nice, pleasant, agreeable"
+  },
+  {
+    "id": 25,
+    "kanji": "此の",
+    "kana": "この",
+    "arti": "this"
+  },
+  {
+    "id": 26,
+    "kanji": "誰",
+    "kana": "だれ",
+    "arti": "who"
+  },
+  {
+    "id": 27,
+    "kanji": "作る",
+    "kana": "つくる",
+    "arti": "to make, to produce, to manufacture, to build, to construct"
+  },
+  {
+    "id": 28,
+    "kanji": "貴方",
+    "kana": "あなた",
+    "arti": "you"
+  },
+  {
+    "id": 29,
+    "kanji": "行く",
+    "kana": "いく",
+    "arti": "to go, to move (towards), to head (towards), to leave (for)"
+  },
+  {
+    "id": 30,
+    "kanji": "終わる",
+    "kana": "おわる",
+    "arti": "to end, to come to an end, to finish, to close, to be over"
+  },
+  {
+    "id": 31,
+    "kanji": "何の",
+    "kana": "どの",
+    "arti": "which, what (way)"
+  },
+  {
+    "id": 32,
+    "kanji": "余り",
+    "kana": "あまり",
+    "arti": "remainder, remnant, rest, balance, surplus, remains (of a meal), leftovers"
+  },
+  {
+    "id": 33,
+    "kanji": "面白い",
+    "kana": "おもしろい",
+    "arti": "interesting, fascinating, intriguing, enthralling"
+  },
+  {
+    "id": 34,
+    "kanji": "体",
+    "kana": "からだ",
+    "arti": "body"
+  },
+  {
+    "id": 35,
+    "kanji": "弟",
+    "kana": "おとうと",
+    "arti": "younger brother, little brother, kid brother"
+  },
+  {
+    "id": 36,
+    "kanji": "切り",
+    "kana": "きり",
+    "arti": "end, finish, place to stop"
+  },
+  {
+    "id": 37,
+    "kanji": "暇",
+    "kana": "ひま",
+    "arti": "spare time, free time, leisure"
+  },
+  {
+    "id": 38,
+    "kanji": "明るい",
+    "kana": "あかるい",
+    "arti": "light, bright, well-lit, well-lighted"
+  },
+  {
+    "id": 39,
+    "kanji": "始め",
+    "kana": "はじめ",
+    "arti": "beginning, start, outset, opening"
+  },
+  {
+    "id": 40,
+    "kanji": "三",
+    "kana": "さん",
+    "arti": "three, 3"
+  },
+  {
+    "id": 41,
+    "kanji": "六",
+    "kana": "ろく",
+    "arti": "six, 6"
+  },
+  {
+    "id": 42,
+    "kanji": "其れ",
+    "kana": "それ",
+    "arti": "that, it"
+  },
+  {
+    "id": 43,
+    "kanji": "迚も",
+    "kana": "とても",
+    "arti": "very, awfully, exceedingly"
+  },
+  {
+    "id": 44,
+    "kanji": "此れ",
+    "kana": "これ",
+    "arti": "this, this one"
+  },
+  {
+    "id": 45,
+    "kanji": "何時も",
+    "kana": "いつも",
+    "arti": "always, all the time, at all times"
+  },
+  {
+    "id": 46,
+    "kanji": "沢山",
+    "kana": "たくさん",
+    "arti": "a lot, lots, plenty, many, a large number, much, a great deal, a good deal"
+  },
+  {
+    "id": 47,
+    "kanji": "何処",
+    "kana": "どこ",
+    "arti": "where, what place"
+  },
+  {
+    "id": 48,
+    "kanji": "何方",
+    "kana": "どなた",
+    "arti": "who"
+  },
+  {
+    "id": 49,
+    "kanji": "一寸",
+    "kana": "ちょっと",
+    "arti": "a little, a bit, slightly"
+  },
+  {
+    "id": 50,
+    "kanji": "何故",
+    "kana": "なぜ",
+    "arti": "why, how, for what reason"
+  },
+  {
+    "id": 51,
+    "kanji": "一日",
+    "kana": "いちにち",
+    "arti": "one day"
+  },
+  {
+    "id": 52,
+    "kanji": "如何して",
+    "kana": "どうして",
+    "arti": "how, in what way, by what means"
+  },
+  {
+    "id": 53,
+    "kanji": "丁度",
+    "kana": "ちょうど",
+    "arti": "exactly, precisely, just, right, opportunely, fortunately"
+  },
+  {
+    "id": 54,
+    "kanji": "綺麗",
+    "kana": "きれい",
+    "arti": "pretty, lovely, beautiful, fair"
+  },
+  {
+    "id": 55,
+    "kanji": "然し",
+    "kana": "しかし",
+    "arti": "however, but"
+  },
+  {
+    "id": 56,
+    "kanji": "色々",
+    "kana": "いろいろ",
+    "arti": "various, a variety of, all sorts of, many (different)"
+  },
+  {
+    "id": 57,
+    "kanji": "美味しい",
+    "kana": "おいしい",
+    "arti": "good(-tasting), nice, delicious, tasty"
+  },
+  {
+    "id": 58,
+    "kanji": "曲がる",
+    "kana": "まがる",
+    "arti": "to bend, to curve, to warp, to wind, to twist"
+  },
+  {
+    "id": 59,
+    "kanji": "段々",
+    "kana": "だんだん",
+    "arti": "gradually, by degrees, little by little, more and more, increasingly"
+  },
+  {
+    "id": 60,
+    "kanji": "彼処",
+    "kana": "あそこ",
+    "arti": "there, over there, that place, yonder, you-know-where"
+  },
+  {
+    "id": 61,
+    "kanji": "煩い",
+    "kana": "うるさい",
+    "arti": "noisy, loud"
+  },
+  {
+    "id": 62,
+    "kanji": "詰らない",
+    "kana": "つまらない",
+    "arti": "dull, uninteresting, boring, tedious"
+  },
+  {
+    "id": 63,
+    "kanji": "お祖母さん",
+    "kana": "おばあさん",
+    "arti": "grandmother"
+  },
+  {
+    "id": 64,
+    "kanji": "其方",
+    "kana": "そちら",
+    "arti": "that way, that direction"
+  },
+  {
+    "id": 65,
+    "kanji": "不味い",
+    "kana": "まずい",
+    "arti": "bad(-tasting), unpalatable, unsavoury, unsavory, awful, terrible, unpleasant"
+  },
+  {
+    "id": 66,
+    "kanji": "お巡りさん",
+    "kana": "おまわりさん",
+    "arti": "police officer"
+  },
+  {
+    "id": 67,
+    "kanji": "お手洗い",
+    "kana": "おてあらい",
+    "arti": "toilet, restroom, lavatory, bathroom"
+  },
+  {
+    "id": 68,
+    "kanji": "其処",
+    "kana": "そこ",
+    "arti": "there (place relatively near listener)"
+  },
+  {
+    "id": 69,
+    "kanji": "農場",
+    "kana": "のうじょう",
+    "arti": "farm (agriculture)"
+  },
+  {
+    "id": 70,
+    "kanji": "惑星",
+    "kana": "わくせい",
+    "arti": "planet"
+  },
+  {
+    "id": 71,
+    "kanji": "矢",
+    "kana": "や",
+    "arti": "arrow"
+  },
+  {
+    "id": 72,
+    "kanji": "尾",
+    "kana": "お",
+    "arti": "tail (of an animal), cauda"
+  },
+  {
+    "id": 73,
+    "kanji": "百科事典",
+    "kana": "ひゃっかじてん",
+    "arti": "encyclopedia, encyclopaedia"
+  },
+  {
+    "id": 74,
+    "kanji": "地獄",
+    "kana": "じごく",
+    "arti": "hell realm, Naraka"
+  },
+  {
+    "id": 75,
+    "kanji": "乗り換え",
+    "kana": "のりかえ",
+    "arti": "transfer (trains, buses, etc.), change, connection"
+  },
+  {
+    "id": 76,
+    "kanji": "津波",
+    "kana": "つなみ",
+    "arti": "tsunami, tidal wave"
+  },
+  {
+    "id": 77,
+    "kanji": "銅",
+    "kana": "どう",
+    "arti": "copper (Cu)"
+  },
+  {
+    "id": 78,
+    "kanji": "引き分け",
+    "kana": "ひきわけ",
+    "arti": "draw (in competition), tie game"
+  },
+  {
+    "id": 79,
+    "kanji": "歯磨き",
+    "kana": "はみがき",
+    "arti": "dental brushing, brushing one's teeth"
+  },
+  {
+    "id": 80,
+    "kanji": "皇居",
+    "kana": "こうきょ",
+    "arti": "Imperial Palace (of Japan), imperial residence"
+  },
+  {
+    "id": 81,
+    "kanji": "冠",
+    "kana": "かんむり",
+    "arti": "traditional cap worn by Shinto clergy and courtiers"
+  },
+  {
+    "id": 82,
+    "kanji": "仏像",
+    "kana": "ぶつぞう",
+    "arti": "statue of Buddha, image of Buddha, Buddhist statue, Buddhist image"
+  },
+  {
+    "id": 83,
+    "kanji": "流通",
+    "kana": "りゅうつう",
+    "arti": "circulation (of money, goods, etc.), distribution"
+  },
+  {
+    "id": 84,
+    "kanji": "転々",
+    "kana": "てんてん",
+    "arti": "moving from place to place, being passed around repeatedly"
+  },
+  {
+    "id": 85,
+    "kanji": "見合い",
+    "kana": "みあい",
+    "arti": "(formal) meeting with a view to marriage, interview with a prospective spouse"
+  },
+  {
+    "id": 86,
+    "kanji": "海運",
+    "kana": "かいうん",
+    "arti": "maritime transport, shipping"
+  },
+  {
+    "id": 87,
+    "kanji": "水源",
+    "kana": "すいげん",
+    "arti": "source of river, fountainhead"
+  },
+  {
+    "id": 88,
+    "kanji": "曖昧",
+    "kana": "あいまい",
+    "arti": "vague, ambiguous, unclear"
+  },
+  {
+    "id": 89,
+    "kanji": "梯子",
+    "kana": "はしご",
+    "arti": "ladder"
+  },
+  {
+    "id": 90,
+    "kanji": "絨毯",
+    "kana": "じゅうたん",
+    "arti": "carpet, rug, runner"
+  },
+  {
+    "id": 91,
+    "kanji": "茹でる",
+    "kana": "ゆでる",
+    "arti": "to boil (something in hot water)"
+  },
+  {
+    "id": 92,
+    "kanji": "錆",
+    "kana": "さび",
+    "arti": "rust"
+  },
+  {
+    "id": 93,
+    "kanji": "中指",
+    "kana": "なかゆび",
+    "arti": "middle finger, long finger, second finger, tall finger"
+  },
+  {
+    "id": 94,
+    "kanji": "",
+    "kana": "と",
+    "arti": "if, when"
+  },
+  {
+    "id": 95,
+    "kanji": "",
+    "kana": "ネジ",
+    "arti": "screw"
+  },
+  {
+    "id": 96,
+    "kanji": "黄金",
+    "kana": "おうごん",
+    "arti": "gold (Au)"
+  },
+  {
+    "id": 97,
+    "kanji": "子",
+    "kana": "こ",
+    "arti": "child, kid, teenager, youngster, young (non-adult) person"
+  },
+  {
+    "id": 98,
+    "kanji": "怒る",
+    "kana": "おこる",
+    "arti": "to get angry, to get mad, to lose one's temper"
+  },
+  {
+    "id": 99,
+    "kanji": "嬢",
+    "kana": "じょう",
+    "arti": "unmarried woman"
+  },
+  {
+    "id": 100,
+    "kanji": "振り",
+    "kana": "ふり",
+    "arti": "swing, shake, sweep, wave, wag"
+  },
+  {
+    "id": 101,
+    "kanji": "落ちる",
+    "kana": "おちる",
+    "arti": "to fall, to drop, to come down, to crash, to collapse, to cave in, to give way"
+  },
+  {
+    "id": 102,
+    "kanji": "楽しむ",
+    "kana": "たのしむ",
+    "arti": "to enjoy, to take pleasure in, to have a good time, to have fun, to amuse oneself"
+  },
+  {
+    "id": 103,
+    "kanji": "途中",
+    "kana": "とちゅう",
+    "arti": "on the way, en route"
+  },
+  {
+    "id": 104,
+    "kanji": "起こす",
+    "kana": "おこす",
+    "arti": "to raise, to raise up, to set up, to pick up"
+  },
+  {
+    "id": 105,
+    "kanji": "死",
+    "kana": "し",
+    "arti": "death"
+  },
+  {
+    "id": 106,
+    "kanji": "上がる",
+    "kana": "あがる",
+    "arti": "to rise, to go up, to come up, to ascend, to be raised"
+  },
+  {
+    "id": 107,
+    "kanji": "説得",
+    "kana": "せっとく",
+    "arti": "persuasion"
+  },
+  {
+    "id": 108,
+    "kanji": "助言",
+    "kana": "じょげん",
+    "arti": "advice, counsel, suggestion, tip, hint"
+  },
+  {
+    "id": 109,
+    "kanji": "理論",
+    "kana": "りろん",
+    "arti": "theory"
+  },
+  {
+    "id": 110,
+    "kanji": "怒り",
+    "kana": "いかり",
+    "arti": "anger, rage, fury, wrath, indignation"
+  },
+  {
+    "id": 111,
+    "kanji": "集まる",
+    "kana": "あつまる",
+    "arti": "to gather, to collect, to assemble"
+  },
+  {
+    "id": 112,
+    "kanji": "落とす",
+    "kana": "おとす",
+    "arti": "to drop, to lose, to let fall, to shed (light), to cast (one's gaze), to pour in (liquid), to leave behind"
+  },
+  {
+    "id": 113,
+    "kanji": "紳士",
+    "kana": "しんし",
+    "arti": "gentleman"
+  },
+  {
+    "id": 114,
+    "kanji": "秘書",
+    "kana": "ひしょ",
+    "arti": "(private) secretary"
+  },
+  {
+    "id": 115,
+    "kanji": "証拠",
+    "kana": "しょうこ",
+    "arti": "evidence, proof"
+  },
+  {
+    "id": 116,
+    "kanji": "大事",
+    "kana": "だいじ",
+    "arti": "important, serious, crucial"
+  },
+  {
+    "id": 117,
+    "kanji": "下がる",
+    "kana": "さがる",
+    "arti": "to come down, to go down, to fall, to drop, to sink, to get lower"
+  },
+  {
+    "id": 118,
+    "kanji": "決まる",
+    "kana": "きまる",
+    "arti": "to be decided, to be settled, to be fixed, to be arranged"
+  },
+  {
+    "id": 119,
+    "kanji": "選挙",
+    "kana": "せんきょ",
+    "arti": "election"
+  },
+  {
+    "id": 120,
+    "kanji": "運命",
+    "kana": "うんめい",
+    "arti": "fate, destiny, lot"
+  },
+  {
+    "id": 121,
+    "kanji": "運命",
+    "kana": "うんめい",
+    "arti": "fate, destiny, lot"
+  },
+  {
+    "id": 122,
+    "kanji": "世",
+    "kana": "よ",
+    "arti": "world, society, public"
+  },
+  {
+    "id": 123,
+    "kanji": "天才",
+    "kana": "てんさい",
+    "arti": "genius, prodigy, natural gift"
+  },
+  {
+    "id": 124,
+    "kanji": "富",
+    "kana": "とみ",
+    "arti": "riches, wealth, fortune"
+  },
+  {
+    "id": 125,
+    "kanji": "取引",
+    "kana": "とりひき",
+    "arti": "transactions, dealings, business"
+  },
+  {
+    "id": 126,
+    "kanji": "階",
+    "kana": "かい",
+    "arti": "storey, story, floor"
+  },
+  {
+    "id": 127,
+    "kanji": "危機",
+    "kana": "きき",
+    "arti": "crisis, critical situation, emergency, pinch"
+  },
+  {
+    "id": 128,
+    "kanji": "勝利",
+    "kana": "しょうり",
+    "arti": "victory, triumph, win, conquest, success"
+  },
+  {
+    "id": 129,
+    "kanji": "交渉",
+    "kana": "こうしょう",
+    "arti": "negotiations, bargaining, discussions, talks"
+  },
+  {
+    "id": 130,
+    "kanji": "予想",
+    "kana": "よそう",
+    "arti": "expectation, anticipation, prediction, forecast, conjecture"
+  },
+  {
+    "id": 131,
+    "kanji": "政策",
+    "kana": "せいさく",
+    "arti": "political measures, policy"
+  },
+  {
+    "id": 132,
+    "kanji": "距離",
+    "kana": "きょり",
+    "arti": "distance, range, interval"
+  },
+  {
+    "id": 133,
+    "kanji": "幽霊",
+    "kana": "ゆうれい",
+    "arti": "ghost, specter, spectre, apparition, phantom"
+  },
+  {
+    "id": 134,
+    "kanji": "洪水",
+    "kana": "こうずい",
+    "arti": "flood, flooding"
+  },
+  {
+    "id": 135,
+    "kanji": "同情",
+    "kana": "どうじょう",
+    "arti": "sympathy, compassion, pity"
+  },
+  {
+    "id": 136,
+    "kanji": "航海",
+    "kana": "こうかい",
+    "arti": "(sea) voyage, navigation, sailing, passage, cruise"
+  },
+  {
+    "id": 137,
+    "kanji": "破壊",
+    "kana": "はかい",
+    "arti": "destruction, disruption"
+  },
+  {
+    "id": 138,
+    "kanji": "自信",
+    "kana": "じしん",
+    "arti": "self-confidence, confidence (in oneself)"
+  },
+  {
+    "id": 139,
+    "kanji": "世代",
+    "kana": "せだい",
+    "arti": "generation"
+  },
+  {
+    "id": 140,
+    "kanji": "治療",
+    "kana": "ちりょう",
+    "arti": "(medical) treatment, care, therapy, cure, remedy"
+  },
+  {
+    "id": 141,
+    "kanji": "殺人",
+    "kana": "さつじん",
+    "arti": "murder, homicide, manslaughter"
+  },
+  {
+    "id": 142,
+    "kanji": "投資",
+    "kana": "とうし",
+    "arti": "investment"
+  },
+  {
+    "id": 143,
+    "kanji": "資格",
+    "kana": "しかく",
+    "arti": "qualifications, requirements, capabilities"
+  },
+  {
+    "id": 144,
+    "kanji": "小切手",
+    "kana": "こぎって",
+    "arti": "cheque, check"
+  },
+  {
+    "id": 145,
+    "kanji": "反応",
+    "kana": "はんのう",
+    "arti": "reaction, response"
+  },
+  {
+    "id": 146,
+    "kanji": "企画",
+    "kana": "きかく",
+    "arti": "planning, plan, project, arrangements"
+  },
+  {
+    "id": 147,
+    "kanji": "制服",
+    "kana": "せいふく",
+    "arti": "uniform"
+  },
+  {
+    "id": 148,
+    "kanji": "報道",
+    "kana": "ほうどう",
+    "arti": "report (of news), reporting, news, information, (media) coverage"
+  },
+  {
+    "id": 149,
+    "kanji": "賃金",
+    "kana": "ちんぎん",
+    "arti": "wages, pay"
+  },
+  {
+    "id": 150,
+    "kanji": "権力",
+    "kana": "けんりょく",
+    "arti": "(political) power, authority, influence"
+  },
+  {
+    "id": 151,
+    "kanji": "暴力",
+    "kana": "ぼうりょく",
+    "arti": "violence, mayhem"
+  },
+  {
+    "id": 152,
+    "kanji": "名誉",
+    "kana": "めいよ",
+    "arti": "honor, honour, credit, glory, fame, distinction"
+  },
+  {
+    "id": 153,
+    "kanji": "貧困",
+    "kana": "ひんこん",
+    "arti": "poverty, penury, need, destitution"
+  },
+  {
+    "id": 154,
+    "kanji": "美",
+    "kana": "び",
+    "arti": "beauty"
+  },
+  {
+    "id": 155,
+    "kanji": "保険",
+    "kana": "ほけん",
+    "arti": "insurance"
+  },
+  {
+    "id": 156,
+    "kanji": "聖書",
+    "kana": "せいしょ",
+    "arti": "Bible, the Scriptures, Holy Writ"
+  },
+  {
+    "id": 157,
+    "kanji": "妥協",
+    "kana": "だきょう",
+    "arti": "compromise, giving in"
+  },
+  {
+    "id": 158,
+    "kanji": "孤独",
+    "kana": "こどく",
+    "arti": "solitude, loneliness, isolation"
+  },
+  {
+    "id": 159,
+    "kanji": "昆虫",
+    "kana": "こんちゅう",
+    "arti": "insect, bug"
+  },
+  {
+    "id": 160,
+    "kanji": "牧師",
+    "kana": "ぼくし",
+    "arti": "pastor, minister, clergyman, reverend"
+  },
+  {
+    "id": 161,
+    "kanji": "向き",
+    "kana": "むき",
+    "arti": "direction, orientation, aspect, exposure"
+  },
+  {
+    "id": 162,
+    "kanji": "保護",
+    "kana": "ほご",
+    "arti": "protection, safeguard, guardianship, custody, patronage"
+  },
+  {
+    "id": 163,
+    "kanji": "牧師",
+    "kana": "ぼくし",
+    "arti": "pastor, minister, clergyman, reverend"
+  },
+  {
+    "id": 164,
+    "kanji": "判決",
+    "kana": "はんけつ",
+    "arti": "judicial decision, judgement, judgment, sentence, decree"
+  },
+  {
+    "id": 165,
+    "kanji": "着陸",
+    "kana": "ちゃくりく",
+    "arti": "landing, alighting, touch down"
+  },
+  {
+    "id": 166,
+    "kanji": "規制",
+    "kana": "きせい",
+    "arti": "regulation, (traffic) policing, control, restriction"
+  },
+  {
+    "id": 167,
+    "kanji": "真ん中",
+    "kana": "まんなか",
+    "arti": "middle, centre, center, midpoint, heart"
+  },
+  {
+    "id": 168,
+    "kanji": "倒産",
+    "kana": "とうさん",
+    "arti": "(corporate) bankruptcy, insolvency, commercial failure, failed business"
+  },
+  {
+    "id": 169,
+    "kanji": "偏見",
+    "kana": "へんけん",
+    "arti": "prejudice, bias, distorted view"
+  },
+  {
+    "id": 170,
+    "kanji": "入浴",
+    "kana": "にゅうよく",
+    "arti": "bathing, going in the bath"
+  },
+  {
+    "id": 171,
+    "kanji": "財政",
+    "kana": "ざいせい",
+    "arti": "public finance"
+  },
+  {
+    "id": 172,
+    "kanji": "証言",
+    "kana": "しょうげん",
+    "arti": "testimony, (verbal) evidence"
+  },
+  {
+    "id": 173,
+    "kanji": "報酬",
+    "kana": "ほうしゅう",
+    "arti": "remuneration, recompense, reward, toll"
+  },
+  {
+    "id": 174,
+    "kanji": "決断",
+    "kana": "けつだん",
+    "arti": "decision, determination"
+  },
+  {
+    "id": 175,
+    "kanji": "祈り",
+    "kana": "いのり",
+    "arti": "prayer, supplication"
+  },
+  {
+    "id": 176,
+    "kanji": "予言",
+    "kana": "よげん",
+    "arti": "prediction, prophecy, prognostication, foretelling, forecast"
+  },
+  {
+    "id": 177,
+    "kanji": "自己",
+    "kana": "じこ",
+    "arti": "self, oneself"
+  },
+  {
+    "id": 178,
+    "kanji": "革命",
+    "kana": "かくめい",
+    "arti": "revolution"
+  },
+  {
+    "id": 179,
+    "kanji": "動機",
+    "kana": "どうき",
+    "arti": "motive, incentive"
+  },
+  {
+    "id": 180,
+    "kanji": "人民",
+    "kana": "じんみん",
+    "arti": "the people, citizens, the populace"
+  },
+  {
+    "id": 181,
+    "kanji": "移民",
+    "kana": "いみん",
+    "arti": "immigration, emigration"
+  },
+  {
+    "id": 182,
+    "kanji": "暴動",
+    "kana": "ぼうどう",
+    "arti": "insurrection, riot, uprising, rebellion, revolt"
+  },
+  {
+    "id": 183,
+    "kanji": "昼間",
+    "kana": "ひるま",
+    "arti": "daytime, during the day, time from sunrise until sunset, diurnal period"
+  },
+  {
+    "id": 184,
+    "kanji": "改革",
+    "kana": "かいかく",
+    "arti": "reform, reformation, reorganization"
+  },
+  {
+    "id": 185,
+    "kanji": "爆弾",
+    "kana": "ばくだん",
+    "arti": "bomb"
+  },
+  {
+    "id": 186,
+    "kanji": "災害",
+    "kana": "さいがい",
+    "arti": "calamity, disaster, misfortune"
+  },
+  {
+    "id": 187,
+    "kanji": "死刑",
+    "kana": "しけい",
+    "arti": "death penalty, capital punishment"
+  },
+  {
+    "id": 188,
+    "kanji": "実業家",
+    "kana": "じつぎょうか",
+    "arti": "businessperson, businessman, businesswoman, entrepreneur, captain of industry"
+  },
+  {
+    "id": 189,
+    "kanji": "妊娠",
+    "kana": "にんしん",
+    "arti": "pregnancy, conception, gestation"
+  },
+  {
+    "id": 190,
+    "kanji": "真珠",
+    "kana": "しんじゅ",
+    "arti": "pearl"
+  },
+  {
+    "id": 191,
+    "kanji": "久しぶり",
+    "kana": "ひさしぶり",
+    "arti": "a long time (since the last time), first in a long time"
+  },
+  {
+    "id": 192,
+    "kanji": "人格",
+    "kana": "じんかく",
+    "arti": "personality, character, individuality, personhood"
+  },
+  {
+    "id": 193,
+    "kanji": "民族",
+    "kana": "みんぞく",
+    "arti": "people, race, nation, ethnic group, ethnos"
+  },
+  {
+    "id": 194,
+    "kanji": "権威",
+    "kana": "けんい",
+    "arti": "authority, power, influence, prestige"
+  },
+  {
+    "id": 195,
+    "kanji": "承諾",
+    "kana": "しょうだく",
+    "arti": "consent, approval, acceptance, agreement, compliance"
+  },
+  {
+    "id": 196,
+    "kanji": "燃料",
+    "kana": "ねんりょう",
+    "arti": "fuel"
+  },
+  {
+    "id": 197,
+    "kanji": "定義",
+    "kana": "ていぎ",
+    "arti": "definition"
+  },
+  {
+    "id": 198,
+    "kanji": "悪",
+    "kana": "あく",
+    "arti": "evil, wickedness"
+  },
+  {
+    "id": 199,
+    "kanji": "網",
+    "kana": "あみ",
+    "arti": "net, netting"
+  },
+  {
+    "id": 200,
+    "kanji": "伝説",
+    "kana": "でんせつ",
+    "arti": "legend, folklore, tradition"
+  },
+  {
+    "id": 201,
+    "kanji": "圧力",
+    "kana": "あつりょく",
+    "arti": "pressure"
+  },
+  {
+    "id": 202,
+    "kanji": "物体",
+    "kana": "ぶったい",
+    "arti": "object, body, solid"
+  },
+  {
+    "id": 203,
+    "kanji": "植民地",
+    "kana": "しょくみんち",
+    "arti": "colony"
+  },
+  {
+    "id": 204,
+    "kanji": "品質",
+    "kana": "ひんしつ",
+    "arti": "quality (of a product or a service)"
+  },
+  {
+    "id": 205,
+    "kanji": "反乱",
+    "kana": "はんらん",
+    "arti": "insurrection, mutiny, rebellion, revolt, uprising"
+  },
+  {
+    "id": 206,
+    "kanji": "認識",
+    "kana": "にんしき",
+    "arti": "recognition, awareness, perception, understanding, knowledge, cognition, cognizance, cognisance"
+  },
+  {
+    "id": 207,
+    "kanji": "体力",
+    "kana": "たいりょく",
+    "arti": "physical strength, power, stamina, endurance, vigor, resistance to disease"
+  },
+  {
+    "id": 208,
+    "kanji": "脳",
+    "kana": "のう",
+    "arti": "brain"
+  },
+  {
+    "id": 209,
+    "kanji": "孤児",
+    "kana": "こじ",
+    "arti": "orphan"
+  },
+  {
+    "id": 210,
+    "kanji": "宮殿",
+    "kana": "きゅうでん",
+    "arti": "palace"
+  },
+  {
+    "id": 211,
+    "kanji": "福祉",
+    "kana": "ふくし",
+    "arti": "welfare, well-being, social welfare, social security, social service"
+  },
+  {
+    "id": 212,
+    "kanji": "海峡",
+    "kana": "かいきょう",
+    "arti": "channel (e.g. between two land masses), strait"
+  },
+  {
+    "id": 213,
+    "kanji": "芝",
+    "kana": "しば",
+    "arti": "lawn, sod, turf"
+  },
+  {
+    "id": 214,
+    "kanji": "火星",
+    "kana": "かせい",
+    "arti": "Mars (planet)"
+  },
+  {
+    "id": 215,
+    "kanji": "文書",
+    "kana": "ぶんしょ",
+    "arti": "document, writing, letter, papers, notes, records, archives"
+  },
+  {
+    "id": 216,
+    "kanji": "探検",
+    "kana": "たんけん",
+    "arti": "exploration, expedition"
+  },
+  {
+    "id": 217,
+    "kanji": "戦闘",
+    "kana": "せんとう",
+    "arti": "battle, fight, combat"
+  },
+  {
+    "id": 218,
+    "kanji": "理性",
+    "kana": "りせい",
+    "arti": "reason, reasoning power, (one's) sense"
+  },
+  {
+    "id": 219,
+    "kanji": "預金",
+    "kana": "よきん",
+    "arti": "deposit, bank account"
+  },
+  {
+    "id": 220,
+    "kanji": "正義",
+    "kana": "せいぎ",
+    "arti": "justice, right, righteousness"
+  },
+  {
+    "id": 221,
+    "kanji": "理性",
+    "kana": "りせい",
+    "arti": "reason, reasoning power, (one's) sense"
+  },
+  {
+    "id": 222,
+    "kanji": "真理",
+    "kana": "しんり",
+    "arti": "truth"
+  },
+  {
+    "id": 223,
+    "kanji": "闇",
+    "kana": "やみ",
+    "arti": "darkness, the dark"
+  },
+  {
+    "id": 224,
+    "kanji": "条約",
+    "kana": "じょうやく",
+    "arti": "treaty, pact, convention, agreement"
+  },
+  {
+    "id": 225,
+    "kanji": "日焼け",
+    "kana": "ひやけ",
+    "arti": "sunburn, suntan, tan"
+  },
+  {
+    "id": 226,
+    "kanji": "声明",
+    "kana": "せいめい",
+    "arti": "declaration, statement, proclamation"
+  },
+  {
+    "id": 227,
+    "kanji": "出血",
+    "kana": "しゅっけつ",
+    "arti": "bleeding, haemorrhage, hemorrhage"
+  },
+  {
+    "id": 228,
+    "kanji": "関税",
+    "kana": "かんぜい",
+    "arti": "customs (duties), duty, tariff"
+  },
+  {
+    "id": 229,
+    "kanji": "職員",
+    "kana": "しょくいん",
+    "arti": "staff member, employee, worker, personnel"
+  },
+  {
+    "id": 230,
+    "kanji": "思考",
+    "kana": "しこう",
+    "arti": "thought, consideration, thinking"
+  },
+  {
+    "id": 231,
+    "kanji": "形態",
+    "kana": "けいたい",
+    "arti": "form, shape, figure"
+  },
+  {
+    "id": 232,
+    "kanji": "本能",
+    "kana": "ほんのう",
+    "arti": "instinct"
+  },
+  {
+    "id": 233,
+    "kanji": "内閣",
+    "kana": "ないかく",
+    "arti": "cabinet (of a government), ministry"
+  },
+  {
+    "id": 234,
+    "kanji": "憎しみ",
+    "kana": "にくしみ",
+    "arti": "hatred"
+  },
+  {
+    "id": 235,
+    "kanji": "固定",
+    "kana": "こてい",
+    "arti": "fixing (in place), being fixed (in place), securing, anchoring, fastening down"
+  },
+  {
+    "id": 236,
+    "kanji": "尿",
+    "kana": "にょう",
+    "arti": "urine"
+  },
+  {
+    "id": 237,
+    "kanji": "良心",
+    "kana": "りょうしん",
+    "arti": "conscience"
+  },
+  {
+    "id": 238,
+    "kanji": "見積もり",
+    "kana": "みつもり",
+    "arti": "estimate, estimation, valuation, quotation"
+  },
+  {
+    "id": 239,
+    "kanji": "概念",
+    "kana": "がいねん",
+    "arti": "general idea, concept, notion"
+  },
+  {
+    "id": 240,
+    "kanji": "視野",
+    "kana": "しや",
+    "arti": "field of vision, view"
+  },
+  {
+    "id": 241,
+    "kanji": "視野",
+    "kana": "しや",
+    "arti": "field of vision, view"
+  },
+  {
+    "id": 242,
+    "kanji": "見積もり",
+    "kana": "みつもり",
+    "arti": "estimate, estimation, valuation, quotation"
+  },
+  {
+    "id": 243,
+    "kanji": "恋愛",
+    "kana": "れんあい",
+    "arti": "love, romance, tender passion, emotion, affections"
+  },
+  {
+    "id": 244,
+    "kanji": "看護",
+    "kana": "かんご",
+    "arti": "nursing, (army) nurse"
+  },
+  {
+    "id": 245,
+    "kanji": "資産",
+    "kana": "しさん",
+    "arti": "property, fortune, means, assets"
+  },
+  {
+    "id": 246,
+    "kanji": "負債",
+    "kana": "ふさい",
+    "arti": "debt, liabilities"
+  },
+  {
+    "id": 247,
+    "kanji": "面会",
+    "kana": "めんかい",
+    "arti": "meeting (face-to-face), seeing, visit, interview"
+  },
+  {
+    "id": 248,
+    "kanji": "転勤",
+    "kana": "てんきん",
+    "arti": "job transfer, job relocation, intra-company transfer"
+  },
+  {
+    "id": 249,
+    "kanji": "根源",
+    "kana": "こんげん",
+    "arti": "root, source, origin, cause"
+  },
+  {
+    "id": 250,
+    "kanji": "独占",
+    "kana": "どくせん",
+    "arti": "monopoly, monopolization, exclusivity"
+  },
+  {
+    "id": 251,
+    "kanji": "在庫",
+    "kana": "ざいこ",
+    "arti": "stock, inventory"
+  },
+  {
+    "id": 252,
+    "kanji": "権限",
+    "kana": "けんげん",
+    "arti": "power, authority, jurisdiction"
+  },
+  {
+    "id": 253,
+    "kanji": "疲労",
+    "kana": "ひろう",
+    "arti": "fatigue, weariness, exhaustion, tiredness"
+  },
+  {
+    "id": 254,
+    "kanji": "家出",
+    "kana": "いえで",
+    "arti": "running away from home, elopement"
+  },
+  {
+    "id": 255,
+    "kanji": "乱用",
+    "kana": "らんよう",
+    "arti": "abuse, misuse, misappropriation, using to excess"
+  },
+  {
+    "id": 256,
+    "kanji": "運賃",
+    "kana": "うんちん",
+    "arti": "(passenger) fare"
+  },
+  {
+    "id": 257,
+    "kanji": "電線",
+    "kana": "でんせん",
+    "arti": "electric line, electric cable, power cable"
+  },
+  {
+    "id": 258,
+    "kanji": "貴族",
+    "kana": "きぞく",
+    "arti": "nobility, aristocracy, peerage"
+  },
+  {
+    "id": 259,
+    "kanji": "奉仕",
+    "kana": "ほうし",
+    "arti": "service, ministry, attendance, church work"
+  },
+  {
+    "id": 260,
+    "kanji": "遺跡",
+    "kana": "いせき",
+    "arti": "(archeological) remains, ruins, relics"
+  },
+  {
+    "id": 261,
+    "kanji": "定年",
+    "kana": "ていねん",
+    "arti": "(compulsory) retirement age, age limit"
+  },
+  {
+    "id": 262,
+    "kanji": "奉仕",
+    "kana": "ほうし",
+    "arti": "service, ministry, attendance, church work"
+  },
+  {
+    "id": 263,
+    "kanji": "肺",
+    "kana": "はい",
+    "arti": "lung"
+  },
+  {
+    "id": 264,
+    "kanji": "固体",
+    "kana": "こたい",
+    "arti": "solid (body), solid matter, solid-state"
+  },
+  {
+    "id": 265,
+    "kanji": "遺跡",
+    "kana": "いせき",
+    "arti": "(archeological) remains, ruins, relics"
+  },
+  {
+    "id": 266,
+    "kanji": "腐敗",
+    "kana": "ふはい",
+    "arti": "decomposition, putrefaction, putrescence, spoilage"
+  },
+  {
+    "id": 267,
+    "kanji": "潮",
+    "kana": "しお",
+    "arti": "tide, current"
+  },
+  {
+    "id": 268,
+    "kanji": "退学",
+    "kana": "たいがく",
+    "arti": "dropping out of school, withdrawal from school"
+  },
+  {
+    "id": 269,
+    "kanji": "捕虜",
+    "kana": "ほりょ",
+    "arti": "prisoner (of war), POW, captive"
+  },
+  {
+    "id": 270,
+    "kanji": "与党",
+    "kana": "よとう",
+    "arti": "ruling party, government party, party in power, government"
+  },
+  {
+    "id": 271,
+    "kanji": "救済",
+    "kana": "きゅうさい",
+    "arti": "relief, aid, help, rescue"
+  },
+  {
+    "id": 272,
+    "kanji": "天国",
+    "kana": "てんごく",
+    "arti": "paradise, heaven, Kingdom of Heaven"
+  },
+  {
+    "id": 273,
+    "kanji": "戦術",
+    "kana": "せんじゅつ",
+    "arti": "tactics"
+  },
+  {
+    "id": 274,
+    "kanji": "介護",
+    "kana": "かいご",
+    "arti": "nursing, care, caregiving, caring"
+  },
+  {
+    "id": 275,
+    "kanji": "人体",
+    "kana": "じんたい",
+    "arti": "human body"
+  },
+  {
+    "id": 276,
+    "kanji": "連邦",
+    "kana": "れんぽう",
+    "arti": "federation (of states), confederation, commonwealth, union"
+  },
+  {
+    "id": 277,
+    "kanji": "統制",
+    "kana": "とうせい",
+    "arti": "regulation, control"
+  },
+  {
+    "id": 278,
+    "kanji": "分裂",
+    "kana": "ぶんれつ",
+    "arti": "split, division, break up"
+  },
+  {
+    "id": 279,
+    "kanji": "原子",
+    "kana": "げんし",
+    "arti": "atom"
+  },
+  {
+    "id": 280,
+    "kanji": "実践",
+    "kana": "じっせん",
+    "arti": "practice, putting into practice, implementation"
+  },
+  {
+    "id": 281,
+    "kanji": "気質",
+    "kana": "きしつ",
+    "arti": "disposition, temperament, nature, mentality, spirit, character, trait, turn of mind"
+  },
+  {
+    "id": 282,
+    "kanji": "設定",
+    "kana": "せってい",
+    "arti": "establishment, creation, posing (a problem), setting (movie, novel, etc.), scene"
+  },
+  {
+    "id": 283,
+    "kanji": "喜劇",
+    "kana": "きげき",
+    "arti": "comedy"
+  },
+  {
+    "id": 284,
+    "kanji": "得点",
+    "kana": "とくてん",
+    "arti": "scoring, score, points made, marks obtained, goals, runs"
+  },
+  {
+    "id": 285,
+    "kanji": "原子",
+    "kana": "げんし",
+    "arti": "atom"
+  },
+  {
+    "id": 286,
+    "kanji": "戦術",
+    "kana": "せんじゅつ",
+    "arti": "tactics"
+  },
+  {
+    "id": 287,
+    "kanji": "分裂",
+    "kana": "ぶんれつ",
+    "arti": "split, division, break up"
+  },
+  {
+    "id": 288,
+    "kanji": "主食",
+    "kana": "しゅしょく",
+    "arti": "staple food"
+  },
+  {
+    "id": 289,
+    "kanji": "占領",
+    "kana": "せんりょう",
+    "arti": "occupying, having (an area) all to oneself"
+  },
+  {
+    "id": 290,
+    "kanji": "神秘",
+    "kana": "しんぴ",
+    "arti": "mystery, mysteriousness, secret"
+  },
+  {
+    "id": 291,
+    "kanji": "主人公",
+    "kana": "しゅじんこう",
+    "arti": "protagonist, main character, hero, heroine"
+  },
+  {
+    "id": 292,
+    "kanji": "証人",
+    "kana": "しょうにん",
+    "arti": "witness"
+  },
+  {
+    "id": 293,
+    "kanji": "暗殺",
+    "kana": "あんさつ",
+    "arti": "assassination"
+  },
+  {
+    "id": 294,
+    "kanji": "脅迫",
+    "kana": "きょうはく",
+    "arti": "threat, menace, coercion, blackmail"
+  },
+  {
+    "id": 295,
+    "kanji": "堤防",
+    "kana": "ていぼう",
+    "arti": "bank, weir, embankment, levee"
+  },
+  {
+    "id": 296,
+    "kanji": "政権",
+    "kana": "せいけん",
+    "arti": "(political) administration, political power"
+  },
+  {
+    "id": 297,
+    "kanji": "感染",
+    "kana": "かんせん",
+    "arti": "infection, contagion, becoming infected"
+  },
+  {
+    "id": 298,
+    "kanji": "反発",
+    "kana": "はんぱつ",
+    "arti": "opposition, rebellion, revolt, resistance, backlash, refusal"
+  },
+  {
+    "id": 299,
+    "kanji": "模型",
+    "kana": "もけい",
+    "arti": "model, dummy, maquette"
+  },
+  {
+    "id": 300,
+    "kanji": "細胞",
+    "kana": "さいぼう",
+    "arti": "cell"
+  },
+  {
+    "id": 301,
+    "kanji": "家畜",
+    "kana": "かちく",
+    "arti": "domestic animals, livestock, cattle"
+  },
+  {
+    "id": 302,
+    "kanji": "占領",
+    "kana": "せんりょう",
+    "arti": "occupying, having (an area) all to oneself"
+  },
+  {
+    "id": 303,
+    "kanji": "襟",
+    "kana": "えり",
+    "arti": "collar, lapel, neckband, neck"
+  },
+  {
+    "id": 304,
+    "kanji": "君主",
+    "kana": "くんしゅ",
+    "arti": "monarch, sovereign, ruler, liege (lord)"
+  },
+  {
+    "id": 305,
+    "kanji": "回路",
+    "kana": "かいろ",
+    "arti": "circuit"
+  },
+  {
+    "id": 306,
+    "kanji": "清算",
+    "kana": "せいさん",
+    "arti": "(financial) settlement, squaring accounts, clearing debts"
+  },
+  {
+    "id": 307,
+    "kanji": "抑圧",
+    "kana": "よくあつ",
+    "arti": "check, restraint, oppression, suppression"
+  },
+  {
+    "id": 308,
+    "kanji": "刃",
+    "kana": "は",
+    "arti": "edge (of a knife or sword), blade"
+  },
+  {
+    "id": 309,
+    "kanji": "貨幣",
+    "kana": "かへい",
+    "arti": "money, currency, coin"
+  },
+  {
+    "id": 310,
+    "kanji": "織物",
+    "kana": "おりもの",
+    "arti": "textile, fabric"
+  },
+  {
+    "id": 311,
+    "kanji": "同調",
+    "kana": "どうちょう",
+    "arti": "conformity, alignment, agreement, sympathy, following suit"
+  },
+  {
+    "id": 312,
+    "kanji": "本質",
+    "kana": "ほんしつ",
+    "arti": "essence, true nature, substance, reality"
+  },
+  {
+    "id": 313,
+    "kanji": "天体",
+    "kana": "てんたい",
+    "arti": "heavenly body, celestial body, astronomical object"
+  },
+  {
+    "id": 314,
+    "kanji": "脂肪",
+    "kana": "しぼう",
+    "arti": "fat, grease, blubber, lard, suet"
+  },
+  {
+    "id": 315,
+    "kanji": "中立",
+    "kana": "ちゅうりつ",
+    "arti": "neutrality"
+  },
+  {
+    "id": 316,
+    "kanji": "詐欺",
+    "kana": "さぎ",
+    "arti": "fraud, swindle, graft, cheating, trick, scam"
+  },
+  {
+    "id": 317,
+    "kanji": "基金",
+    "kana": "ききん",
+    "arti": "fund, foundation"
+  },
+  {
+    "id": 318,
+    "kanji": "無効",
+    "kana": "むこう",
+    "arti": "invalid, void, ineffective, unavailable"
+  },
+  {
+    "id": 319,
+    "kanji": "乱れる",
+    "kana": "みだれる",
+    "arti": "to be disordered, to be disarranged, to be disarrayed, to be disheveled, to be dishevelled"
+  },
+  {
+    "id": 320,
+    "kanji": "仕様",
+    "kana": "しよう",
+    "arti": "way, method, means, resource, remedy"
+  },
+  {
+    "id": 321,
+    "kanji": "戯曲",
+    "kana": "ぎきょく",
+    "arti": "drama, play"
+  },
+  {
+    "id": 322,
+    "kanji": "照明",
+    "kana": "しょうめい",
+    "arti": "illumination, lighting"
+  },
+  {
+    "id": 323,
+    "kanji": "世帯",
+    "kana": "せたい",
+    "arti": "household, family"
+  },
+  {
+    "id": 324,
+    "kanji": "利子",
+    "kana": "りし",
+    "arti": "interest (on a deposit, loan, etc.)"
+  },
+  {
+    "id": 325,
+    "kanji": "仕様",
+    "kana": "しよう",
+    "arti": "way, method, means, resource, remedy"
+  },
+  {
+    "id": 326,
+    "kanji": "枠",
+    "kana": "わく",
+    "arti": "frame, framework"
+  },
+  {
+    "id": 327,
+    "kanji": "強制",
+    "kana": "きょうせい",
+    "arti": "compulsion, coercion, forcing (to do), enforcement"
+  },
+  {
+    "id": 328,
+    "kanji": "調理",
+    "kana": "ちょうり",
+    "arti": "cooking, food preparation"
+  },
+  {
+    "id": 329,
+    "kanji": "視覚",
+    "kana": "しかく",
+    "arti": "(sense of) sight, eyesight, vision"
+  },
+  {
+    "id": 330,
+    "kanji": "解除",
+    "kana": "かいじょ",
+    "arti": "termination (of a contract), cancellation, rescinding, rescission"
+  },
+  {
+    "id": 331,
+    "kanji": "官僚",
+    "kana": "かんりょう",
+    "arti": "bureaucrat, government official, bureaucracy"
+  },
+  {
+    "id": 332,
+    "kanji": "漁船",
+    "kana": "ぎょせん",
+    "arti": "fishing boat"
+  },
+  {
+    "id": 333,
+    "kanji": "教員",
+    "kana": "きょういん",
+    "arti": "teacher, instructor, teaching staff, faculty member"
+  },
+  {
+    "id": 334,
+    "kanji": "墓地",
+    "kana": "ぼち",
+    "arti": "cemetery, graveyard"
+  },
+  {
+    "id": 335,
+    "kanji": "下痢",
+    "kana": "げり",
+    "arti": "diarrhea, diarrhoea"
+  },
+  {
+    "id": 336,
+    "kanji": "作戦",
+    "kana": "さくせん",
+    "arti": "tactics, strategy"
+  },
+  {
+    "id": 337,
+    "kanji": "小売",
+    "kana": "こうり",
+    "arti": "retail"
+  },
+  {
+    "id": 338,
+    "kanji": "均衡",
+    "kana": "きんこう",
+    "arti": "balance, equilibrium"
+  },
+  {
+    "id": 339,
+    "kanji": "財",
+    "kana": "ざい",
+    "arti": "fortune, riches"
+  },
+  {
+    "id": 340,
+    "kanji": "麻酔",
+    "kana": "ますい",
+    "arti": "anaesthesia, anesthesia"
+  },
+  {
+    "id": 341,
+    "kanji": "装飾",
+    "kana": "そうしょく",
+    "arti": "ornament, decoration"
+  },
+  {
+    "id": 342,
+    "kanji": "蜜",
+    "kana": "みつ",
+    "arti": "nectar"
+  },
+  {
+    "id": 343,
+    "kanji": "聴覚",
+    "kana": "ちょうかく",
+    "arti": "(sense of) hearing, auditory perception"
+  },
+  {
+    "id": 344,
+    "kanji": "発作",
+    "kana": "ほっさ",
+    "arti": "fit, attack, spasm, ictus, paroxysm, seizure, stroke"
+  },
+  {
+    "id": 345,
+    "kanji": "驚異",
+    "kana": "きょうい",
+    "arti": "wonder, miracle, amazement, prodigy"
+  },
+  {
+    "id": 346,
+    "kanji": "分子",
+    "kana": "ぶんし",
+    "arti": "molecule"
+  },
+  {
+    "id": 347,
+    "kanji": "結晶",
+    "kana": "けっしょう",
+    "arti": "crystal, crystallization, crystallisation"
+  },
+  {
+    "id": 348,
+    "kanji": "麻酔",
+    "kana": "ますい",
+    "arti": "anaesthesia, anesthesia"
+  },
+  {
+    "id": 349,
+    "kanji": "財",
+    "kana": "ざい",
+    "arti": "fortune, riches"
+  },
+  {
+    "id": 350,
+    "kanji": "僧",
+    "kana": "そう",
+    "arti": "monk, priest"
+  },
+  {
+    "id": 351,
+    "kanji": "均衡",
+    "kana": "きんこう",
+    "arti": "balance, equilibrium"
+  },
+  {
+    "id": 352,
+    "kanji": "街道",
+    "kana": "かいどう",
+    "arti": "highway (esp. one existing from the Edo period), main road"
+  },
+  {
+    "id": 353,
+    "kanji": "鉛",
+    "kana": "なまり",
+    "arti": "lead (Pb)"
+  },
+  {
+    "id": 354,
+    "kanji": "旅客",
+    "kana": "りょかく",
+    "arti": "passenger"
+  },
+  {
+    "id": 355,
+    "kanji": "炒める",
+    "kana": "いためる",
+    "arti": "to fry, to saute, to stir-fry"
+  },
+  {
+    "id": 356,
+    "kanji": "怪獣",
+    "kana": "かいじゅう",
+    "arti": "monster"
+  },
+  {
+    "id": 357,
+    "kanji": "繊維",
+    "kana": "せんい",
+    "arti": "fibre, fiber"
+  },
+  {
+    "id": 358,
+    "kanji": "地形",
+    "kana": "ちけい",
+    "arti": "terrain, geographical features, topography"
+  },
+  {
+    "id": 359,
+    "kanji": "差異",
+    "kana": "さい",
+    "arti": "difference, disparity, gap"
+  },
+  {
+    "id": 360,
+    "kanji": "工学",
+    "kana": "こうがく",
+    "arti": "engineering"
+  },
+  {
+    "id": 361,
+    "kanji": "戸籍",
+    "kana": "こせき",
+    "arti": "family register"
+  },
+  {
+    "id": 362,
+    "kanji": "行政",
+    "kana": "ぎょうせい",
+    "arti": "executive, government"
+  },
+  {
+    "id": 363,
+    "kanji": "融資",
+    "kana": "ゆうし",
+    "arti": "financing, loan"
+  },
+  {
+    "id": 364,
+    "kanji": "兵器",
+    "kana": "へいき",
+    "arti": "arms, weapon, ordnance"
+  },
+  {
+    "id": 365,
+    "kanji": "株式",
+    "kana": "かぶしき",
+    "arti": "share (in a company), stock"
+  },
+  {
+    "id": 366,
+    "kanji": "迫害",
+    "kana": "はくがい",
+    "arti": "persecution, oppression"
+  },
+  {
+    "id": 367,
+    "kanji": "音色",
+    "kana": "ねいろ",
+    "arti": "tone color, tone colour, tone quality, timbre"
+  },
+  {
+    "id": 368,
+    "kanji": "旅客",
+    "kana": "りょかく",
+    "arti": "passenger"
+  },
+  {
+    "id": 369,
+    "kanji": "義理",
+    "kana": "ぎり",
+    "arti": "duty, sense of duty, honor, honour, decency, courtesy, debt of gratitude, social obligation"
+  },
+  {
+    "id": 370,
+    "kanji": "錯覚",
+    "kana": "さっかく",
+    "arti": "illusion, hallucination"
+  },
+  {
+    "id": 371,
+    "kanji": "潜水",
+    "kana": "せんすい",
+    "arti": "diving, submerging, going underwater"
+  },
+  {
+    "id": 372,
+    "kanji": "気象",
+    "kana": "きしょう",
+    "arti": "weather (conditions)"
+  },
+  {
+    "id": 373,
+    "kanji": "工学",
+    "kana": "こうがく",
+    "arti": "engineering"
+  },
+  {
+    "id": 374,
+    "kanji": "繊維",
+    "kana": "せんい",
+    "arti": "fibre, fiber"
+  },
+  {
+    "id": 375,
+    "kanji": "処罰",
+    "kana": "しょばつ",
+    "arti": "punishment, penalty"
+  },
+  {
+    "id": 376,
+    "kanji": "差異",
+    "kana": "さい",
+    "arti": "difference, disparity, gap"
+  },
+  {
+    "id": 377,
+    "kanji": "農地",
+    "kana": "のうち",
+    "arti": "agricultural land, farmland"
+  },
+  {
+    "id": 378,
+    "kanji": "合唱",
+    "kana": "がっしょう",
+    "arti": "singing together, singing in union, chorus"
+  },
+  {
+    "id": 379,
+    "kanji": "窒息",
+    "kana": "ちっそく",
+    "arti": "suffocation, choking, asphyxia"
+  },
+  {
+    "id": 380,
+    "kanji": "血管",
+    "kana": "けっかん",
+    "arti": "blood vessel, vein"
+  },
+  {
+    "id": 381,
+    "kanji": "茎",
+    "kana": "くき",
+    "arti": "stalk, stem"
+  },
+  {
+    "id": 382,
+    "kanji": "炭素",
+    "kana": "たんそ",
+    "arti": "carbon (C)"
+  },
+  {
+    "id": 383,
+    "kanji": "主体",
+    "kana": "しゅたい",
+    "arti": "main constituent, core, nucleus"
+  },
+  {
+    "id": 384,
+    "kanji": "岩石",
+    "kana": "がんせき",
+    "arti": "rock"
+  },
+  {
+    "id": 385,
+    "kanji": "給食",
+    "kana": "きゅうしょく",
+    "arti": "provision of lunch (e.g. at office, school, etc.), providing a meal, lunch service"
+  },
+  {
+    "id": 386,
+    "kanji": "共感",
+    "kana": "きょうかん",
+    "arti": "sympathy, empathy, response, identification (with someone)"
+  },
+  {
+    "id": 387,
+    "kanji": "格",
+    "kana": "かく",
+    "arti": "status, position, rank"
+  },
+  {
+    "id": 388,
+    "kanji": "沼",
+    "kana": "ぬま",
+    "arti": "marsh, swamp, wetland, bog, pond"
+  },
+  {
+    "id": 389,
+    "kanji": "参議院",
+    "kana": "さんぎいん",
+    "arti": "House of Councillors (upper house of the National Diet of Japan)"
+  },
+  {
+    "id": 390,
+    "kanji": "血管",
+    "kana": "けっかん",
+    "arti": "blood vessel, vein"
+  },
+  {
+    "id": 391,
+    "kanji": "脚本",
+    "kana": "きゃくほん",
+    "arti": "script, screenplay, scenario"
+  },
+  {
+    "id": 392,
+    "kanji": "軍事",
+    "kana": "ぐんじ",
+    "arti": "military affairs"
+  },
+  {
+    "id": 393,
+    "kanji": "溶液",
+    "kana": "ようえき",
+    "arti": "solution (liquid)"
+  },
+  {
+    "id": 394,
+    "kanji": "封鎖",
+    "kana": "ふうさ",
+    "arti": "blockade, lockdown, sealing off (an area)"
+  },
+  {
+    "id": 395,
+    "kanji": "修士",
+    "kana": "しゅうし",
+    "arti": "master's (degree)"
+  },
+  {
+    "id": 396,
+    "kanji": "規範",
+    "kana": "きはん",
+    "arti": "model, standard, pattern, norm, criterion, example"
+  },
+  {
+    "id": 397,
+    "kanji": "送金",
+    "kana": "そうきん",
+    "arti": "remittance, sending money, transferring money"
+  },
+  {
+    "id": 398,
+    "kanji": "没収",
+    "kana": "ぼっしゅう",
+    "arti": "seizure, confiscation, impounding, sequestration, forfeiture"
+  },
+  {
+    "id": 399,
+    "kanji": "手錠",
+    "kana": "てじょう",
+    "arti": "handcuffs, manacles"
+  },
+  {
+    "id": 400,
+    "kanji": "刑罰",
+    "kana": "けいばつ",
+    "arti": "(criminal) punishment, penalty, sentence"
+  },
+  {
+    "id": 401,
+    "kanji": "給食",
+    "kana": "きゅうしょく",
+    "arti": "provision of lunch (e.g. at office, school, etc.), providing a meal, lunch service"
+  },
+  {
+    "id": 402,
+    "kanji": "軍事",
+    "kana": "ぐんじ",
+    "arti": "military affairs"
+  },
+  {
+    "id": 403,
+    "kanji": "沼",
+    "kana": "ぬま",
+    "arti": "marsh, swamp, wetland, bog, pond"
+  },
+  {
+    "id": 404,
+    "kanji": "演出",
+    "kana": "えんしゅつ",
+    "arti": "direction (of a play, film, etc.), production"
+  },
+  {
+    "id": 405,
+    "kanji": "花粉",
+    "kana": "かふん",
+    "arti": "pollen"
+  },
+  {
+    "id": 406,
+    "kanji": "鳥居",
+    "kana": "とりい",
+    "arti": "torii (Shinto shrine archway)"
+  },
+  {
+    "id": 407,
+    "kanji": "根回し",
+    "kana": "ねまわし",
+    "arti": "laying the groundwork, behind-the-scenes maneuvering, consensus-building process"
+  },
+  {
+    "id": 408,
+    "kanji": "星座",
+    "kana": "せいざ",
+    "arti": "constellation"
+  },
+  {
+    "id": 409,
+    "kanji": "味覚",
+    "kana": "みかく",
+    "arti": "(sense of) taste, palate"
+  },
+  {
+    "id": 410,
+    "kanji": "語源",
+    "kana": "ごげん",
+    "arti": "origin of a word, derivation of a word, etymology"
+  },
+  {
+    "id": 411,
+    "kanji": "三味線",
+    "kana": "しゃみせん",
+    "arti": "shamisen, samisen, three-stringed Japanese lute"
+  },
+  {
+    "id": 412,
+    "kanji": "調停",
+    "kana": "ちょうてい",
+    "arti": "arbitration, conciliation, mediation"
+  },
+  {
+    "id": 413,
+    "kanji": "自我",
+    "kana": "じが",
+    "arti": "ego"
+  },
+  {
+    "id": 414,
+    "kanji": "多数決",
+    "kana": "たすうけつ",
+    "arti": "majority decision, majority vote, majority rule"
+  },
+  {
+    "id": 415,
+    "kanji": "雪崩",
+    "kana": "なだれ",
+    "arti": "avalanche, snowslide"
+  },
+  {
+    "id": 416,
+    "kanji": "織り",
+    "kana": "おり",
+    "arti": "weave, weaving, woven item"
+  },
+  {
+    "id": 417,
+    "kanji": "禅",
+    "kana": "ぜん",
+    "arti": "dhyana (profound meditation)"
+  },
+  {
+    "id": 418,
+    "kanji": "鉄棒",
+    "kana": "てつぼう",
+    "arti": "iron rod, iron bar, iron club"
+  },
+  {
+    "id": 419,
+    "kanji": "舗装",
+    "kana": "ほそう",
+    "arti": "paving (a road), surfacing (with asphalt, concrete, etc.), pavement"
+  },
+  {
+    "id": 420,
+    "kanji": "動力",
+    "kana": "どうりょく",
+    "arti": "power, motive power"
+  },
+  {
+    "id": 421,
+    "kanji": "混血",
+    "kana": "こんけつ",
+    "arti": "mixed race, mixed parentage"
+  },
+  {
+    "id": 422,
+    "kanji": "保守",
+    "kana": "ほしゅ",
+    "arti": "maintenance"
+  },
+  {
+    "id": 423,
+    "kanji": "光沢",
+    "kana": "こうたく",
+    "arti": "brilliance, polish, lustre, luster, glossy finish"
+  },
+  {
+    "id": 424,
+    "kanji": "舗装",
+    "kana": "ほそう",
+    "arti": "paving (a road), surfacing (with asphalt, concrete, etc.), pavement"
+  },
+  {
+    "id": 425,
+    "kanji": "動力",
+    "kana": "どうりょく",
+    "arti": "power, motive power"
+  },
+  {
+    "id": 426,
+    "kanji": "定食",
+    "kana": "ていしょく",
+    "arti": "set meal, special (of the day)"
+  },
+  {
+    "id": 427,
+    "kanji": "品種",
+    "kana": "ひんしゅ",
+    "arti": "type (of goods), sort"
+  },
+  {
+    "id": 428,
+    "kanji": "星座",
+    "kana": "せいざ",
+    "arti": "constellation"
+  },
+  {
+    "id": 429,
+    "kanji": "調停",
+    "kana": "ちょうてい",
+    "arti": "arbitration, conciliation, mediation"
+  },
+  {
+    "id": 430,
+    "kanji": "禅",
+    "kana": "ぜん",
+    "arti": "dhyana (profound meditation)"
+  },
+  {
+    "id": 431,
+    "kanji": "軍艦",
+    "kana": "ぐんかん",
+    "arti": "warship, battleship"
+  },
+  {
+    "id": 432,
+    "kanji": "主権",
+    "kana": "しゅけん",
+    "arti": "sovereignty, supremacy, dominion"
+  },
+  {
+    "id": 433,
+    "kanji": "放射",
+    "kana": "ほうしゃ",
+    "arti": "radiation, emission"
+  },
+  {
+    "id": 434,
+    "kanji": "根回し",
+    "kana": "ねまわし",
+    "arti": "laying the groundwork, behind-the-scenes maneuvering, consensus-building process"
+  },
+  {
+    "id": 435,
+    "kanji": "多数決",
+    "kana": "たすうけつ",
+    "arti": "majority decision, majority vote, majority rule"
+  },
+  {
+    "id": 436,
+    "kanji": "衆議院",
+    "kana": "しゅうぎいん",
+    "arti": "House of Representatives (lower house of the National Diet of Japan)"
+  },
+  {
+    "id": 437,
+    "kanji": "盾",
+    "kana": "たて",
+    "arti": "shield, buckler, escutcheon"
+  },
+  {
+    "id": 438,
+    "kanji": "居住",
+    "kana": "きょじゅう",
+    "arti": "residence, living (at, in), abode"
+  },
+  {
+    "id": 439,
+    "kanji": "鳥居",
+    "kana": "とりい",
+    "arti": "torii (Shinto shrine archway)"
+  },
+  {
+    "id": 440,
+    "kanji": "自我",
+    "kana": "じが",
+    "arti": "ego"
+  },
+  {
+    "id": 441,
+    "kanji": "調停",
+    "kana": "ちょうてい",
+    "arti": "arbitration, conciliation, mediation"
+  },
+  {
+    "id": 442,
+    "kanji": "合成",
+    "kana": "ごうせい",
+    "arti": "composition, synthesis, compounding, combining"
+  },
+  {
+    "id": 443,
+    "kanji": "呉れる",
+    "kana": "くれる",
+    "arti": "to give, to let (one) have"
+  },
+  {
+    "id": 444,
+    "kanji": "積もり",
+    "kana": "つもり",
+    "arti": "intention, plan, purpose, expectation"
+  },
+  {
+    "id": 445,
+    "kanji": "殆ど",
+    "kana": "ほとんど",
+    "arti": "almost, nearly, mostly, practically, virtually, basically, just about, all but"
+  },
+  {
+    "id": 446,
+    "kanji": "酷い",
+    "kana": "ひどい",
+    "arti": "cruel, heartless, hard, harsh, severe"
+  },
+  {
+    "id": 447,
+    "kanji": "屹度",
+    "kana": "きっと",
+    "arti": "surely, undoubtedly, almost certainly, most likely (e.g. 90 percent)"
+  },
+  {
+    "id": 448,
+    "kanji": "筈",
+    "kana": "はず",
+    "arti": "should (be), bound (to be), expected (to be), must (be)"
+  },
+  {
+    "id": 449,
+    "kanji": "暫く",
+    "kana": "しばらく",
+    "arti": "for a moment, for a minute"
+  },
+  {
+    "id": 450,
+    "kanji": "確り",
+    "kana": "しっかり",
+    "arti": "tightly (holding on), firmly, securely"
+  },
+  {
+    "id": 451,
+    "kanji": "新",
+    "kana": "しん",
+    "arti": "new, neo-"
+  },
+  {
+    "id": 452,
+    "kanji": "為さる",
+    "kana": "なさる",
+    "arti": "to do"
+  },
+  {
+    "id": 453,
+    "kanji": "角",
+    "kana": "かく",
+    "arti": "angle"
+  },
+  {
+    "id": 454,
+    "kanji": "込む",
+    "kana": "こむ",
+    "arti": "to be crowded, to be packed, to be congested, to be thronged (with)"
+  },
+  {
+    "id": 455,
+    "kanji": "それ程",
+    "kana": "それほど",
+    "arti": "to that degree, to that extent, that much"
+  },
+  {
+    "id": 456,
+    "kanji": "偶に",
+    "kana": "たまに",
+    "arti": "occasionally, once in a while, now and then"
+  },
+  {
+    "id": 457,
+    "kanji": "無知",
+    "kana": "むち",
+    "arti": "ignorance, innocence, stupidity"
+  },
+  {
+    "id": 458,
+    "kanji": "些とも",
+    "kana": "ちっとも",
+    "arti": "(not) at all, (not) a bit, (not) in the least, (not) in the slightest"
+  },
+  {
+    "id": 459,
+    "kanji": "崖",
+    "kana": "がけ",
+    "arti": "cliff, precipice"
+  },
+  {
+    "id": 460,
+    "kanji": "嫉妬",
+    "kana": "しっと",
+    "arti": "jealousy, envy"
+  },
+  {
+    "id": 461,
+    "kanji": "混同",
+    "kana": "こんどう",
+    "arti": "confusion, mixing, merger"
+  },
+  {
+    "id": 462,
+    "kanji": "成るべく",
+    "kana": "なるべく",
+    "arti": "as (much) as possible, as (much) as one can, wherever practicable, if possible"
+  },
+  {
+    "id": 463,
+    "kanji": "顎",
+    "kana": "あご",
+    "arti": "jaw, chin"
+  },
+  {
+    "id": 464,
+    "kanji": "苛める",
+    "kana": "いじめる",
+    "arti": "to ill-treat, to bully, to torment, to pick on, to tease, to be cruel to, to persecute"
+  },
+  {
+    "id": 465,
+    "kanji": "蜂蜜",
+    "kana": "はちみつ",
+    "arti": "honey"
+  },
+  {
+    "id": 466,
+    "kanji": "無口",
+    "kana": "むくち",
+    "arti": "taciturn, reticent, quiet, silent, untalkative"
+  },
+  {
+    "id": 467,
+    "kanji": "蕾",
+    "kana": "つぼみ",
+    "arti": "(flower) bud"
+  },
+  {
+    "id": 468,
+    "kanji": "藁",
+    "kana": "わら",
+    "arti": "straw"
+  },
+  {
+    "id": 469,
+    "kanji": "語彙",
+    "kana": "ごい",
+    "arti": "vocabulary, lexicon, lexis, terminology"
+  },
+  {
+    "id": 470,
+    "kanji": "夕焼け",
+    "kana": "ゆうやけ",
+    "arti": "evening glow, red sunset, afterglow (of sunset)"
+  },
+  {
+    "id": 471,
+    "kanji": "杖",
+    "kana": "つえ",
+    "arti": "cane, walking stick, staff, wand"
+  },
+  {
+    "id": 472,
+    "kanji": "麻痺",
+    "kana": "まひ",
+    "arti": "paralysis, palsy, stupor"
+  },
+  {
+    "id": 473,
+    "kanji": "現像",
+    "kana": "げんぞう",
+    "arti": "development (of film), photographic processing"
+  },
+  {
+    "id": 474,
+    "kanji": "片思い",
+    "kana": "かたおもい",
+    "arti": "unrequited love, one-sided love"
+  },
+  {
+    "id": 475,
+    "kanji": "逆立ち",
+    "kana": "さかだち",
+    "arti": "handstand, headstand"
+  },
+  {
+    "id": 476,
+    "kanji": "直感",
+    "kana": "ちょっかん",
+    "arti": "intuition, instinct, hunch"
+  },
+  {
+    "id": 477,
+    "kanji": "班",
+    "kana": "はん",
+    "arti": "group, party, team"
+  },
+  {
+    "id": 478,
+    "kanji": "貝殻",
+    "kana": "かいがら",
+    "arti": "seashell, shell"
+  },
+  {
+    "id": 479,
+    "kanji": "満月",
+    "kana": "まんげつ",
+    "arti": "full moon"
+  },
+  {
+    "id": 480,
+    "kanji": "元素",
+    "kana": "げんそ",
+    "arti": "element, chemical element"
+  },
+  {
+    "id": 481,
+    "kanji": "畜生",
+    "kana": "ちくしょう",
+    "arti": "damn it, damn, son of a bitch, for Christ's sake"
+  },
+  {
+    "id": 482,
+    "kanji": "滴",
+    "kana": "しずく",
+    "arti": "drop (e.g. of water), drip"
+  },
+  {
+    "id": 483,
+    "kanji": "近視",
+    "kana": "きんし",
+    "arti": "myopia, shortsightedness, nearsightedness"
+  },
+  {
+    "id": 484,
+    "kanji": "名札",
+    "kana": "なふだ",
+    "arti": "name plate, name tag, label"
+  },
+  {
+    "id": 485,
+    "kanji": "模倣",
+    "kana": "もほう",
+    "arti": "imitation, copying"
+  },
+  {
+    "id": 486,
+    "kanji": "裸足",
+    "kana": "はだし",
+    "arti": "barefoot"
+  },
+  {
+    "id": 487,
+    "kanji": "器官",
+    "kana": "きかん",
+    "arti": "organ"
+  },
+  {
+    "id": 488,
+    "kanji": "海流",
+    "kana": "かいりゅう",
+    "arti": "ocean current"
+  },
+  {
+    "id": 489,
+    "kanji": "助詞",
+    "kana": "じょし",
+    "arti": "particle, postpositional word in Japanese grammar that functions as an auxiliary to a main word"
+  },
+  {
+    "id": 490,
+    "kanji": "略語",
+    "kana": "りゃくご",
+    "arti": "abbreviation, acronym"
+  },
+  {
+    "id": 491,
+    "kanji": "暗示",
+    "kana": "あんじ",
+    "arti": "hint, suggestion, clue, implication"
+  },
+  {
+    "id": 492,
+    "kanji": "炬燵",
+    "kana": "こたつ",
+    "arti": "kotatsu, table over an electric heater, with a hanging quilt to retain heat (orig. over a charcoal brazier in a floor well)"
+  },
+  {
+    "id": 493,
+    "kanji": "降水",
+    "kana": "こうすい",
+    "arti": "rainfall, precipitation"
+  },
+  {
+    "id": 494,
+    "kanji": "地方",
+    "kana": "ちほう",
+    "arti": "district, region, area, locality"
+  },
+  {
+    "id": 495,
+    "kanji": "時刻表",
+    "kana": "じこくひょう",
+    "arti": "timetable, schedule"
+  },
+  {
+    "id": 496,
+    "kanji": "壺",
+    "kana": "つぼ",
+    "arti": "pot, jar, vase"
+  },
+  {
+    "id": 497,
+    "kanji": "刺繍",
+    "kana": "ししゅう",
+    "arti": "embroidery"
+  },
+  {
+    "id": 498,
+    "kanji": "香辛料",
+    "kana": "こうしんりょう",
+    "arti": "spice, spices, condiment"
+  },
+  {
+    "id": 499,
+    "kanji": "何も",
+    "kana": "なにも",
+    "arti": "(not) anything, (nothing) at all, (not) any, nothing"
+  },
+  {
+    "id": 500,
+    "kanji": "他人",
+    "kana": "たにん",
+    "arti": "another person, other people, others"
+  },
+  {
+    "id": 501,
+    "kanji": "賛成",
+    "kana": "さんせい",
+    "arti": "approval, agreement, support, favour, favor"
+  },
+  {
+    "id": 502,
+    "kanji": "現れる",
+    "kana": "あらわれる",
+    "arti": "to appear, to come in sight, to become visible, to come out, to embody, to materialize, to materialise"
+  },
+  {
+    "id": 503,
+    "kanji": "出会う",
+    "kana": "であう",
+    "arti": "to meet (by chance), to come across, to run across, to encounter, to happen upon"
+  },
+  {
+    "id": 504,
+    "kanji": "辺り",
+    "kana": "あたり",
+    "arti": "(in the) neighbourhood, neighborhood, vicinity, nearby, surroundings"
+  },
+  {
+    "id": 505,
+    "kanji": "素敵",
+    "kana": "すてき",
+    "arti": "lovely, wonderful, charming, enchanting, nice, great, splendid, marvellous (marvelous), fantastic, superb"
+  },
+  {
+    "id": 506,
+    "kanji": "一言",
+    "kana": "ひとこと",
+    "arti": "single word, a few words, brief comment"
+  },
+  {
+    "id": 507,
+    "kanji": "乗客",
+    "kana": "じょうきゃく",
+    "arti": "passenger"
+  },
+  {
+    "id": 508,
+    "kanji": "恐らく",
+    "kana": "おそらく",
+    "arti": "probably, (most) likely, in all likelihood, I suspect, I dare say, I'm afraid"
+  },
+  {
+    "id": 509,
+    "kanji": "傷",
+    "kana": "きず",
+    "arti": "wound, injury, cut, gash, bruise, scratch, scrape, scar"
+  },
+  {
+    "id": 510,
+    "kanji": "従って",
+    "kana": "したがって",
+    "arti": "therefore, consequently, accordingly"
+  },
+  {
+    "id": 511,
+    "kanji": "現場",
+    "kana": "げんば",
+    "arti": "actual spot, scene (of a crime, accident, etc.)"
+  },
+  {
+    "id": 512,
+    "kanji": "働き",
+    "kana": "はたらき",
+    "arti": "work, labor, labour"
+  },
+  {
+    "id": 513,
+    "kanji": "姉妹",
+    "kana": "しまい",
+    "arti": "sisters"
+  },
+  {
+    "id": 514,
+    "kanji": "可哀想",
+    "kana": "かわいそう",
+    "arti": "poor, pitiable, pathetic, pitiful"
+  },
+  {
+    "id": 515,
+    "kanji": "度々",
+    "kana": "たびたび",
+    "arti": "often, again and again, over and over again, repeatedly, frequently"
+  },
+  {
+    "id": 516,
+    "kanji": "見舞い",
+    "kana": "みまい",
+    "arti": "visit (to someone affected by illness or misfortune), call, inquiry (about someone's health), expression of sympathy"
+  },
+  {
+    "id": 517,
+    "kanji": "女子",
+    "kana": "じょし",
+    "arti": "woman, girl"
+  },
+  {
+    "id": 518,
+    "kanji": "審判",
+    "kana": "しんぱん",
+    "arti": "judgement, judgment, decision, verdict, sentence"
+  },
+  {
+    "id": 519,
+    "kanji": "幕",
+    "kana": "まく",
+    "arti": "curtain"
+  },
+  {
+    "id": 520,
+    "kanji": "係",
+    "kana": "かかり",
+    "arti": "charge, duty, person in charge, official, clerk"
+  },
+  {
+    "id": 521,
+    "kanji": "誠に",
+    "kana": "まことに",
+    "arti": "really, truly, very, extremely, exceedingly, sincerely"
+  },
+  {
+    "id": 522,
+    "kanji": "現れ",
+    "kana": "あらわれ",
+    "arti": "embodiment, manifestation, materialization, materialisation, expression, indication"
+  },
+  {
+    "id": 523,
+    "kanji": "仕舞う",
+    "kana": "しまう",
+    "arti": "to finish, to stop, to end, to put an end to, to bring to a close"
+  },
+  {
+    "id": 524,
+    "kanji": "可也",
+    "kana": "かなり",
+    "arti": "considerably, fairly, quite, rather, pretty"
+  },
+  {
+    "id": 525,
+    "kanji": "凡ゆる",
+    "kana": "あらゆる",
+    "arti": "all, every"
+  },
+  {
+    "id": 526,
+    "kanji": "丸で",
+    "kana": "まるで",
+    "arti": "as if, as though, just like, much as, exactly like, as it were"
+  },
+  {
+    "id": 527,
+    "kanji": "如何しても",
+    "kana": "どうしても",
+    "arti": "by all means, at any cost, no matter what, at any rate, surely"
+  },
+  {
+    "id": 528,
+    "kanji": "喋る",
+    "kana": "しゃべる",
+    "arti": "to talk, to chat, to chatter"
+  },
+  {
+    "id": 529,
+    "kanji": "何時でも",
+    "kana": "いつでも",
+    "arti": "always, all the time, at all times"
+  },
+  {
+    "id": 530,
+    "kanji": "例え",
+    "kana": "たとえ",
+    "arti": "example"
+  },
+  {
+    "id": 531,
+    "kanji": "益々",
+    "kana": "ますます",
+    "arti": "increasingly, more and more"
+  },
+  {
+    "id": 532,
+    "kanji": "済みません",
+    "kana": "すみません",
+    "arti": "excuse me, pardon me, I'm sorry, I beg your pardon"
+  },
+  {
+    "id": 533,
+    "kanji": "或る",
+    "kana": "ある",
+    "arti": "a certain ..., some ..."
+  },
+  {
+    "id": 534,
+    "kanji": "正に",
+    "kana": "まさに",
+    "arti": "exactly, just, precisely, really, truly, surely, certainly, without doubt"
+  },
+  {
+    "id": 535,
+    "kanji": "お喋り",
+    "kana": "おしゃべり",
+    "arti": "chattering, talk, idle talk, chat, chitchat, gossip"
+  },
+  {
+    "id": 536,
+    "kanji": "所謂",
+    "kana": "いわゆる",
+    "arti": "what is called, what you call, what they call, so-called"
+  },
+  {
+    "id": 537,
+    "kanji": "宜しく",
+    "kana": "よろしく",
+    "arti": "well, properly, suitably"
+  },
+  {
+    "id": 538,
+    "kanji": "軈て",
+    "kana": "やがて",
+    "arti": "before long, soon, shortly"
+  },
+  {
+    "id": 539,
+    "kanji": "詰まり",
+    "kana": "つまり",
+    "arti": "that is to say, that is, in other words, I mean, that (this, it) means"
+  },
+  {
+    "id": 540,
+    "kanji": "兎に角",
+    "kana": "とにかく",
+    "arti": "anyway, anyhow, at any rate, in any case, at least, just"
+  },
+  {
+    "id": 541,
+    "kanji": "苛々",
+    "kana": "いらいら",
+    "arti": "to get irritated, to get annoyed, to be on the edge, to fret, to lose patience"
+  },
+  {
+    "id": 542,
+    "kanji": "其のまま",
+    "kana": "そのまま",
+    "arti": "without change, as is"
+  },
+  {
+    "id": 543,
+    "kanji": "悪戯",
+    "kana": "いたずら",
+    "arti": "mischief, prank, trick, practical joke"
+  },
+  {
+    "id": 544,
+    "kanji": "堪らない",
+    "kana": "たまらない",
+    "arti": "intolerable, unbearable, unendurable"
+  },
+  {
+    "id": 545,
+    "kanji": "態と",
+    "kana": "わざと",
+    "arti": "on purpose, deliberately, intentionally"
+  },
+  {
+    "id": 546,
+    "kanji": "何時までも",
+    "kana": "いつまでも",
+    "arti": "forever, eternally, for good, as long as one likes, indefinitely, endlessly, for a long time"
+  },
+  {
+    "id": 547,
+    "kanji": "若しも",
+    "kana": "もしも",
+    "arti": "if, in case, supposing"
+  },
+  {
+    "id": 548,
+    "kanji": "不図",
+    "kana": "ふと",
+    "arti": "suddenly, casually, accidentally, incidentally, unexpectedly, unintentionally"
+  },
+  {
+    "id": 549,
+    "kanji": "凡そ",
+    "kana": "およそ",
+    "arti": "about, roughly, approximately"
+  },
+  {
+    "id": 550,
+    "kanji": "即ち",
+    "kana": "すなわち",
+    "arti": "that is (to say), namely, i.e."
+  },
+  {
+    "id": 551,
+    "kanji": "可愛らしい",
+    "kana": "かわいらしい",
+    "arti": "lovely, sweet, pretty, cute, adorable"
+  },
+  {
+    "id": 552,
+    "kanji": "我儘",
+    "kana": "わがまま",
+    "arti": "selfish, egoist"
+  },
+  {
+    "id": 553,
+    "kanji": "その内",
+    "kana": "そのうち",
+    "arti": "before very long, soon, someday, one of these days, sooner or later"
+  },
+  {
+    "id": 554,
+    "kanji": "頻りに",
+    "kana": "しきりに",
+    "arti": "frequently, repeatedly, often, incessantly, constantly"
+  },
+  {
+    "id": 555,
+    "kanji": "稍",
+    "kana": "やや",
+    "arti": "a little, partially, somewhat, slightly, semi-, -ish, on the ... side, a short time, a while"
+  },
+  {
+    "id": 556,
+    "kanji": "唸る",
+    "kana": "うなる",
+    "arti": "to groan, to moan"
+  },
+  {
+    "id": 557,
+    "kanji": "仕舞った",
+    "kana": "しまった",
+    "arti": "darn it!, darn!, oops!, oh dear!, oh no!"
+  },
+  {
+    "id": 558,
+    "kanji": "頂きます",
+    "kana": "いただきます",
+    "arti": "thank you (for the meal just served), I receive (this meal)"
+  },
+  {
+    "id": 559,
+    "kanji": "箪笥",
+    "kana": "たんす",
+    "arti": "chest of drawers, bureau, cabinet, tansu, dresser"
+  },
+  {
+    "id": 560,
+    "kanji": "これ等",
+    "kana": "これら",
+    "arti": "these"
+  },
+  {
+    "id": 561,
+    "kanji": "上手い",
+    "kana": "うまい",
+    "arti": "skillful, skilful, skilled, good, expert, clever (expression, trick, etc.), apt, appropriate"
+  },
+  {
+    "id": 562,
+    "kanji": "自転",
+    "kana": "じてん",
+    "arti": "rotation (on an axis)"
+  },
+  {
+    "id": 563,
+    "kanji": "葦",
+    "kana": "あし",
+    "arti": "common reed (Phragmites australis)"
+  },
+  {
+    "id": 564,
+    "kanji": "絶版",
+    "kana": "ぜっぱん",
+    "arti": "out of print"
+  },
+  {
+    "id": 565,
+    "kanji": "手芸",
+    "kana": "しゅげい",
+    "arti": "handicrafts"
+  },
+  {
+    "id": 566,
+    "kanji": "風車",
+    "kana": "ふうしゃ",
+    "arti": "windmill, wind turbine"
+  },
+  {
+    "id": 567,
+    "kanji": "年鑑",
+    "kana": "ねんかん",
+    "arti": "yearbook, almanac, annual"
+  },
+  {
+    "id": 568,
+    "kanji": "映写",
+    "kana": "えいしゃ",
+    "arti": "projection (on a screen)"
+  },
+  {
+    "id": 569,
+    "kanji": "暗算",
+    "kana": "あんざん",
+    "arti": "mental arithmetic"
+  },
+  {
+    "id": 570,
+    "kanji": "聴診器",
+    "kana": "ちょうしんき",
+    "arti": "stethoscope"
+  },
+  {
+    "id": 571,
+    "kanji": "浮力",
+    "kana": "ふりょく",
+    "arti": "buoyancy, floating power"
+  },
+  {
+    "id": 572,
+    "kanji": "",
+    "kana": "けど",
+    "arti": "but, however, although"
+  },
+  {
+    "id": 573,
+    "kanji": "間もなく",
+    "kana": "まもなく",
+    "arti": "soon, shortly, before long, in a short time, in a little while"
+  },
+  {
+    "id": 574,
+    "kanji": "耐える",
+    "kana": "たえる",
+    "arti": "to bear, to stand, to endure, to put up with"
+  },
+  {
+    "id": 575,
+    "kanji": "上司",
+    "kana": "じょうし",
+    "arti": "(one's) superior, (one's) boss, the higher-ups"
+  },
+  {
+    "id": 576,
+    "kanji": "少なくとも",
+    "kana": "すくなくとも",
+    "arti": "at least"
+  },
+  {
+    "id": 577,
+    "kanji": "押さえる",
+    "kana": "おさえる",
+    "arti": "to pin down, to hold down, to press down, to hold in place, to hold steady"
+  },
+  {
+    "id": 578,
+    "kanji": "知り合い",
+    "kana": "しりあい",
+    "arti": "acquaintance"
+  },
+  {
+    "id": 579,
+    "kanji": "相変わらず",
+    "kana": "あいかわらず",
+    "arti": "as usual, as always, as before, as ever, still"
+  },
+  {
+    "id": 580,
+    "kanji": "率直",
+    "kana": "そっちょく",
+    "arti": "frank, candid, straightforward, openhearted, direct, outspoken"
+  },
+  {
+    "id": 581,
+    "kanji": "殴る",
+    "kana": "なぐる",
+    "arti": "to strike, to hit, to beat, to punch"
+  },
+  {
+    "id": 582,
+    "kanji": "慌てる",
+    "kana": "あわてる",
+    "arti": "to become confused (disconcerted, disorganized, disorganised), to be flustered, to panic"
+  },
+  {
+    "id": 583,
+    "kanji": "何とも",
+    "kana": "なんとも",
+    "arti": "really, very, extremely, terribly, awfully"
+  },
+  {
+    "id": 584,
+    "kanji": "当たり前",
+    "kana": "あたりまえ",
+    "arti": "natural, reasonable, obvious"
+  },
+  {
+    "id": 585,
+    "kanji": "手元",
+    "kana": "てもと",
+    "arti": "at hand, on hand, nearby, close at hand"
+  },
+  {
+    "id": 586,
+    "kanji": "話し合い",
+    "kana": "はなしあい",
+    "arti": "discussion, talk, tête-à-tête, conference"
+  },
+  {
+    "id": 587,
+    "kanji": "一切",
+    "kana": "いっさい",
+    "arti": "all, everything, entirety, the whole"
+  },
+  {
+    "id": 588,
+    "kanji": "締め切り",
+    "kana": "しめきり",
+    "arti": "deadline, closing, cut-off"
+  },
+  {
+    "id": 589,
+    "kanji": "不当",
+    "kana": "ふとう",
+    "arti": "unfair, unjust, wrongful, improper, unreasonable, unwarranted, unjustified, undeserved, undue"
+  },
+  {
+    "id": 590,
+    "kanji": "一定",
+    "kana": "いってい",
+    "arti": "to fix, to settle, to standardize, to regularize"
+  },
+  {
+    "id": 591,
+    "kanji": "重役",
+    "kana": "じゅうやく",
+    "arti": "(company) director, executive, top management"
+  },
+  {
+    "id": 592,
+    "kanji": "箇所",
+    "kana": "かしょ",
+    "arti": "place, point, part, spot, area, passage, portion"
+  },
+  {
+    "id": 593,
+    "kanji": "寒気",
+    "kana": "さむけ",
+    "arti": "chill, the shivers, shivering fit"
+  },
+  {
+    "id": 594,
+    "kanji": "果たして",
+    "kana": "はたして",
+    "arti": "as was expected, just as one thought, sure enough"
+  },
+  {
+    "id": 595,
+    "kanji": "開拓",
+    "kana": "かいたく",
+    "arti": "reclamation (e.g. of wasteland), cultivation, development"
+  },
+  {
+    "id": 596,
+    "kanji": "割引",
+    "kana": "わりびき",
+    "arti": "discount, reduction, rebate"
+  },
+  {
+    "id": 597,
+    "kanji": "気配",
+    "kana": "けはい",
+    "arti": "indication, sign, hint, sensation, feeling"
+  },
+  {
+    "id": 598,
+    "kanji": "一々",
+    "kana": "いちいち",
+    "arti": "one-by-one, separately"
+  },
+  {
+    "id": 599,
+    "kanji": "産物",
+    "kana": "さんぶつ",
+    "arti": "product, produce"
+  },
+  {
+    "id": 600,
+    "kanji": "売れ行き",
+    "kana": "うれゆき",
+    "arti": "sales, demand"
+  },
+  {
+    "id": 601,
+    "kanji": "田園",
+    "kana": "でんえん",
+    "arti": "the country, countryside, rural districts"
+  },
+  {
+    "id": 602,
+    "kanji": "売れ行き",
+    "kana": "うれゆき",
+    "arti": "sales, demand"
+  },
+  {
+    "id": 603,
+    "kanji": "受け取り",
+    "kana": "うけとり",
+    "arti": "receiving, receipt"
+  },
+  {
+    "id": 604,
+    "kanji": "近々",
+    "kana": "ちかぢか",
+    "arti": "soon, before long, shortly, in the near future"
+  },
+  {
+    "id": 605,
+    "kanji": "家主",
+    "kana": "やぬし",
+    "arti": "landlord, landlady"
+  },
+  {
+    "id": 606,
+    "kanji": "鉱山",
+    "kana": "こうざん",
+    "arti": "mine (ore)"
+  },
+  {
+    "id": 607,
+    "kanji": "何しろ",
+    "kana": "なにしろ",
+    "arti": "in any case, at any rate, anyhow, anyway, as you know, for you see, particularly"
+  },
+  {
+    "id": 608,
+    "kanji": "振興",
+    "kana": "しんこう",
+    "arti": "promotion, encouragement"
+  },
+  {
+    "id": 609,
+    "kanji": "万能",
+    "kana": "ばんのう",
+    "arti": "all-purpose, utility, universal"
+  },
+  {
+    "id": 610,
+    "kanji": "物置",
+    "kana": "ものおき",
+    "arti": "storage room, storeroom, lumber room"
+  },
+  {
+    "id": 611,
+    "kanji": "円満",
+    "kana": "えんまん",
+    "arti": "harmonious, peaceful, happy, amicable, smooth, free from trouble"
+  },
+  {
+    "id": 612,
+    "kanji": "市街",
+    "kana": "しがい",
+    "arti": "urban areas, the streets, town, city"
+  },
+  {
+    "id": 613,
+    "kanji": "無線",
+    "kana": "むせん",
+    "arti": "radio (communication)"
+  },
+  {
+    "id": 614,
+    "kanji": "出入り口",
+    "kana": "でいりぐち",
+    "arti": "exit and entrance"
+  },
+  {
+    "id": 615,
+    "kanji": "付属",
+    "kana": "ふぞく",
+    "arti": "being attached (to), being affiliated (to), belonging (to), going with"
+  },
+  {
+    "id": 616,
+    "kanji": "消耗",
+    "kana": "しょうもう",
+    "arti": "exhaustion, consumption, using up, dissipation, waste"
+  },
+  {
+    "id": 617,
+    "kanji": "騙す",
+    "kana": "だます",
+    "arti": "to trick, to cheat, to deceive, to swindle, to dupe"
+  },
+  {
+    "id": 618,
+    "kanji": "付き合う",
+    "kana": "つきあう",
+    "arti": "to associate with, to keep company with, to go out with, to go steady with, to get on with"
+  },
+  {
+    "id": 619,
+    "kanji": "当てはまる",
+    "kana": "あてはまる",
+    "arti": "to apply (of a rule), to be applicable (of standards, lessons, ideas, etc.), to hold true (e.g. of a description), to fit, to be suitable (e.g. of a word), to meet (requirements), to fulfill (conditions), to come under (a heading)"
+  },
+  {
+    "id": 620,
+    "kanji": "浮かぶ",
+    "kana": "うかぶ",
+    "arti": "to float, to be suspended"
+  },
+  {
+    "id": 621,
+    "kanji": "矢っ張り",
+    "kana": "やっぱり",
+    "arti": "as expected, sure enough, just as one thought"
+  },
+  {
+    "id": 622,
+    "kanji": "引き受ける",
+    "kana": "ひきうける",
+    "arti": "to take on, to undertake, to accept, to take charge of, to assume responsibility for"
+  },
+  {
+    "id": 623,
+    "kanji": "その上",
+    "kana": "そのうえ",
+    "arti": "in addition, furthermore"
+  },
+  {
+    "id": 624,
+    "kanji": "捉える",
+    "kana": "とらえる",
+    "arti": "to catch, to capture, to seize, to arrest, to grab, to catch hold of"
+  },
+  {
+    "id": 625,
+    "kanji": "替わる",
+    "kana": "かわる",
+    "arti": "to succeed, to relieve, to replace"
+  },
+  {
+    "id": 626,
+    "kanji": "溢れる",
+    "kana": "あふれる",
+    "arti": "to overflow, to brim over, to flood"
+  },
+  {
+    "id": 627,
+    "kanji": "零れる",
+    "kana": "こぼれる",
+    "arti": "to spill, to fall out of, to overflow"
+  },
+  {
+    "id": 628,
+    "kanji": "零す",
+    "kana": "こぼす",
+    "arti": "to spill, to drop, to shed (tears)"
+  },
+  {
+    "id": 629,
+    "kanji": "酸っぱい",
+    "kana": "すっぱい",
+    "arti": "sour, acid"
+  },
+  {
+    "id": 630,
+    "kanji": "寄越す",
+    "kana": "よこす",
+    "arti": "to send, to forward"
+  },
+  {
+    "id": 631,
+    "kanji": "躊躇う",
+    "kana": "ためらう",
+    "arti": "to hesitate, to waver"
+  },
+  {
+    "id": 632,
+    "kanji": "惨め",
+    "kana": "みじめ",
+    "arti": "miserable, wretched, unhappy, sad, pitiable"
+  },
+  {
+    "id": 633,
+    "kanji": "遡る",
+    "kana": "さかのぼる",
+    "arti": "to go upstream, to go up (a river)"
+  },
+  {
+    "id": 634,
+    "kanji": "是非とも",
+    "kana": "ぜひとも",
+    "arti": "by all means, at all costs, absolutely"
+  },
+  {
+    "id": 635,
+    "kanji": "独りでに",
+    "kana": "ひとりでに",
+    "arti": "by itself, automatically, naturally"
+  },
+  {
+    "id": 636,
+    "kanji": "大人しい",
+    "kana": "おとなしい",
+    "arti": "gentle, quiet, mild, meek, obedient, docile, well-behaved, tame"
+  },
+  {
+    "id": 637,
+    "kanji": "喧しい",
+    "kana": "やかましい",
+    "arti": "noisy, loud, clamorous, boisterous"
+  },
+  {
+    "id": 638,
+    "kanji": "兎も角",
+    "kana": "ともかく",
+    "arti": "anyhow, anyway, somehow or other, generally speaking, in any case, be that as it may"
+  },
+  {
+    "id": 639,
+    "kanji": "剃る",
+    "kana": "そる",
+    "arti": "to shave"
+  },
+  {
+    "id": 640,
+    "kanji": "尻尾",
+    "kana": "しっぽ",
+    "arti": "tail (of an animal)"
+  },
+  {
+    "id": 641,
+    "kanji": "忽ち",
+    "kana": "たちまち",
+    "arti": "in an instant, in a moment, immediately, right away, at once"
+  },
+  {
+    "id": 642,
+    "kanji": "怒鳴る",
+    "kana": "どなる",
+    "arti": "to shout (in anger), to yell"
+  },
+  {
+    "id": 643,
+    "kanji": "遠方",
+    "kana": "えんぽう",
+    "arti": "distant place, faraway location, far away"
+  },
+  {
+    "id": 644,
+    "kanji": "可愛がる",
+    "kana": "かわいがる",
+    "arti": "to be affectionate to, to treat tenderly, to dote on, to show one's love (for), to cherish"
+  },
+  {
+    "id": 645,
+    "kanji": "傾く",
+    "kana": "かたむく",
+    "arti": "to incline toward, to slant, to lurch, to heel over, to be disposed to, to trend toward, to be prone to"
+  },
+  {
+    "id": 646,
+    "kanji": "済まない",
+    "kana": "すまない",
+    "arti": "inexcusable, unjustifiable, unpardonable"
+  },
+  {
+    "id": 647,
+    "kanji": "躓く",
+    "kana": "つまずく",
+    "arti": "to trip (over), to stumble"
+  },
+  {
+    "id": 648,
+    "kanji": "爽やか",
+    "kana": "さわやか",
+    "arti": "fresh, refreshing, invigorating, pleasant, delightful"
+  },
+  {
+    "id": 649,
+    "kanji": "図々しい",
+    "kana": "ずうずうしい",
+    "arti": "impudent, shameless, brazen, forward, audacious, cheeky"
+  },
+  {
+    "id": 650,
+    "kanji": "嵌める",
+    "kana": "はめる",
+    "arti": "to fit (e.g. a pane into a frame), to insert (e.g. a cork), to fasten (a button)"
+  },
+  {
+    "id": 651,
+    "kanji": "返る",
+    "kana": "かえる",
+    "arti": "to return, to come back, to go back"
+  },
+  {
+    "id": 652,
+    "kanji": "滅茶苦茶",
+    "kana": "めちゃくちゃ",
+    "arti": "absurd, unreasonable, nonsensical, preposterous, incoherent"
+  },
+  {
+    "id": 653,
+    "kanji": "行き成り",
+    "kana": "いきなり",
+    "arti": "abruptly, suddenly, all of a sudden, without warning"
+  },
+  {
+    "id": 654,
+    "kanji": "お早う",
+    "kana": "おはよう",
+    "arti": "good morning"
+  },
+  {
+    "id": 655,
+    "kanji": "背負う",
+    "kana": "せおう",
+    "arti": "to carry on one's back"
+  },
+  {
+    "id": 656,
+    "kanji": "下らない",
+    "kana": "くだらない",
+    "arti": "trivial, trifling, insignificant, not worth bothering with, worthless, useless, good-for-nothing"
+  },
+  {
+    "id": 657,
+    "kanji": "呉れ呉れも",
+    "kana": "くれぐれも",
+    "arti": "sincerely, earnestly, wholeheartedly"
+  },
+  {
+    "id": 658,
+    "kanji": "痒い",
+    "kana": "かゆい",
+    "arti": "itchy"
+  },
+  {
+    "id": 659,
+    "kanji": "勿体ない",
+    "kana": "もったいない",
+    "arti": "wasteful, a waste"
+  },
+  {
+    "id": 660,
+    "kanji": "花壇",
+    "kana": "かだん",
+    "arti": "flower bed"
+  },
+  {
+    "id": 661,
+    "kanji": "眩暈",
+    "kana": "めまい",
+    "arti": "dizziness, giddiness, vertigo"
+  },
+  {
+    "id": 662,
+    "kanji": "打ち合わせ",
+    "kana": "うちあわせ",
+    "arti": "(preparatory) meeting, briefing session, (making) advance arrangements"
+  },
+  {
+    "id": 663,
+    "kanji": "お休み",
+    "kana": "おやすみ",
+    "arti": "holiday, day off, absence"
+  },
+  {
+    "id": 664,
+    "kanji": "何となく",
+    "kana": "なんとなく",
+    "arti": "somehow, for some reason (or other), without knowing why"
+  },
+  {
+    "id": 665,
+    "kanji": "いつの間にか",
+    "kana": "いつのまにか",
+    "arti": "before one knows, before one becomes aware of, unnoticed, unawares"
+  },
+  {
+    "id": 666,
+    "kanji": "ご無沙汰",
+    "kana": "ごぶさた",
+    "arti": "not writing or contacting for a while, neglecting (failing) to write (call, visit, etc.), long silence"
+  },
+  {
+    "id": 667,
+    "kanji": "愈",
+    "kana": "いよいよ",
+    "arti": "more and more, all the more, increasingly"
+  },
+  {
+    "id": 668,
+    "kanji": "若しかしたら",
+    "kana": "もしかしたら",
+    "arti": "perhaps, maybe, perchance, by some chance, by any chance"
+  },
+  {
+    "id": 669,
+    "kanji": "出鱈目",
+    "kana": "でたらめ",
+    "arti": "nonsense, irresponsible remark, codswallop, hogwash, rubbish"
+  },
+  {
+    "id": 670,
+    "kanji": "巫山戯る",
+    "kana": "ふざける",
+    "arti": "to joke, to jest, to kid, to josh"
+  },
+  {
+    "id": 671,
+    "kanji": "お洒落",
+    "kana": "おしゃれ",
+    "arti": "stylish, fashionable, trendy, chic, smartly dressed, careful about one's appearance"
+  },
+  {
+    "id": 672,
+    "kanji": "見っともない",
+    "kana": "みっともない",
+    "arti": "shameful, disgraceful, unsightly, indecent, unseemly, unbecoming, improper"
+  },
+  {
+    "id": 673,
+    "kanji": "当てはめる",
+    "kana": "あてはめる",
+    "arti": "to apply, to adapt"
+  },
+  {
+    "id": 674,
+    "kanji": "吊るす",
+    "kana": "つるす",
+    "arti": "to hang, to hang up"
+  },
+  {
+    "id": 675,
+    "kanji": "眩しい",
+    "kana": "まぶしい",
+    "arti": "dazzling, radiant"
+  },
+  {
+    "id": 676,
+    "kanji": "剥がす",
+    "kana": "はがす",
+    "arti": "to tear off, to peel off, to rip off, to strip off, to skin, to flay, to disrobe, to deprive of, to detach, to disconnect"
+  },
+  {
+    "id": 677,
+    "kanji": "大雑把",
+    "kana": "おおざっぱ",
+    "arti": "rough (estimate, summary, etc.), broad, general, sweeping, loose"
+  },
+  {
+    "id": 678,
+    "kanji": "拵える",
+    "kana": "こしらえる",
+    "arti": "to make, to manufacture, to fabricate"
+  },
+  {
+    "id": 679,
+    "kanji": "所々",
+    "kana": "ところどころ",
+    "arti": "here and there, in places"
+  },
+  {
+    "id": 680,
+    "kanji": "瞼",
+    "kana": "まぶた",
+    "arti": "eyelid"
+  },
+  {
+    "id": 681,
+    "kanji": "萎む",
+    "kana": "しぼむ",
+    "arti": "to wither (of flowers, dreams, etc.), to wilt, to droop, to shrivel, to fade (away), to sag, to deflate"
+  },
+  {
+    "id": 682,
+    "kanji": "目出度い",
+    "kana": "めでたい",
+    "arti": "happy, auspicious, propitious, joyous"
+  },
+  {
+    "id": 683,
+    "kanji": "諄い",
+    "kana": "くどい",
+    "arti": "repetitious, long-winded, tedious, wordy, verbose, insistent, importunate"
+  },
+  {
+    "id": 684,
+    "kanji": "お八つ",
+    "kana": "おやつ",
+    "arti": "between-meal snack"
+  },
+  {
+    "id": 685,
+    "kanji": "十字路",
+    "kana": "じゅうじろ",
+    "arti": "crossroads, intersection"
+  },
+  {
+    "id": 686,
+    "kanji": "組み合わせ",
+    "kana": "くみあわせ",
+    "arti": "combination, assortment, set"
+  },
+  {
+    "id": 687,
+    "kanji": "慌ただしい",
+    "kana": "あわただしい",
+    "arti": "busy, hectic, hurried, rushed"
+  },
+  {
+    "id": 688,
+    "kanji": "若しかする���",
+    "kana": "もしかすると",
+    "arti": "perhaps, possibly, maybe, by some chance"
+  },
+  {
+    "id": 689,
+    "kanji": "偏る",
+    "kana": "かたよる",
+    "arti": "to lean (to one side), to incline"
+  },
+  {
+    "id": 690,
+    "kanji": "跨ぐ",
+    "kana": "またぐ",
+    "arti": "to step over, to step across, to stride over, to stride across, to cross"
+  },
+  {
+    "id": 691,
+    "kanji": "馬鹿らしい",
+    "kana": "ばからしい",
+    "arti": "absurd, foolish, stupid, silly, nonsense, ludicrous, preposterous, laughable, ridiculous"
+  },
+  {
+    "id": 692,
+    "kanji": "俄",
+    "kana": "にわか",
+    "arti": "sudden, abrupt, unexpected, immediate"
+  },
+  {
+    "id": 693,
+    "kanji": "坊ちゃん",
+    "kana": "ぼっちゃん",
+    "arti": "(another's) son, boy, young master"
+  },
+  {
+    "id": 694,
+    "kanji": "畏まりました",
+    "kana": "かしこまりました",
+    "arti": "certainly!, very well, with pleasure, understood!"
+  },
+  {
+    "id": 695,
+    "kanji": "吃逆",
+    "kana": "しゃっくり",
+    "arti": "hiccup, hiccough"
+  },
+  {
+    "id": 696,
+    "kanji": "ご苦労様",
+    "kana": "ごくろうさま",
+    "arti": "thank you (for your hard work), I appreciate your efforts"
+  },
+  {
+    "id": 697,
+    "kanji": "饂飩",
+    "kana": "うどん",
+    "arti": "udon, thick Japanese wheat noodles"
+  },
+  {
+    "id": 698,
+    "kanji": "団扇",
+    "kana": "うちわ",
+    "arti": "uchiwa, type of traditional Japanese handheld fan"
+  },
+  {
+    "id": 699,
+    "kanji": "一先ず",
+    "kana": "ひとまず",
+    "arti": "for now, for the time being, for the present"
+  },
+  {
+    "id": 700,
+    "kanji": "倣う",
+    "kana": "ならう",
+    "arti": "to imitate, to follow, to copy, to emulate"
+  },
+  {
+    "id": 701,
+    "kanji": "倣う",
+    "kana": "ならう",
+    "arti": "to imitate, to follow, to copy, to emulate"
+  },
+  {
+    "id": 702,
+    "kanji": "お願いします",
+    "kana": "おねがいします",
+    "arti": "please"
+  },
+  {
+    "id": 703,
+    "kanji": "沁み沁み",
+    "kana": "しみじみ",
+    "arti": "keenly, deeply, fully, heartily, seriously, earnestly"
+  },
+  {
+    "id": 704,
+    "kanji": "やむを得ない",
+    "kana": "やむをえない",
+    "arti": "cannot be helped, unavoidable"
+  },
+  {
+    "id": 705,
+    "kanji": "お先に",
+    "kana": "おさきに",
+    "arti": "before, previously"
+  },
+  {
+    "id": 706,
+    "kanji": "じゃん拳",
+    "kana": "じゃんけん",
+    "arti": "rock-paper-scissors (game), janken"
+  },
+  {
+    "id": 707,
+    "kanji": "所で",
+    "kana": "ところで",
+    "arti": "by the way, incidentally, well, now"
+  },
+  {
+    "id": 708,
+    "kanji": "木綿",
+    "kana": "もめん",
+    "arti": "cotton (material)"
+  },
+  {
+    "id": 709,
+    "kanji": "丈",
+    "kana": "たけ",
+    "arti": "height, stature"
+  },
+  {
+    "id": 710,
+    "kanji": "何と",
+    "kana": "なんと",
+    "arti": "what, how"
+  },
+  {
+    "id": 711,
+    "kanji": "俺",
+    "kana": "おれ",
+    "arti": "I, me"
+  },
+  {
+    "id": 712,
+    "kanji": "助け",
+    "kana": "たすけ",
+    "arti": "assistance, help, aid, support, reinforcement"
+  },
+  {
+    "id": 713,
+    "kanji": "真実",
+    "kana": "しんじつ",
+    "arti": "truth, reality"
+  },
+  {
+    "id": 714,
+    "kanji": "傍ら",
+    "kana": "かたわら",
+    "arti": "side, edge, beside, besides, nearby"
+  },
+  {
+    "id": 715,
+    "kanji": "同意",
+    "kana": "どうい",
+    "arti": "agreement, consent, approval, assent"
+  },
+  {
+    "id": 716,
+    "kanji": "事業",
+    "kana": "じぎょう",
+    "arti": "business, enterprise, venture, (commercial) activity, (business) operation, industry"
+  },
+  {
+    "id": 717,
+    "kanji": "勤勉",
+    "kana": "きんべん",
+    "arti": "diligent, hard-working, industrious"
+  },
+  {
+    "id": 718,
+    "kanji": "確信",
+    "kana": "かくしん",
+    "arti": "conviction, belief, confidence"
+  },
+  {
+    "id": 719,
+    "kanji": "本の",
+    "kana": "ほんの",
+    "arti": "mere, only, just, slight"
+  },
+  {
+    "id": 720,
+    "kanji": "行為",
+    "kana": "こうい",
+    "arti": "act, deed, conduct"
+  },
+  {
+    "id": 721,
+    "kanji": "興奮",
+    "kana": "こうふん",
+    "arti": "excitement, stimulation, agitation, arousal"
+  },
+  {
+    "id": 722,
+    "kanji": "非難",
+    "kana": "ひなん",
+    "arti": "criticism, blame, censure, attack, reproach"
+  },
+  {
+    "id": 723,
+    "kanji": "倶楽部",
+    "kana": "クラブ",
+    "arti": "club, fraternity, sorority, clubhouse"
+  },
+  {
+    "id": 724,
+    "kanji": "受け入れる",
+    "kana": "うけいれる",
+    "arti": "to accept, to receive, to agree"
+  },
+  {
+    "id": 725,
+    "kanji": "貧乏",
+    "kana": "びんぼう",
+    "arti": "poverty-stricken, destitute, poor, penurious"
+  },
+  {
+    "id": 726,
+    "kanji": "兵士",
+    "kana": "へいし",
+    "arti": "soldier"
+  },
+  {
+    "id": 727,
+    "kanji": "賢明",
+    "kana": "けんめい",
+    "arti": "wise, sensible, well-advised, intelligent, sagacious, prudent"
+  },
+  {
+    "id": 728,
+    "kanji": "過ぎ",
+    "kana": "すぎ",
+    "arti": "past, after"
+  },
+  {
+    "id": 729,
+    "kanji": "申し出",
+    "kana": "もうしで",
+    "arti": "proposal, offer, request, application"
+  },
+  {
+    "id": 730,
+    "kanji": "犠牲",
+    "kana": "ぎせい",
+    "arti": "sacrifice"
+  },
+  {
+    "id": 731,
+    "kanji": "支持",
+    "kana": "しじ",
+    "arti": "support, backing, endorsement, approval"
+  },
+  {
+    "id": 732,
+    "kanji": "見込み",
+    "kana": "みこみ",
+    "arti": "hope, promise, possibility, chance, probability, likelihood"
+  },
+  {
+    "id": 733,
+    "kanji": "立ち寄る",
+    "kana": "たちよる",
+    "arti": "to drop in (at), to drop by, to call at, to stop by, to stop off, to stop in"
+  },
+  {
+    "id": 734,
+    "kanji": "勝る",
+    "kana": "まさる",
+    "arti": "to excel, to surpass, to exceed, to have an edge, to be superior, to outrival"
+  },
+  {
+    "id": 735,
+    "kanji": "匹",
+    "kana": "ひき",
+    "arti": "counter for small animals"
+  },
+  {
+    "id": 736,
+    "kanji": "直面",
+    "kana": "ちょくめん",
+    "arti": "confrontation"
+  },
+  {
+    "id": 737,
+    "kanji": "当て",
+    "kana": "あて",
+    "arti": "aim, object, purpose, end"
+  },
+  {
+    "id": 738,
+    "kanji": "癌",
+    "kana": "がん",
+    "arti": "cancer"
+  },
+  {
+    "id": 739,
+    "kanji": "廃止",
+    "kana": "はいし",
+    "arti": "abolition, discontinuance, discontinuation, repeal, annulment"
+  },
+  {
+    "id": 740,
+    "kanji": "余地",
+    "kana": "よち",
+    "arti": "place, room, margin, scope"
+  },
+  {
+    "id": 741,
+    "kanji": "一部",
+    "kana": "いちぶ",
+    "arti": "one part, one portion, one section"
+  },
+  {
+    "id": 742,
+    "kanji": "発言",
+    "kana": "はつげん",
+    "arti": "statement, remark, observation, utterance, speech, proposal"
+  },
+  {
+    "id": 743,
+    "kanji": "上昇",
+    "kana": "じょうしょう",
+    "arti": "rising, ascending, climbing"
+  },
+  {
+    "id": 744,
+    "kanji": "告げる",
+    "kana": "つげる",
+    "arti": "to tell, to inform, to announce"
+  },
+  {
+    "id": 745,
+    "kanji": "襲う",
+    "kana": "おそう",
+    "arti": "to attack, to assail, to make an assault, to strike, to hunt down"
+  },
+  {
+    "id": 746,
+    "kanji": "従業員",
+    "kana": "じゅうぎょういん",
+    "arti": "employee, worker"
+  },
+  {
+    "id": 747,
+    "kanji": "何より",
+    "kana": "なにより",
+    "arti": "above anything else, above all, more than anything"
+  },
+  {
+    "id": 748,
+    "kanji": "達成",
+    "kana": "たっせい",
+    "arti": "achievement, attainment, accomplishment, realization"
+  },
+  {
+    "id": 749,
+    "kanji": "誠実",
+    "kana": "せいじつ",
+    "arti": "sincere, honest, faithful"
+  },
+  {
+    "id": 750,
+    "kanji": "侮辱",
+    "kana": "ぶじょく",
+    "arti": "insult, affront, slight, contempt (e.g. of court)"
+  },
+  {
+    "id": 751,
+    "kanji": "言い訳",
+    "kana": "いいわけ",
+    "arti": "excuse"
+  },
+  {
+    "id": 752,
+    "kanji": "負う",
+    "kana": "おう",
+    "arti": "to carry on one's back, to bear, to shoulder"
+  },
+  {
+    "id": 753,
+    "kanji": "資金",
+    "kana": "しきん",
+    "arti": "funds, capital"
+  },
+  {
+    "id": 754,
+    "kanji": "対処",
+    "kana": "たいしょ",
+    "arti": "dealing with, coping with"
+  },
+  {
+    "id": 755,
+    "kanji": "曲",
+    "kana": "きょく",
+    "arti": "composition, piece of music, song, track (on a record)"
+  },
+  {
+    "id": 756,
+    "kanji": "指摘",
+    "kana": "してき",
+    "arti": "pointing out, identification"
+  },
+  {
+    "id": 757,
+    "kanji": "従事",
+    "kana": "じゅうじ",
+    "arti": "engaging in (work), pursuing (e.g. studies), following (a profession), being involved in"
+  },
+  {
+    "id": 758,
+    "kanji": "保つ",
+    "kana": "たもつ",
+    "arti": "to keep, to preserve, to hold, to retain, to maintain, to sustain"
+  },
+  {
+    "id": 759,
+    "kanji": "昇進",
+    "kana": "しょうしん",
+    "arti": "promotion, advancement, rising in rank"
+  },
+  {
+    "id": 760,
+    "kanji": "素早い",
+    "kana": "すばやい",
+    "arti": "quick, swift, nimble, agile"
+  },
+  {
+    "id": 761,
+    "kanji": "提供",
+    "kana": "ていきょう",
+    "arti": "offer, tender, providing, supplying, making available, donating (blood, organs, etc.)"
+  },
+  {
+    "id": 762,
+    "kanji": "浪費",
+    "kana": "ろうひ",
+    "arti": "waste, extravagance"
+  },
+  {
+    "id": 763,
+    "kanji": "退職",
+    "kana": "たいしょく",
+    "arti": "retirement, resignation"
+  },
+  {
+    "id": 764,
+    "kanji": "拒否",
+    "kana": "きょひ",
+    "arti": "refusal, rejection, denial, veto"
+  },
+  {
+    "id": 765,
+    "kanji": "法案",
+    "kana": "ほうあん",
+    "arti": "bill (law), measure"
+  },
+  {
+    "id": 766,
+    "kanji": "抗議",
+    "kana": "こうぎ",
+    "arti": "protest, objection"
+  },
+  {
+    "id": 767,
+    "kanji": "討論",
+    "kana": "とうろん",
+    "arti": "debate, discussion"
+  },
+  {
+    "id": 768,
+    "kanji": "真相",
+    "kana": "しんそう",
+    "arti": "truth, real situation"
+  },
+  {
+    "id": 769,
+    "kanji": "驚き",
+    "kana": "おどろき",
+    "arti": "surprise, astonishment, wonder, amazement"
+  },
+  {
+    "id": 770,
+    "kanji": "詳細",
+    "kana": "しょうさい",
+    "arti": "details, particulars, specifics"
+  },
+  {
+    "id": 771,
+    "kanji": "広まる",
+    "kana": "ひろまる",
+    "arti": "to spread, to be propagated"
+  },
+  {
+    "id": 772,
+    "kanji": "指示",
+    "kana": "しじ",
+    "arti": "indication, denotation, designation"
+  },
+  {
+    "id": 773,
+    "kanji": "負傷",
+    "kana": "ふしょう",
+    "arti": "injury, wound"
+  },
+  {
+    "id": 774,
+    "kanji": "本気",
+    "kana": "ほんき",
+    "arti": "seriousness, earnestness, truth, sanctity"
+  },
+  {
+    "id": 775,
+    "kanji": "日々",
+    "kana": "ひび",
+    "arti": "daily, everyday"
+  },
+  {
+    "id": 776,
+    "kanji": "沈黙",
+    "kana": "ちんもく",
+    "arti": "silence, being silent, quiet, hush"
+  },
+  {
+    "id": 777,
+    "kanji": "誘惑",
+    "kana": "ゆうわく",
+    "arti": "temptation, allurement, lure, enticement, seduction"
+  },
+  {
+    "id": 778,
+    "kanji": "及ぶ",
+    "kana": "およぶ",
+    "arti": "to reach, to amount to, to befall, to happen to, to extend, to go on (for, until)"
+  },
+  {
+    "id": 779,
+    "kanji": "採用",
+    "kana": "さいよう",
+    "arti": "use, adoption, acceptance"
+  },
+  {
+    "id": 780,
+    "kanji": "部下",
+    "kana": "ぶか",
+    "arti": "subordinate person"
+  },
+  {
+    "id": 781,
+    "kanji": "尚",
+    "kana": "なお",
+    "arti": "still, yet"
+  },
+  {
+    "id": 782,
+    "kanji": "忠実",
+    "kana": "ちゅうじつ",
+    "arti": "faithful, devoted, loyal, honest, true"
+  },
+  {
+    "id": 783,
+    "kanji": "一面",
+    "kana": "いちめん",
+    "arti": "one face, one surface"
+  },
+  {
+    "id": 784,
+    "kanji": "設立",
+    "kana": "せつりつ",
+    "arti": "establishment, founding"
+  },
+  {
+    "id": 785,
+    "kanji": "満たす",
+    "kana": "みたす",
+    "arti": "to satisfy (conditions, one's appetite, etc.), to meet (e.g. demands), to fulfill, to gratify"
+  },
+  {
+    "id": 786,
+    "kanji": "成り立つ",
+    "kana": "なりたつ",
+    "arti": "to consist of, to be made up of, to be composed of"
+  },
+  {
+    "id": 787,
+    "kanji": "事柄",
+    "kana": "ことがら",
+    "arti": "matter, thing, affair, circumstance"
+  },
+  {
+    "id": 788,
+    "kanji": "過ち",
+    "kana": "あやまち",
+    "arti": "fault, error, indiscretion, faux pas"
+  },
+  {
+    "id": 789,
+    "kanji": "控える",
+    "kana": "ひかえる",
+    "arti": "to be temperate in, to refrain, to abstain, to hold back, to restrain oneself from excessive ..."
+  },
+  {
+    "id": 790,
+    "kanji": "扱い",
+    "kana": "あつかい",
+    "arti": "treatment, service, dealing (with), handling, management"
+  },
+  {
+    "id": 791,
+    "kanji": "辞職",
+    "kana": "じしょく",
+    "arti": "resignation"
+  },
+  {
+    "id": 792,
+    "kanji": "実",
+    "kana": "じつ",
+    "arti": "truth, reality"
+  },
+  {
+    "id": 793,
+    "kanji": "損失",
+    "kana": "そんしつ",
+    "arti": "loss (of assets, profit, etc.)"
+  },
+  {
+    "id": 794,
+    "kanji": "赤字",
+    "kana": "あかじ",
+    "arti": "(being in) the red, deficit"
+  },
+  {
+    "id": 795,
+    "kanji": "開発",
+    "kana": "かいはつ",
+    "arti": "development, cultivation, application"
+  },
+  {
+    "id": 796,
+    "kanji": "時折",
+    "kana": "ときおり",
+    "arti": "sometimes, at intervals, occasionally, on occasion, from time to time"
+  },
+  {
+    "id": 797,
+    "kanji": "緊急",
+    "kana": "きんきゅう",
+    "arti": "urgency, emergency"
+  },
+  {
+    "id": 798,
+    "kanji": "逃れる",
+    "kana": "のがれる",
+    "arti": "to escape"
+  },
+  {
+    "id": 799,
+    "kanji": "行い",
+    "kana": "おこない",
+    "arti": "deed, act, action"
+  },
+  {
+    "id": 800,
+    "kanji": "出世",
+    "kana": "しゅっせ",
+    "arti": "success in life, getting ahead, successful career, promotion, climbing the corporate ladder, eminence"
+  },
+  {
+    "id": 801,
+    "kanji": "出世",
+    "kana": "しゅっせ",
+    "arti": "success in life, getting ahead, successful career, promotion, climbing the corporate ladder, eminence"
+  },
+  {
+    "id": 802,
+    "kanji": "遅れ",
+    "kana": "おくれ",
+    "arti": "delay, lag, falling behind"
+  },
+  {
+    "id": 803,
+    "kanji": "不可欠",
+    "kana": "ふかけつ",
+    "arti": "indispensable, essential"
+  },
+  {
+    "id": 804,
+    "kanji": "敏感",
+    "kana": "びんかん",
+    "arti": "sensitive, alert, aware, susceptible"
+  },
+  {
+    "id": 805,
+    "kanji": "勤務",
+    "kana": "きんむ",
+    "arti": "service, duty, work"
+  },
+  {
+    "id": 806,
+    "kanji": "発生",
+    "kana": "はっせい",
+    "arti": "occurrence, incidence, outbreak, birth (e.g. of civilization)"
+  },
+  {
+    "id": 807,
+    "kanji": "任命",
+    "kana": "にんめい",
+    "arti": "appointment, nomination, ordination, commission, designation"
+  },
+  {
+    "id": 808,
+    "kanji": "辛うじて",
+    "kana": "かろうじて",
+    "arti": "barely, narrowly, only just, with difficulty"
+  },
+  {
+    "id": 809,
+    "kanji": "動き",
+    "kana": "うごき",
+    "arti": "movement, move, motion"
+  },
+  {
+    "id": 810,
+    "kanji": "付き",
+    "kana": "つき",
+    "arti": "furnished with, including"
+  },
+  {
+    "id": 811,
+    "kanji": "申し込み",
+    "kana": "もうしこみ",
+    "arti": "application, entry, request, subscription, offer, proposal, overture, challenge"
+  },
+  {
+    "id": 812,
+    "kanji": "悩ます",
+    "kana": "なやます",
+    "arti": "to afflict, to torment, to harass, to molest"
+  },
+  {
+    "id": 813,
+    "kanji": "残酷",
+    "kana": "ざんこく",
+    "arti": "cruel, brutal, ruthless, merciless, inhuman"
+  },
+  {
+    "id": 814,
+    "kanji": "収集",
+    "kana": "しゅうしゅう",
+    "arti": "collecting, accumulating, gathering"
+  },
+  {
+    "id": 815,
+    "kanji": "英雄",
+    "kana": "えいゆう",
+    "arti": "hero, heroine, great person"
+  },
+  {
+    "id": 816,
+    "kanji": "獲得",
+    "kana": "かくとく",
+    "arti": "acquisition, possession"
+  },
+  {
+    "id": 817,
+    "kanji": "値引き",
+    "kana": "ねびき",
+    "arti": "price reduction, discount"
+  },
+  {
+    "id": 818,
+    "kanji": "不在",
+    "kana": "ふざい",
+    "arti": "absence"
+  },
+  {
+    "id": 819,
+    "kanji": "栽培",
+    "kana": "さいばい",
+    "arti": "cultivation"
+  },
+  {
+    "id": 820,
+    "kanji": "号",
+    "kana": "ごう",
+    "arti": "number, edition, make, model, issue, part of that group"
+  },
+  {
+    "id": 821,
+    "kanji": "値引き",
+    "kana": "ねびき",
+    "arti": "price reduction, discount"
+  },
+  {
+    "id": 822,
+    "kanji": "悪化",
+    "kana": "あっか",
+    "arti": "deterioration, getting worse, worsening, aggravation, degeneration, corruption"
+  },
+  {
+    "id": 823,
+    "kanji": "継ぐ",
+    "kana": "つぐ",
+    "arti": "to succeed (a person, to a position, etc.), to inherit, to take over, to follow"
+  },
+  {
+    "id": 824,
+    "kanji": "応募",
+    "kana": "おうぼ",
+    "arti": "application, subscription, entry (competition, raffle, etc.), enlistment"
+  },
+  {
+    "id": 825,
+    "kanji": "用紙",
+    "kana": "ようし",
+    "arti": "blank form"
+  },
+  {
+    "id": 826,
+    "kanji": "悩み",
+    "kana": "なやみ",
+    "arti": "trouble, troubles, worry, distress, sorrows, anguish, agony, problem"
+  },
+  {
+    "id": 827,
+    "kanji": "討議",
+    "kana": "とうぎ",
+    "arti": "debate, discussion"
+  },
+  {
+    "id": 828,
+    "kanji": "生かす",
+    "kana": "いかす",
+    "arti": "to make (the best) use of, to put to good use, to leverage (skills, attributes, experience, etc.), to capitalise on (experience, etc.)"
+  },
+  {
+    "id": 829,
+    "kanji": "不況",
+    "kana": "ふきょう",
+    "arti": "(economic) depression, recession, slump"
+  },
+  {
+    "id": 830,
+    "kanji": "気楽",
+    "kana": "きらく",
+    "arti": "carefree, comfortable, at ease"
+  },
+  {
+    "id": 831,
+    "kanji": "盗み",
+    "kana": "ぬすみ",
+    "arti": "stealing, theft"
+  },
+  {
+    "id": 832,
+    "kanji": "減少",
+    "kana": "げんしょう",
+    "arti": "decrease, reduction, decline"
+  },
+  {
+    "id": 833,
+    "kanji": "念",
+    "kana": "ねん",
+    "arti": "sense, idea, thought, feeling"
+  },
+  {
+    "id": 834,
+    "kanji": "伝達",
+    "kana": "でんたつ",
+    "arti": "transmission (e.g. news, chemical signals, electricity), communication, delivery, conveyance, transfer, relay, propagation, conduction"
+  },
+  {
+    "id": 835,
+    "kanji": "開催",
+    "kana": "かいさい",
+    "arti": "holding (a conference, exhibition, etc.), opening, hosting (e.g. the Olympics)"
+  },
+  {
+    "id": 836,
+    "kanji": "野心",
+    "kana": "やしん",
+    "arti": "ambition, aspiration"
+  },
+  {
+    "id": 837,
+    "kanji": "最善",
+    "kana": "さいぜん",
+    "arti": "the very best, utmost"
+  },
+  {
+    "id": 838,
+    "kanji": "根拠",
+    "kana": "こんきょ",
+    "arti": "basis, grounds, foundation, reason, authority"
+  },
+  {
+    "id": 839,
+    "kanji": "依存",
+    "kana": "いぞん",
+    "arti": "dependence, reliance"
+  },
+  {
+    "id": 840,
+    "kanji": "絶望",
+    "kana": "ぜつぼう",
+    "arti": "despair, hopelessness"
+  },
+  {
+    "id": 841,
+    "kanji": "最善",
+    "kana": "さいぜん",
+    "arti": "the very best, utmost"
+  },
+  {
+    "id": 842,
+    "kanji": "依存",
+    "kana": "いぞん",
+    "arti": "dependence, reliance"
+  },
+  {
+    "id": 843,
+    "kanji": "絶望",
+    "kana": "ぜつぼう",
+    "arti": "despair, hopelessness"
+  },
+  {
+    "id": 844,
+    "kanji": "対応",
+    "kana": "たいおう",
+    "arti": "correspondence (to), equivalence"
+  },
+  {
+    "id": 845,
+    "kanji": "要する",
+    "kana": "ようする",
+    "arti": "to need, to demand, to take, to require"
+  },
+  {
+    "id": 846,
+    "kanji": "催す",
+    "kana": "もよおす",
+    "arti": "to hold (an event), to give (a dinner, party, etc.)"
+  },
+  {
+    "id": 847,
+    "kanji": "覚え",
+    "kana": "おぼえ",
+    "arti": "memory, sense, experience"
+  },
+  {
+    "id": 848,
+    "kanji": "試み",
+    "kana": "こころみ",
+    "arti": "attempt, trial, experiment"
+  },
+  {
+    "id": 849,
+    "kanji": "美術",
+    "kana": "びじゅつ",
+    "arti": "art, fine arts"
+  },
+  {
+    "id": 850,
+    "kanji": "観点",
+    "kana": "かんてん",
+    "arti": "point of view, viewpoint, standpoint, perspective, angle"
+  },
+  {
+    "id": 851,
+    "kanji": "意図",
+    "kana": "いと",
+    "arti": "intention, aim, design"
+  },
+  {
+    "id": 852,
+    "kanji": "推測",
+    "kana": "すいそく",
+    "arti": "guess, conjecture"
+  },
+  {
+    "id": 853,
+    "kanji": "連中",
+    "kana": "れんちゅう",
+    "arti": "company, lot, people, bunch, gang, pack, guys, group, folks"
+  },
+  {
+    "id": 854,
+    "kanji": "過労",
+    "kana": "かろう",
+    "arti": "overwork, strain"
+  },
+  {
+    "id": 855,
+    "kanji": "所属",
+    "kana": "しょぞく",
+    "arti": "belonging to (a group, organization, etc.), affiliation (with), being attached to, being under the control of, serving (in the military, congress, etc.)"
+  },
+  {
+    "id": 856,
+    "kanji": "階級",
+    "kana": "かいきゅう",
+    "arti": "(social) class"
+  },
+  {
+    "id": 857,
+    "kanji": "特有",
+    "kana": "とくゆう",
+    "arti": "characteristic (of), peculiar (to)"
+  },
+  {
+    "id": 858,
+    "kanji": "像",
+    "kana": "ぞう",
+    "arti": "image, figure, statue, picture, portrait"
+  },
+  {
+    "id": 859,
+    "kanji": "策",
+    "kana": "さく",
+    "arti": "plan, policy, means, measure, stratagem, scheme"
+  },
+  {
+    "id": 860,
+    "kanji": "適応",
+    "kana": "てきおう",
+    "arti": "adaptation, accommodation, conformity"
+  },
+  {
+    "id": 861,
+    "kanji": "像",
+    "kana": "ぞう",
+    "arti": "image, figure, statue, picture, portrait"
+  },
+  {
+    "id": 862,
+    "kanji": "禁じる",
+    "kana": "きんじる",
+    "arti": "to forbid, to ban, to prohibit"
+  },
+  {
+    "id": 863,
+    "kanji": "始発",
+    "kana": "しはつ",
+    "arti": "first departure (of the day), first train, first bus"
+  },
+  {
+    "id": 864,
+    "kanji": "見方",
+    "kana": "みかた",
+    "arti": "viewpoint, point of view, way of looking (at something), view, angle"
+  },
+  {
+    "id": 865,
+    "kanji": "挑戦",
+    "kana": "ちょうせん",
+    "arti": "challenge, defiance, dare, attempt, try"
+  },
+  {
+    "id": 866,
+    "kanji": "職務",
+    "kana": "しょくむ",
+    "arti": "professional duties"
+  },
+  {
+    "id": 867,
+    "kanji": "断然",
+    "kana": "だんぜん",
+    "arti": "firmly, flatly, resolutely, decisively, absolutely, definitely"
+  },
+  {
+    "id": 868,
+    "kanji": "地元",
+    "kana": "じもと",
+    "arti": "home area, home town"
+  },
+  {
+    "id": 869,
+    "kanji": "大胆",
+    "kana": "だいたん",
+    "arti": "bold, daring, audacious"
+  },
+  {
+    "id": 870,
+    "kanji": "浜辺",
+    "kana": "はまべ",
+    "arti": "beach, foreshore"
+  },
+  {
+    "id": 871,
+    "kanji": "課題",
+    "kana": "かだい",
+    "arti": "subject, theme, issue, matter"
+  },
+  {
+    "id": 872,
+    "kanji": "沸騰",
+    "kana": "ふっとう",
+    "arti": "boiling, seething"
+  },
+  {
+    "id": 873,
+    "kanji": "決意",
+    "kana": "けつい",
+    "arti": "decision, determination, resolution"
+  },
+  {
+    "id": 874,
+    "kanji": "蝶",
+    "kana": "ちょう",
+    "arti": "butterfly"
+  },
+  {
+    "id": 875,
+    "kanji": "有益",
+    "kana": "ゆうえき",
+    "arti": "beneficial, profitable, useful, helpful, instructive"
+  },
+  {
+    "id": 876,
+    "kanji": "到達",
+    "kana": "とうたつ",
+    "arti": "reaching, attaining, arrival"
+  },
+  {
+    "id": 877,
+    "kanji": "頻繁",
+    "kana": "ひんぱん",
+    "arti": "frequent, incessant"
+  },
+  {
+    "id": 878,
+    "kanji": "人柄",
+    "kana": "ひとがら",
+    "arti": "personality, character, personal appearance, gentility"
+  },
+  {
+    "id": 879,
+    "kanji": "調和",
+    "kana": "ちょうわ",
+    "arti": "harmony, accord, reconciliation, agreement"
+  },
+  {
+    "id": 880,
+    "kanji": "極端",
+    "kana": "きょくたん",
+    "arti": "extreme, extremity"
+  },
+  {
+    "id": 881,
+    "kanji": "極端",
+    "kana": "きょくたん",
+    "arti": "extreme, extremity"
+  },
+  {
+    "id": 882,
+    "kanji": "他方",
+    "kana": "たほう",
+    "arti": "one (esp. of two), the other, one way, the other way, one direction, the other direction, one side, the other side, one party, the other party"
+  },
+  {
+    "id": 883,
+    "kanji": "有益",
+    "kana": "ゆうえき",
+    "arti": "beneficial, profitable, useful, helpful, instructive"
+  },
+  {
+    "id": 884,
+    "kanji": "中断",
+    "kana": "ちゅうだん",
+    "arti": "interruption, suspension, break"
+  },
+  {
+    "id": 885,
+    "kanji": "合併",
+    "kana": "がっぺい",
+    "arti": "merger (of companies, towns, etc.), combination, union, amalgamation, consolidation, coalition, fusion, annexation, affiliation, incorporation"
+  },
+  {
+    "id": 886,
+    "kanji": "肉体",
+    "kana": "にくたい",
+    "arti": "the body, the flesh, the outer man, one's physique"
+  },
+  {
+    "id": 887,
+    "kanji": "励ます",
+    "kana": "はげます",
+    "arti": "to encourage, to cheer on, to cheer (someone) up"
+  },
+  {
+    "id": 888,
+    "kanji": "独自",
+    "kana": "どくじ",
+    "arti": "original, unique, distinctive, characteristic, peculiar"
+  },
+  {
+    "id": 889,
+    "kanji": "接触",
+    "kana": "せっしょく",
+    "arti": "touch, contact, touching"
+  },
+  {
+    "id": 890,
+    "kanji": "好意",
+    "kana": "こうい",
+    "arti": "kindness, favor, favour, friendliness"
+  },
+  {
+    "id": 891,
+    "kanji": "同士",
+    "kana": "どうし",
+    "arti": "fellow, mutual, companion, comrade"
+  },
+  {
+    "id": 892,
+    "kanji": "少数",
+    "kana": "しょうすう",
+    "arti": "small number, few, minority"
+  },
+  {
+    "id": 893,
+    "kanji": "崩壊",
+    "kana": "ほうかい",
+    "arti": "collapse, crumbling, breaking down, caving in"
+  },
+  {
+    "id": 894,
+    "kanji": "業者",
+    "kana": "ぎょうしゃ",
+    "arti": "trader, dealer, businessperson, company, vendor, supplier, manufacturer, maker, contractor"
+  },
+  {
+    "id": 895,
+    "kanji": "図る",
+    "kana": "はかる",
+    "arti": "to plan, to attempt, to devise"
+  },
+  {
+    "id": 896,
+    "kanji": "観衆",
+    "kana": "かんしゅう",
+    "arti": "spectators, onlookers, members of the audience"
+  },
+  {
+    "id": 897,
+    "kanji": "頑固",
+    "kana": "がんこ",
+    "arti": "stubborn, obstinate, pigheaded"
+  },
+  {
+    "id": 898,
+    "kanji": "発",
+    "kana": "はつ",
+    "arti": "departure, departing from ..., leaving at (e.g. 8:30)"
+  },
+  {
+    "id": 899,
+    "kanji": "弁解",
+    "kana": "べんかい",
+    "arti": "explanation (e.g. for one's actions), excuse, justification, defense, defence"
+  },
+  {
+    "id": 900,
+    "kanji": "悲鳴",
+    "kana": "ひめい",
+    "arti": "shriek, scream"
+  },
+  {
+    "id": 901,
+    "kanji": "弁解",
+    "kana": "べんかい",
+    "arti": "explanation (e.g. for one's actions), excuse, justification, defense, defence"
+  },
+  {
+    "id": 902,
+    "kanji": "図る",
+    "kana": "はかる",
+    "arti": "to plan, to attempt, to devise"
+  },
+  {
+    "id": 903,
+    "kanji": "発",
+    "kana": "はつ",
+    "arti": "departure, departing from ..., leaving at (e.g. 8:30)"
+  },
+  {
+    "id": 904,
+    "kanji": "崩壊",
+    "kana": "ほうかい",
+    "arti": "collapse, crumbling, breaking down, caving in"
+  },
+  {
+    "id": 905,
+    "kanji": "抜け出す",
+    "kana": "ぬけだす",
+    "arti": "to slip out, to sneak away, to break free, to get through (a difficult situation)"
+  },
+  {
+    "id": 906,
+    "kanji": "損なう",
+    "kana": "そこなう",
+    "arti": "to harm, to hurt, to injure, to damage, to spoil, to mar, to ruin"
+  },
+  {
+    "id": 907,
+    "kanji": "手がかり",
+    "kana": "てがかり",
+    "arti": "clue, lead, key, trail, scent, track"
+  },
+  {
+    "id": 908,
+    "kanji": "事項",
+    "kana": "じこう",
+    "arti": "matter, item, facts"
+  },
+  {
+    "id": 909,
+    "kanji": "読者",
+    "kana": "どくしゃ",
+    "arti": "reader"
+  },
+  {
+    "id": 910,
+    "kanji": "成果",
+    "kana": "せいか",
+    "arti": "(good) result, outcome, fruits (of one's labors), product, accomplishment"
+  },
+  {
+    "id": 911,
+    "kanji": "閉鎖",
+    "kana": "へいさ",
+    "arti": "closing, closure"
+  },
+  {
+    "id": 912,
+    "kanji": "簡潔",
+    "kana": "かんけつ",
+    "arti": "concise, brief, succinct, compact (style)"
+  },
+  {
+    "id": 913,
+    "kanji": "情熱",
+    "kana": "じょうねつ",
+    "arti": "passion, enthusiasm, zeal"
+  },
+  {
+    "id": 914,
+    "kanji": "情勢",
+    "kana": "じょうせい",
+    "arti": "state of things, state of affairs, situation, conditions, circumstances"
+  },
+  {
+    "id": 915,
+    "kanji": "創立",
+    "kana": "そうりつ",
+    "arti": "establishment, founding, organization, organisation"
+  },
+  {
+    "id": 916,
+    "kanji": "促進",
+    "kana": "そくしん",
+    "arti": "promotion, acceleration, encouragement, facilitation, spurring on"
+  },
+  {
+    "id": 917,
+    "kanji": "慣習",
+    "kana": "かんしゅう",
+    "arti": "custom, convention, common practice"
+  },
+  {
+    "id": 918,
+    "kanji": "野生",
+    "kana": "やせい",
+    "arti": "wild"
+  },
+  {
+    "id": 919,
+    "kanji": "向上",
+    "kana": "こうじょう",
+    "arti": "elevation, rise, improvement, advancement, progress"
+  },
+  {
+    "id": 920,
+    "kanji": "余暇",
+    "kana": "よか",
+    "arti": "leisure, leisure time, spare time"
+  },
+  {
+    "id": 921,
+    "kanji": "源",
+    "kana": "みなもと",
+    "arti": "source (of a river), fountainhead"
+  },
+  {
+    "id": 922,
+    "kanji": "余暇",
+    "kana": "よか",
+    "arti": "leisure, leisure time, spare time"
+  },
+  {
+    "id": 923,
+    "kanji": "背景",
+    "kana": "はいけい",
+    "arti": "background, scenery, backdrop, setting"
+  },
+  {
+    "id": 924,
+    "kanji": "脅す",
+    "kana": "おどす",
+    "arti": "to threaten, to menace, to frighten (into doing)"
+  },
+  {
+    "id": 925,
+    "kanji": "法廷",
+    "kana": "ほうてい",
+    "arti": "court (of law), courtroom"
+  },
+  {
+    "id": 926,
+    "kanji": "受け継ぐ",
+    "kana": "うけつぐ",
+    "arti": "to inherit, to succeed, to take over"
+  },
+  {
+    "id": 927,
+    "kanji": "異議",
+    "kana": "いぎ",
+    "arti": "objection, dissent, protest"
+  },
+  {
+    "id": 928,
+    "kanji": "年生",
+    "kana": "ねんせい",
+    "arti": "nth-year student, nth-year pupil"
+  },
+  {
+    "id": 929,
+    "kanji": "再会",
+    "kana": "さいかい",
+    "arti": "meeting again, reunion"
+  },
+  {
+    "id": 930,
+    "kanji": "無駄遣い",
+    "kana": "むだづかい",
+    "arti": "waste (of money, time, etc.), squandering, frittering away"
+  },
+  {
+    "id": 931,
+    "kanji": "愛想",
+    "kana": "あいそ",
+    "arti": "amiability, friendliness, affability, sociability"
+  },
+  {
+    "id": 932,
+    "kanji": "恐れ",
+    "kana": "おそれ",
+    "arti": "fear, horror, anxiety, concern, uneasiness, reverence"
+  },
+  {
+    "id": 933,
+    "kanji": "徒歩",
+    "kana": "とほ",
+    "arti": "walking, going on foot"
+  },
+  {
+    "id": 934,
+    "kanji": "任務",
+    "kana": "にんむ",
+    "arti": "duty, function, office, mission, task, role"
+  },
+  {
+    "id": 935,
+    "kanji": "微笑",
+    "kana": "びしょう",
+    "arti": "smile"
+  },
+  {
+    "id": 936,
+    "kanji": "争い",
+    "kana": "あらそい",
+    "arti": "fight, dispute, feud, conflict, struggle, strife, discord, argument, quarrel, controversy"
+  },
+  {
+    "id": 937,
+    "kanji": "干渉",
+    "kana": "かんしょう",
+    "arti": "interference, intervention, meddling"
+  },
+  {
+    "id": 938,
+    "kanji": "行進",
+    "kana": "こうしん",
+    "arti": "march, parade"
+  },
+  {
+    "id": 939,
+    "kanji": "業績",
+    "kana": "ぎょうせき",
+    "arti": "achievement, performance, results, work, contribution"
+  },
+  {
+    "id": 940,
+    "kanji": "滑らか",
+    "kana": "なめらか",
+    "arti": "smooth (of a surface), glassy, velvety, soft"
+  },
+  {
+    "id": 941,
+    "kanji": "微笑",
+    "kana": "びしょう",
+    "arti": "smile"
+  },
+  {
+    "id": 942,
+    "kanji": "干渉",
+    "kana": "かんしょう",
+    "arti": "interference, intervention, meddling"
+  },
+  {
+    "id": 943,
+    "kanji": "業績",
+    "kana": "ぎょうせき",
+    "arti": "achievement, performance, results, work, contribution"
+  },
+  {
+    "id": 944,
+    "kanji": "紛争",
+    "kana": "ふんそう",
+    "arti": "dispute, conflict, trouble, unrest, strife"
+  },
+  {
+    "id": 945,
+    "kanji": "滑らか",
+    "kana": "なめらか",
+    "arti": "smooth (of a surface), glassy, velvety, soft"
+  },
+  {
+    "id": 946,
+    "kanji": "決勝",
+    "kana": "けっしょう",
+    "arti": "decision of a contest"
+  },
+  {
+    "id": 947,
+    "kanji": "見通し",
+    "kana": "みとおし",
+    "arti": "unobstructed view, perspective, visibility, vista"
+  },
+  {
+    "id": 948,
+    "kanji": "追跡",
+    "kana": "ついせき",
+    "arti": "chase, pursuit, tracking, stalking"
+  },
+  {
+    "id": 949,
+    "kanji": "利点",
+    "kana": "りてん",
+    "arti": "advantage, point in favor, point in favour"
+  },
+  {
+    "id": 950,
+    "kanji": "落ち込む",
+    "kana": "おちこむ",
+    "arti": "to feel down, to feel sad, to be depressed, to be in low spirits"
+  },
+  {
+    "id": 951,
+    "kanji": "象徴",
+    "kana": "しょうちょう",
+    "arti": "symbol (of something abstract), emblem, (symbolic) representation"
+  },
+  {
+    "id": 952,
+    "kanji": "国連",
+    "kana": "こくれん",
+    "arti": "United Nations, UN"
+  },
+  {
+    "id": 953,
+    "kanji": "匹敵",
+    "kana": "ひってき",
+    "arti": "to be a match for, to rival, to equal, to compare with, to be equivalent to"
+  },
+  {
+    "id": 954,
+    "kanji": "征服",
+    "kana": "せいふく",
+    "arti": "conquest, subjugation"
+  },
+  {
+    "id": 955,
+    "kanji": "参照",
+    "kana": "さんしょう",
+    "arti": "reference (e.g. to a dictionary, passage, footnotes), consultation, comparison"
+  },
+  {
+    "id": 956,
+    "kanji": "上演",
+    "kana": "じょうえん",
+    "arti": "performance (of a play, opera, etc.), staging, presentation"
+  },
+  {
+    "id": 957,
+    "kanji": "訂正",
+    "kana": "ていせい",
+    "arti": "correction, revision, amendment"
+  },
+  {
+    "id": 958,
+    "kanji": "抑制",
+    "kana": "よくせい",
+    "arti": "control, restraint, suppression, constraint, curtailment, inhibition, check, curb"
+  },
+  {
+    "id": 959,
+    "kanji": "入手",
+    "kana": "にゅうしゅ",
+    "arti": "acquisition, obtaining, procurement, getting (hold of)"
+  },
+  {
+    "id": 960,
+    "kanji": "要因",
+    "kana": "よういん",
+    "arti": "main cause, primary factor"
+  },
+  {
+    "id": 961,
+    "kanji": "高まる",
+    "kana": "たかまる",
+    "arti": "to rise, to swell, to intensify, to increase, to grow stronger, to get higher"
+  },
+  {
+    "id": 962,
+    "kanji": "追跡",
+    "kana": "ついせき",
+    "arti": "chase, pursuit, tracking, stalking"
+  },
+  {
+    "id": 963,
+    "kanji": "言論",
+    "kana": "げんろん",
+    "arti": "(one's) speech, expression of views, discussion"
+  },
+  {
+    "id": 964,
+    "kanji": "上演",
+    "kana": "じょうえん",
+    "arti": "performance (of a play, opera, etc.), staging, presentation"
+  },
+  {
+    "id": 965,
+    "kanji": "並",
+    "kana": "なみ",
+    "arti": "average, medium, common, ordinary"
+  },
+  {
+    "id": 966,
+    "kanji": "公開",
+    "kana": "こうかい",
+    "arti": "opening to the public, making available to the public, exhibiting, unveiling, release (of a film, information, etc.), disclosure, publication"
+  },
+  {
+    "id": 967,
+    "kanji": "健全",
+    "kana": "けんぜん",
+    "arti": "healthy, sound, wholesome"
+  },
+  {
+    "id": 968,
+    "kanji": "増し",
+    "kana": "まし",
+    "arti": "better, preferable, less objectionable, least-worst"
+  },
+  {
+    "id": 969,
+    "kanji": "通",
+    "kana": "つう",
+    "arti": "authority, expert, connoisseur, well-informed person"
+  },
+  {
+    "id": 970,
+    "kanji": "使い",
+    "kana": "つかい",
+    "arti": "errand, mission, going on an errand"
+  },
+  {
+    "id": 971,
+    "kanji": "返済",
+    "kana": "へんさい",
+    "arti": "repayment, reimbursement, refund, redemption"
+  },
+  {
+    "id": 972,
+    "kanji": "負担",
+    "kana": "ふたん",
+    "arti": "burden, load, responsibility"
+  },
+  {
+    "id": 973,
+    "kanji": "活発",
+    "kana": "かっぱつ",
+    "arti": "lively, active, vigorous, animated, brisk"
+  },
+  {
+    "id": 974,
+    "kanji": "部門",
+    "kana": "ぶもん",
+    "arti": "division (of a larger group), branch, field, class (subclass), group, category, department"
+  },
+  {
+    "id": 975,
+    "kanji": "頼み",
+    "kana": "たのみ",
+    "arti": "request, favor, favour"
+  },
+  {
+    "id": 976,
+    "kanji": "名簿",
+    "kana": "めいぼ",
+    "arti": "register of names, list of names, roll, register, roster"
+  },
+  {
+    "id": 977,
+    "kanji": "告白",
+    "kana": "こくはく",
+    "arti": "confession (to a crime, wrongdoing, etc.), admission"
+  },
+  {
+    "id": 978,
+    "kanji": "大げさ",
+    "kana": "おおげさ",
+    "arti": "exaggerated, overdone, overblown, hyperbolic, bombastic, grandiose"
+  },
+  {
+    "id": 979,
+    "kanji": "墜落",
+    "kana": "ついらく",
+    "arti": "fall, crash (of an aircraft)"
+  },
+  {
+    "id": 980,
+    "kanji": "漂う",
+    "kana": "ただよう",
+    "arti": "to drift, to float"
+  },
+  {
+    "id": 981,
+    "kanji": "公開",
+    "kana": "こうかい",
+    "arti": "opening to the public, making available to the public, exhibiting, unveiling, release (of a film, information, etc.), disclosure, publication"
+  },
+  {
+    "id": 982,
+    "kanji": "衣類",
+    "kana": "いるい",
+    "arti": "clothes, clothing, garments"
+  },
+  {
+    "id": 983,
+    "kanji": "頼み",
+    "kana": "たのみ",
+    "arti": "request, favor, favour"
+  },
+  {
+    "id": 984,
+    "kanji": "返済",
+    "kana": "へんさい",
+    "arti": "repayment, reimbursement, refund, redemption"
+  },
+  {
+    "id": 985,
+    "kanji": "大げさ",
+    "kana": "おおげさ",
+    "arti": "exaggerated, overdone, overblown, hyperbolic, bombastic, grandiose"
+  },
+  {
+    "id": 986,
+    "kanji": "健全",
+    "kana": "けんぜん",
+    "arti": "healthy, sound, wholesome"
+  },
+  {
+    "id": 987,
+    "kanji": "迅速",
+    "kana": "じんそく",
+    "arti": "(very) quick, rapid, swift, speedy, prompt, expeditious"
+  },
+  {
+    "id": 988,
+    "kanji": "諸君",
+    "kana": "しょくん",
+    "arti": "you (people)"
+  },
+  {
+    "id": 989,
+    "kanji": "名簿",
+    "kana": "めいぼ",
+    "arti": "register of names, list of names, roll, register, roster"
+  },
+  {
+    "id": 990,
+    "kanji": "大幅",
+    "kana": "おおはば",
+    "arti": "big, large, drastic, substantial"
+  },
+  {
+    "id": 991,
+    "kanji": "単調",
+    "kana": "たんちょう",
+    "arti": "monotony, monotone, dullness"
+  },
+  {
+    "id": 992,
+    "kanji": "断言",
+    "kana": "だんげん",
+    "arti": "assertion, declaration, affirmation"
+  },
+  {
+    "id": 993,
+    "kanji": "墜落",
+    "kana": "ついらく",
+    "arti": "fall, crash (of an aircraft)"
+  },
+  {
+    "id": 994,
+    "kanji": "繁栄",
+    "kana": "はんえい",
+    "arti": "prosperity, thriving, flourishing"
+  },
+  {
+    "id": 995,
+    "kanji": "著名",
+    "kana": "ちょめい",
+    "arti": "famous, noted, eminent, prominent, distinguished, celebrated"
+  },
+  {
+    "id": 996,
+    "kanji": "正常",
+    "kana": "せいじょう",
+    "arti": "normal, regular"
+  },
+  {
+    "id": 997,
+    "kanji": "漂う",
+    "kana": "ただよう",
+    "arti": "to drift, to float"
+  },
+  {
+    "id": 998,
+    "kanji": "密接",
+    "kana": "みっせつ",
+    "arti": "close (relationship, connection, etc.), intimate, near"
+  },
+  {
+    "id": 999,
+    "kanji": "操縦",
+    "kana": "そうじゅう",
+    "arti": "steering, piloting, flying, control, operation, handling"
+  },
+  {
+    "id": 1000,
+    "kanji": "創造",
+    "kana": "そうぞう",
+    "arti": "creation"
+  },
+  {
+    "id": 1001,
+    "kanji": "歓声",
+    "kana": "かんせい",
+    "arti": "cheer, shout of joy"
+  },
+  {
+    "id": 1002,
+    "kanji": "打ち込む",
+    "kana": "うちこむ",
+    "arti": "to drive in (a nail, stake, etc.), to hammer in"
+  },
+  {
+    "id": 1003,
+    "kanji": "展示",
+    "kana": "てんじ",
+    "arti": "exhibition, display"
+  },
+  {
+    "id": 1004,
+    "kanji": "逃亡",
+    "kana": "とうぼう",
+    "arti": "escape, flight, running away, elopement, fleeing"
+  },
+  {
+    "id": 1005,
+    "kanji": "免除",
+    "kana": "めんじょ",
+    "arti": "exemption, exoneration, discharge"
+  },
+  {
+    "id": 1006,
+    "kanji": "追放",
+    "kana": "ついほう",
+    "arti": "exile, banishment, eviction, deportation, purge, expulsion, ousting"
+  },
+  {
+    "id": 1007,
+    "kanji": "武装",
+    "kana": "ぶそう",
+    "arti": "arms, armament, taking up arms, arming oneself"
+  },
+  {
+    "id": 1008,
+    "kanji": "衝撃",
+    "kana": "しょうげき",
+    "arti": "impact, shock, impulse"
+  },
+  {
+    "id": 1009,
+    "kanji": "密接",
+    "kana": "みっせつ",
+    "arti": "close (relationship, connection, etc.), intimate, near"
+  },
+  {
+    "id": 1010,
+    "kanji": "創造",
+    "kana": "そうぞう",
+    "arti": "creation"
+  },
+  {
+    "id": 1011,
+    "kanji": "背後",
+    "kana": "はいご",
+    "arti": "back, rear"
+  },
+  {
+    "id": 1012,
+    "kanji": "確立",
+    "kana": "かくりつ",
+    "arti": "establishment, settlement"
+  },
+  {
+    "id": 1013,
+    "kanji": "登録",
+    "kana": "とうろく",
+    "arti": "registration, accession, register, entry, record, subscription"
+  },
+  {
+    "id": 1014,
+    "kanji": "団結",
+    "kana": "だんけつ",
+    "arti": "unity, union, solidarity, combination, banding together, teaming up"
+  },
+  {
+    "id": 1015,
+    "kanji": "打撃",
+    "kana": "だげき",
+    "arti": "blow, shock, strike, damage"
+  },
+  {
+    "id": 1016,
+    "kanji": "確保",
+    "kana": "かくほ",
+    "arti": "securing, obtaining, ensuring, guarantee, maintaining"
+  },
+  {
+    "id": 1017,
+    "kanji": "日取り",
+    "kana": "ひどり",
+    "arti": "fixed date, appointed day"
+  },
+  {
+    "id": 1018,
+    "kanji": "青春",
+    "kana": "せいしゅん",
+    "arti": "youth, adolescence, springtime of life"
+  },
+  {
+    "id": 1019,
+    "kanji": "監視",
+    "kana": "かんし",
+    "arti": "monitoring, watching, observation, surveillance, guarding, supervision, lookout"
+  },
+  {
+    "id": 1020,
+    "kanji": "要望",
+    "kana": "ようぼう",
+    "arti": "demand for, request"
+  },
+  {
+    "id": 1021,
+    "kanji": "訴訟",
+    "kana": "そしょう",
+    "arti": "lawsuit, suit, (legal) action, litigation"
+  },
+  {
+    "id": 1022,
+    "kanji": "問う",
+    "kana": "とう",
+    "arti": "to ask, to inquire"
+  },
+  {
+    "id": 1023,
+    "kanji": "堂々",
+    "kana": "どうどう",
+    "arti": "magnificent, grand, impressive, dignified, majestic, imposing, stately"
+  },
+  {
+    "id": 1024,
+    "kanji": "唱える",
+    "kana": "となえる",
+    "arti": "to recite, to chant"
+  },
+  {
+    "id": 1025,
+    "kanji": "要望",
+    "kana": "ようぼう",
+    "arti": "demand for, request"
+  },
+  {
+    "id": 1026,
+    "kanji": "上空",
+    "kana": "じょうくう",
+    "arti": "sky, the skies, high-altitude sky, upper air"
+  },
+  {
+    "id": 1027,
+    "kanji": "鮮やか",
+    "kana": "あざやか",
+    "arti": "vivid, bright, brilliant, clear, fresh, vibrant"
+  },
+  {
+    "id": 1028,
+    "kanji": "協定",
+    "kana": "きょうてい",
+    "arti": "arrangement, pact, agreement"
+  },
+  {
+    "id": 1029,
+    "kanji": "定める",
+    "kana": "さだめる",
+    "arti": "to decide, to determine"
+  },
+  {
+    "id": 1030,
+    "kanji": "軽率",
+    "kana": "けいそつ",
+    "arti": "rash, thoughtless, careless, hasty, imprudent"
+  },
+  {
+    "id": 1031,
+    "kanji": "消息",
+    "kana": "しょうそく",
+    "arti": "news (from someone), letter, contact"
+  },
+  {
+    "id": 1032,
+    "kanji": "知的",
+    "kana": "ちてき",
+    "arti": "intellectual"
+  },
+  {
+    "id": 1033,
+    "kanji": "浴室",
+    "kana": "よくしつ",
+    "arti": "bathroom"
+  },
+  {
+    "id": 1034,
+    "kanji": "何だか",
+    "kana": "なんだか",
+    "arti": "(a) little, somewhat, somehow"
+  },
+  {
+    "id": 1035,
+    "kanji": "監視",
+    "kana": "かんし",
+    "arti": "monitoring, watching, observation, surveillance, guarding, supervision, lookout"
+  },
+  {
+    "id": 1036,
+    "kanji": "鉄鋼",
+    "kana": "てっこう",
+    "arti": "iron and steel"
+  },
+  {
+    "id": 1037,
+    "kanji": "雌",
+    "kana": "めす",
+    "arti": "female (animal, plant)"
+  },
+  {
+    "id": 1038,
+    "kanji": "分配",
+    "kana": "ぶんぱい",
+    "arti": "division, splitting, sharing, distribution, dissemination, allocation"
+  },
+  {
+    "id": 1039,
+    "kanji": "内部",
+    "kana": "ないぶ",
+    "arti": "interior, inside, internal"
+  },
+  {
+    "id": 1040,
+    "kanji": "業務",
+    "kana": "ぎょうむ",
+    "arti": "business, work, operations, service, duties"
+  },
+  {
+    "id": 1041,
+    "kanji": "境遇",
+    "kana": "きょうぐう",
+    "arti": "one's circumstances, environment, situation (in life)"
+  },
+  {
+    "id": 1042,
+    "kanji": "着",
+    "kana": "ちゃく",
+    "arti": "arrival, arriving at ..."
+  },
+  {
+    "id": 1043,
+    "kanji": "削減",
+    "kana": "さくげん",
+    "arti": "cut, reduction, curtailment"
+  },
+  {
+    "id": 1044,
+    "kanji": "提示",
+    "kana": "ていじ",
+    "arti": "presentation (of a passport, ID, etc.), showing, production (e.g. of documents)"
+  },
+  {
+    "id": 1045,
+    "kanji": "取っ手",
+    "kana": "とって",
+    "arti": "handle, grip, knob"
+  },
+  {
+    "id": 1046,
+    "kanji": "施す",
+    "kana": "ほどこす",
+    "arti": "to give (time, money, goods), to donate"
+  },
+  {
+    "id": 1047,
+    "kanji": "自立",
+    "kana": "じりつ",
+    "arti": "independence, self-reliance"
+  },
+  {
+    "id": 1048,
+    "kanji": "主題",
+    "kana": "しゅだい",
+    "arti": "subject, theme, motif"
+  },
+  {
+    "id": 1049,
+    "kanji": "貯蓄",
+    "kana": "ちょちく",
+    "arti": "savings"
+  },
+  {
+    "id": 1050,
+    "kanji": "手本",
+    "kana": "てほん",
+    "arti": "model, (good) example, exemplar, paragon"
+  },
+  {
+    "id": 1051,
+    "kanji": "業務",
+    "kana": "ぎょうむ",
+    "arti": "business, work, operations, service, duties"
+  },
+  {
+    "id": 1052,
+    "kanji": "秩序",
+    "kana": "ちつじょ",
+    "arti": "order, discipline, regularity, system, method"
+  },
+  {
+    "id": 1053,
+    "kanji": "望ましい",
+    "kana": "のぞましい",
+    "arti": "desirable, hoped for, preferable, advisable"
+  },
+  {
+    "id": 1054,
+    "kanji": "雌",
+    "kana": "めす",
+    "arti": "female (animal, plant)"
+  },
+  {
+    "id": 1055,
+    "kanji": "良質",
+    "kana": "りょうしつ",
+    "arti": "good quality, fine quality, superior quality, high quality"
+  },
+  {
+    "id": 1056,
+    "kanji": "協会",
+    "kana": "きょうかい",
+    "arti": "association, society, organization, organisation"
+  },
+  {
+    "id": 1057,
+    "kanji": "分配",
+    "kana": "ぶんぱい",
+    "arti": "division, splitting, sharing, distribution, dissemination, allocation"
+  },
+  {
+    "id": 1058,
+    "kanji": "教科",
+    "kana": "きょうか",
+    "arti": "subject, curriculum"
+  },
+  {
+    "id": 1059,
+    "kanji": "晴天",
+    "kana": "せいてん",
+    "arti": "fine weather (i.e. little or no clouds), fair weather, clear weather, clear sky, fair skies"
+  },
+  {
+    "id": 1060,
+    "kanji": "前途",
+    "kana": "ぜんと",
+    "arti": "future, prospects, outlook"
+  },
+  {
+    "id": 1061,
+    "kanji": "着",
+    "kana": "ちゃく",
+    "arti": "arrival, arriving at ..."
+  },
+  {
+    "id": 1062,
+    "kanji": "望ましい",
+    "kana": "のぞましい",
+    "arti": "desirable, hoped for, preferable, advisable"
+  },
+  {
+    "id": 1063,
+    "kanji": "側面",
+    "kana": "そくめん",
+    "arti": "side, flank, profile, sidelight, lateral"
+  },
+  {
+    "id": 1064,
+    "kanji": "会見",
+    "kana": "かいけん",
+    "arti": "interview, audience, meeting, (viewing) party"
+  },
+  {
+    "id": 1065,
+    "kanji": "侵略",
+    "kana": "しんりゃく",
+    "arti": "invasion (e.g. of a country), raid, aggression"
+  },
+  {
+    "id": 1066,
+    "kanji": "出演",
+    "kana": "しゅつえん",
+    "arti": "appearance (in a film, play, TV show, etc.), performance"
+  },
+  {
+    "id": 1067,
+    "kanji": "貯蓄",
+    "kana": "ちょちく",
+    "arti": "savings"
+  },
+  {
+    "id": 1068,
+    "kanji": "提示",
+    "kana": "ていじ",
+    "arti": "presentation (of a passport, ID, etc.), showing, production (e.g. of documents)"
+  },
+  {
+    "id": 1069,
+    "kanji": "知性",
+    "kana": "ちせい",
+    "arti": "intelligence"
+  },
+  {
+    "id": 1070,
+    "kanji": "前途",
+    "kana": "ぜんと",
+    "arti": "future, prospects, outlook"
+  },
+  {
+    "id": 1071,
+    "kanji": "境遇",
+    "kana": "きょうぐう",
+    "arti": "one's circumstances, environment, situation (in life)"
+  },
+  {
+    "id": 1072,
+    "kanji": "手本",
+    "kana": "てほん",
+    "arti": "model, (good) example, exemplar, paragon"
+  },
+  {
+    "id": 1073,
+    "kanji": "当たり",
+    "kana": "あたり",
+    "arti": "hit"
+  },
+  {
+    "id": 1074,
+    "kanji": "逃走",
+    "kana": "とうそう",
+    "arti": "flight, desertion, escape"
+  },
+  {
+    "id": 1075,
+    "kanji": "配置",
+    "kana": "はいち",
+    "arti": "arrangement (of resources), deployment, stationing, posting, disposition, configuration, layout"
+  },
+  {
+    "id": 1076,
+    "kanji": "脱出",
+    "kana": "だっしゅつ",
+    "arti": "escape, getting away (from), getting out (of)"
+  },
+  {
+    "id": 1077,
+    "kanji": "交わす",
+    "kana": "かわす",
+    "arti": "to exchange (messages, greetings, arguments, etc.)"
+  },
+  {
+    "id": 1078,
+    "kanji": "帯びる",
+    "kana": "おびる",
+    "arti": "to wear (a sword, decoration, etc.), to carry, to bear"
+  },
+  {
+    "id": 1079,
+    "kanji": "享受",
+    "kana": "きょうじゅ",
+    "arti": "enjoyment (of freedom, beauty, etc.), reception (of a right, privilege, rank, etc.), having"
+  },
+  {
+    "id": 1080,
+    "kanji": "描写",
+    "kana": "びょうしゃ",
+    "arti": "depiction, description, portrayal"
+  },
+  {
+    "id": 1081,
+    "kanji": "交わす",
+    "kana": "かわす",
+    "arti": "to exchange (messages, greetings, arguments, etc.)"
+  },
+  {
+    "id": 1082,
+    "kanji": "申告",
+    "kana": "しんこく",
+    "arti": "report, return (e.g. tax), statement, declaration, notification, filing"
+  },
+  {
+    "id": 1083,
+    "kanji": "携帯",
+    "kana": "けいたい",
+    "arti": "carrying (on one's person or in the hand)"
+  },
+  {
+    "id": 1084,
+    "kanji": "暴露",
+    "kana": "ばくろ",
+    "arti": "disclosure, exposure, revelation"
+  },
+  {
+    "id": 1085,
+    "kanji": "危害",
+    "kana": "きがい",
+    "arti": "injury, harm, danger"
+  },
+  {
+    "id": 1086,
+    "kanji": "神聖",
+    "kana": "しんせい",
+    "arti": "holiness, sacredness, sanctity, dignity"
+  },
+  {
+    "id": 1087,
+    "kanji": "趣旨",
+    "kana": "しゅし",
+    "arti": "meaning, point (e.g. of a statement), gist, effect"
+  },
+  {
+    "id": 1088,
+    "kanji": "出産",
+    "kana": "しゅっさん",
+    "arti": "childbirth, (giving) birth, delivery, parturition"
+  },
+  {
+    "id": 1089,
+    "kanji": "享受",
+    "kana": "きょうじゅ",
+    "arti": "enjoyment (of freedom, beauty, etc.), reception (of a right, privilege, rank, etc.), having"
+  },
+  {
+    "id": 1090,
+    "kanji": "判定",
+    "kana": "はんてい",
+    "arti": "judgement, judgment, decision, ruling, finding, adjudication, verdict, call"
+  },
+  {
+    "id": 1091,
+    "kanji": "所得",
+    "kana": "しょとく",
+    "arti": "income, earnings"
+  },
+  {
+    "id": 1092,
+    "kanji": "風習",
+    "kana": "ふうしゅう",
+    "arti": "custom"
+  },
+  {
+    "id": 1093,
+    "kanji": "除外",
+    "kana": "じょがい",
+    "arti": "exception, exclusion"
+  },
+  {
+    "id": 1094,
+    "kanji": "育ち",
+    "kana": "そだち",
+    "arti": "growth, breeding"
+  },
+  {
+    "id": 1095,
+    "kanji": "色彩",
+    "kana": "しきさい",
+    "arti": "colour, color, hue, tints"
+  },
+  {
+    "id": 1096,
+    "kanji": "脱出",
+    "kana": "だっしゅつ",
+    "arti": "escape, getting away (from), getting out (of)"
+  },
+  {
+    "id": 1097,
+    "kanji": "爆破",
+    "kana": "ばくは",
+    "arti": "destructive blast, blowing up, explosion"
+  },
+  {
+    "id": 1098,
+    "kanji": "保管",
+    "kana": "ほかん",
+    "arti": "charge, custody, safekeeping, deposit, storage"
+  },
+  {
+    "id": 1099,
+    "kanji": "制",
+    "kana": "せい",
+    "arti": "system, organization, organisation, imperial command, laws, regulation, control, government, suppression, restraint, holding back, establishment"
+  },
+  {
+    "id": 1100,
+    "kanji": "版",
+    "kana": "はん",
+    "arti": "edition, version, printing, impression, implementation (of software)"
+  },
+  {
+    "id": 1101,
+    "kanji": "運営",
+    "kana": "うんえい",
+    "arti": "management, administration, operation"
+  },
+  {
+    "id": 1102,
+    "kanji": "熱意",
+    "kana": "ねつい",
+    "arti": "zeal, enthusiasm, ardor, ardour"
+  },
+  {
+    "id": 1103,
+    "kanji": "出産",
+    "kana": "しゅっさん",
+    "arti": "childbirth, (giving) birth, delivery, parturition"
+  },
+  {
+    "id": 1104,
+    "kanji": "脱出",
+    "kana": "だっしゅつ",
+    "arti": "escape, getting away (from), getting out (of)"
+  },
+  {
+    "id": 1105,
+    "kanji": "単独",
+    "kana": "たんどく",
+    "arti": "sole, single, solo"
+  },
+  {
+    "id": 1106,
+    "kanji": "欲望",
+    "kana": "よくぼう",
+    "arti": "desire, appetite, lust"
+  },
+  {
+    "id": 1107,
+    "kanji": "募る",
+    "kana": "つのる",
+    "arti": "to become stronger, to grow in intensity, to grow violent, to become worse"
+  },
+  {
+    "id": 1108,
+    "kanji": "享受",
+    "kana": "きょうじゅ",
+    "arti": "enjoyment (of freedom, beauty, etc.), reception (of a right, privilege, rank, etc.), having"
+  },
+  {
+    "id": 1109,
+    "kanji": "描写",
+    "kana": "びょうしゃ",
+    "arti": "depiction, description, portrayal"
+  },
+  {
+    "id": 1110,
+    "kanji": "交わす",
+    "kana": "かわす",
+    "arti": "to exchange (messages, greetings, arguments, etc.)"
+  },
+  {
+    "id": 1111,
+    "kanji": "巧み",
+    "kana": "たくみ",
+    "arti": "skillful, adroit, dexterous, masterful, clever, ingenious, cunning"
+  },
+  {
+    "id": 1112,
+    "kanji": "家計",
+    "kana": "かけい",
+    "arti": "household economy, family finances"
+  },
+  {
+    "id": 1113,
+    "kanji": "個性",
+    "kana": "こせい",
+    "arti": "individuality, personality, quirk, idiosyncrasy, character, individual characteristic"
+  },
+  {
+    "id": 1114,
+    "kanji": "動揺",
+    "kana": "どうよう",
+    "arti": "shaking, trembling, pitching, rolling, oscillation"
+  },
+  {
+    "id": 1115,
+    "kanji": "樹立",
+    "kana": "じゅりつ",
+    "arti": "establishment, founding, setting (a record)"
+  },
+  {
+    "id": 1116,
+    "kanji": "優先",
+    "kana": "ゆうせん",
+    "arti": "preference, priority, precedence, right of way"
+  },
+  {
+    "id": 1117,
+    "kanji": "作用",
+    "kana": "さよう",
+    "arti": "action, operation, process, agency, effect, function"
+  },
+  {
+    "id": 1118,
+    "kanji": "記述",
+    "kana": "きじゅつ",
+    "arti": "description, account"
+  },
+  {
+    "id": 1119,
+    "kanji": "効率",
+    "kana": "こうりつ",
+    "arti": "efficiency"
+  },
+  {
+    "id": 1120,
+    "kanji": "不動産",
+    "kana": "ふどうさん",
+    "arti": "real estate"
+  },
+  {
+    "id": 1121,
+    "kanji": "孤立",
+    "kana": "こりつ",
+    "arti": "isolation, being alone, being friendless"
+  },
+  {
+    "id": 1122,
+    "kanji": "手当",
+    "kana": "てあて",
+    "arti": "salary, pay, compensation, allowance (e.g. housing allowance), benefit, bonus"
+  },
+  {
+    "id": 1123,
+    "kanji": "理屈",
+    "kana": "りくつ",
+    "arti": "theory, reason, logic"
+  },
+  {
+    "id": 1124,
+    "kanji": "落ち葉",
+    "kana": "おちば",
+    "arti": "fallen leaves, leaf litter, falling leaves"
+  },
+  {
+    "id": 1125,
+    "kanji": "進行",
+    "kana": "しんこう",
+    "arti": "moving forward (e.g. of a vehicle), onward movement"
+  },
+  {
+    "id": 1126,
+    "kanji": "追い出す",
+    "kana": "おいだす",
+    "arti": "to expel, to drive out"
+  },
+  {
+    "id": 1127,
+    "kanji": "惜しむ",
+    "kana": "おしむ",
+    "arti": "to spare, to grudge, to be sparing (with), to be frugal, to be stingy"
+  },
+  {
+    "id": 1128,
+    "kanji": "不動産",
+    "kana": "ふどうさん",
+    "arti": "real estate"
+  },
+  {
+    "id": 1129,
+    "kanji": "脈",
+    "kana": "みゃく",
+    "arti": "pulse"
+  },
+  {
+    "id": 1130,
+    "kanji": "対等",
+    "kana": "たいとう",
+    "arti": "equality (esp. of status), equal footing, equal terms"
+  },
+  {
+    "id": 1131,
+    "kanji": "転落",
+    "kana": "てんらく",
+    "arti": "fall, tumble, spill, plunge, dive"
+  },
+  {
+    "id": 1132,
+    "kanji": "導入",
+    "kana": "どうにゅう",
+    "arti": "introduction, bringing in, installation, setting up, importation"
+  },
+  {
+    "id": 1133,
+    "kanji": "従来",
+    "kana": "じゅうらい",
+    "arti": "up to now, so far"
+  },
+  {
+    "id": 1134,
+    "kanji": "借り",
+    "kana": "かり",
+    "arti": "borrowing, debt, loan"
+  },
+  {
+    "id": 1135,
+    "kanji": "着手",
+    "kana": "ちゃくしゅ",
+    "arti": "starting work (on), setting to work (on), setting about (doing), beginning, commencing, embarking on"
+  },
+  {
+    "id": 1136,
+    "kanji": "手順",
+    "kana": "てじゅん",
+    "arti": "process, procedure, sequence, protocol, instruction"
+  },
+  {
+    "id": 1137,
+    "kanji": "破裂",
+    "kana": "はれつ",
+    "arti": "bursting, rupture, explosion"
+  },
+  {
+    "id": 1138,
+    "kanji": "把握",
+    "kana": "はあく",
+    "arti": "grasp (of the situation, meaning, etc.), understanding, control, hold, grip"
+  },
+  {
+    "id": 1139,
+    "kanji": "素材",
+    "kana": "そざい",
+    "arti": "ingredient, (raw) material, resource"
+  },
+  {
+    "id": 1140,
+    "kanji": "疑惑",
+    "kana": "ぎわく",
+    "arti": "doubt, misgivings, distrust, suspicion"
+  },
+  {
+    "id": 1141,
+    "kanji": "疑惑",
+    "kana": "ぎわく",
+    "arti": "doubt, misgivings, distrust, suspicion"
+  },
+  {
+    "id": 1142,
+    "kanji": "衣装",
+    "kana": "いしょう",
+    "arti": "clothing, costume, outfit, garment, dress"
+  },
+  {
+    "id": 1143,
+    "kanji": "後退",
+    "kana": "こうたい",
+    "arti": "retreat, falling back, moving backwards, reversing, backing up (of a vehicle), retrogression, retraction"
+  },
+  {
+    "id": 1144,
+    "kanji": "転落",
+    "kana": "てんらく",
+    "arti": "fall, tumble, spill, plunge, dive"
+  },
+  {
+    "id": 1145,
+    "kanji": "待遇",
+    "kana": "たいぐう",
+    "arti": "treatment, reception, service"
+  },
+  {
+    "id": 1146,
+    "kanji": "弓",
+    "kana": "ゆみ",
+    "arti": "bow (weapon)"
+  },
+  {
+    "id": 1147,
+    "kanji": "一同",
+    "kana": "いちどう",
+    "arti": "all present, all concerned, all of us"
+  },
+  {
+    "id": 1148,
+    "kanji": "新築",
+    "kana": "しんちく",
+    "arti": "new building, new construction"
+  },
+  {
+    "id": 1149,
+    "kanji": "対等",
+    "kana": "たいとう",
+    "arti": "equality (esp. of status), equal footing, equal terms"
+  },
+  {
+    "id": 1150,
+    "kanji": "素材",
+    "kana": "そざい",
+    "arti": "ingredient, (raw) material, resource"
+  },
+  {
+    "id": 1151,
+    "kanji": "進行",
+    "kana": "しんこう",
+    "arti": "moving forward (e.g. of a vehicle), onward movement"
+  },
+  {
+    "id": 1152,
+    "kanji": "襲撃",
+    "kana": "しゅうげき",
+    "arti": "(surprise) attack, assault, raid, charge"
+  },
+  {
+    "id": 1153,
+    "kanji": "導入",
+    "kana": "どうにゅう",
+    "arti": "introduction, bringing in, installation, setting up, importation"
+  },
+  {
+    "id": 1154,
+    "kanji": "従来",
+    "kana": "じゅうらい",
+    "arti": "up to now, so far"
+  },
+  {
+    "id": 1155,
+    "kanji": "苦しめる",
+    "kana": "くるしめる",
+    "arti": "to torment, to pain, to inflict (physical) pain, to hurt"
+  },
+  {
+    "id": 1156,
+    "kanji": "破裂",
+    "kana": "はれつ",
+    "arti": "bursting, rupture, explosion"
+  },
+  {
+    "id": 1157,
+    "kanji": "不明",
+    "kana": "ふめい",
+    "arti": "unclear, obscure, indistinct, uncertain, ambiguous"
+  },
+  {
+    "id": 1158,
+    "kanji": "脈",
+    "kana": "みゃく",
+    "arti": "pulse"
+  },
+  {
+    "id": 1159,
+    "kanji": "原文",
+    "kana": "げんぶん",
+    "arti": "original text"
+  },
+  {
+    "id": 1160,
+    "kanji": "土手",
+    "kana": "どて",
+    "arti": "embankment, bank"
+  },
+  {
+    "id": 1161,
+    "kanji": "不明",
+    "kana": "ふめい",
+    "arti": "unclear, obscure, indistinct, uncertain, ambiguous"
+  },
+  {
+    "id": 1162,
+    "kanji": "孤立",
+    "kana": "こりつ",
+    "arti": "isolation, being alone, being friendless"
+  },
+  {
+    "id": 1163,
+    "kanji": "公演",
+    "kana": "こうえん",
+    "arti": "public performance"
+  },
+  {
+    "id": 1164,
+    "kanji": "雇用",
+    "kana": "こよう",
+    "arti": "employment, hire"
+  },
+  {
+    "id": 1165,
+    "kanji": "記載",
+    "kana": "きさい",
+    "arti": "mention (in a document), record, entry, statement, listing"
+  },
+  {
+    "id": 1166,
+    "kanji": "発育",
+    "kana": "はついく",
+    "arti": "(physical) growth, development"
+  },
+  {
+    "id": 1167,
+    "kanji": "視点",
+    "kana": "してん",
+    "arti": "point of view, viewpoint, angle, perspective"
+  },
+  {
+    "id": 1168,
+    "kanji": "柔軟",
+    "kana": "じゅうなん",
+    "arti": "flexible, lithe, soft, pliable"
+  },
+  {
+    "id": 1169,
+    "kanji": "届",
+    "kana": "とどけ",
+    "arti": "report, notification, registration"
+  },
+  {
+    "id": 1170,
+    "kanji": "浮気",
+    "kana": "うわき",
+    "arti": "extramarital sex, affair, fooling around"
+  },
+  {
+    "id": 1171,
+    "kanji": "有りのまま",
+    "kana": "ありのまま",
+    "arti": "as it is, plain (truth), bare, undisguised, unvarnished, unexaggerated, honest, true, frank, candid"
+  },
+  {
+    "id": 1172,
+    "kanji": "良識",
+    "kana": "りょうしき",
+    "arti": "good sense"
+  },
+  {
+    "id": 1173,
+    "kanji": "細菌",
+    "kana": "さいきん",
+    "arti": "bacterium, bacteria, germ"
+  },
+  {
+    "id": 1174,
+    "kanji": "対抗",
+    "kana": "たいこう",
+    "arti": "opposition, rivalry, competition, antagonism"
+  },
+  {
+    "id": 1175,
+    "kanji": "果て",
+    "kana": "はて",
+    "arti": "end, extremity, limit"
+  },
+  {
+    "id": 1176,
+    "kanji": "追い込む",
+    "kana": "おいこむ",
+    "arti": "to herd, to drive, to chase, to corral"
+  },
+  {
+    "id": 1177,
+    "kanji": "募金",
+    "kana": "ぼきん",
+    "arti": "fundraising, collection of contributions"
+  },
+  {
+    "id": 1178,
+    "kanji": "豊作",
+    "kana": "ほうさく",
+    "arti": "abundant harvest, bumper crop"
+  },
+  {
+    "id": 1179,
+    "kanji": "駆ける",
+    "kana": "かける",
+    "arti": "to run, to dash, to race"
+  },
+  {
+    "id": 1180,
+    "kanji": "報じる",
+    "kana": "ほうじる",
+    "arti": "to report, to inform"
+  },
+  {
+    "id": 1181,
+    "kanji": "届",
+    "kana": "とどけ",
+    "arti": "report, notification, registration"
+  },
+  {
+    "id": 1182,
+    "kanji": "収支",
+    "kana": "しゅうし",
+    "arti": "income and expenditure"
+  },
+  {
+    "id": 1183,
+    "kanji": "異論",
+    "kana": "いろん",
+    "arti": "different opinion, objection"
+  },
+  {
+    "id": 1184,
+    "kanji": "規定",
+    "kana": "きてい",
+    "arti": "stipulation, prescription, provision, regulation, rule"
+  },
+  {
+    "id": 1185,
+    "kanji": "技能",
+    "kana": "ぎのう",
+    "arti": "technical skill, ability, capacity"
+  },
+  {
+    "id": 1186,
+    "kanji": "労力",
+    "kana": "ろうりょく",
+    "arti": "labour, labor, effort, toil, trouble"
+  },
+  {
+    "id": 1187,
+    "kanji": "強烈",
+    "kana": "きょうれつ",
+    "arti": "strong, intense, severe"
+  },
+  {
+    "id": 1188,
+    "kanji": "議案",
+    "kana": "ぎあん",
+    "arti": "legislative bill, measure"
+  },
+  {
+    "id": 1189,
+    "kanji": "議題",
+    "kana": "ぎだい",
+    "arti": "topic of discussion, agenda"
+  },
+  {
+    "id": 1190,
+    "kanji": "対抗",
+    "kana": "たいこう",
+    "arti": "opposition, rivalry, competition, antagonism"
+  },
+  {
+    "id": 1191,
+    "kanji": "追い込む",
+    "kana": "おいこむ",
+    "arti": "to herd, to drive, to chase, to corral"
+  },
+  {
+    "id": 1192,
+    "kanji": "人材",
+    "kana": "じんざい",
+    "arti": "capable person, talented person"
+  },
+  {
+    "id": 1193,
+    "kanji": "歩み",
+    "kana": "あゆみ",
+    "arti": "walking"
+  },
+  {
+    "id": 1194,
+    "kanji": "正当",
+    "kana": "せいとう",
+    "arti": "just, justifiable, right, due, proper, equitable, reasonable, legitimate, legal, lawful"
+  },
+  {
+    "id": 1195,
+    "kanji": "記載",
+    "kana": "きさい",
+    "arti": "mention (in a document), record, entry, statement, listing"
+  },
+  {
+    "id": 1196,
+    "kanji": "盛大",
+    "kana": "せいだい",
+    "arti": "grand, magnificent, lavish, large scale, prosperous, thriving, lively"
+  },
+  {
+    "id": 1197,
+    "kanji": "募金",
+    "kana": "ぼきん",
+    "arti": "fundraising, collection of contributions"
+  },
+  {
+    "id": 1198,
+    "kanji": "突破",
+    "kana": "とっぱ",
+    "arti": "breaking through, breakthrough, penetration"
+  },
+  {
+    "id": 1199,
+    "kanji": "優勢",
+    "kana": "ゆうせい",
+    "arti": "superiority, superior power, predominance, preponderance"
+  },
+  {
+    "id": 1200,
+    "kanji": "装備",
+    "kana": "そうび",
+    "arti": "equipment"
+  },
+  {
+    "id": 1201,
+    "kanji": "終始",
+    "kana": "しゅうし",
+    "arti": "beginning and end"
+  },
+  {
+    "id": 1202,
+    "kanji": "雇用",
+    "kana": "こよう",
+    "arti": "employment, hire"
+  },
+  {
+    "id": 1203,
+    "kanji": "柔軟",
+    "kana": "じゅうなん",
+    "arti": "flexible, lithe, soft, pliable"
+  },
+  {
+    "id": 1204,
+    "kanji": "歩み",
+    "kana": "あゆみ",
+    "arti": "walking"
+  },
+  {
+    "id": 1205,
+    "kanji": "押し込む",
+    "kana": "おしこむ",
+    "arti": "to push into, to cram into, to stuff into, to crowd into"
+  },
+  {
+    "id": 1206,
+    "kanji": "駆ける",
+    "kana": "かける",
+    "arti": "to run, to dash, to race"
+  },
+  {
+    "id": 1207,
+    "kanji": "届",
+    "kana": "とどけ",
+    "arti": "report, notification, registration"
+  },
+  {
+    "id": 1208,
+    "kanji": "対抗",
+    "kana": "たいこう",
+    "arti": "opposition, rivalry, competition, antagonism"
+  },
+  {
+    "id": 1209,
+    "kanji": "使命",
+    "kana": "しめい",
+    "arti": "mission, errand"
+  },
+  {
+    "id": 1210,
+    "kanji": "労力",
+    "kana": "ろうりょく",
+    "arti": "labour, labor, effort, toil, trouble"
+  },
+  {
+    "id": 1211,
+    "kanji": "介入",
+    "kana": "かいにゅう",
+    "arti": "intervention"
+  },
+  {
+    "id": 1212,
+    "kanji": "類似",
+    "kana": "るいじ",
+    "arti": "resemblance, similarity, likeness, analogy"
+  },
+  {
+    "id": 1213,
+    "kanji": "統治",
+    "kana": "とうち",
+    "arti": "rule, reign, government, governing"
+  },
+  {
+    "id": 1214,
+    "kanji": "悲惨",
+    "kana": "ひさん",
+    "arti": "disastrous, tragic, miserable, wretched, pitiful, woeful, outrageous"
+  },
+  {
+    "id": 1215,
+    "kanji": "緩やか",
+    "kana": "ゆるやか",
+    "arti": "loose, slack"
+  },
+  {
+    "id": 1216,
+    "kanji": "備わる",
+    "kana": "そなわる",
+    "arti": "to be furnished with, to be provided with, to be equipped with"
+  },
+  {
+    "id": 1217,
+    "kanji": "不服",
+    "kana": "ふふく",
+    "arti": "dissatisfaction, discontent, disapproval, objection, complaint, protest, disagreement"
+  },
+  {
+    "id": 1218,
+    "kanji": "現地",
+    "kana": "げんち",
+    "arti": "actual place, actual location, the spot, the scene, the field, (on) site"
+  },
+  {
+    "id": 1219,
+    "kanji": "両立",
+    "kana": "りょうりつ",
+    "arti": "compatibility, coexistence, standing together"
+  },
+  {
+    "id": 1220,
+    "kanji": "引きずる",
+    "kana": "ひきずる",
+    "arti": "to drag, to trail, to pull along the ground, to lug"
+  },
+  {
+    "id": 1221,
+    "kanji": "不服",
+    "kana": "ふふく",
+    "arti": "dissatisfaction, discontent, disapproval, objection, complaint, protest, disagreement"
+  },
+  {
+    "id": 1222,
+    "kanji": "引き上げる",
+    "kana": "ひきあげる",
+    "arti": "to pull up, to drag up, to lift up"
+  },
+  {
+    "id": 1223,
+    "kanji": "両立",
+    "kana": "りょうりつ",
+    "arti": "compatibility, coexistence, standing together"
+  },
+  {
+    "id": 1224,
+    "kanji": "不良",
+    "kana": "ふりょう",
+    "arti": "bad, poor, inferior, defective"
+  },
+  {
+    "id": 1225,
+    "kanji": "変動",
+    "kana": "へんどう",
+    "arti": "change, fluctuation"
+  },
+  {
+    "id": 1226,
+    "kanji": "補給",
+    "kana": "ほきゅう",
+    "arti": "supply, supplying, replenishment"
+  },
+  {
+    "id": 1227,
+    "kanji": "主任",
+    "kana": "しゅにん",
+    "arti": "person in charge, senior staff, manager, chief, head"
+  },
+  {
+    "id": 1228,
+    "kanji": "現地",
+    "kana": "げんち",
+    "arti": "actual place, actual location, the spot, the scene, the field, (on) site"
+  },
+  {
+    "id": 1229,
+    "kanji": "著書",
+    "kana": "ちょしょ",
+    "arti": "(written) work, book, writings"
+  },
+  {
+    "id": 1230,
+    "kanji": "好評",
+    "kana": "こうひょう",
+    "arti": "favorable reception, good reputation, popularity"
+  },
+  {
+    "id": 1231,
+    "kanji": "防衛",
+    "kana": "ぼうえい",
+    "arti": "defense, defence, protection"
+  },
+  {
+    "id": 1232,
+    "kanji": "有力",
+    "kana": "ゆうりょく",
+    "arti": "influential, prominent, leading"
+  },
+  {
+    "id": 1233,
+    "kanji": "無用",
+    "kana": "むよう",
+    "arti": "useless, futile"
+  },
+  {
+    "id": 1234,
+    "kanji": "阻止",
+    "kana": "そし",
+    "arti": "obstruction, prevention, hindrance, check, blocking, stopping"
+  },
+  {
+    "id": 1235,
+    "kanji": "飼育",
+    "kana": "しいく",
+    "arti": "breeding, raising, rearing, keeping"
+  },
+  {
+    "id": 1236,
+    "kanji": "仕組み",
+    "kana": "しくみ",
+    "arti": "structure, construction, arrangement, contrivance, mechanism, workings"
+  },
+  {
+    "id": 1237,
+    "kanji": "兆し",
+    "kana": "きざし",
+    "arti": "sign, indication, omen, symptom"
+  },
+  {
+    "id": 1238,
+    "kanji": "換算",
+    "kana": "かんさん",
+    "arti": "conversion (e.g. yen to dollars), change, exchange, translation (numerical)"
+  },
+  {
+    "id": 1239,
+    "kanji": "関与",
+    "kana": "かんよ",
+    "arti": "participation, taking part in, participating in, being concerned in"
+  },
+  {
+    "id": 1240,
+    "kanji": "規模",
+    "kana": "きぼ",
+    "arti": "scale, scope, plan, structure"
+  },
+  {
+    "id": 1241,
+    "kanji": "仕組み",
+    "kana": "しくみ",
+    "arti": "structure, construction, arrangement, contrivance, mechanism, workings"
+  },
+  {
+    "id": 1242,
+    "kanji": "不良",
+    "kana": "ふりょう",
+    "arti": "bad, poor, inferior, defective"
+  },
+  {
+    "id": 1243,
+    "kanji": "情",
+    "kana": "じょう",
+    "arti": "feelings, emotion, sentiment"
+  },
+  {
+    "id": 1244,
+    "kanji": "現地",
+    "kana": "げんち",
+    "arti": "actual place, actual location, the spot, the scene, the field, (on) site"
+  },
+  {
+    "id": 1245,
+    "kanji": "主任",
+    "kana": "しゅにん",
+    "arti": "person in charge, senior staff, manager, chief, head"
+  },
+  {
+    "id": 1246,
+    "kanji": "協議",
+    "kana": "きょうぎ",
+    "arti": "conference, consultation, discussion, negotiation"
+  },
+  {
+    "id": 1247,
+    "kanji": "強める",
+    "kana": "つよめる",
+    "arti": "to strengthen, to emphasize, to emphasise"
+  },
+  {
+    "id": 1248,
+    "kanji": "制する",
+    "kana": "せいする",
+    "arti": "to hold back (e.g. emotions), to rein in (e.g. a horse, unruly people), to bridle"
+  },
+  {
+    "id": 1249,
+    "kanji": "緩やか",
+    "kana": "ゆるやか",
+    "arti": "loose, slack"
+  },
+  {
+    "id": 1250,
+    "kanji": "類似",
+    "kana": "るいじ",
+    "arti": "resemblance, similarity, likeness, analogy"
+  },
+  {
+    "id": 1251,
+    "kanji": "領土",
+    "kana": "りょうど",
+    "arti": "territory, domain, dominion, possession"
+  },
+  {
+    "id": 1252,
+    "kanji": "雨天",
+    "kana": "うてん",
+    "arti": "rainy weather"
+  },
+  {
+    "id": 1253,
+    "kanji": "引き取る",
+    "kana": "ひきとる",
+    "arti": "to take into one's possession, to receive, to accept, to collect, to claim"
+  },
+  {
+    "id": 1254,
+    "kanji": "捜査",
+    "kana": "そうさ",
+    "arti": "search (esp. in criminal investigations), investigation, inquiry, enquiry"
+  },
+  {
+    "id": 1255,
+    "kanji": "増進",
+    "kana": "ぞうしん",
+    "arti": "promoting, increase, advance"
+  },
+  {
+    "id": 1256,
+    "kanji": "体格",
+    "kana": "たいかく",
+    "arti": "build, physique, frame, constitution"
+  },
+  {
+    "id": 1257,
+    "kanji": "代用",
+    "kana": "だいよう",
+    "arti": "substitution"
+  },
+  {
+    "id": 1258,
+    "kanji": "繁殖",
+    "kana": "はんしょく",
+    "arti": "breeding, propagation, reproduction, multiplication, increase"
+  },
+  {
+    "id": 1259,
+    "kanji": "結びつく",
+    "kana": "むすびつく",
+    "arti": "to be related, to be connected, to be joined together"
+  },
+  {
+    "id": 1260,
+    "kanji": "奨励",
+    "kana": "しょうれい",
+    "arti": "encouragement, promotion, inducement, incitement, stimulation"
+  },
+  {
+    "id": 1261,
+    "kanji": "主任",
+    "kana": "しゅにん",
+    "arti": "person in charge, senior staff, manager, chief, head"
+  },
+  {
+    "id": 1262,
+    "kanji": "備わる",
+    "kana": "そなわる",
+    "arti": "to be furnished with, to be provided with, to be equipped with"
+  },
+  {
+    "id": 1263,
+    "kanji": "荷",
+    "kana": "に",
+    "arti": "load, baggage, cargo, freight, goods"
+  },
+  {
+    "id": 1264,
+    "kanji": "好評",
+    "kana": "こうひょう",
+    "arti": "favorable reception, good reputation, popularity"
+  },
+  {
+    "id": 1265,
+    "kanji": "乙",
+    "kana": "おつ",
+    "arti": "(the) second (party, rank, etc.), B (grade), the latter"
+  },
+  {
+    "id": 1266,
+    "kanji": "同盟",
+    "kana": "どうめい",
+    "arti": "alliance, union, league"
+  },
+  {
+    "id": 1267,
+    "kanji": "寄与",
+    "kana": "きよ",
+    "arti": "contribution, service"
+  },
+  {
+    "id": 1268,
+    "kanji": "達者",
+    "kana": "たっしゃ",
+    "arti": "in good health, healthy, well, fit, robust, strong"
+  },
+  {
+    "id": 1269,
+    "kanji": "好ましい",
+    "kana": "このましい",
+    "arti": "nice, likeable, desirable"
+  },
+  {
+    "id": 1270,
+    "kanji": "荒らす",
+    "kana": "あらす",
+    "arti": "to lay waste, to devastate, to damage"
+  },
+  {
+    "id": 1271,
+    "kanji": "叫び",
+    "kana": "さけび",
+    "arti": "shout, cry, outcry, yell, shriek, scream"
+  },
+  {
+    "id": 1272,
+    "kanji": "弁護",
+    "kana": "べんご",
+    "arti": "defense, defence, pleading, advocacy"
+  },
+  {
+    "id": 1273,
+    "kanji": "掛け",
+    "kana": "かけ",
+    "arti": "credit"
+  },
+  {
+    "id": 1274,
+    "kanji": "結合",
+    "kana": "けつごう",
+    "arti": "combination, union, joining, linking, coupling"
+  },
+  {
+    "id": 1275,
+    "kanji": "点検",
+    "kana": "てんけん",
+    "arti": "detailed inspection, thorough examination, checking"
+  },
+  {
+    "id": 1276,
+    "kanji": "再生",
+    "kana": "さいせい",
+    "arti": "restoration to life, coming to life again, resuscitation, regeneration"
+  },
+  {
+    "id": 1277,
+    "kanji": "荒廃",
+    "kana": "こうはい",
+    "arti": "ruin, destruction, devastation, waste, decay"
+  },
+  {
+    "id": 1278,
+    "kanji": "学説",
+    "kana": "がくせつ",
+    "arti": "theory"
+  },
+  {
+    "id": 1279,
+    "kanji": "復活",
+    "kana": "ふっかつ",
+    "arti": "revival (of an old system, custom, fashion, etc.), restoration, return, comeback"
+  },
+  {
+    "id": 1280,
+    "kanji": "暴風",
+    "kana": "ぼうふう",
+    "arti": "storm, windstorm, gale"
+  },
+  {
+    "id": 1281,
+    "kanji": "膨張",
+    "kana": "ぼうちょう",
+    "arti": "expansion, swelling, increase, growth"
+  },
+  {
+    "id": 1282,
+    "kanji": "野外",
+    "kana": "やがい",
+    "arti": "outdoors, outside, open air"
+  },
+  {
+    "id": 1283,
+    "kanji": "優美",
+    "kana": "ゆうび",
+    "arti": "grace, refinement, elegance, daintiness"
+  },
+  {
+    "id": 1284,
+    "kanji": "賭け",
+    "kana": "かけ",
+    "arti": "bet, wager, stake, gamble"
+  },
+  {
+    "id": 1285,
+    "kanji": "多忙",
+    "kana": "たぼう",
+    "arti": "being very busy, busyness"
+  },
+  {
+    "id": 1286,
+    "kanji": "領域",
+    "kana": "りょういき",
+    "arti": "territory, domain"
+  },
+  {
+    "id": 1287,
+    "kanji": "退治",
+    "kana": "たいじ",
+    "arti": "extermination, elimination, eradication, destruction, suppression, subjugation, getting rid of, stamping out, wiping out, rooting out"
+  },
+  {
+    "id": 1288,
+    "kanji": "点検",
+    "kana": "てんけん",
+    "arti": "detailed inspection, thorough examination, checking"
+  },
+  {
+    "id": 1289,
+    "kanji": "乙",
+    "kana": "おつ",
+    "arti": "(the) second (party, rank, etc.), B (grade), the latter"
+  },
+  {
+    "id": 1290,
+    "kanji": "流し",
+    "kana": "ながし",
+    "arti": "sink (e.g. in a kitchen)"
+  },
+  {
+    "id": 1291,
+    "kanji": "期末",
+    "kana": "きまつ",
+    "arti": "end of term"
+  },
+  {
+    "id": 1292,
+    "kanji": "気軽",
+    "kana": "きがる",
+    "arti": "carefree, buoyant, lighthearted, sprightly"
+  },
+  {
+    "id": 1293,
+    "kanji": "偽物",
+    "kana": "にせもの",
+    "arti": "spurious article, forgery, counterfeit, imitation, sham"
+  },
+  {
+    "id": 1294,
+    "kanji": "依然",
+    "kana": "いぜん",
+    "arti": "still, as yet, as it has been"
+  },
+  {
+    "id": 1295,
+    "kanji": "結合",
+    "kana": "けつごう",
+    "arti": "combination, union, joining, linking, coupling"
+  },
+  {
+    "id": 1296,
+    "kanji": "成熟",
+    "kana": "せいじゅく",
+    "arti": "maturity, ripeness"
+  },
+  {
+    "id": 1297,
+    "kanji": "始末",
+    "kana": "しまつ",
+    "arti": "management, dealing with, settlement, cleaning up, disposal"
+  },
+  {
+    "id": 1298,
+    "kanji": "招き",
+    "kana": "まねき",
+    "arti": "invitation"
+  },
+  {
+    "id": 1299,
+    "kanji": "寄与",
+    "kana": "きよ",
+    "arti": "contribution, service"
+  },
+  {
+    "id": 1300,
+    "kanji": "衣料",
+    "kana": "いりょう",
+    "arti": "clothing"
+  },
+  {
+    "id": 1301,
+    "kanji": "始末",
+    "kana": "しまつ",
+    "arti": "management, dealing with, settlement, cleaning up, disposal"
+  },
+  {
+    "id": 1302,
+    "kanji": "寄与",
+    "kana": "きよ",
+    "arti": "contribution, service"
+  },
+  {
+    "id": 1303,
+    "kanji": "再生",
+    "kana": "さいせい",
+    "arti": "restoration to life, coming to life again, resuscitation, regeneration"
+  },
+  {
+    "id": 1304,
+    "kanji": "荒廃",
+    "kana": "こうはい",
+    "arti": "ruin, destruction, devastation, waste, decay"
+  },
+  {
+    "id": 1305,
+    "kanji": "制裁",
+    "kana": "せいさい",
+    "arti": "sanctions, punishment"
+  },
+  {
+    "id": 1306,
+    "kanji": "制定",
+    "kana": "せいてい",
+    "arti": "enactment, establishment, creation"
+  },
+  {
+    "id": 1307,
+    "kanji": "変革",
+    "kana": "へんかく",
+    "arti": "change, transformation, reform, revolution, revolutionizing, innovation, upheaval"
+  },
+  {
+    "id": 1308,
+    "kanji": "掛け",
+    "kana": "かけ",
+    "arti": "credit"
+  },
+  {
+    "id": 1309,
+    "kanji": "前例",
+    "kana": "ぜんれい",
+    "arti": "precedent"
+  },
+  {
+    "id": 1310,
+    "kanji": "領域",
+    "kana": "りょういき",
+    "arti": "territory, domain"
+  },
+  {
+    "id": 1311,
+    "kanji": "達者",
+    "kana": "たっしゃ",
+    "arti": "in good health, healthy, well, fit, robust, strong"
+  },
+  {
+    "id": 1312,
+    "kanji": "形勢",
+    "kana": "けいせい",
+    "arti": "condition, situation, prospects"
+  },
+  {
+    "id": 1313,
+    "kanji": "決議",
+    "kana": "けつぎ",
+    "arti": "resolution, vote, decision"
+  },
+  {
+    "id": 1314,
+    "kanji": "流し",
+    "kana": "ながし",
+    "arti": "sink (e.g. in a kitchen)"
+  },
+  {
+    "id": 1315,
+    "kanji": "乙",
+    "kana": "おつ",
+    "arti": "(the) second (party, rank, etc.), B (grade), the latter"
+  },
+  {
+    "id": 1316,
+    "kanji": "同盟",
+    "kana": "どうめい",
+    "arti": "alliance, union, league"
+  },
+  {
+    "id": 1317,
+    "kanji": "中毒",
+    "kana": "ちゅうどく",
+    "arti": "poisoning"
+  },
+  {
+    "id": 1318,
+    "kanji": "権",
+    "kana": "けん",
+    "arti": "right (to do something)"
+  },
+  {
+    "id": 1319,
+    "kanji": "結合",
+    "kana": "けつごう",
+    "arti": "combination, union, joining, linking, coupling"
+  },
+  {
+    "id": 1320,
+    "kanji": "奮闘",
+    "kana": "ふんとう",
+    "arti": "strenuous effort, hard struggle, working hard"
+  },
+  {
+    "id": 1321,
+    "kanji": "公然",
+    "kana": "こうぜん",
+    "arti": "open, public, official, overt"
+  },
+  {
+    "id": 1322,
+    "kanji": "充実",
+    "kana": "じゅうじつ",
+    "arti": "fullness, completeness, perfection, substantiality"
+  },
+  {
+    "id": 1323,
+    "kanji": "組み込む",
+    "kana": "くみこむ",
+    "arti": "to insert, to include, to incorporate, to install, to embed"
+  },
+  {
+    "id": 1324,
+    "kanji": "回収",
+    "kana": "かいしゅう",
+    "arti": "collection, recovery, withdrawal, retrieval"
+  },
+  {
+    "id": 1325,
+    "kanji": "改良",
+    "kana": "かいりょう",
+    "arti": "improvement, reform"
+  },
+  {
+    "id": 1326,
+    "kanji": "似通う",
+    "kana": "にかよう",
+    "arti": "to resemble closely"
+  },
+  {
+    "id": 1327,
+    "kanji": "非行",
+    "kana": "ひこう",
+    "arti": "delinquency, misconduct"
+  },
+  {
+    "id": 1328,
+    "kanji": "福",
+    "kana": "ふく",
+    "arti": "good fortune, happiness, blessing, good luck"
+  },
+  {
+    "id": 1329,
+    "kanji": "富豪",
+    "kana": "ふごう",
+    "arti": "wealthy person, millionaire"
+  },
+  {
+    "id": 1330,
+    "kanji": "武力",
+    "kana": "ぶりょく",
+    "arti": "armed might, military power, the sword, force"
+  },
+  {
+    "id": 1331,
+    "kanji": "妨害",
+    "kana": "ぼうがい",
+    "arti": "obstruction, hindrance, blocking, disturbance, interference, interruption, sabotage, jamming (a signal)"
+  },
+  {
+    "id": 1332,
+    "kanji": "区",
+    "kana": "く",
+    "arti": "ward, borough, city (in Tokyo)"
+  },
+  {
+    "id": 1333,
+    "kanji": "粉末",
+    "kana": "ふんまつ",
+    "arti": "fine powder"
+  },
+  {
+    "id": 1334,
+    "kanji": "扶養",
+    "kana": "ふよう",
+    "arti": "support (e.g. of one's dependents), maintenance"
+  },
+  {
+    "id": 1335,
+    "kanji": "庶民",
+    "kana": "しょみん",
+    "arti": "common people, ordinary people, masses"
+  },
+  {
+    "id": 1336,
+    "kanji": "雑談",
+    "kana": "ざつだん",
+    "arti": "chatting, idle talk"
+  },
+  {
+    "id": 1337,
+    "kanji": "補充",
+    "kana": "ほじゅう",
+    "arti": "replenishment, supplementation, supplement, replacement, refilling"
+  },
+  {
+    "id": 1338,
+    "kanji": "補償",
+    "kana": "ほしょう",
+    "arti": "compensation, reparation"
+  },
+  {
+    "id": 1339,
+    "kanji": "弁論",
+    "kana": "べんろん",
+    "arti": "discussion, debate, argument"
+  },
+  {
+    "id": 1340,
+    "kanji": "無論",
+    "kana": "むろん",
+    "arti": "of course, certainly, naturally"
+  },
+  {
+    "id": 1341,
+    "kanji": "無論",
+    "kana": "むろん",
+    "arti": "of course, certainly, naturally"
+  },
+  {
+    "id": 1342,
+    "kanji": "至って",
+    "kana": "いたって",
+    "arti": "very much, exceedingly, extremely"
+  },
+  {
+    "id": 1343,
+    "kanji": "視察",
+    "kana": "しさつ",
+    "arti": "inspection, observation"
+  },
+  {
+    "id": 1344,
+    "kanji": "お手上げ",
+    "kana": "おてあげ",
+    "arti": "being done for, giving up, being in a hopeless situation, not knowing what to do, being brought to one's knees, throwing up (one's) hands"
+  },
+  {
+    "id": 1345,
+    "kanji": "厳密",
+    "kana": "げんみつ",
+    "arti": "strict, close, precise, scrupulous"
+  },
+  {
+    "id": 1346,
+    "kanji": "裏返し",
+    "kana": "うらがえし",
+    "arti": "inside out, upside down"
+  },
+  {
+    "id": 1347,
+    "kanji": "統合",
+    "kana": "とうごう",
+    "arti": "integration, unification, unity, combination, consolidation, synthesis"
+  },
+  {
+    "id": 1348,
+    "kanji": "庶民",
+    "kana": "しょみん",
+    "arti": "common people, ordinary people, masses"
+  },
+  {
+    "id": 1349,
+    "kanji": "分離",
+    "kana": "ぶんり",
+    "arti": "separation, partition, detachment, segregation, isolation"
+  },
+  {
+    "id": 1350,
+    "kanji": "社交",
+    "kana": "しゃこう",
+    "arti": "social life, social intercourse"
+  },
+  {
+    "id": 1351,
+    "kanji": "若干",
+    "kana": "じゃっかん",
+    "arti": "some, few, a number of, a little (bit)"
+  },
+  {
+    "id": 1352,
+    "kanji": "論理",
+    "kana": "ろんり",
+    "arti": "logic"
+  },
+  {
+    "id": 1353,
+    "kanji": "福",
+    "kana": "ふく",
+    "arti": "good fortune, happiness, blessing, good luck"
+  },
+  {
+    "id": 1354,
+    "kanji": "当人",
+    "kana": "とうにん",
+    "arti": "the person concerned, the person in question, the said person"
+  },
+  {
+    "id": 1355,
+    "kanji": "扶養",
+    "kana": "ふよう",
+    "arti": "support (e.g. of one's dependents), maintenance"
+  },
+  {
+    "id": 1356,
+    "kanji": "口頭",
+    "kana": "こうとう",
+    "arti": "oral, verbal, spoken, parol"
+  },
+  {
+    "id": 1357,
+    "kanji": "割り当て",
+    "kana": "わりあて",
+    "arti": "allotment, assignment, allocation, quota, rationing"
+  },
+  {
+    "id": 1358,
+    "kanji": "放出",
+    "kana": "ほうしゅつ",
+    "arti": "emission, release, radiation, discharge, gush"
+  },
+  {
+    "id": 1359,
+    "kanji": "群",
+    "kana": "ぐん",
+    "arti": "group, bunch, crowd, throng, swarm, band, herd, school (of fish)"
+  },
+  {
+    "id": 1360,
+    "kanji": "沿岸",
+    "kana": "えんがん",
+    "arti": "coast, shore"
+  },
+  {
+    "id": 1361,
+    "kanji": "お手上げ",
+    "kana": "おてあげ",
+    "arti": "being done for, giving up, being in a hopeless situation, not knowing what to do, being brought to one's knees, throwing up (one's) hands"
+  },
+  {
+    "id": 1362,
+    "kanji": "厳密",
+    "kana": "げんみつ",
+    "arti": "strict, close, precise, scrupulous"
+  },
+  {
+    "id": 1363,
+    "kanji": "分離",
+    "kana": "ぶんり",
+    "arti": "separation, partition, detachment, segregation, isolation"
+  },
+  {
+    "id": 1364,
+    "kanji": "福",
+    "kana": "ふく",
+    "arti": "good fortune, happiness, blessing, good luck"
+  },
+  {
+    "id": 1365,
+    "kanji": "深める",
+    "kana": "ふかめる",
+    "arti": "to deepen, to heighten, to intensify"
+  },
+  {
+    "id": 1366,
+    "kanji": "組み込む",
+    "kana": "くみこむ",
+    "arti": "to insert, to include, to incorporate, to install, to embed"
+  },
+  {
+    "id": 1367,
+    "kanji": "充実",
+    "kana": "じゅうじつ",
+    "arti": "fullness, completeness, perfection, substantiality"
+  },
+  {
+    "id": 1368,
+    "kanji": "区",
+    "kana": "く",
+    "arti": "ward, borough, city (in Tokyo)"
+  },
+  {
+    "id": 1369,
+    "kanji": "故人",
+    "kana": "こじん",
+    "arti": "the deceased, the departed"
+  },
+  {
+    "id": 1370,
+    "kanji": "刑",
+    "kana": "けい",
+    "arti": "penalty, sentence, punishment"
+  },
+  {
+    "id": 1371,
+    "kanji": "壮大",
+    "kana": "そうだい",
+    "arti": "magnificent, grand, majestic, splendid"
+  },
+  {
+    "id": 1372,
+    "kanji": "証",
+    "kana": "あかし",
+    "arti": "proof, evidence, sign, testimony, testament (to something), vindication"
+  },
+  {
+    "id": 1373,
+    "kanji": "似通う",
+    "kana": "にかよう",
+    "arti": "to resemble closely"
+  },
+  {
+    "id": 1374,
+    "kanji": "対決",
+    "kana": "たいけつ",
+    "arti": "confrontation, showdown"
+  },
+  {
+    "id": 1375,
+    "kanji": "弁論",
+    "kana": "べんろん",
+    "arti": "discussion, debate, argument"
+  },
+  {
+    "id": 1376,
+    "kanji": "系",
+    "kana": "けい",
+    "arti": "system, lineage, group"
+  },
+  {
+    "id": 1377,
+    "kanji": "当人",
+    "kana": "とうにん",
+    "arti": "the person concerned, the person in question, the said person"
+  },
+  {
+    "id": 1378,
+    "kanji": "学歴",
+    "kana": "がくれき",
+    "arti": "academic background, academic credentials, academic record"
+  },
+  {
+    "id": 1379,
+    "kanji": "了解",
+    "kana": "りょうかい",
+    "arti": "comprehension, consent, understanding, agreement"
+  },
+  {
+    "id": 1380,
+    "kanji": "夕暮れ",
+    "kana": "ゆうぐれ",
+    "arti": "evening, dusk, twilight"
+  },
+  {
+    "id": 1381,
+    "kanji": "似通う",
+    "kana": "にかよう",
+    "arti": "to resemble closely"
+  },
+  {
+    "id": 1382,
+    "kanji": "故人",
+    "kana": "こじん",
+    "arti": "the deceased, the departed"
+  },
+  {
+    "id": 1383,
+    "kanji": "分離",
+    "kana": "ぶんり",
+    "arti": "separation, partition, detachment, segregation, isolation"
+  },
+  {
+    "id": 1384,
+    "kanji": "学歴",
+    "kana": "がくれき",
+    "arti": "academic background, academic credentials, academic record"
+  },
+  {
+    "id": 1385,
+    "kanji": "交付",
+    "kana": "こうふ",
+    "arti": "delivery, issuance, handing over, granting"
+  },
+  {
+    "id": 1386,
+    "kanji": "好調",
+    "kana": "こうちょう",
+    "arti": "favourable, favorable, promising, satisfactory, in good shape"
+  },
+  {
+    "id": 1387,
+    "kanji": "熱湯",
+    "kana": "ねっとう",
+    "arti": "boiling water"
+  },
+  {
+    "id": 1388,
+    "kanji": "廃棄",
+    "kana": "はいき",
+    "arti": "disposal, abandonment, scrapping, discarding, abolition"
+  },
+  {
+    "id": 1389,
+    "kanji": "配分",
+    "kana": "はいぶん",
+    "arti": "distribution, allotment"
+  },
+  {
+    "id": 1390,
+    "kanji": "一帯",
+    "kana": "いったい",
+    "arti": "whole area, whole region"
+  },
+  {
+    "id": 1391,
+    "kanji": "合間",
+    "kana": "あいま",
+    "arti": "interval, break, pause, spare moment"
+  },
+  {
+    "id": 1392,
+    "kanji": "噴出",
+    "kana": "ふんしゅつ",
+    "arti": "spewing, gushing, spouting, eruption, effusion"
+  },
+  {
+    "id": 1393,
+    "kanji": "良好",
+    "kana": "りょうこう",
+    "arti": "good, fine, excellent, favorable, favourable, satisfactory"
+  },
+  {
+    "id": 1394,
+    "kanji": "新婚",
+    "kana": "しんこん",
+    "arti": "newly-wed, newly married"
+  },
+  {
+    "id": 1395,
+    "kanji": "提携",
+    "kana": "ていけい",
+    "arti": "cooperation, tie-up, joint business, partnership, alliance, sponsorship"
+  },
+  {
+    "id": 1396,
+    "kanji": "浜",
+    "kana": "はま",
+    "arti": "beach, seashore"
+  },
+  {
+    "id": 1397,
+    "kanji": "採択",
+    "kana": "さいたく",
+    "arti": "adoption, selection, choice"
+  },
+  {
+    "id": 1398,
+    "kanji": "加工",
+    "kana": "かこう",
+    "arti": "manufacturing, processing, treatment, machining"
+  },
+  {
+    "id": 1399,
+    "kanji": "覆す",
+    "kana": "くつがえす",
+    "arti": "to overturn, to capsize, to upset"
+  },
+  {
+    "id": 1400,
+    "kanji": "蓄積",
+    "kana": "ちくせき",
+    "arti": "accumulation, accumulate, store"
+  },
+  {
+    "id": 1401,
+    "kanji": "生死",
+    "kana": "せいし",
+    "arti": "life and death, life or death"
+  },
+  {
+    "id": 1402,
+    "kanji": "採択",
+    "kana": "さいたく",
+    "arti": "adoption, selection, choice"
+  },
+  {
+    "id": 1403,
+    "kanji": "覆す",
+    "kana": "くつがえす",
+    "arti": "to overturn, to capsize, to upset"
+  },
+  {
+    "id": 1404,
+    "kanji": "首脳",
+    "kana": "しゅのう",
+    "arti": "head, leader, top"
+  },
+  {
+    "id": 1405,
+    "kanji": "激励",
+    "kana": "げきれい",
+    "arti": "encouragement, spurring (on), cheering (on)"
+  },
+  {
+    "id": 1406,
+    "kanji": "本音",
+    "kana": "ほんね",
+    "arti": "real intention, motive, true opinion, what one really thinks"
+  },
+  {
+    "id": 1407,
+    "kanji": "志望",
+    "kana": "しぼう",
+    "arti": "wish, desire, ambition, choice"
+  },
+  {
+    "id": 1408,
+    "kanji": "短縮",
+    "kana": "たんしゅく",
+    "arti": "shortening, contraction, reduction, curtailment, abbreviation"
+  },
+  {
+    "id": 1409,
+    "kanji": "未知",
+    "kana": "みち",
+    "arti": "not yet known, unknown, strange"
+  },
+  {
+    "id": 1410,
+    "kanji": "未定",
+    "kana": "みてい",
+    "arti": "not yet fixed, undecided, pending, TBD"
+  },
+  {
+    "id": 1411,
+    "kanji": "騒動",
+    "kana": "そうどう",
+    "arti": "riot, rebellion, turmoil, strife"
+  },
+  {
+    "id": 1412,
+    "kanji": "面目",
+    "kana": "めんぼく",
+    "arti": "face, honour, honor, reputation, prestige, dignity, credit"
+  },
+  {
+    "id": 1413,
+    "kanji": "模範",
+    "kana": "もはん",
+    "arti": "exemplar, model, example, pattern"
+  },
+  {
+    "id": 1414,
+    "kanji": "事前",
+    "kana": "じぜん",
+    "arti": "prior, beforehand, in advance, before the fact, ex ante"
+  },
+  {
+    "id": 1415,
+    "kanji": "様式",
+    "kana": "ようしき",
+    "arti": "style, form, pattern"
+  },
+  {
+    "id": 1416,
+    "kanji": "復興",
+    "kana": "ふっこう",
+    "arti": "revival, reconstruction, restoration, rebuilding, recovery, renaissance"
+  },
+  {
+    "id": 1417,
+    "kanji": "蓄積",
+    "kana": "ちくせき",
+    "arti": "accumulation, accumulate, store"
+  },
+  {
+    "id": 1418,
+    "kanji": "存続",
+    "kana": "そんぞく",
+    "arti": "continuance, survival, persistence, retention, duration"
+  },
+  {
+    "id": 1419,
+    "kanji": "仕掛ける",
+    "kana": "しかける",
+    "arti": "to start, to begin, to commence"
+  },
+  {
+    "id": 1420,
+    "kanji": "手がける",
+    "kana": "てがける",
+    "arti": "to handle, to manage, to deal with, to work with, to have experience with"
+  },
+  {
+    "id": 1421,
+    "kanji": "何気ない",
+    "kana": "なにげない",
+    "arti": "casual, unconcerned, nonchalant, indifferent, offhand"
+  },
+  {
+    "id": 1422,
+    "kanji": "出生",
+    "kana": "しゅっしょう",
+    "arti": "birth"
+  },
+  {
+    "id": 1423,
+    "kanji": "宿命",
+    "kana": "しゅくめい",
+    "arti": "fate, destiny, predestination"
+  },
+  {
+    "id": 1424,
+    "kanji": "短縮",
+    "kana": "たんしゅく",
+    "arti": "shortening, contraction, reduction, curtailment, abbreviation"
+  },
+  {
+    "id": 1425,
+    "kanji": "蓄積",
+    "kana": "ちくせき",
+    "arti": "accumulation, accumulate, store"
+  },
+  {
+    "id": 1426,
+    "kanji": "初",
+    "kana": "はつ",
+    "arti": "first, new"
+  },
+  {
+    "id": 1427,
+    "kanji": "小柄",
+    "kana": "こがら",
+    "arti": "small build, small stature, petite"
+  },
+  {
+    "id": 1428,
+    "kanji": "個々",
+    "kana": "ここ",
+    "arti": "individual, one by one, separate, each"
+  },
+  {
+    "id": 1429,
+    "kanji": "強いる",
+    "kana": "しいる",
+    "arti": "to force, to compel, to coerce, to press, to impose"
+  },
+  {
+    "id": 1430,
+    "kanji": "放置",
+    "kana": "ほうち",
+    "arti": "leaving as is, leaving alone, leaving unattended, neglecting, abandoning"
+  },
+  {
+    "id": 1431,
+    "kanji": "侍",
+    "kana": "さむらい",
+    "arti": "warrior (esp. of military retainers of daimyos in the Edo period), samurai"
+  },
+  {
+    "id": 1432,
+    "kanji": "転じる",
+    "kana": "てんじる",
+    "arti": "to turn, to shift, to switch, to change, to alter"
+  },
+  {
+    "id": 1433,
+    "kanji": "称する",
+    "kana": "しょうする",
+    "arti": "to call, to name"
+  },
+  {
+    "id": 1434,
+    "kanji": "生死",
+    "kana": "せいし",
+    "arti": "life and death, life or death"
+  },
+  {
+    "id": 1435,
+    "kanji": "上位",
+    "kana": "じょうい",
+    "arti": "superior (in rank), top, ranking"
+  },
+  {
+    "id": 1436,
+    "kanji": "激励",
+    "kana": "げきれい",
+    "arti": "encouragement, spurring (on), cheering (on)"
+  },
+  {
+    "id": 1437,
+    "kanji": "油絵",
+    "kana": "あぶらえ",
+    "arti": "oil painting"
+  },
+  {
+    "id": 1438,
+    "kanji": "侵す",
+    "kana": "おかす",
+    "arti": "to invade, to raid, to violate (airspace, etc.), to intrude, to trespass"
+  },
+  {
+    "id": 1439,
+    "kanji": "再発",
+    "kana": "さいはつ",
+    "arti": "return, relapse, recurrence"
+  },
+  {
+    "id": 1440,
+    "kanji": "冷淡",
+    "kana": "れいたん",
+    "arti": "cool, indifferent, apathetic, half-hearted"
+  },
+  {
+    "id": 1441,
+    "kanji": "意欲",
+    "kana": "いよく",
+    "arti": "will, desire, eagerness, interest, drive, motivation, urge, ambition"
+  },
+  {
+    "id": 1442,
+    "kanji": "加工",
+    "kana": "かこう",
+    "arti": "manufacturing, processing, treatment, machining"
+  },
+  {
+    "id": 1443,
+    "kanji": "好況",
+    "kana": "こうきょう",
+    "arti": "prosperous (economic) conditions, favourable conditions, (economic) boom, thriving business, brisk market"
+  },
+  {
+    "id": 1444,
+    "kanji": "訴え",
+    "kana": "うったえ",
+    "arti": "lawsuit, complaint"
+  },
+  {
+    "id": 1445,
+    "kanji": "総会",
+    "kana": "そうかい",
+    "arti": "general meeting"
+  },
+  {
+    "id": 1446,
+    "kanji": "塾",
+    "kana": "じゅく",
+    "arti": "cram school, private tutoring school, juku"
+  },
+  {
+    "id": 1447,
+    "kanji": "途上",
+    "kana": "とじょう",
+    "arti": "on the way, en route"
+  },
+  {
+    "id": 1448,
+    "kanji": "屋敷",
+    "kana": "やしき",
+    "arti": "residence, estate, grounds, premises, mansion"
+  },
+  {
+    "id": 1449,
+    "kanji": "蓄積",
+    "kana": "ちくせき",
+    "arti": "accumulation, accumulate, store"
+  },
+  {
+    "id": 1450,
+    "kanji": "検事",
+    "kana": "けんじ",
+    "arti": "public prosecutor"
+  },
+  {
+    "id": 1451,
+    "kanji": "復興",
+    "kana": "ふっこう",
+    "arti": "revival, reconstruction, restoration, rebuilding, recovery, renaissance"
+  },
+  {
+    "id": 1452,
+    "kanji": "存続",
+    "kana": "そんぞく",
+    "arti": "continuance, survival, persistence, retention, duration"
+  },
+  {
+    "id": 1453,
+    "kanji": "原作",
+    "kana": "げんさく",
+    "arti": "original work"
+  },
+  {
+    "id": 1454,
+    "kanji": "何気ない",
+    "kana": "なにげない",
+    "arti": "casual, unconcerned, nonchalant, indifferent, offhand"
+  },
+  {
+    "id": 1455,
+    "kanji": "投入",
+    "kana": "とうにゅう",
+    "arti": "throwing in, inserting, depositing (e.g. a ballot)"
+  },
+  {
+    "id": 1456,
+    "kanji": "滞納",
+    "kana": "たいのう",
+    "arti": "falling behind (with a payment), being in arrears, non-payment, default, delinquency"
+  },
+  {
+    "id": 1457,
+    "kanji": "強いる",
+    "kana": "しいる",
+    "arti": "to force, to compel, to coerce, to press, to impose"
+  },
+  {
+    "id": 1458,
+    "kanji": "土台",
+    "kana": "どだい",
+    "arti": "foundation, base, basis"
+  },
+  {
+    "id": 1459,
+    "kanji": "冷淡",
+    "kana": "れいたん",
+    "arti": "cool, indifferent, apathetic, half-hearted"
+  },
+  {
+    "id": 1460,
+    "kanji": "冒頭",
+    "kana": "ぼうとう",
+    "arti": "beginning, opening, start, outset"
+  },
+  {
+    "id": 1461,
+    "kanji": "連帯",
+    "kana": "れんたい",
+    "arti": "solidarity"
+  },
+  {
+    "id": 1462,
+    "kanji": "公立",
+    "kana": "こうりつ",
+    "arti": "public (institution)"
+  },
+  {
+    "id": 1463,
+    "kanji": "一部分",
+    "kana": "いちぶぶん",
+    "arti": "one part, one portion, one section"
+  },
+  {
+    "id": 1464,
+    "kanji": "工作",
+    "kana": "こうさく",
+    "arti": "handicraft"
+  },
+  {
+    "id": 1465,
+    "kanji": "配給",
+    "kana": "はいきゅう",
+    "arti": "distribution (e.g. films, rice)"
+  },
+  {
+    "id": 1466,
+    "kanji": "華やか",
+    "kana": "はなやか",
+    "arti": "bright and beautiful, gorgeous, showy, brilliant, splendid, gay, colorful, flowery"
+  },
+  {
+    "id": 1467,
+    "kanji": "改訂",
+    "kana": "かいてい",
+    "arti": "revision (of text), alteration, change"
+  },
+  {
+    "id": 1468,
+    "kanji": "眉",
+    "kana": "まゆ",
+    "arti": "eyebrow, eyebrows"
+  },
+  {
+    "id": 1469,
+    "kanji": "外貨",
+    "kana": "がいか",
+    "arti": "foreign currency, foreign money, foreign exchange"
+  },
+  {
+    "id": 1470,
+    "kanji": "外相",
+    "kana": "がいしょう",
+    "arti": "Foreign Minister"
+  },
+  {
+    "id": 1471,
+    "kanji": "根気",
+    "kana": "こんき",
+    "arti": "patience, perseverance, persistence, tenacity, energy"
+  },
+  {
+    "id": 1472,
+    "kanji": "復旧",
+    "kana": "ふっきゅう",
+    "arti": "restoration, restitution, rehabilitation"
+  },
+  {
+    "id": 1473,
+    "kanji": "採算",
+    "kana": "さいさん",
+    "arti": "profit"
+  },
+  {
+    "id": 1474,
+    "kanji": "編",
+    "kana": "へん",
+    "arti": "compilation (of a text), editing"
+  },
+  {
+    "id": 1475,
+    "kanji": "雑貨",
+    "kana": "ざっか",
+    "arti": "miscellaneous goods, general goods, sundries"
+  },
+  {
+    "id": 1476,
+    "kanji": "方式",
+    "kana": "ほうしき",
+    "arti": "form, method, system, formula"
+  },
+  {
+    "id": 1477,
+    "kanji": "酸化",
+    "kana": "さんか",
+    "arti": "oxidation, oxidization"
+  },
+  {
+    "id": 1478,
+    "kanji": "勧め",
+    "kana": "すすめ",
+    "arti": "recommendation, advice, suggestion, encouragement"
+  },
+  {
+    "id": 1479,
+    "kanji": "残高",
+    "kana": "ざんだか",
+    "arti": "(bank) balance, remainder"
+  },
+  {
+    "id": 1480,
+    "kanji": "勧誘",
+    "kana": "かんゆう",
+    "arti": "invitation, solicitation, canvassing, canvasing, inducement, persuasion, encouragement"
+  },
+  {
+    "id": 1481,
+    "kanji": "酸化",
+    "kana": "さんか",
+    "arti": "oxidation, oxidization"
+  },
+  {
+    "id": 1482,
+    "kanji": "勧め",
+    "kana": "すすめ",
+    "arti": "recommendation, advice, suggestion, encouragement"
+  },
+  {
+    "id": 1483,
+    "kanji": "残高",
+    "kana": "ざんだか",
+    "arti": "(bank) balance, remainder"
+  },
+  {
+    "id": 1484,
+    "kanji": "勧誘",
+    "kana": "かんゆう",
+    "arti": "invitation, solicitation, canvassing, canvasing, inducement, persuasion, encouragement"
+  },
+  {
+    "id": 1485,
+    "kanji": "緩和",
+    "kana": "かんわ",
+    "arti": "relief, mitigation, alleviation, relaxation (of restrictions, tensions, etc.), easing, softening"
+  },
+  {
+    "id": 1486,
+    "kanji": "予感",
+    "kana": "よかん",
+    "arti": "presentiment, premonition, hunch"
+  },
+  {
+    "id": 1487,
+    "kanji": "一部分",
+    "kana": "いちぶぶん",
+    "arti": "one part, one portion, one section"
+  },
+  {
+    "id": 1488,
+    "kanji": "器",
+    "kana": "うつわ",
+    "arti": "bowl, vessel, container"
+  },
+  {
+    "id": 1489,
+    "kanji": "老衰",
+    "kana": "ろうすい",
+    "arti": "senility, senile decay, infirmity (through age)"
+  },
+  {
+    "id": 1490,
+    "kanji": "破損",
+    "kana": "はそん",
+    "arti": "damage, breakage"
+  },
+  {
+    "id": 1491,
+    "kanji": "中傷",
+    "kana": "ちゅうしょう",
+    "arti": "slander, libel, defamation, calumny, smear"
+  },
+  {
+    "id": 1492,
+    "kanji": "手法",
+    "kana": "しゅほう",
+    "arti": "technique, method"
+  },
+  {
+    "id": 1493,
+    "kanji": "冒頭",
+    "kana": "ぼうとう",
+    "arti": "beginning, opening, start, outset"
+  },
+  {
+    "id": 1494,
+    "kanji": "趣",
+    "kana": "おもむき",
+    "arti": "meaning, tenor, gist"
+  },
+  {
+    "id": 1495,
+    "kanji": "捕獲",
+    "kana": "ほかく",
+    "arti": "capture, seizure"
+  },
+  {
+    "id": 1496,
+    "kanji": "受け止める",
+    "kana": "うけとめる",
+    "arti": "to catch, to stop the blow"
+  },
+  {
+    "id": 1497,
+    "kanji": "受身",
+    "kana": "うけみ",
+    "arti": "the defensive"
+  },
+  {
+    "id": 1498,
+    "kanji": "議決",
+    "kana": "ぎけつ",
+    "arti": "resolution, decision, vote"
+  },
+  {
+    "id": 1499,
+    "kanji": "街頭",
+    "kana": "がいとう",
+    "arti": "(on the) street"
+  },
+  {
+    "id": 1500,
+    "kanji": "便宜",
+    "kana": "べんぎ",
+    "arti": "convenience, accommodation, advantage, benefit, expediency"
+  }
+]

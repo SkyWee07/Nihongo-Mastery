@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "pattern": "~を余儀なくされる (~o yoginaku sareru)",
+    "arti": "Terpaksa (karena keadaan)",
+    "penjelasan": "Menunjukkan bahwa seseorang terpaksa melakukan sesuatu karena situasi yang tidak dapat dihindari, meskipun tidak ingin melakukannya. Sering digunakan dalam berita atau dokumen formal.",
+    "contoh": [
+      {
+        "jp": "大雪のため、飛行機は着陸地の変更を余儀なくされた。",
+        "id": "Ooyuki no tame, hikouki wa chakurikuchi no henkou o yoginaku sareta.",
+        "id_arti": "Karena salju lebat, pesawat terpaksa mengubah tempat pendaratan."
+      },
+      {
+        "jp": "不況により、多くの企業がリストラを余儀なくされている。",
+        "id": "Fukyou ni yori, ooku no kigyou ga risutora o yoginaku sarete iru.",
+        "id_arti": "Akibat resesi, banyak perusahaan terpaksa melakukan PHK."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "pattern": "~たるもの (~taru mono)",
+    "arti": "Sebagai seorang (yang pantas/memiliki status tertentu)",
+    "penjelasan": "Menunjukkan apa yang seharusnya dilakukan oleh seseorang dengan status, posisi, atau tanggung jawab tertentu. Diikuti dengan kewajiban.",
+    "contoh": [
+      {
+        "jp": "教育者たるもの、常に自身の行動を省みるべきだ。",
+        "id": "Kyouikusha taru mono, tsune ni jishin no koudou o kaerimiru beki da.",
+        "id_arti": "Sebagai seorang pendidik, seharusnya selalu mengintrospeksi perilakunya sendiri."
+      },
+      {
+        "jp": "リーダーたる者、いかなる困難にも屈してはならない。",
+        "id": "Riidaa taru mono, ikanaru konnan ni mo kusshite wa naranai.",
+        "id_arti": "Sebagai seorang pemimpin, tidak boleh menyerah pada kesulitan apa pun."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "pattern": "~とあって (~to atte)",
+    "arti": "Karena situasi khusus...",
+    "penjelasan": "Menunjukkan bahwa karena suatu kondisi atau situasi yang istimewa, maka terjadi sesuatu yang wajar sebagai akibatnya.",
+    "contoh": [
+      {
+        "jp": "久しぶりの快晴とあって、行楽地はどこも人でいっぱいだ。",
+        "id": "Hisashiburi no kaisei to atte, kourakuchi wa doko mo hito de ippai da.",
+        "id_arti": "Karena cuaca sangat cerah setelah sekian lama, tempat wisata di mana-mana dipenuhi orang."
+      },
+      {
+        "jp": "人気アイドルのコンサートとあって、チケットは即完売した。",
+        "id": "Ninki aidoru no konsaato to atte, chiketto wa soku kanbai shita.",
+        "id_arti": "Karena ini konser idola populer, tiketnya langsung terjual habis."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "pattern": "~にたえる (~ni taeru)",
+    "arti": "Layak untuk / Pantas untuk",
+    "penjelasan": "Menunjukkan bahwa sesuatu memiliki nilai atau kualitas yang cukup untuk dilakukan suatu tindakan (seperti dibaca, dilihat, dihargai).",
+    "contoh": [
+      {
+        "jp": "この本は子供向けに書かれているが、大人の鑑賞にも十分にたえる。",
+        "id": "Kono hon wa kodomomuke ni kakarete iru ga, otona no kanshou ni mo juubun ni taeru.",
+        "id_arti": "Buku ini ditulis untuk anak-anak, tetapi cukup layak juga untuk diapresiasi oleh orang dewasa."
+      },
+      {
+        "jp": "彼の論文は学術的な批判にたえるものだ。",
+        "id": "Kare no ronbun wa gakujutsuteki na hihan ni taeru mono da.",
+        "id_arti": "Tesisnya layak menahan kritikan akademis."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "pattern": "~極まる / 極まりない (~kiwamaru / kiwamarinai)",
+    "arti": "Sangat... / ...Bukan main",
+    "penjelasan": "Menunjukkan tingkat tertinggi dari suatu keadaan. Biasanya digunakan dengan konotasi emosi negatif atau penilaian buruk.",
+    "contoh": [
+      {
+        "jp": "彼の態度は失礼極まりない。",
+        "id": "Kare no taido wa shitsurei kiwamarinai.",
+        "id_arti": "Sikapnya sangat tidak sopan."
+      },
+      {
+        "jp": "あのような発言をするとは、軽率極まる。",
+        "id": "Ano you na hatsugen o suru to wa, keisotsu kiwamaru.",
+        "id_arti": "Melontarkan ucapan semacam itu adalah hal yang sangat sembrono."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "pattern": "~んがため(に) (~n ga tame (ni))",
+    "arti": "Demi (melakukan sesuatu) / Untuk",
+    "penjelasan": "Ekspresi kuno/formal untuk menyatakan tujuan besar atau tekad yang kuat. Sama dengan '~するために'.",
+    "contoh": [
+      {
+        "jp": "真実を明らかにするんがため、彼は証言台に立った。",
+        "id": "Shinjitsu o akiraka ni suru n ga tame, kare wa shougendai ni tatta.",
+        "id_arti": "Demi mengungkapkan kebenaran, dia berdiri di kursi saksi."
+      },
+      {
+        "jp": "大会で優勝せんがために、毎日厳しい練習を重ねている。",
+        "id": "Taikai de yuushou sen ga tame ni, mainichi kibishii renshuu o kasanete iru.",
+        "id_arti": "Demi memenangkan turnamen, kami menjalani latihan keras setiap hari."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "pattern": "~に至るまで (~ni itaru made)",
+    "arti": "Sampai ke / Hingga (secara mendetail)",
+    "penjelasan": "Menekankan sejauh mana suatu ruang lingkup mencakup segalanya, termasuk hal-hal kecil atau ekstrem.",
+    "contoh": [
+      {
+        "jp": "このドキュメンタリーは、宇宙の誕生から現代に至るまでの歴史を描いている。",
+        "id": "Kono dokyumentarii wa, uchuu no tanjou kara gendai ni itaru made no rekishi o egaite iru.",
+        "id_arti": "Dokumenter ini menggambarkan sejarah mulai dari kelahiran alam semesta hingga masa kini."
+      },
+      {
+        "jp": "社長は社員の個人的な悩みに至るまで、親身になって聞いてくれる。",
+        "id": "Shachou wa shain no kojinteki na nayami ni itaru made, shinmi ni natte kiite kureru.",
+        "id_arti": "Presiden direktur bahkan mendengarkan masalah pribadi karyawannya dengan penuh simpati."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "pattern": "~べくもない (~beku mo nai)",
+    "arti": "Tidak mungkin / Mustahil (meskipun dipikirkan secara logika)",
+    "penjelasan": "Menunjukkan bahwa berdasarkan situasi saat ini, tidak ada kemungkinan sama sekali untuk melakukan hal tersebut.",
+    "contoh": [
+      {
+        "jp": "彼が犯人であることは疑うべくもない。",
+        "id": "Kare ga hannin de aru koto wa utagau beku mo nai.",
+        "id_arti": "Fakta bahwa dia pelakunya sama sekali tidak mungkin diragukan."
+      },
+      {
+        "jp": "状況は悪化しており、早期解決は望むべくもない。",
+        "id": "Joukyou wa akka shite ori, souki kaiketsu wa nozomu beku mo nai.",
+        "id_arti": "Situasinya semakin memburuk, dan tidak mungkin berharap adanya penyelesaian segera."
+      }
+    ]
+  }
+]

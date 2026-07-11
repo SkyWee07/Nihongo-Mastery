@@ -6,8 +6,9 @@ const n5 = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'data', 'kanji
 const n4 = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'data', 'kanjiN4.json'), 'utf-8'));
 const n3 = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'data', 'kanjiN3.json'), 'utf-8'));
 const n2 = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'data', 'kanjiN2.json'), 'utf-8'));
+const n1 = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'data', 'kanjiN1.json'), 'utf-8'));
 
-const allKanji = [...n5, ...n4, ...n3, ...n2].map(k => k.kanji || k.karakter).filter(k => k && k.length === 1);
+const allKanji = [...n5, ...n4, ...n3, ...n2, ...n1].map(k => k.kanji || k.karakter).filter(k => k && k.length === 1);
 
 const outDir = path.join(__dirname, 'public', 'strokeOrder');
 if (!fs.existsSync(outDir)) {

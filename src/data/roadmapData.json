@@ -18,5 +18,8 @@
   { "id": 17, "title": "Bunpo N2", "desc": "Tata bahasa lanjutan N2", "target": "Dokumen resmi", "phase": "Mahir", "path": "/bunpo/n2" },
   { "id": 18, "title": "Kanji N2", "desc": "Kuasai sekitar 400 Kanji N2", "target": "Membaca koran", "phase": "Mahir", "path": "/kanji/n2" },
   { "id": 19, "title": "Latihan Kuis N2", "desc": "Uji hafalan tingkat N2", "target": "Persiapan ujian", "phase": "Mahir", "path": "/quiz" },
-  { "id": 20, "title": "Materi N1 (Native)", "desc": "Segera Hadir: Penguasaan layaknya Native Speaker", "target": "Akademik & Literatur", "phase": "Pakar", "path": "" }
+  { "id": 20, "title": "Kotoba N1", "desc": "Kosakata tingkat pakar JLPT N1", "target": "Level native", "phase": "Pakar", "path": "/kotoba/n1" },
+  { "id": 21, "title": "Bunpo N1", "desc": "Tata bahasa lanjutan N1", "target": "Jurnal akademis", "phase": "Pakar", "path": "/bunpo/n1" },
+  { "id": 22, "title": "Kanji N1", "desc": "Kuasai Kanji kompleks N1", "target": "Membaca literatur", "phase": "Pakar", "path": "/kanji/n1" },
+  { "id": 23, "title": "Latihan Kuis N1", "desc": "Ujian akhir kemampuan bahasa", "target": "Penguasaan total", "phase": "Pakar", "path": "/quiz" }
 ]
