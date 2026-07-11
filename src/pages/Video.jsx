@@ -197,7 +197,7 @@ export default function Video() {
             >
               <div className="video-card-thumb">
                 <img
-                  src={`https://img.youtube.com/vi/${video.id}/maxresdefault.jpg`}
+                  src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
                   alt={video.title}
                   loading="lazy"
                   className="video-thumb-img"
