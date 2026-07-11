@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "pattern": "~に際して (~ni saishite)",
+    "arti": "Pada saat / Ketika",
+    "penjelasan": "Digunakan untuk acara atau kejadian formal. Mirip dengan ~の時に tapi lebih kaku.",
+    "contoh": [
+      {
+        "jp": "ごみを出されるに際しては、分別をお願いします。",
+        "id": "Gomi o dasareru ni saishite wa, bunbetsu o onegai shimasu.",
+        "id_arti": "Pada saat membuang sampah, mohon dipilah."
+      },
+      {
+        "jp": "受験に際して、写真が必要です。",
+        "id": "Juken ni saishite, shashin ga hitsuyou desu.",
+        "id_arti": "Ketika mengikuti ujian masuk, diperlukan foto."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "pattern": "~に先立って (~ni sakidatte)",
+    "arti": "Sebelum (melakukan) / Mendahului",
+    "penjelasan": "Digunakan untuk tindakan persiapan yang harus dilakukan sebelum tindakan utama. Cenderung formal.",
+    "contoh": [
+      {
+        "jp": "試合に先立って、開会式が行われた。",
+        "id": "Shiai ni sakidatte, kaikaishiki ga okonawareta.",
+        "id_arti": "Sebelum pertandingan, upacara pembukaan telah dilangsungkan."
+      },
+      {
+        "jp": "新製品の発売に先立って、アンケート調査を行った。",
+        "id": "Shinseihin no hatsubai ni sakidatte, ankeeto chousa o okonatta.",
+        "id_arti": "Sebelum peluncuran produk baru, kami melakukan survei kuesioner."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "pattern": "~に応じて (~ni oujite)",
+    "arti": "Sesuai dengan / Bergantung pada",
+    "penjelasan": "Digunakan untuk menyatakan bahwa sesuatu akan berubah sejalan dengan perubahan pada hal lain (skala, situasi, kondisi).",
+    "contoh": [
+      {
+        "jp": "給料は能力に応じて決まる。",
+        "id": "Kyuuryou wa nouryoku ni oujite kimaru.",
+        "id_arti": "Gaji ditentukan sesuai dengan kemampuan."
+      },
+      {
+        "jp": "季節に応じて、服を変える。",
+        "id": "Kisetsu ni oujite, fuku o kaeru.",
+        "id_arti": "Mengganti pakaian sesuai dengan musim."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "pattern": "~にこたえて (~ni kotaete)",
+    "arti": "Demi memenuhi / Menanggapi",
+    "penjelasan": "Digunakan saat melakukan sesuatu untuk memenuhi permintaan, harapan, atau tuntutan orang lain.",
+    "contoh": [
+      {
+        "jp": "ファンの期待にこたえて、彼は見事にゴールを決めた。",
+        "id": "Fan no kitai ni kotaete, kare wa migoto ni gooru o kimeta.",
+        "id_arti": "Demi memenuhi harapan penggemar, dia mencetak gol dengan luar biasa."
+      },
+      {
+        "jp": "要望にこたえて、営業時間を延長した。",
+        "id": "Youbou ni kotaete, eigyou jikan o enchou shita.",
+        "id_arti": "Menanggapi permintaan, kami memperpanjang jam operasional."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "pattern": "~を問わず (~o towazu)",
+    "arti": "Tanpa memandang / Terlepas dari",
+    "penjelasan": "Menyatakan bahwa kondisi tertentu tidak menjadi masalah atau syarat (seperti umur, jenis kelamin, cuaca).",
+    "contoh": [
+      {
+        "jp": "このマラソン大会は年齢を問わず、誰でも参加できる。",
+        "id": "Kono marason taikai wa nenrei o towazu, dare demo sanka dekiru.",
+        "id_arti": "Lomba maraton ini dapat diikuti oleh siapa saja tanpa memandang usia."
+      },
+      {
+        "jp": "経験の有無を問わず、社員を募集している。",
+        "id": "Keiken no umu o towazu, shain o boshuu shite iru.",
+        "id_arti": "Kami merekrut karyawan terlepas dari ada atau tidaknya pengalaman."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "pattern": "~上 (で) (~jou (de))",
+    "arti": "Dari segi / Dari sudut pandang",
+    "penjelasan": "Digunakan untuk menunjukkan sudut pandang atau aspek tertentu (hukum, teori, pendidikan).",
+    "contoh": [
+      {
+        "jp": "法律上は問題ない。",
+        "id": "Houritsujou wa mondai nai.",
+        "id_arti": "Dari segi hukum tidak ada masalah."
+      },
+      {
+        "jp": "健康上の理由で辞めさせていただきます。",
+        "id": "Kenkoujou no riyuu de yamesasete itadakimasu.",
+        "id_arti": "Saya pamit (berhenti) karena alasan (dari segi) kesehatan."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "pattern": "~一方だ (~ippou da)",
+    "arti": "Terus-menerus / Semakin...",
+    "penjelasan": "Menunjukkan suatu keadaan atau perubahan yang terus berlanjut ke satu arah (biasanya arah negatif).",
+    "contoh": [
+      {
+        "jp": "最近、物価は上がる一方だ。",
+        "id": "Saikin, bukka wa agaru ippou da.",
+        "id_arti": "Akhir-akhir ini, harga barang terus-menerus naik."
+      },
+      {
+        "jp": "彼の病気は悪化する一方だ。",
+        "id": "Kare no byouki wa akka suru ippou da.",
+        "id_arti": "Penyakitnya semakin memburuk."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "pattern": "~つつある (~tsutsu aru)",
+    "arti": "Sedang (dalam proses) ...",
+    "penjelasan": "Menunjukkan bahwa suatu perubahan sedang berlangsung sedikit demi sedikit. Nuansanya formal.",
+    "contoh": [
+      {
+        "jp": "日本の景気は回復しつつある。",
+        "id": "Nihon no keiki wa kaifuku shitsutsu aru.",
+        "id_arti": "Ekonomi Jepang sedang dalam proses pemulihan."
+      },
+      {
+        "jp": "問題は解決されつつある。",
+        "id": "Mondai wa kaiketsu saretsutsu aru.",
+        "id_arti": "Masalah sedang dalam proses penyelesaian."
+      }
+    ]
+  }
+]

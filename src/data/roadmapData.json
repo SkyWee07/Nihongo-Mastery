@@ -14,6 +14,9 @@
   { "id": 13, "title": "Bunpo N3", "desc": "Tata bahasa menengah atas N3", "target": "Ekspresi lebih natural", "phase": "Menengah Atas", "path": "/bunpo/n3" },
   { "id": 14, "title": "Kanji N3", "desc": "Kuasai sekitar 350 Kanji N3", "target": "Membaca artikel", "phase": "Menengah Atas", "path": "/kanji/n3" },
   { "id": 15, "title": "Latihan Kuis N3", "desc": "Uji hafalan tingkat N3", "target": "Persiapan ujian", "phase": "Menengah Atas", "path": "/quiz" },
-  { "id": 16, "title": "Materi N2 (Bisnis)", "desc": "Segera Hadir: Bahasa Jepang level Bisnis dan Koran", "target": "Kerja kantoran", "phase": "Mahir", "path": "" },
-  { "id": 17, "title": "Materi N1 (Native)", "desc": "Segera Hadir: Penguasaan layaknya Native Speaker", "target": "Akademik & Literatur", "phase": "Pakar", "path": "" }
+  { "id": 16, "title": "Kotoba N2", "desc": "Kosakata bisnis JLPT N2 (1000+ kata)", "target": "Kerja kantoran", "phase": "Mahir", "path": "/kotoba/n2" },
+  { "id": 17, "title": "Bunpo N2", "desc": "Tata bahasa lanjutan N2", "target": "Dokumen resmi", "phase": "Mahir", "path": "/bunpo/n2" },
+  { "id": 18, "title": "Kanji N2", "desc": "Kuasai sekitar 400 Kanji N2", "target": "Membaca koran", "phase": "Mahir", "path": "/kanji/n2" },
+  { "id": 19, "title": "Latihan Kuis N2", "desc": "Uji hafalan tingkat N2", "target": "Persiapan ujian", "phase": "Mahir", "path": "/quiz" },
+  { "id": 20, "title": "Materi N1 (Native)", "desc": "Segera Hadir: Penguasaan layaknya Native Speaker", "target": "Akademik & Literatur", "phase": "Pakar", "path": "" }
 ]
