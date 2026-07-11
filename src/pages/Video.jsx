@@ -21,7 +21,7 @@ const videos = [
     duration: '1:00:00',
   },
   {
-    id: 's6DKRp4dmKY',
+    id: 's6DKRgtVLGA',
     title: 'Learn ALL Katakana in 1 Hour',
     description: 'Kuasai semua huruf Katakana dengan metode yang mudah diikuti. Lengkap dengan contoh pengucapan.',
     category: 'hiragana-katakana',
@@ -29,7 +29,7 @@ const videos = [
     duration: '1:00:00',
   },
   {
-    id: 'DaHrGSIhJBo',
+    id: 'tkMOsYrtV74',
     title: '800 Japanese Words for Everyday Life',
     description: '800 kosakata Jepang yang paling sering digunakan dalam kehidupan sehari-hari. Wajib dihafal!',
     category: 'kosakata',
@@ -37,7 +37,7 @@ const videos = [
     duration: '2:26:24',
   },
   {
-    id: 'DRe7pxFwjXQ',
+    id: 'Uo3VWJrsyfI',
     title: '1500 Japanese Words You Need to Know',
     description: 'Kumpulan 1500 kata penting bahasa Jepang yang akan meningkatkan kemampuan berbicara dan mendengarmu.',
     category: 'kosakata',
@@ -45,7 +45,7 @@ const videos = [
     duration: '3:30:00',
   },
   {
-    id: 'UBBjp9a6wXM',
+    id: 'BckC9gXghIc',
     title: 'Japanese Grammar Basics',
     description: 'Dasar-dasar tata bahasa Jepang yang harus kamu ketahui. Penjelasan sederhana dan mudah dipahami.',
     category: 'tata-bahasa',
@@ -53,7 +53,7 @@ const videos = [
     duration: '1:15:00',
   },
   {
-    id: 'o3KMr5LIUHE',
+    id: 'E-sv73KP8Iw',
     title: 'Essential Japanese Grammar Patterns',
     description: 'Pola-pola tata bahasa esensial yang sering muncul dalam percakapan sehari-hari dan ujian JLPT.',
     category: 'tata-bahasa',
@@ -61,7 +61,7 @@ const videos = [
     duration: '0:45:00',
   },
   {
-    id: 'WnSBUCbwfCM',
+    id: '9mI0_zL8SDk',
     title: 'Learn 200 Kanji for JLPT N5 & N4',
     description: 'Pelajari 200 Kanji yang dibutuhkan untuk lulus ujian JLPT N5 dan N4. Termasuk cara tulis dan artinya.',
     category: 'kanji',
@@ -69,7 +69,7 @@ const videos = [
     duration: '2:00:00',
   },
   {
-    id: 'LFNfVj49MH8',
+    id: 'h5B8ZyYRczU',
     title: 'Kanji Radicals - Building Blocks',
     description: 'Pahami radikal Kanji sebagai blok pembangun. Teknik ini akan mempermudah menghafal ribuan Kanji.',
     category: 'kanji',
@@ -77,7 +77,7 @@ const videos = [
     duration: '0:35:00',
   },
   {
-    id: 'xumH__ay9Ww',
+    id: 'Dnsp06Q-fc4',
     title: 'Japanese Culture 101',
     description: 'Pengenalan budaya Jepang yang komprehensif. Dari tradisi kuno hingga budaya pop modern.',
     category: 'budaya',
@@ -85,7 +85,7 @@ const videos = [
     duration: '0:50:00',
   },
   {
-    id: 'xa2bCJMXMmI',
+    id: 'C6jypFauRlU',
     title: 'Daily Life in Japan',
     description: 'Intip kehidupan sehari-hari orang Jepang. Pelajari kebiasaan dan etiket penting yang harus kamu tahu.',
     category: 'budaya',
@@ -93,7 +93,7 @@ const videos = [
     duration: '0:40:00',
   },
   {
-    id: 'dOJPfjr8eIU',
+    id: 'zirR05lhtYc',
     title: 'How to Pass JLPT N5',
     description: 'Strategi dan tips ampuh untuk lulus ujian JLPT N5. Termasuk rekomendasi buku dan metode belajar.',
     category: 'jlpt',
@@ -101,7 +101,7 @@ const videos = [
     duration: '0:30:00',
   },
   {
-    id: 'FknmUij6AWo',
+    id: 'Y4dnlvGBznU',
     title: 'Japanese Study Tips',
     description: 'Tips belajar bahasa Jepang yang efektif dari para poliglot. Tingkatkan kemampuanmu lebih cepat!',
     category: 'jlpt',
