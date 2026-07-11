@@ -4,7 +4,7 @@ import WritingCanvas from '../components/WritingCanvas';
 import './Katakana.css';
 
 export default function Katakana() {
-  const [showRomaji, setShowRomaji] = useState(false);
+  const [showRomaji, setShowRomaji] = useState(true);
   const [activeTab, setActiveTab] = useState('basic');
   const [voicesReady, setVoicesReady] = useState(false);
   const [writingChar, setWritingChar] = useState(null);
