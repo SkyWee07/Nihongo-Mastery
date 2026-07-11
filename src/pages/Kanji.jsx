@@ -5,10 +5,12 @@ import './Kanji.css';
 
 import kanjiN5 from '../data/kanjiN5.json';
 import kanjiN4 from '../data/kanjiN4.json';
+import kanjiN3 from '../data/kanjiN3.json';
 
 const kanjiDataMap = {
   n5: kanjiN5,
-  n4: kanjiN4
+  n4: kanjiN4,
+  n3: kanjiN3
 };
 
 export default function Kanji() {
@@ -18,7 +20,7 @@ export default function Kanji() {
   const [search, setSearch] = useState('');
   const [writingChar, setWritingChar] = useState(null);
 
-  const validLevels = ['n5', 'n4'];
+  const validLevels = ['n5', 'n4', 'n3'];
 
   useEffect(() => {
     if (!validLevels.includes(level?.toLowerCase())) return;

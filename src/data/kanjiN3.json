@@ -1,0 +1,1042 @@
+[
+  {
+    "id": 1,
+    "karakter": "政",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 政",
+    "contoh": ""
+  },
+  {
+    "id": 2,
+    "karakter": "議",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 議",
+    "contoh": ""
+  },
+  {
+    "id": 3,
+    "karakter": "民",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 民",
+    "contoh": ""
+  },
+  {
+    "id": 4,
+    "karakter": "連",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 連",
+    "contoh": ""
+  },
+  {
+    "id": 5,
+    "karakter": "対",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 対",
+    "contoh": ""
+  },
+  {
+    "id": 6,
+    "karakter": "部",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 部",
+    "contoh": ""
+  },
+  {
+    "id": 7,
+    "karakter": "合",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 合",
+    "contoh": ""
+  },
+  {
+    "id": 8,
+    "karakter": "市",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 市",
+    "contoh": ""
+  },
+  {
+    "id": 9,
+    "karakter": "内",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 内",
+    "contoh": ""
+  },
+  {
+    "id": 10,
+    "karakter": "相",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 相",
+    "contoh": ""
+  },
+  {
+    "id": 11,
+    "karakter": "定",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 定",
+    "contoh": ""
+  },
+  {
+    "id": 12,
+    "karakter": "回",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 回",
+    "contoh": ""
+  },
+  {
+    "id": 13,
+    "karakter": "選",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 選",
+    "contoh": ""
+  },
+  {
+    "id": 14,
+    "karakter": "米",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 米",
+    "contoh": ""
+  },
+  {
+    "id": 15,
+    "karakter": "実",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 実",
+    "contoh": ""
+  },
+  {
+    "id": 16,
+    "karakter": "関",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 関",
+    "contoh": ""
+  },
+  {
+    "id": 17,
+    "karakter": "決",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 決",
+    "contoh": ""
+  },
+  {
+    "id": 18,
+    "karakter": "全",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 全",
+    "contoh": ""
+  },
+  {
+    "id": 19,
+    "karakter": "表",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 表",
+    "contoh": ""
+  },
+  {
+    "id": 20,
+    "karakter": "戦",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 戦",
+    "contoh": ""
+  },
+  {
+    "id": 21,
+    "karakter": "経",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 経",
+    "contoh": ""
+  },
+  {
+    "id": 22,
+    "karakter": "最",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 最",
+    "contoh": ""
+  },
+  {
+    "id": 23,
+    "karakter": "現",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 現",
+    "contoh": ""
+  },
+  {
+    "id": 24,
+    "karakter": "調",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 調",
+    "contoh": ""
+  },
+  {
+    "id": 25,
+    "karakter": "化",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 化",
+    "contoh": ""
+  },
+  {
+    "id": 26,
+    "karakter": "当",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 当",
+    "contoh": ""
+  },
+  {
+    "id": 27,
+    "karakter": "約",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 約",
+    "contoh": ""
+  },
+  {
+    "id": 28,
+    "karakter": "首",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 首",
+    "contoh": ""
+  },
+  {
+    "id": 29,
+    "karakter": "法",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 法",
+    "contoh": ""
+  },
+  {
+    "id": 30,
+    "karakter": "性",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 性",
+    "contoh": ""
+  },
+  {
+    "id": 31,
+    "karakter": "要",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 要",
+    "contoh": ""
+  },
+  {
+    "id": 32,
+    "karakter": "制",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 制",
+    "contoh": ""
+  },
+  {
+    "id": 33,
+    "karakter": "治",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 治",
+    "contoh": ""
+  },
+  {
+    "id": 34,
+    "karakter": "務",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 務",
+    "contoh": ""
+  },
+  {
+    "id": 35,
+    "karakter": "成",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 成",
+    "contoh": ""
+  },
+  {
+    "id": 36,
+    "karakter": "期",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 期",
+    "contoh": ""
+  },
+  {
+    "id": 37,
+    "karakter": "取",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 取",
+    "contoh": ""
+  },
+  {
+    "id": 38,
+    "karakter": "都",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 都",
+    "contoh": ""
+  },
+  {
+    "id": 39,
+    "karakter": "和",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 和",
+    "contoh": ""
+  },
+  {
+    "id": 40,
+    "karakter": "機",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 機",
+    "contoh": ""
+  },
+  {
+    "id": 41,
+    "karakter": "平",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 平",
+    "contoh": ""
+  },
+  {
+    "id": 42,
+    "karakter": "加",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 加",
+    "contoh": ""
+  },
+  {
+    "id": 43,
+    "karakter": "受",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 受",
+    "contoh": ""
+  },
+  {
+    "id": 44,
+    "karakter": "続",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 続",
+    "contoh": ""
+  },
+  {
+    "id": 45,
+    "karakter": "進",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 進",
+    "contoh": ""
+  },
+  {
+    "id": 46,
+    "karakter": "委",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 委",
+    "contoh": ""
+  },
+  {
+    "id": 47,
+    "karakter": "設",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 設",
+    "contoh": ""
+  },
+  {
+    "id": 48,
+    "karakter": "改",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 改",
+    "contoh": ""
+  },
+  {
+    "id": 49,
+    "karakter": "数",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 数",
+    "contoh": ""
+  },
+  {
+    "id": 50,
+    "karakter": "記",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 記",
+    "contoh": ""
+  },
+  {
+    "id": 51,
+    "karakter": "院",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 院",
+    "contoh": ""
+  },
+  {
+    "id": 52,
+    "karakter": "建",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 建",
+    "contoh": ""
+  },
+  {
+    "id": 53,
+    "karakter": "考",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 考",
+    "contoh": ""
+  },
+  {
+    "id": 54,
+    "karakter": "支",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 支",
+    "contoh": ""
+  },
+  {
+    "id": 55,
+    "karakter": "局",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 局",
+    "contoh": ""
+  },
+  {
+    "id": 56,
+    "karakter": "交",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 交",
+    "contoh": ""
+  },
+  {
+    "id": 57,
+    "karakter": "権",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 権",
+    "contoh": ""
+  },
+  {
+    "id": 58,
+    "karakter": "態",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 態",
+    "contoh": ""
+  },
+  {
+    "id": 59,
+    "karakter": "予",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 予",
+    "contoh": ""
+  },
+  {
+    "id": 60,
+    "karakter": "容",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 容",
+    "contoh": ""
+  },
+  {
+    "id": 61,
+    "karakter": "保",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 保",
+    "contoh": ""
+  },
+  {
+    "id": 62,
+    "karakter": "将",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 将",
+    "contoh": ""
+  },
+  {
+    "id": 63,
+    "karakter": "統",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 統",
+    "contoh": ""
+  },
+  {
+    "id": 64,
+    "karakter": "指",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 指",
+    "contoh": ""
+  },
+  {
+    "id": 65,
+    "karakter": "次",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 次",
+    "contoh": ""
+  },
+  {
+    "id": 66,
+    "karakter": "第",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 第",
+    "contoh": ""
+  },
+  {
+    "id": 67,
+    "karakter": "各",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 各",
+    "contoh": ""
+  },
+  {
+    "id": 68,
+    "karakter": "感",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 感",
+    "contoh": ""
+  },
+  {
+    "id": 69,
+    "karakter": "情",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 情",
+    "contoh": ""
+  },
+  {
+    "id": 70,
+    "karakter": "投",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 投",
+    "contoh": ""
+  },
+  {
+    "id": 71,
+    "karakter": "示",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 示",
+    "contoh": ""
+  },
+  {
+    "id": 72,
+    "karakter": "打",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 打",
+    "contoh": ""
+  },
+  {
+    "id": 73,
+    "karakter": "終",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 終",
+    "contoh": ""
+  },
+  {
+    "id": 74,
+    "karakter": "派",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 派",
+    "contoh": ""
+  },
+  {
+    "id": 75,
+    "karakter": "案",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 案",
+    "contoh": ""
+  },
+  {
+    "id": 76,
+    "karakter": "信",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 信",
+    "contoh": ""
+  },
+  {
+    "id": 77,
+    "karakter": "伝",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 伝",
+    "contoh": ""
+  },
+  {
+    "id": 78,
+    "karakter": "結",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 結",
+    "contoh": ""
+  },
+  {
+    "id": 79,
+    "karakter": "企",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 企",
+    "contoh": ""
+  },
+  {
+    "id": 80,
+    "karakter": "健",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 健",
+    "contoh": ""
+  },
+  {
+    "id": 81,
+    "karakter": "夫",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 夫",
+    "contoh": ""
+  },
+  {
+    "id": 82,
+    "karakter": "念",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 念",
+    "contoh": ""
+  },
+  {
+    "id": 83,
+    "karakter": "判",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 判",
+    "contoh": ""
+  },
+  {
+    "id": 84,
+    "karakter": "個",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 個",
+    "contoh": ""
+  },
+  {
+    "id": 85,
+    "karakter": "労",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 労",
+    "contoh": ""
+  },
+  {
+    "id": 86,
+    "karakter": "効",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 効",
+    "contoh": ""
+  },
+  {
+    "id": 87,
+    "karakter": "解",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 解",
+    "contoh": ""
+  },
+  {
+    "id": 88,
+    "karakter": "価",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 価",
+    "contoh": ""
+  },
+  {
+    "id": 89,
+    "karakter": "策",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 策",
+    "contoh": ""
+  },
+  {
+    "id": 90,
+    "karakter": "座",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 座",
+    "contoh": ""
+  },
+  {
+    "id": 91,
+    "karakter": "呼",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 呼",
+    "contoh": ""
+  },
+  {
+    "id": 92,
+    "karakter": "両",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 両",
+    "contoh": ""
+  },
+  {
+    "id": 93,
+    "karakter": "未",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 未",
+    "contoh": ""
+  },
+  {
+    "id": 94,
+    "karakter": "完",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 完",
+    "contoh": ""
+  },
+  {
+    "id": 95,
+    "karakter": "録",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 録",
+    "contoh": ""
+  },
+  {
+    "id": 96,
+    "karakter": "辞",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 辞",
+    "contoh": ""
+  },
+  {
+    "id": 97,
+    "karakter": "失",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 失",
+    "contoh": ""
+  },
+  {
+    "id": 98,
+    "karakter": "欠",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 欠",
+    "contoh": ""
+  },
+  {
+    "id": 99,
+    "karakter": "残",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 残",
+    "contoh": ""
+  },
+  {
+    "id": 100,
+    "karakter": "求",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 求",
+    "contoh": ""
+  },
+  {
+    "id": 101,
+    "karakter": "限",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 限",
+    "contoh": ""
+  },
+  {
+    "id": 102,
+    "karakter": "配",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 配",
+    "contoh": ""
+  },
+  {
+    "id": 103,
+    "karakter": "置",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 置",
+    "contoh": ""
+  },
+  {
+    "id": 104,
+    "karakter": "苦",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 苦",
+    "contoh": ""
+  },
+  {
+    "id": 105,
+    "karakter": "退",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 退",
+    "contoh": ""
+  },
+  {
+    "id": 106,
+    "karakter": "形",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 形",
+    "contoh": ""
+  },
+  {
+    "id": 107,
+    "karakter": "育",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 育",
+    "contoh": ""
+  },
+  {
+    "id": 108,
+    "karakter": "説",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 説",
+    "contoh": ""
+  },
+  {
+    "id": 109,
+    "karakter": "直",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 直",
+    "contoh": ""
+  },
+  {
+    "id": 110,
+    "karakter": "在",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 在",
+    "contoh": ""
+  },
+  {
+    "id": 111,
+    "karakter": "具",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 具",
+    "contoh": ""
+  },
+  {
+    "id": 112,
+    "karakter": "談",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 談",
+    "contoh": ""
+  },
+  {
+    "id": 113,
+    "karakter": "特",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 特",
+    "contoh": ""
+  },
+  {
+    "id": 114,
+    "karakter": "然",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 然",
+    "contoh": ""
+  },
+  {
+    "id": 115,
+    "karakter": "無",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 無",
+    "contoh": ""
+  },
+  {
+    "id": 116,
+    "karakter": "可",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 可",
+    "contoh": ""
+  },
+  {
+    "id": 117,
+    "karakter": "確",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 確",
+    "contoh": ""
+  },
+  {
+    "id": 118,
+    "karakter": "告",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 告",
+    "contoh": ""
+  },
+  {
+    "id": 119,
+    "karakter": "術",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 術",
+    "contoh": ""
+  },
+  {
+    "id": 120,
+    "karakter": "意",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 意",
+    "contoh": ""
+  },
+  {
+    "id": 121,
+    "karakter": "過",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 過",
+    "contoh": ""
+  },
+  {
+    "id": 122,
+    "karakter": "有",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 有",
+    "contoh": ""
+  },
+  {
+    "id": 123,
+    "karakter": "任",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 任",
+    "contoh": ""
+  },
+  {
+    "id": 124,
+    "karakter": "件",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 件",
+    "contoh": ""
+  },
+  {
+    "id": 125,
+    "karakter": "由",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 由",
+    "contoh": ""
+  },
+  {
+    "id": 126,
+    "karakter": "応",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 応",
+    "contoh": ""
+  },
+  {
+    "id": 127,
+    "karakter": "面",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 面",
+    "contoh": ""
+  },
+  {
+    "id": 128,
+    "karakter": "能",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 能",
+    "contoh": ""
+  },
+  {
+    "id": 129,
+    "karakter": "断",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 断",
+    "contoh": ""
+  },
+  {
+    "id": 130,
+    "karakter": "象",
+    "onyomi": "-",
+    "kunyomi": "-",
+    "arti": "Lihat kamus untuk arti 象",
+    "contoh": ""
+  }
+]

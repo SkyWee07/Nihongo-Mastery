@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "pattern": "~うちに (~uchi ni)",
+    "arti": "Selagi / Mumpung / Sebelum",
+    "penjelasan": "Digunakan untuk menyatakan tindakan yang dilakukan mumpung kondisi tertentu masih berlangsung, atau sebelum kondisinya berubah.",
+    "contoh": [
+      {
+        "jp": "スープが温かいうちに飲んでください。",
+        "id": "Suupu ga atatakai uchi ni nonde kudasai.",
+        "id_arti": "Silakan diminum mumpung supnya masih hangat."
+      },
+      {
+        "jp": "日本にいるうちに、富士山に登りたい。",
+        "id": "Nihon ni iru uchi ni, Fujisan ni noboritai.",
+        "id_arti": "Mumpung / Selagi berada di Jepang, saya ingin mendaki Gunung Fuji."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "pattern": "~おかげで (~okage de)",
+    "arti": "Berkat ... (Hasil yang baik)",
+    "penjelasan": "Digunakan untuk menunjukkan rasa syukur atau alasan mengapa suatu hal yang baik bisa terjadi. Mengikuti kata benda (dengan 'no'), kata sifat, atau kata kerja.",
+    "contoh": [
+      {
+        "jp": "先生のおかげで、試験に合格しました。",
+        "id": "Sensei no okage de, shiken ni goukaku shimashita.",
+        "id_arti": "Berkat guru, saya lulus ujian."
+      },
+      {
+        "jp": "天気が良かったおかげで、旅行が楽しかった。",
+        "id": "Tenki ga yokatta okage de, ryokou ga tanoshikatta.",
+        "id_arti": "Berkat cuaca yang bagus, perjalanannya menyenangkan."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "pattern": "~せいで (~sei de)",
+    "arti": "Gara-gara ... (Hasil yang buruk)",
+    "penjelasan": "Kebalikan dari '~okage de'. Digunakan untuk menyalahkan seseorang atau sesuatu atas hasil negatif yang terjadi.",
+    "contoh": [
+      {
+        "jp": "バスが遅れたせいで、授業に遅刻した。",
+        "id": "Basu ga okureta sei de, jugyou ni chikoku shita.",
+        "id_arti": "Gara-gara bis terlambat, saya telat masuk kelas."
+      },
+      {
+        "jp": "雨のせいで、試合が中止になった。",
+        "id": "Ame no sei de, shiai ga chuushi ni natta.",
+        "id_arti": "Gara-gara hujan, pertandingan dibatalkan."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "pattern": "~かわりに (~kawari ni)",
+    "arti": "Sebagai ganti / Alih-alih",
+    "penjelasan": "Digunakan ketika satu hal menggantikan hal lain, atau sebagai kompensasi atas sesuatu.",
+    "contoh": [
+      {
+        "jp": "映画を見るかわりに、家で本を読んだ。",
+        "id": "Eiga o miru kawari ni, ie de hon o yonda.",
+        "id_arti": "Alih-alih menonton film, saya membaca buku di rumah."
+      },
+      {
+        "jp": "手伝ってもらったかわりに、昼ご飯をごちそうする。",
+        "id": "Tetsudatte moratta kawari ni, hirugohan o gochisou suru.",
+        "id_arti": "Sebagai ganti sudah dibantu, saya akan mentraktir makan siang."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "pattern": "~くらい / ぐらい (~kurai / gurai)",
+    "arti": "Kira-kira / Saking ... sampai-sampai",
+    "penjelasan": "Menunjukkan derajat atau batasan suatu keadaan, sering kali bersifat hiperbolik.",
+    "contoh": [
+      {
+        "jp": "死ぬくらい疲れた。",
+        "id": "Shinu kurai tsukareta.",
+        "id_arti": "Saking lelahnya sampai rasanya mau mati."
+      },
+      {
+        "jp": "卵を落としても割れないくらい硬い。",
+        "id": "Tamago o otoshite mo warenai kurai katai.",
+        "id_arti": "Saking kerasnya sampai telur dijatuhkan pun tidak akan pecah."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "pattern": "~てたまらない (~te tamaranai)",
+    "arti": "Sangat ... / ... tidak tertahankan",
+    "penjelasan": "Menunjukkan perasaan atau sensasi fisik yang sangat kuat sehingga tidak bisa ditahan.",
+    "contoh": [
+      {
+        "jp": "今日は暑くてたまらない。",
+        "id": "Kyou wa atsukute tamaranai.",
+        "id_arti": "Hari ini panasnya tidak tertahankan."
+      },
+      {
+        "jp": "家族に会いたくてたまらない。",
+        "id": "Kazoku ni aitakute tamaranai.",
+        "id_arti": "Sangat (tidak tertahankan rasa) ingin bertemu keluarga."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "pola": "~に比べて (~ni kurabete)",
+    "arti": "Dibandingkan dengan ...",
+    "penjelasan": "Digunakan untuk membandingkan dua hal.",
+    "contoh": [
+      {
+        "jp": "去年に比べて、今年は雪が多い。",
+        "id": "Kyonen ni kurabete, kotoshi wa yuki ga ooi.",
+        "id_arti": "Dibandingkan tahun lalu, tahun ini lebih banyak salju."
+      },
+      {
+        "jp": "東京に比べて、大阪の方が物価が安い。",
+        "id": "Toukyou ni kurabete, Oosaka no hou ga bukka ga yasui.",
+        "id_arti": "Dibandingkan Tokyo, barang-barang di Osaka lebih murah."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "pola": "~として (~toshite)",
+    "arti": "Sebagai ...",
+    "penjelasan": "Digunakan untuk menyatakan peran, kapasitas, atau status seseorang/sesuatu.",
+    "contoh": [
+      {
+        "jp": "彼は留学生として日本に来ました。",
+        "id": "Kare wa ryuugakusei to shite Nihon ni kimashita.",
+        "id_arti": "Dia datang ke Jepang sebagai pelajar asing."
+      },
+      {
+        "jp": "このお寺は観光地として有名です。",
+        "id": "Kono otera wa kankouchi to shite yuumei desu.",
+        "arti": "Kuil ini terkenal sebagai tempat wisata."
+      }
+    ]
+  }
+]

@@ -10,7 +10,10 @@
   { "id": 9, "title": "Bunpo N4", "desc": "Tata bahasa menengah dan bentuk perubahan kata kerja", "target": "Ekspresi beragam", "phase": "Menengah JLPT", "path": "/bunpo/n4" },
   { "id": 10, "title": "Kanji N4", "desc": "Kuasai sekitar 250 Kanji N4", "target": "Membaca teks panjang", "phase": "Menengah JLPT", "path": "/kanji/n4" },
   { "id": 11, "title": "Latihan Kuis N4", "desc": "Uji hafalan tingkat N4", "target": "Persiapan ujian", "phase": "Menengah JLPT", "path": "/quiz" },
-  { "id": 12, "title": "Materi N3 (Menengah Atas)", "desc": "Segera Hadir: Kosakata, Tata Bahasa, Kanji N3", "target": "Percakapan kompleks", "phase": "Lanjut", "path": "" },
-  { "id": 13, "title": "Materi N2 (Bisnis)", "desc": "Segera Hadir: Bahasa Jepang level Bisnis dan Koran", "target": "Kerja kantoran", "phase": "Mahir", "path": "" },
-  { "id": 14, "title": "Materi N1 (Native)", "desc": "Segera Hadir: Penguasaan layaknya Native Speaker", "target": "Akademik & Literatur", "phase": "Pakar", "path": "" }
+  { "id": 12, "title": "Kotoba N3", "desc": "Kosakata menengah JLPT N3 (1200+ kata)", "target": "Percakapan kompleks", "phase": "Menengah Atas", "path": "/kotoba/n3" },
+  { "id": 13, "title": "Bunpo N3", "desc": "Tata bahasa menengah atas N3", "target": "Ekspresi lebih natural", "phase": "Menengah Atas", "path": "/bunpo/n3" },
+  { "id": 14, "title": "Kanji N3", "desc": "Kuasai sekitar 350 Kanji N3", "target": "Membaca artikel", "phase": "Menengah Atas", "path": "/kanji/n3" },
+  { "id": 15, "title": "Latihan Kuis N3", "desc": "Uji hafalan tingkat N3", "target": "Persiapan ujian", "phase": "Menengah Atas", "path": "/quiz" },
+  { "id": 16, "title": "Materi N2 (Bisnis)", "desc": "Segera Hadir: Bahasa Jepang level Bisnis dan Koran", "target": "Kerja kantoran", "phase": "Mahir", "path": "" },
+  { "id": 17, "title": "Materi N1 (Native)", "desc": "Segera Hadir: Penguasaan layaknya Native Speaker", "target": "Akademik & Literatur", "phase": "Pakar", "path": "" }
 ]

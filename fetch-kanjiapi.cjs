@@ -26,7 +26,7 @@ const fetchKanjiDetails = (kanji) => {
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
 async function run() {
-  for (let level of [5, 4]) {
+  for (let level of [3]) {
     console.log(`Fetching JLPT N${level} Kanji list...`);
     const kanjiList = await fetchKanjiList(level);
     console.log(`Found ${kanjiList.length} kanji for N${level}. Fetching details...`);

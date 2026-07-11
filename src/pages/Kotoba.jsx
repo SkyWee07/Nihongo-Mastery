@@ -4,10 +4,12 @@ import './Kotoba.css';
 
 import kotobaN5 from '../data/kotobaN5.json';
 import kotobaN4 from '../data/kotobaN4.json';
+import kotobaN3 from '../data/kotobaN3.json';
 
 const kotobaDataMap = {
   n5: kotobaN5,
-  n4: kotobaN4
+  n4: kotobaN4,
+  n3: kotobaN3
 };
 
 export default function Kotoba() {
@@ -16,7 +18,7 @@ export default function Kotoba() {
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState('');
 
-  const validLevels = ['n5', 'n4'];
+  const validLevels = ['n5', 'n4', 'n3'];
 
   useEffect(() => {
     if (!validLevels.includes(level?.toLowerCase())) return;

@@ -4,10 +4,12 @@ import './Bunpo.css';
 
 import bunpoN5 from '../data/bunpoN5.json';
 import bunpoN4 from '../data/bunpoN4.json';
+import bunpoN3 from '../data/bunpoN3.json';
 
 const bunpoDataMap = {
   n5: bunpoN5,
-  n4: bunpoN4
+  n4: bunpoN4,
+  n3: bunpoN3
 };
 
 export default function Bunpo() {
@@ -15,7 +17,7 @@ export default function Bunpo() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const validLevels = ['n5', 'n4'];
+  const validLevels = ['n5', 'n4', 'n3'];
 
   useEffect(() => {
     if (!validLevels.includes(level?.toLowerCase())) return;

@@ -3,8 +3,10 @@ import hiraganaData from '../data/hiraganaData.json';
 import katakanaData from '../data/katakanaData.json';
 import kotobaN5 from '../data/kotobaN5.json';
 import kotobaN4 from '../data/kotobaN4.json';
+import kotobaN3 from '../data/kotobaN3.json';
 import kanjiN5 from '../data/kanjiN5.json';
 import kanjiN4 from '../data/kanjiN4.json';
+import kanjiN3 from '../data/kanjiN3.json';
 import './Quiz.css';
 
 // Flatten kana
@@ -19,12 +21,14 @@ const POOLS = {
   kotoba: {
     n5: kotobaN5,
     n4: kotobaN4,
-    mixed: [...kotobaN5, ...kotobaN4]
+    n3: kotobaN3,
+    mixed: [...kotobaN5, ...kotobaN4, ...kotobaN3]
   },
   kanji: {
     n5: kanjiN5,
     n4: kanjiN4,
-    mixed: [...kanjiN5, ...kanjiN4]
+    n3: kanjiN3,
+    mixed: [...kanjiN5, ...kanjiN4, ...kanjiN3]
   }
 };
 
@@ -172,7 +176,8 @@ export default function Quiz() {
                 <>
                   <button className={`setup-btn ${level === 'n5' ? 'active' : ''}`} onClick={() => setLevel('n5')}>JLPT N5</button>
                   <button className={`setup-btn ${level === 'n4' ? 'active' : ''}`} onClick={() => setLevel('n4')}>JLPT N4</button>
-                  <button className={`setup-btn ${level === 'mixed' ? 'active' : ''}`} onClick={() => setLevel('mixed')}>Campur N5+N4</button>
+                  <button className={`setup-btn ${level === 'n3' ? 'active' : ''}`} onClick={() => setLevel('n3')}>JLPT N3</button>
+                  <button className={`setup-btn ${level === 'mixed' ? 'active' : ''}`} onClick={() => setLevel('mixed')}>Campur Semua</button>
                 </>
               )}
             </div>
