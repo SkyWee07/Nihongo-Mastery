@@ -3,6 +3,14 @@ import { useParams, Navigate } from 'react-router-dom';
 import WritingCanvas from '../components/WritingCanvas';
 import './Kanji.css';
 
+import kanjiN5 from '../data/kanjiN5.json';
+import kanjiN4 from '../data/kanjiN4.json';
+
+const kanjiDataMap = {
+  n5: kanjiN5,
+  n4: kanjiN4
+};
+
 export default function Kanji() {
   const { level } = useParams();
   const [data, setData] = useState([]);
@@ -15,19 +23,14 @@ export default function Kanji() {
   useEffect(() => {
     if (!validLevels.includes(level?.toLowerCase())) return;
 
-    const loadData = async () => {
-      setLoading(true);
-      try {
-        const module = await import(`../data/kanji${level.toUpperCase()}.json`);
-        setData(module.default);
-      } catch (err) {
-        console.error("Failed to load Kanji data", err);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    loadData();
+    setLoading(true);
+    // Simulate a tiny network delay so the loading spinner shows briefly
+    const timer = setTimeout(() => {
+      setData(kanjiDataMap[level.toLowerCase()] || []);
+      setLoading(false);
+    }, 300);
+    
+    return () => clearTimeout(timer);
   }, [level]);
 
   if (!validLevels.includes(level?.toLowerCase())) {
@@ -44,10 +47,16 @@ export default function Kanji() {
 
   const filteredData = data.filter(item => {
     const char = item.kanji || item.karakter || '';
-    return item.arti.toLowerCase().includes(search.toLowerCase()) || 
+    const arti = item.arti || '';
+    const onyomi = item.onyomi || '';
+    const kunyomi = item.kunyomi || '';
+    
+    const searchLower = search.toLowerCase();
+    
+    return arti.toLowerCase().includes(searchLower) || 
            char.includes(search) || 
-           (item.onyomi && item.onyomi.includes(search)) ||
-           (item.kunyomi && item.kunyomi.includes(search));
+           onyomi.toLowerCase().includes(searchLower) ||
+           kunyomi.toLowerCase().includes(searchLower);
   });
 
   const totalPages = Math.ceil(filteredData.length / itemsPerPage);

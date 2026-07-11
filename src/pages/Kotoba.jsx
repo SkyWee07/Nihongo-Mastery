@@ -2,6 +2,14 @@ import { useState, useEffect } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 import './Kotoba.css';
 
+import kotobaN5 from '../data/kotobaN5.json';
+import kotobaN4 from '../data/kotobaN4.json';
+
+const kotobaDataMap = {
+  n5: kotobaN5,
+  n4: kotobaN4
+};
+
 export default function Kotoba() {
   const { level } = useParams();
   const [data, setData] = useState([]);
@@ -13,19 +21,13 @@ export default function Kotoba() {
   useEffect(() => {
     if (!validLevels.includes(level?.toLowerCase())) return;
 
-    const loadData = async () => {
-      setLoading(true);
-      try {
-        const module = await import(`../data/kotoba${level.toUpperCase()}.json`);
-        setData(module.default);
-      } catch (err) {
-        console.error("Failed to load Kotoba data", err);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    loadData();
+    setLoading(true);
+    const timer = setTimeout(() => {
+      setData(kotobaDataMap[level.toLowerCase()] || []);
+      setLoading(false);
+    }, 300);
+    
+    return () => clearTimeout(timer);
   }, [level]);
 
   if (!validLevels.includes(level?.toLowerCase())) {
@@ -40,12 +42,19 @@ export default function Kotoba() {
     setCurrentPage(1);
   }, [search]);
 
-  const filteredData = data.filter(item => 
-    item.arti.toLowerCase().includes(search.toLowerCase()) || 
-    item.kana.includes(search) || 
-    item.romaji.toLowerCase().includes(search.toLowerCase()) ||
-    (item.kanji && item.kanji.includes(search))
-  );
+  const filteredData = data.filter(item => {
+    const arti = item.arti || '';
+    const kana = item.kana || '';
+    const romaji = item.romaji || '';
+    const kanji = item.kanji || '';
+    
+    const searchLower = search.toLowerCase();
+    
+    return arti.toLowerCase().includes(searchLower) || 
+           kana.includes(search) || 
+           romaji.toLowerCase().includes(searchLower) ||
+           kanji.includes(search);
+  });
 
   const totalPages = Math.ceil(filteredData.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;

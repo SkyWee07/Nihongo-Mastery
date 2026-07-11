@@ -2,6 +2,14 @@ import { useState, useEffect } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 import './Bunpo.css';
 
+import bunpoN5 from '../data/bunpoN5.json';
+import bunpoN4 from '../data/bunpoN4.json';
+
+const bunpoDataMap = {
+  n5: bunpoN5,
+  n4: bunpoN4
+};
+
 export default function Bunpo() {
   const { level } = useParams();
   const [data, setData] = useState([]);
@@ -12,19 +20,13 @@ export default function Bunpo() {
   useEffect(() => {
     if (!validLevels.includes(level?.toLowerCase())) return;
 
-    const loadData = async () => {
-      setLoading(true);
-      try {
-        const module = await import(`../data/bunpo${level.toUpperCase()}.json`);
-        setData(module.default);
-      } catch (err) {
-        console.error("Failed to load Bunpo data", err);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    loadData();
+    setLoading(true);
+    const timer = setTimeout(() => {
+      setData(bunpoDataMap[level.toLowerCase()] || []);
+      setLoading(false);
+    }, 300);
+    
+    return () => clearTimeout(timer);
   }, [level]);
 
   if (!validLevels.includes(level?.toLowerCase())) {
@@ -40,11 +42,17 @@ export default function Bunpo() {
     setCurrentPage(1);
   }, [search]);
 
-  const filteredData = data.filter(item => 
-    item.pattern.toLowerCase().includes(search.toLowerCase()) || 
-    item.arti.toLowerCase().includes(search.toLowerCase()) ||
-    item.penjelasan.toLowerCase().includes(search.toLowerCase())
-  );
+  const filteredData = data.filter(item => {
+    const pattern = item.pattern || '';
+    const arti = item.arti || '';
+    const penjelasan = item.penjelasan || '';
+    
+    const searchLower = search.toLowerCase();
+    
+    return pattern.toLowerCase().includes(searchLower) || 
+           arti.toLowerCase().includes(searchLower) ||
+           penjelasan.toLowerCase().includes(searchLower);
+  });
 
   const totalPages = Math.ceil(filteredData.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
