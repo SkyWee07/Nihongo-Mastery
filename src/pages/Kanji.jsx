@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
+import { useAuth } from '../contexts/AuthContext';
+import { getMasteredItems, toggleMasteredItem } from '../services/progressService';
 import WritingCanvas from '../components/WritingCanvas';
 import './Kanji.css';
 
@@ -19,25 +21,65 @@ const kanjiDataMap = {
 
 export default function Kanji() {
   const { level } = useParams();
+  const { user } = useAuth();
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState('');
   const [writingChar, setWritingChar] = useState(null);
+  const [masteredIds, setMasteredIds] = useState(new Set());
 
   const validLevels = ['n5', 'n4', 'n3', 'n2', 'n1'];
 
   useEffect(() => {
     if (!validLevels.includes(level?.toLowerCase())) return;
 
-    setLoading(true);
-    // Simulate a tiny network delay so the loading spinner shows briefly
-    const timer = setTimeout(() => {
+    const fetchData = async () => {
+      setLoading(true);
       setData(kanjiDataMap[level.toLowerCase()] || []);
+      
+      if (user) {
+        try {
+          const ids = await getMasteredItems(user.id, level.toLowerCase(), 'kanji');
+          setMasteredIds(new Set(ids));
+        } catch (err) {
+          console.error("Failed to load mastered items", err);
+        }
+      } else {
+        setMasteredIds(new Set());
+      }
       setLoading(false);
-    }, 300);
+    };
+
+    fetchData();
+  }, [level, user]);
+
+  const handleToggleMaster = async (id) => {
+    if (!user) {
+      alert("Silakan Login terlebih dahulu untuk menyimpan progres!");
+      return;
+    }
+    const isMastered = masteredIds.has(id);
+    const newMastered = !isMastered;
     
-    return () => clearTimeout(timer);
-  }, [level]);
+    setMasteredIds(prev => {
+      const next = new Set(prev);
+      if (newMastered) next.add(id);
+      else next.delete(id);
+      return next;
+    });
+
+    try {
+      await toggleMasteredItem(user.id, level.toLowerCase(), 'kanji', id, newMastered);
+    } catch (err) {
+      console.error("Failed to toggle mastered state", err);
+      setMasteredIds(prev => {
+        const next = new Set(prev);
+        if (isMastered) next.add(id);
+        else next.delete(id);
+        return next;
+      });
+    }
+  };
 
   if (!validLevels.includes(level?.toLowerCase())) {
     return <Navigate to="/learn" replace />;
@@ -98,8 +140,18 @@ export default function Kanji() {
           <div className="kanji-grid">
             {currentData.map(kanji => {
               const char = kanji.kanji || kanji.karakter || '';
+              const id = kanji.id || char;
+              const isMastered = masteredIds.has(id);
+              
               return (
-              <div key={kanji.id || char} className="kanji-card glass-panel">
+              <div key={id} className={`kanji-card glass-panel ${isMastered ? 'mastered' : ''}`}>
+                <button 
+                  className={`mastered-btn ${isMastered ? 'active' : ''}`}
+                  onClick={() => handleToggleMaster(id)}
+                  title={isMastered ? "Batal tandai" : "Tandai sudah dikuasai"}
+                >
+                  {isMastered ? '✅ Dikuasai' : '⬜ Tandai'}
+                </button>
                 <div className="kanji-main">
                   <span className="kanji-char">{char}</span>
                 </div>

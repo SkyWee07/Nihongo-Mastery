@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
+import { useAuth } from '../contexts/AuthContext';
+import { getMasteredItems, toggleMasteredItem } from '../services/progressService';
 import './Bunpo.css';
 
 import bunpoN5 from '../data/bunpoN5.json';
@@ -18,22 +20,63 @@ const bunpoDataMap = {
 
 export default function Bunpo() {
   const { level } = useParams();
+  const { user } = useAuth();
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [masteredIds, setMasteredIds] = useState(new Set());
 
   const validLevels = ['n5', 'n4', 'n3', 'n2', 'n1'];
 
   useEffect(() => {
     if (!validLevels.includes(level?.toLowerCase())) return;
 
-    setLoading(true);
-    const timer = setTimeout(() => {
+    const fetchData = async () => {
+      setLoading(true);
       setData(bunpoDataMap[level.toLowerCase()] || []);
+      
+      if (user) {
+        try {
+          const ids = await getMasteredItems(user.id, level.toLowerCase(), 'bunpo');
+          setMasteredIds(new Set(ids));
+        } catch (err) {
+          console.error("Failed to load mastered items", err);
+        }
+      } else {
+        setMasteredIds(new Set());
+      }
       setLoading(false);
-    }, 300);
+    };
+
+    fetchData();
+  }, [level, user]);
+
+  const handleToggleMaster = async (id) => {
+    if (!user) {
+      alert("Silakan Login terlebih dahulu untuk menyimpan progres!");
+      return;
+    }
+    const isMastered = masteredIds.has(id);
+    const newMastered = !isMastered;
     
-    return () => clearTimeout(timer);
-  }, [level]);
+    setMasteredIds(prev => {
+      const next = new Set(prev);
+      if (newMastered) next.add(id);
+      else next.delete(id);
+      return next;
+    });
+
+    try {
+      await toggleMasteredItem(user.id, level.toLowerCase(), 'bunpo', id, newMastered);
+    } catch (err) {
+      console.error("Failed to toggle mastered state", err);
+      setMasteredIds(prev => {
+        const next = new Set(prev);
+        if (isMastered) next.add(id);
+        else next.delete(id);
+        return next;
+      });
+    }
+  };
 
   if (!validLevels.includes(level?.toLowerCase())) {
     return <Navigate to="/learn" replace />;
@@ -101,8 +144,17 @@ export default function Bunpo() {
       ) : (
         <>
           <div className="bunpo-list">
-            {currentData.map(bunpo => (
-              <div key={bunpo.id} className="bunpo-card glass-panel">
+            {currentData.map(bunpo => {
+              const isMastered = masteredIds.has(bunpo.id);
+              return (
+              <div key={bunpo.id} className={`bunpo-card glass-panel ${isMastered ? 'mastered' : ''}`}>
+                <button 
+                  className={`mastered-btn ${isMastered ? 'active' : ''}`}
+                  onClick={() => handleToggleMaster(bunpo.id)}
+                  title={isMastered ? "Batal tandai" : "Tandai sudah dikuasai"}
+                >
+                  {isMastered ? '✅ Dikuasai' : '⬜ Tandai'}
+                </button>
                 <div className="bunpo-card-header">
                   <h2 className="bunpo-pattern">{bunpo.pattern}</h2>
                   <span className="bunpo-arti">{bunpo.arti}</span>
@@ -131,7 +183,8 @@ export default function Bunpo() {
                   ))}
                 </div>
               </div>
-            ))}
+              );
+            })}
             {filteredData.length === 0 && (
               <div className="no-results">Tidak ada tata bahasa yang cocok.</div>
             )}

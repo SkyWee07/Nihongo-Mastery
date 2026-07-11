@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.110.2",
     "hanzi-writer": "^3.7.3",
     "hanzi-writer-data-jp": "^0.0.2",
     "japanese-easy": "^1.2.5",

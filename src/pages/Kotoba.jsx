@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
+import { useAuth } from '../contexts/AuthContext';
+import { getMasteredItems, toggleMasteredItem } from '../services/progressService';
 import './Kotoba.css';
 
 import kotobaN5 from '../data/kotobaN5.json';
@@ -26,23 +28,66 @@ const kotobaDataMap = {
 
 export default function Kotoba() {
   const { level } = useParams();
+  const { user } = useAuth();
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState('');
+  const [masteredIds, setMasteredIds] = useState(new Set());
   
   const validLevels = ['n5', 'n4', 'n3', 'n2', 'n1'];
 
   useEffect(() => {
     if (!validLevels.includes(level?.toLowerCase())) return;
 
-    setLoading(true);
-    const timer = setTimeout(() => {
+    const fetchData = async () => {
+      setLoading(true);
       setData(kotobaDataMap[level.toLowerCase()] || []);
+      
+      if (user) {
+        try {
+          const ids = await getMasteredItems(user.id, level.toLowerCase(), 'kotoba');
+          setMasteredIds(new Set(ids));
+        } catch (err) {
+          console.error("Failed to load mastered items", err);
+        }
+      } else {
+        setMasteredIds(new Set());
+      }
       setLoading(false);
-    }, 300);
+    };
+
+    fetchData();
+  }, [level, user]);
+
+  const handleToggleMaster = async (id) => {
+    if (!user) {
+      alert("Silakan Login terlebih dahulu untuk menyimpan progres!");
+      return;
+    }
+    const isMastered = masteredIds.has(id);
+    const newMastered = !isMastered;
     
-    return () => clearTimeout(timer);
-  }, [level]);
+    // Optimistic UI update
+    setMasteredIds(prev => {
+      const next = new Set(prev);
+      if (newMastered) next.add(id);
+      else next.delete(id);
+      return next;
+    });
+
+    try {
+      await toggleMasteredItem(user.id, level.toLowerCase(), 'kotoba', id, newMastered);
+    } catch (err) {
+      console.error("Failed to toggle mastered state", err);
+      // Revert on fail
+      setMasteredIds(prev => {
+        const next = new Set(prev);
+        if (isMastered) next.add(id);
+        else next.delete(id);
+        return next;
+      });
+    }
+  };
 
   if (!validLevels.includes(level?.toLowerCase())) {
     return <Navigate to="/learn" replace />;
@@ -101,21 +146,31 @@ export default function Kotoba() {
       ) : (
         <>
           <div className="kotoba-grid">
-            {currentData.map(word => (
-              <div key={word.id} className="kotoba-card glass-panel">
-                <div className="kotoba-main">
-                  <span className="kotoba-kanji">{word.kanji !== word.kana ? word.kanji : word.kana}</span>
-                  <span className="kotoba-kana">{word.kanji !== word.kana ? word.kana : ''}</span>
+            {currentData.map(word => {
+              const isMastered = masteredIds.has(word.id);
+              return (
+                <div key={word.id} className={`kotoba-card glass-panel ${isMastered ? 'mastered' : ''}`}>
+                  <button 
+                    className={`mastered-btn ${isMastered ? 'active' : ''}`}
+                    onClick={() => handleToggleMaster(word.id)}
+                    title={isMastered ? "Batal tandai" : "Tandai sudah dikuasai"}
+                  >
+                    {isMastered ? '✅ Dikuasai' : '⬜ Tandai'}
+                  </button>
+                  <div className="kotoba-main">
+                    <span className="kotoba-kanji">{word.kanji !== word.kana ? word.kanji : word.kana}</span>
+                    <span className="kotoba-kana">{word.kanji !== word.kana ? word.kana : ''}</span>
+                  </div>
+                  <div className="kotoba-details">
+                    <span className="kotoba-arti">{word.arti}</span>
+                    <span className="kotoba-tipe">{word.tipe}</span>
+                  </div>
+                  <div className="kotoba-contoh">
+                    <em>{word.contoh}</em>
+                  </div>
                 </div>
-                <div className="kotoba-details">
-                  <span className="kotoba-arti">{word.arti}</span>
-                  <span className="kotoba-tipe">{word.tipe}</span>
-                </div>
-                <div className="kotoba-contoh">
-                  <em>{word.contoh}</em>
-                </div>
-              </div>
-            ))}
+              );
+            })}
             {filteredData.length === 0 && (
               <div className="no-results">Tidak ada kosakata yang cocok.</div>
             )}

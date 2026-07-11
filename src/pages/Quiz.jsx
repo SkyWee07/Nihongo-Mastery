@@ -1,4 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
+import { useAuth } from '../contexts/AuthContext';
+import { saveQuizScore } from '../services/progressService';
 import hiraganaData from '../data/hiraganaData.json';
 import katakanaData from '../data/katakanaData.json';
 import kanjiN5 from '../data/kanjiN5.json';
@@ -41,6 +43,7 @@ const POOLS = {
 };
 
 export default function Quiz() {
+  const { user } = useAuth();
   const [category, setCategory] = useState('kana'); // kana, kotoba, kanji
   const [level, setLevel] = useState('hiragana'); // kana: hiragana/katakana/mixed, others: n5/n4/mixed
   const [mode, setMode] = useState('kana-to-romaji');
@@ -108,9 +111,18 @@ export default function Quiz() {
     }]);
   };
 
-  const nextQuestion = () => {
+  const nextQuestion = async () => {
     if (currentIndex + 1 >= questions.length) {
       setFinished(true);
+      // Save score to DB
+      if (user) {
+        try {
+          const finalScore = selectedAnswer?.id === questions[currentIndex].correct.id ? score + 1 : score;
+          await saveQuizScore(user.id, level, category, finalScore);
+        } catch (err) {
+          console.error('Failed to save score', err);
+        }
+      }
     } else {
       setCurrentIndex(prev => prev + 1);
       setSelectedAnswer(null);

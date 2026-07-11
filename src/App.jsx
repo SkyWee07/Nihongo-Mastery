@@ -1,3 +1,4 @@
+import { AuthProvider } from './contexts/AuthContext'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import Layout from './components/Layout'
@@ -10,6 +11,8 @@ import Kotoba from './pages/Kotoba'
 import Bunpo from './pages/Bunpo'
 import Kanji from './pages/Kanji'
 import Video from './pages/Video'
+import Auth from './pages/Auth'
+import Profile from './pages/Profile'
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -23,25 +26,29 @@ function ScrollToTop() {
 
 function App() {
   return (
-    <div className="app-container">
-      <ScrollToTop />
-      <Routes>
-        {/* Landing page tanpa Layout (navbar/padding sendiri) */}
-        <Route path="/" element={<Landing />} />
-        
-        {/* Halaman belajar dengan Layout (navbar + padding) */}
-        <Route element={<Layout />}>
-          <Route path="/learn" element={<Roadmap />} />
-          <Route path="/hiragana" element={<Hiragana />} />
-          <Route path="/katakana" element={<Katakana />} />
-          <Route path="/quiz" element={<Quiz />} />
-          <Route path="/kotoba/:level" element={<Kotoba />} />
-          <Route path="/bunpo/:level" element={<Bunpo />} />
-          <Route path="/kanji/:level" element={<Kanji />} />
-          <Route path="/video" element={<Video />} />
-        </Route>
-      </Routes>
-    </div>
+    <AuthProvider>
+      <div className="app-container">
+        <ScrollToTop />
+        <Routes>
+          {/* Landing page tanpa Layout (navbar/padding sendiri) */}
+          <Route path="/" element={<Landing />} />
+          <Route path="/auth" element={<Auth />} />
+          
+          {/* Halaman belajar dengan Layout (navbar + padding) */}
+          <Route element={<Layout />}>
+            <Route path="/learn" element={<Roadmap />} />
+            <Route path="/hiragana" element={<Hiragana />} />
+            <Route path="/katakana" element={<Katakana />} />
+            <Route path="/quiz" element={<Quiz />} />
+            <Route path="/kotoba/:level" element={<Kotoba />} />
+            <Route path="/bunpo/:level" element={<Bunpo />} />
+            <Route path="/kanji/:level" element={<Kanji />} />
+            <Route path="/video" element={<Video />} />
+            <Route path="/profile" element={<Profile />} />
+          </Route>
+        </Routes>
+      </div>
+    </AuthProvider>
   )
 }
 
