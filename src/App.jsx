@@ -1,4 +1,5 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 import Layout from './components/Layout'
 import Landing from './pages/Landing'
 import Roadmap from './pages/Roadmap'
@@ -10,9 +11,20 @@ import Bunpo from './pages/Bunpo'
 import Kanji from './pages/Kanji'
 import Video from './pages/Video'
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 function App() {
   return (
     <div className="app-container">
+      <ScrollToTop />
       <Routes>
         {/* Landing page tanpa Layout (navbar/padding sendiri) */}
         <Route path="/" element={<Landing />} />
