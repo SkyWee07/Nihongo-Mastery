@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import katakanaData from '../data/katakanaData.json';
 import WritingCanvas from '../components/WritingCanvas';
+import SpeechPracticeModal from '../components/SpeechPracticeModal';
 import './Katakana.css';
 
 export default function Katakana() {
@@ -8,6 +9,7 @@ export default function Katakana() {
   const [activeTab, setActiveTab] = useState('basic');
   const [voicesReady, setVoicesReady] = useState(false);
   const [writingChar, setWritingChar] = useState(null);
+  const [speechTarget, setSpeechTarget] = useState(null);
   const japaneseVoiceRef = useRef(null);
 
   useEffect(() => {
@@ -72,6 +74,16 @@ export default function Katakana() {
                 className="write-icon-btn" 
                 onClick={(e) => {
                   e.stopPropagation();
+                  setSpeechTarget(char);
+                }}
+                title="Latihan Pengucapan"
+              >
+                🎙️
+              </button>
+              <button 
+                className="write-icon-btn" 
+                onClick={(e) => {
+                  e.stopPropagation();
                   setWritingChar(char.kana);
                 }}
                 title="Latihan Menulis"
@@ -132,6 +144,15 @@ export default function Katakana() {
         <WritingCanvas 
           character={writingChar} 
           onClose={() => setWritingChar(null)} 
+        />
+      )}
+      {speechTarget && (
+        <SpeechPracticeModal 
+          isOpen={!!speechTarget} 
+          onClose={() => setSpeechTarget(null)}
+          targetText={speechTarget.kana}
+          targetReading={speechTarget.romaji}
+          type="kana"
         />
       )}
     </div>

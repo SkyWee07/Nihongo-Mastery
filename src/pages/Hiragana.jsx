@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import hiraganaData from '../data/hiraganaData.json';
 import WritingCanvas from '../components/WritingCanvas';
+import SpeechPracticeModal from '../components/SpeechPracticeModal';
 import './Hiragana.css';
 
 export default function Hiragana() {
@@ -8,6 +9,7 @@ export default function Hiragana() {
   const [activeTab, setActiveTab] = useState('basic');
   const [voicesReady, setVoicesReady] = useState(false);
   const [writingChar, setWritingChar] = useState(null);
+  const [speechTarget, setSpeechTarget] = useState(null);
   const japaneseVoiceRef = useRef(null);
 
   // Muat voices saat komponen pertama kali tampil
@@ -78,6 +80,16 @@ export default function Hiragana() {
                 className="write-icon-btn" 
                 onClick={(e) => {
                   e.stopPropagation();
+                  setSpeechTarget(char);
+                }}
+                title="Latihan Pengucapan"
+              >
+                🎙️
+              </button>
+              <button 
+                className="write-icon-btn" 
+                onClick={(e) => {
+                  e.stopPropagation();
                   setWritingChar(char.kana);
                 }}
                 title="Latihan Menulis"
@@ -138,6 +150,15 @@ export default function Hiragana() {
         <WritingCanvas 
           character={writingChar} 
           onClose={() => setWritingChar(null)} 
+        />
+      )}
+      {speechTarget && (
+        <SpeechPracticeModal 
+          isOpen={!!speechTarget} 
+          onClose={() => setSpeechTarget(null)}
+          targetText={speechTarget.kana}
+          targetReading={speechTarget.romaji}
+          type="kana"
         />
       )}
     </div>
