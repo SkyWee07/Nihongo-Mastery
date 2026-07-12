@@ -22,16 +22,19 @@ export default function DictionaryModal({ isOpen, onClose }) {
     setError('');
     
     try {
-      // Jisho API melalui CORS proxy
+      // Jisho API melalui AllOrigins proxy (lebih stabil)
       const jishoUrl = `https://jisho.org/api/v1/search/words?keyword=${encodeURIComponent(keyword)}`;
-      const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(jishoUrl)}`;
+      const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(jishoUrl)}`;
       
       const res = await fetch(proxyUrl);
       if (!res.ok) throw new Error('Network response was not ok');
       const data = await res.json();
       
-      setResults(data.data || []);
-      if (data.data && data.data.length === 0) {
+      // AllOrigins mengembalikan data asli di dalam properti "contents"
+      const actualData = JSON.parse(data.contents);
+      
+      setResults(actualData.data || []);
+      if (actualData.data && actualData.data.length === 0) {
         setError('Kata tidak ditemukan.');
       }
     } catch (err) {
