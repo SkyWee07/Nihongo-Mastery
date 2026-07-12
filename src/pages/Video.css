@@ -606,3 +606,46 @@
   opacity: 0.7;
   cursor: not-allowed;
 }
+
+/* ===========================
+   PAGINATION CONTROLS
+   =========================== */
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  padding: 1rem;
+}
+
+.page-btn {
+  background: rgba(99, 102, 241, 0.15);
+  border: 1px solid rgba(99, 102, 241, 0.3);
+  color: #818CF8;
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.page-btn:hover:not(:disabled) {
+  background: rgba(99, 102, 241, 0.3);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.page-btn:disabled {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: var(--text-muted);
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.page-info {
+  font-size: 0.95rem;
+  color: var(--text-main);
+  font-weight: 500;
+}

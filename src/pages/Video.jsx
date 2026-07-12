@@ -49,6 +49,11 @@ export default function Video() {
   const [videos, setVideos] = useState([]);
   const [loading, setLoading] = useState(true);
   
+  // Pagination State
+  const [currentPage, setCurrentPage] = useState(1);
+  const [totalPages, setTotalPages] = useState(1);
+  const LIMIT = 9;
+  
   const [selectedVideo, setSelectedVideo] = useState(null);
   const [modalVisible, setModalVisible] = useState(false);
   
@@ -65,14 +70,16 @@ export default function Video() {
     } else {
       setActiveLevel('all');
     }
+    setCurrentPage(1); // Reset ke halaman 1 saat ganti level
   }, [level]);
 
   // Fetch videos
   const fetchVideosData = async () => {
     setLoading(true);
     try {
-      const data = await getVideos(activeLevel);
+      const { data, count } = await getVideos(activeLevel, currentPage, LIMIT);
       setVideos(data);
+      setTotalPages(Math.ceil(count / LIMIT) || 1);
     } catch (err) {
       console.error("Gagal memuat video");
     } finally {
@@ -82,7 +89,7 @@ export default function Video() {
 
   useEffect(() => {
     fetchVideosData();
-  }, [activeLevel]);
+  }, [activeLevel, currentPage]);
 
   const handleLevelChange = (newLevel) => {
     if (newLevel === 'all') {
@@ -90,6 +97,14 @@ export default function Video() {
     } else {
       navigate(`/video/${newLevel}`);
     }
+  };
+
+  const handleNextPage = () => {
+    if (currentPage < totalPages) setCurrentPage(prev => prev + 1);
+  };
+  
+  const handlePrevPage = () => {
+    if (currentPage > 1) setCurrentPage(prev => prev - 1);
   };
 
   const openModal = useCallback((video) => {
@@ -143,7 +158,10 @@ export default function Video() {
       
       setFormData({ url: '', title: '', description: '', level: 'n5', category: 'kosakata' });
       setShowAddForm(false);
-      fetchVideosData(); // Refresh list
+      
+      // Jika berhasil unggah, refresh halaman pertama
+      setCurrentPage(1);
+      fetchVideosData(); 
     } catch (err) {
       setFormError('Gagal menambahkan video.');
     } finally {
@@ -251,6 +269,29 @@ export default function Video() {
               <div className="video-empty">
                 <span className="video-empty-icon">🎌</span>
                 <p>Belum ada video untuk level ini.</p>
+              </div>
+            )}
+            
+            {/* Pagination Controls */}
+            {totalPages > 1 && (
+              <div className="pagination-controls">
+                <button 
+                  className="page-btn" 
+                  disabled={currentPage === 1}
+                  onClick={handlePrevPage}
+                >
+                  ← Sebelumnya
+                </button>
+                <span className="page-info">
+                  Halaman {currentPage} dari {totalPages}
+                </span>
+                <button 
+                  className="page-btn" 
+                  disabled={currentPage === totalPages}
+                  onClick={handleNextPage}
+                >
+                  Selanjutnya →
+                </button>
               </div>
             )}
           </>
