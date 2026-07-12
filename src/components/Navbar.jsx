@@ -61,11 +61,12 @@ export default function Navbar() {
           <Link to="/hiragana" onClick={() => setIsMenuOpen(false)}>あ Hiragana</Link>
           <Link to="/katakana" onClick={() => setIsMenuOpen(false)}>カ Katakana</Link>
           <Link to="/quiz" onClick={() => setIsMenuOpen(false)}>🎯 Kuis Kana</Link>
-          <Link to="/leaderboard" onClick={() => setIsMenuOpen(false)}>🏆 Papan Peringkat</Link>
           <Link to="/kotoba/n5" onClick={() => setIsMenuOpen(false)}>📖 Kotoba N5</Link>
           <Link to="/bunpo/n5" onClick={() => setIsMenuOpen(false)}>✏️ Bunpo N5</Link>
           <Link to="/kanji/n5" onClick={() => setIsMenuOpen(false)}>漢 Kanji N5</Link>
           <Link to="/video" onClick={() => setIsMenuOpen(false)}>🎬 Video</Link>
+          <Link to="/game" onClick={() => setIsMenuOpen(false)}>🎮 Smart Game</Link>
+          <Link to="/leaderboard" onClick={() => setIsMenuOpen(false)}>🏆 Papan Peringkat</Link>
           
           <div className="nav-divider"></div>
           

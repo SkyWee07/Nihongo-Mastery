@@ -14,6 +14,7 @@ import Video from './pages/Video'
 import Auth from './pages/Auth'
 import Profile from './pages/Profile'
 import Leaderboard from './pages/Leaderboard'
+import MiniGame from './pages/MiniGame'
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -45,6 +46,7 @@ function App() {
             <Route path="/bunpo/:level" element={<Bunpo />} />
             <Route path="/kanji/:level" element={<Kanji />} />
             <Route path="/video/:level?" element={<Video />} />
+            <Route path="/game" element={<MiniGame />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/leaderboard" element={<Leaderboard />} />
           </Route>
