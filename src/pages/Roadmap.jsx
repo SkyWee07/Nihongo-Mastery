@@ -31,14 +31,14 @@ export default function Roadmap() {
       </div>
 
       <div className="roadmap-list">
-        {roadmapData.map((item) => {
+        {roadmapData.map((item, index) => {
           const isCompleted = progress.includes(item.id);
           return (
             <div 
               key={item.id} 
               className={`roadmap-item glass-panel ${isCompleted ? 'completed' : ''}`}
             >
-              <div className="item-number">{item.id}</div>
+              <div className="item-number">{index + 1}</div>
               <div className="item-content">
                 <h2>{item.title}</h2>
                 <p>{item.desc}</p>
