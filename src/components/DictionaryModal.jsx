@@ -20,21 +20,16 @@ export default function DictionaryModal({ isOpen, onClose }) {
 
     setIsLoading(true);
     setError('');
-    
     try {
-      // Jisho API melalui AllOrigins proxy (lebih stabil)
-      const jishoUrl = `https://jisho.org/api/v1/search/words?keyword=${encodeURIComponent(keyword)}`;
-      const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(jishoUrl)}`;
+      // Gunakan serverless function Vercel internal kita untuk bypass CORS
+      const proxyUrl = `/api/jisho?keyword=${encodeURIComponent(keyword)}`;
       
       const res = await fetch(proxyUrl);
       if (!res.ok) throw new Error('Network response was not ok');
       const data = await res.json();
       
-      // AllOrigins mengembalikan data asli di dalam properti "contents"
-      const actualData = JSON.parse(data.contents);
-      
-      setResults(actualData.data || []);
-      if (actualData.data && actualData.data.length === 0) {
+      setResults(data.data || []);
+      if (data.data && data.data.length === 0) {
         setError('Kata tidak ditemukan.');
       }
     } catch (err) {
