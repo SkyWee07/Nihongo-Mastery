@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
-import { getVideos, addVideo } from '../services/videoService';
+import { getVideos, addVideo, updateVideo, deleteVideo } from '../services/videoService';
 import { hasProfanity } from '../utils/profanityFilter';
 import './Video.css';
 
@@ -57,8 +57,9 @@ export default function Video() {
   const [selectedVideo, setSelectedVideo] = useState(null);
   const [modalVisible, setModalVisible] = useState(false);
   
-  // Add Video Form State
+  // Add/Edit Video Form State
   const [showAddForm, setShowAddForm] = useState(false);
+  const [editingVideo, setEditingVideo] = useState(null);
   const [formData, setFormData] = useState({ url: '', title: '', description: '', level: 'n5', category: 'kosakata' });
   const [formError, setFormError] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -117,13 +118,46 @@ export default function Video() {
     setTimeout(() => setSelectedVideo(null), 300);
   }, []);
 
-  // Handle Add Video Submit
+  const openEditForm = (video) => {
+    setEditingVideo(video);
+    setFormData({
+      url: `https://www.youtube.com/watch?v=${video.youtube_id}`,
+      title: video.title,
+      description: video.description || '',
+      level: video.level,
+      category: video.category
+    });
+    setFormError('');
+    setShowAddForm(true);
+  };
+
+  const closeForm = () => {
+    if (!isSubmitting) {
+      setShowAddForm(false);
+      setEditingVideo(null);
+      setFormData({ url: '', title: '', description: '', level: 'n5', category: 'kosakata' });
+    }
+  };
+
+  const handleDeleteVideo = async (id) => {
+    if (!window.confirm("Apakah Anda yakin ingin menghapus video ini? Tindakan ini tidak dapat dibatalkan.")) {
+      return;
+    }
+    try {
+      await deleteVideo(id);
+      fetchVideosData(); // Refresh list setelah dihapus
+    } catch (err) {
+      alert("Gagal menghapus video.");
+    }
+  };
+
+  // Handle Add/Edit Video Submit
   const handleAddVideo = async (e) => {
     e.preventDefault();
     setFormError('');
 
     if (!user) {
-      setFormError('Anda harus login untuk menambahkan video.');
+      setFormError('Anda harus login untuk memodifikasi video.');
       return;
     }
 
@@ -147,23 +181,33 @@ export default function Video() {
 
     setIsSubmitting(true);
     try {
-      await addVideo({
-        youtube_id: youtubeId,
-        title: title.trim(),
-        description: description.trim(),
-        level: vLevel,
-        category,
-        added_by: user.id
-      });
+      if (editingVideo) {
+        await updateVideo(editingVideo.id, {
+          youtube_id: youtubeId,
+          title: title.trim(),
+          description: description.trim(),
+          level: vLevel,
+          category
+        });
+      } else {
+        await addVideo({
+          youtube_id: youtubeId,
+          title: title.trim(),
+          description: description.trim(),
+          level: vLevel,
+          category,
+          added_by: user.id
+        });
+      }
       
-      setFormData({ url: '', title: '', description: '', level: 'n5', category: 'kosakata' });
-      setShowAddForm(false);
+      closeForm();
       
-      // Jika berhasil unggah, refresh halaman pertama
-      setCurrentPage(1);
+      if (!editingVideo) {
+        setCurrentPage(1); // Kembali ke hal 1 jika tambah baru
+      }
       fetchVideosData(); 
     } catch (err) {
-      setFormError('Gagal menambahkan video.');
+      setFormError(editingVideo ? 'Gagal menyimpan perubahan video.' : 'Gagal menambahkan video.');
     } finally {
       setIsSubmitting(false);
     }
@@ -260,6 +304,26 @@ export default function Video() {
                     </div>
                     <h3 className="video-card-title">{video.title}</h3>
                     <p className="video-card-desc">{video.description}</p>
+                    
+                    {/* Admin/User Edit Actions */}
+                    {user && (
+                      <div className="video-card-actions" onClick={(e) => e.stopPropagation()}>
+                        <button 
+                          className="action-btn edit-btn"
+                          onClick={() => openEditForm(video)}
+                          title="Edit Video"
+                        >
+                          ✏️ Edit
+                        </button>
+                        <button 
+                          className="action-btn delete-btn"
+                          onClick={() => handleDeleteVideo(video.id)}
+                          title="Hapus Video"
+                        >
+                          🗑️ Hapus
+                        </button>
+                      </div>
+                    )}
                   </div>
                 </article>
               ))}
@@ -298,18 +362,18 @@ export default function Video() {
         )}
       </section>
 
-      {/* Add Video Modal Form */}
+      {/* Add/Edit Video Modal Form */}
       {showAddForm && (
-        <div className="video-modal-backdrop visible" onClick={() => !isSubmitting && setShowAddForm(false)}>
+        <div className="video-modal-backdrop visible" onClick={closeForm}>
           <div className="video-modal form-modal glass-panel visible" onClick={(e) => e.stopPropagation()}>
             <div className="video-modal-header">
-              <h2>➕ Tambah Video YouTube</h2>
-              <button className="video-modal-close" onClick={() => !isSubmitting && setShowAddForm(false)}>
+              <h2>{editingVideo ? '✏️ Edit Video' : '➕ Tambah Video YouTube'}</h2>
+              <button className="video-modal-close" onClick={closeForm}>
                 ✖
               </button>
             </div>
             {!user ? (
-              <div className="form-error-msg">Silakan Login terlebih dahulu untuk menambahkan video.</div>
+              <div className="form-error-msg">Silakan Login terlebih dahulu untuk memodifikasi video.</div>
             ) : (
               <form className="add-video-form" onSubmit={handleAddVideo}>
                 {formError && <div className="form-error-msg">{formError}</div>}
@@ -372,7 +436,7 @@ export default function Video() {
 
                 <div className="form-actions">
                   <button type="submit" className="save-btn" disabled={isSubmitting}>
-                    {isSubmitting ? 'Mengunggah...' : 'Bagikan Video'}
+                    {isSubmitting ? 'Menyimpan...' : (editingVideo ? 'Simpan Perubahan' : 'Bagikan Video')}
                   </button>
                 </div>
               </form>
