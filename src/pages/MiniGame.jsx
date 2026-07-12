@@ -48,8 +48,8 @@ export default function MiniGame() {
       const allKotoba = [...kotobaN5, ...kotobaN4];
       
       const allItems = [
-        ...allKanji.map(k => ({ id: k.id, type: 'kanji', display: k.character, answer: k.meaning, reading: k.onyomi + ' / ' + k.kunyomi })),
-        ...allKotoba.map(k => ({ id: k.id, type: 'kosakata', display: k.word, answer: k.meaning, reading: k.romaji }))
+        ...allKanji.map(k => ({ id: k.id, type: 'kanji', display: k.karakter, answer: k.arti, reading: k.onyomi + ' / ' + k.kunyomi })),
+        ...allKotoba.map(k => ({ id: k.id, type: 'kosakata', display: k.kanji !== '-' ? k.kanji : k.kana, answer: k.arti, reading: k.kana }))
       ];
       
       // Prioritize due items, then fill with random new items
