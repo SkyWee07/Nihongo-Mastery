@@ -1,4 +1,5 @@
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { getSrsProgress, updateSrsProgress } from '../services/srsService';
 import kanjiN5 from '../data/kanjiN5.json';
@@ -17,11 +18,16 @@ const TIME_PER_QUESTION = 10; // seconds
 
 export default function MiniGame() {
   const { user } = useAuth();
+  const navigate = useNavigate();
   const [gameState, setGameState] = useState(GAME_STATES.START);
   const [score, setScore] = useState(0);
   const [combo, setCombo] = useState(0);
+  const [lives, setLives] = useState(3);
+  const [correctCount, setCorrectCount] = useState(0);
   
-  const [questionPool, setQuestionPool] = useState([]);
+  const poolRef = useRef([]);
+  const livesRef = useRef(3);
+  
   const [currentQuestion, setCurrentQuestion] = useState(null);
   const [options, setOptions] = useState([]);
   
@@ -30,76 +36,69 @@ export default function MiniGame() {
   const [isCorrect, setIsCorrect] = useState(null);
   
   const timerRef = useRef(null);
+  const [allItems, setAllItems] = useState([]);
 
-  // Initialize pool
+  // Initialize pool data once
   useEffect(() => {
-    if (!user) return;
+    const allKanji = [...kanjiN5, ...kanjiN4];
+    const allKotoba = [...kotobaN5, ...kotobaN4];
     
-    const initGame = async () => {
-      // Get SRS data
-      const srsData = await getSrsProgress(user.id);
-      const now = new Date();
-      
-      // Separate due items
-      const dueItems = srsData.filter(item => new Date(item.next_review) <= now);
-      
-      // We will mix kanji and kotoba
-      const allKanji = [...kanjiN5, ...kanjiN4];
-      const allKotoba = [...kotobaN5, ...kotobaN4];
-      
-      const allItems = [
-        ...allKanji.map(k => ({ id: k.id, type: 'kanji', display: k.karakter, answer: k.arti, reading: k.onyomi + ' / ' + k.kunyomi })),
-        ...allKotoba.map(k => ({ id: k.id, type: 'kosakata', display: k.kanji !== '-' ? k.kanji : k.kana, answer: k.arti, reading: k.kana }))
-      ];
-      
-      // Prioritize due items, then fill with random new items
-      let pool = [];
-      
-      // Match due items with real data
-      dueItems.forEach(due => {
-        const itemData = allItems.find(i => i.id === due.item_id && i.type === due.item_type);
-        if (itemData) {
-          pool.push({ ...itemData, isDue: true });
-        }
-      });
-      
-      // Fill the rest to have at least 50 questions pool
-      const newItems = allItems.filter(i => !pool.find(p => p.id === i.id && p.type === i.type));
-      // Shuffle newItems
-      newItems.sort(() => 0.5 - Math.random());
-      
-      pool = [...pool, ...newItems.slice(0, 50 - pool.length)];
-      
-      // Shuffle pool
-      pool.sort(() => 0.5 - Math.random());
-      setQuestionPool(pool);
-    };
-    
-    initGame();
-  }, [user]);
+    const items = [
+      ...allKanji.map(k => ({ id: k.id, type: 'kanji', display: k.karakter, answer: k.arti, reading: k.onyomi + ' / ' + k.kunyomi })),
+      ...allKotoba.map(k => ({ id: k.id, type: 'kosakata', display: k.kanji !== '-' ? k.kanji : k.kana, answer: k.arti, reading: k.kana }))
+    ];
+    setAllItems(items);
+  }, []);
 
-  const startGame = () => {
+  const prepareGame = async () => {
+    if (!user) return;
+    const srsData = await getSrsProgress(user.id);
+    const now = new Date();
+    
+    const dueItems = srsData.filter(item => new Date(item.next_review) <= now);
+    
+    let pool = [];
+    dueItems.forEach(due => {
+      const itemData = allItems.find(i => i.id === due.item_id && i.type === due.item_type);
+      if (itemData) {
+        pool.push({ ...itemData, isDue: true });
+      }
+    });
+    
+    const newItems = allItems.filter(i => !pool.find(p => p.id === i.id && p.type === i.type));
+    newItems.sort(() => 0.5 - Math.random());
+    
+    pool = [...pool, ...newItems.slice(0, 50 - pool.length)];
+    pool.sort(() => 0.5 - Math.random());
+    poolRef.current = pool;
+  };
+
+  const startGame = async () => {
     if (!user) {
       alert("Anda harus login untuk bermain dan menyimpan progres memori otak Anda!");
       return;
     }
+    await prepareGame();
     setScore(0);
     setCombo(0);
+    setCorrectCount(0);
+    livesRef.current = 3;
+    setLives(3);
     setGameState(GAME_STATES.PLAYING);
-    nextQuestion(questionPool);
+    nextQuestion();
   };
 
-  const nextQuestion = useCallback((pool = questionPool) => {
-    if (pool.length === 0) {
+  const nextQuestion = () => {
+    if (poolRef.current.length === 0 || livesRef.current <= 0) {
       setGameState(GAME_STATES.GAMEOVER);
       return;
     }
 
-    const current = pool[0];
+    const current = poolRef.current[0];
     setCurrentQuestion(current);
     
     // Generate 3 wrong options
-    const allMeanings = pool.map(p => p.answer).filter(a => a !== current.answer);
+    const allMeanings = allItems.map(p => p.answer).filter(a => a !== current.answer);
     allMeanings.sort(() => 0.5 - Math.random());
     const wrongOptions = allMeanings.slice(0, 3);
     
@@ -107,7 +106,7 @@ export default function MiniGame() {
     setOptions(finalOptions);
     
     // Update pool
-    setQuestionPool(pool.slice(1));
+    poolRef.current = poolRef.current.slice(1);
     
     setTimeLeft(TIME_PER_QUESTION);
     setSelectedAnswer(null);
@@ -124,12 +123,15 @@ export default function MiniGame() {
         return prev - 1;
       });
     }, 1000);
-  }, [questionPool]);
+  };
 
   const handleTimeOut = async (current) => {
     setIsCorrect(false);
     setSelectedAnswer('TIMEOUT');
     setCombo(0);
+    
+    livesRef.current -= 1;
+    setLives(livesRef.current);
     
     // Save to SRS (Quality = 0)
     await updateSrsProgress(user.id, current.type, current.id, 0);
@@ -151,16 +153,19 @@ export default function MiniGame() {
     let quality = 0;
     if (correct) {
       setCombo(prev => prev + 1);
+      setCorrectCount(prev => prev + 1);
+      
       const points = 10 + (combo * 2) + timeLeft; // Faster = more points
       setScore(prev => prev + points);
       
-      // Calculate quality: 5 if answered in < 3s, 4 if < 6s, 3 otherwise
       const timeSpent = TIME_PER_QUESTION - timeLeft;
       if (timeSpent <= 3) quality = 5;
       else if (timeSpent <= 6) quality = 4;
       else quality = 3;
     } else {
       setCombo(0);
+      livesRef.current -= 1;
+      setLives(livesRef.current);
       quality = 0; // Wrong
     }
     
@@ -189,9 +194,10 @@ export default function MiniGame() {
           </p>
           <div className="game-rules">
             <ul>
-              <li>⏱️ Anda punya 10 detik per soal.</li>
+              <li>⏱️ Anda punya {TIME_PER_QUESTION} detik per soal.</li>
+              <li>❤️ Anda dibekali 3 Hati (Lives).</li>
               <li>🔥 Jawab cepat & benar untuk Combo Multiplier!</li>
-              <li>🧠 Sistem otomatis mengingat kesalahan Anda dan mengulangnya besok.</li>
+              <li>🧠 Sistem otomatis mengingat kesalahan Anda.</li>
             </ul>
           </div>
           <button className="start-btn" onClick={startGame}>Mulai Bermain</button>
@@ -204,6 +210,14 @@ export default function MiniGame() {
             <div className="game-stat">
               <span className="stat-label">SKOR</span>
               <span className="stat-value">{score}</span>
+            </div>
+            <div className="game-stat">
+              <span className="stat-label">HATI</span>
+              <span className="stat-value lives">
+                {Array.from({ length: 3 }).map((_, i) => (
+                  <span key={i} style={{ opacity: i < lives ? 1 : 0.2 }}>❤️</span>
+                ))}
+              </span>
             </div>
             <div className="game-stat">
               <span className="stat-label">COMBO</span>
@@ -254,13 +268,19 @@ export default function MiniGame() {
 
       {gameState === GAME_STATES.GAMEOVER && (
         <div className="game-over-container glass-panel">
-          <h1>Game Over! 🎉</h1>
-          <p>Sesi review Anda telah selesai.</p>
+          <h1>{lives <= 0 ? "Game Over! 💔" : "Sesi Selesai! 🎉"}</h1>
+          <p>Sesi review Anda telah berakhir.</p>
           <div className="final-score">
             <span>Skor Akhir:</span>
             <strong>{score}</strong>
+            <span style={{ fontSize: '1.2rem', marginTop: '1rem', color: '#94a3b8' }}>
+              Berhasil menjawab: <b style={{color: '#fff'}}>{correctCount}</b> soal
+            </span>
           </div>
-          <button className="start-btn" onClick={startGame}>Main Lagi</button>
+          <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', marginTop: '2rem' }}>
+            <button className="start-btn" onClick={() => setGameState(GAME_STATES.START)}>Ulangi Permainan</button>
+            <button className="start-btn" style={{ background: 'linear-gradient(135deg, #475569 0%, #334155 100%)' }} onClick={() => navigate('/learn')}>Kembali ke Roadmap</button>
+          </div>
         </div>
       )}
     </div>
