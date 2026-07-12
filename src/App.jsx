@@ -13,6 +13,7 @@ import Kanji from './pages/Kanji'
 import Video from './pages/Video'
 import Auth from './pages/Auth'
 import Profile from './pages/Profile'
+import Leaderboard from './pages/Leaderboard'
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -45,6 +46,7 @@ function App() {
             <Route path="/kanji/:level" element={<Kanji />} />
             <Route path="/video" element={<Video />} />
             <Route path="/profile" element={<Profile />} />
+            <Route path="/leaderboard" element={<Leaderboard />} />
           </Route>
         </Routes>
       </div>

@@ -1,0 +1,156 @@
+.leaderboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.leaderboard-header {
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+.leaderboard-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(90deg, #F59E0B, #EF4444);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.podium-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  height: 250px;
+}
+
+.podium-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  animation: slideUp 0.8s ease-out forwards;
+}
+
+.podium-avatar {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.podium-name {
+  font-weight: 700;
+  color: var(--text-main);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.podium-xp {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.podium-bar {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 -5px 15px rgba(0,0,0,0.3);
+}
+
+.gold .podium-bar {
+  height: 140px;
+  background: linear-gradient(180deg, #FBBF24, #B45309);
+}
+
+.silver .podium-bar {
+  height: 100px;
+  background: linear-gradient(180deg, #94A3B8, #475569);
+}
+
+.bronze .podium-bar {
+  height: 70px;
+  background: linear-gradient(180deg, #B45309, #78350F);
+}
+
+@keyframes slideUp {
+  from { transform: translateY(50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.leaderboard-list {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.leaderboard-row {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 8px;
+  background: rgba(15, 23, 42, 0.4);
+  transition: transform 0.2s, background 0.2s;
+}
+
+.leaderboard-row:hover {
+  background: rgba(30, 41, 59, 0.8);
+  transform: translateX(5px);
+}
+
+.leaderboard-row.current-user {
+  background: rgba(99, 102, 241, 0.15);
+  border: 1px solid rgba(99, 102, 241, 0.3);
+}
+
+.rank-col {
+  width: 50px;
+  font-weight: bold;
+  color: var(--text-muted);
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.top-rank {
+  font-size: 1.5rem;
+}
+
+.name-col {
+  flex: 1;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.xp-col {
+  font-weight: 800;
+  color: #34D399;
+}
+
+.you-badge {
+  background: var(--primary-color);
+  color: white;
+  padding: 0.1rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .podium-container {
+    gap: 0.5rem;
+  }
+  .podium-item {
+    width: 90px;
+  }
+  .podium-avatar {
+    font-size: 2rem;
+  }
+}
