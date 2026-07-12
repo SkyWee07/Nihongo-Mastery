@@ -18,6 +18,34 @@
   -webkit-text-fill-color: transparent;
 }
 
+/* Nav Actions Container */
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  z-index: 101;
+}
+
+/* Dictionary Toggle Button */
+.dict-toggle-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: transform 0.2s, filter 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  color: var(--text-main);
+  filter: grayscale(100%) brightness(150%);
+}
+
+.dict-toggle-btn:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%) brightness(100%);
+}
+
 /* Hamburger Button */
 .hamburger-btn {
   display: flex;
@@ -28,7 +56,6 @@
   background: transparent;
   border: none;
   cursor: pointer;
-  z-index: 101;
 }
 
 .hamburger-line {

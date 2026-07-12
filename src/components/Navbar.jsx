@@ -46,25 +46,27 @@ export default function Navbar() {
           <Link to="/" onClick={() => setIsMenuOpen(false)}>⛩️ Nihongo Mastery</Link>
         </div>
         
-        {/* Dictionary Search Button */}
-        <button 
-          className="dict-toggle-btn" 
-          onClick={() => setIsDictOpen(true)}
-          title="Buka Kamus"
-        >
-          🔍
-        </button>
+        <div className="nav-actions">
+          {/* Dictionary Search Button */}
+          <button 
+            className="dict-toggle-btn" 
+            onClick={() => setIsDictOpen(true)}
+            title="Buka Kamus"
+          >
+            🔍
+          </button>
 
-        {/* Hamburger Toggle Button */}
-        <button 
-          className="hamburger-btn" 
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-          aria-label="Toggle menu"
-        >
-          <span className={`hamburger-line ${isMenuOpen ? 'open' : ''}`}></span>
-          <span className={`hamburger-line ${isMenuOpen ? 'open' : ''}`}></span>
-          <span className={`hamburger-line ${isMenuOpen ? 'open' : ''}`}></span>
-        </button>
+          {/* Hamburger Toggle Button */}
+          <button 
+            className="hamburger-btn" 
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            <span className={`hamburger-line ${isMenuOpen ? 'open' : ''}`}></span>
+            <span className={`hamburger-line ${isMenuOpen ? 'open' : ''}`}></span>
+            <span className={`hamburger-line ${isMenuOpen ? 'open' : ''}`}></span>
+          </button>
+        </div>
 
         {/* Flyout Menu */}
         <div className={`nav-links-container ${isMenuOpen ? 'active' : ''} glass-panel`}>
