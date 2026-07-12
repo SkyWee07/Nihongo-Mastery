@@ -44,7 +44,7 @@ function App() {
             <Route path="/kotoba/:level" element={<Kotoba />} />
             <Route path="/bunpo/:level" element={<Bunpo />} />
             <Route path="/kanji/:level" element={<Kanji />} />
-            <Route path="/video" element={<Video />} />
+            <Route path="/video/:level?" element={<Video />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/leaderboard" element={<Leaderboard />} />
           </Route>

@@ -1,25 +1,35 @@
 [
   { "id": 1, "title": "Hiragana", "desc": "Kuasai 46 karakter, baca & tulis", "target": "Lancar baca", "phase": "Dasar", "path": "/hiragana" },
   { "id": 2, "title": "Katakana", "desc": "Kuasai 46 karakter, baca & tulis", "target": "Lancar baca", "phase": "Dasar", "path": "/katakana" },
-  { "id": 3, "title": "Video Pembelajaran Dasar", "desc": "Tips & trik cepat menguasai huruf dan dasar bahasa", "target": "Pemahaman cepat", "phase": "Dasar", "path": "/video" },
+  { "id": 3, "title": "Video Pembelajaran Umum", "desc": "Tips & trik budaya dan huruf dasar Jepang", "target": "Pemahaman fundamental", "phase": "Dasar", "path": "/video/umum" },
+  
   { "id": 4, "title": "Kotoba N5", "desc": "Kosakata dasar JLPT N5 (600+ kata)", "target": "Tema sehari-hari", "phase": "Dasar JLPT", "path": "/kotoba/n5" },
   { "id": 5, "title": "Bunpo N5", "desc": "Pola kalimat dasar dan partikel N5", "target": "Struktur kalimat", "phase": "Dasar JLPT", "path": "/bunpo/n5" },
   { "id": 6, "title": "Kanji N5", "desc": "Kuasai sekitar 100 Kanji N5", "target": "Mampu baca & tulis", "phase": "Dasar JLPT", "path": "/kanji/n5" },
+  { "id": 105, "title": "Video Pembelajaran N5", "desc": "Video kurasi N5 dari YouTube", "target": "Pemahaman N5", "phase": "Dasar JLPT", "path": "/video/n5" },
   { "id": 7, "title": "Latihan Kuis N5", "desc": "Uji hafalan huruf, kosakata, dan kanji N5", "target": "Skor tinggi", "phase": "Dasar JLPT", "path": "/quiz" },
+  
   { "id": 8, "title": "Kotoba N4", "desc": "Kosakata lanjutan JLPT N4 (500+ kata)", "target": "Percakapan kasual", "phase": "Menengah JLPT", "path": "/kotoba/n4" },
   { "id": 9, "title": "Bunpo N4", "desc": "Tata bahasa menengah dan bentuk perubahan kata kerja", "target": "Ekspresi beragam", "phase": "Menengah JLPT", "path": "/bunpo/n4" },
   { "id": 10, "title": "Kanji N4", "desc": "Kuasai sekitar 250 Kanji N4", "target": "Membaca teks panjang", "phase": "Menengah JLPT", "path": "/kanji/n4" },
+  { "id": 104, "title": "Video Pembelajaran N4", "desc": "Video kurasi N4 dari YouTube", "target": "Pemahaman N4", "phase": "Menengah JLPT", "path": "/video/n4" },
   { "id": 11, "title": "Latihan Kuis N4", "desc": "Uji hafalan tingkat N4", "target": "Persiapan ujian", "phase": "Menengah JLPT", "path": "/quiz" },
+  
   { "id": 12, "title": "Kotoba N3", "desc": "Kosakata menengah JLPT N3 (1200+ kata)", "target": "Percakapan kompleks", "phase": "Menengah Atas", "path": "/kotoba/n3" },
   { "id": 13, "title": "Bunpo N3", "desc": "Tata bahasa menengah atas N3", "target": "Ekspresi lebih natural", "phase": "Menengah Atas", "path": "/bunpo/n3" },
   { "id": 14, "title": "Kanji N3", "desc": "Kuasai sekitar 350 Kanji N3", "target": "Membaca artikel", "phase": "Menengah Atas", "path": "/kanji/n3" },
+  { "id": 103, "title": "Video Pembelajaran N3", "desc": "Video kurasi N3 dari YouTube", "target": "Pemahaman N3", "phase": "Menengah Atas", "path": "/video/n3" },
   { "id": 15, "title": "Latihan Kuis N3", "desc": "Uji hafalan tingkat N3", "target": "Persiapan ujian", "phase": "Menengah Atas", "path": "/quiz" },
+  
   { "id": 16, "title": "Kotoba N2", "desc": "Kosakata bisnis JLPT N2 (1000+ kata)", "target": "Kerja kantoran", "phase": "Mahir", "path": "/kotoba/n2" },
   { "id": 17, "title": "Bunpo N2", "desc": "Tata bahasa lanjutan N2", "target": "Dokumen resmi", "phase": "Mahir", "path": "/bunpo/n2" },
   { "id": 18, "title": "Kanji N2", "desc": "Kuasai sekitar 400 Kanji N2", "target": "Membaca koran", "phase": "Mahir", "path": "/kanji/n2" },
+  { "id": 102, "title": "Video Pembelajaran N2", "desc": "Video kurasi N2 dari YouTube", "target": "Pemahaman N2", "phase": "Mahir", "path": "/video/n2" },
   { "id": 19, "title": "Latihan Kuis N2", "desc": "Uji hafalan tingkat N2", "target": "Persiapan ujian", "phase": "Mahir", "path": "/quiz" },
+  
   { "id": 20, "title": "Kotoba N1", "desc": "Kosakata tingkat pakar JLPT N1", "target": "Level native", "phase": "Pakar", "path": "/kotoba/n1" },
   { "id": 21, "title": "Bunpo N1", "desc": "Tata bahasa lanjutan N1", "target": "Jurnal akademis", "phase": "Pakar", "path": "/bunpo/n1" },
   { "id": 22, "title": "Kanji N1", "desc": "Kuasai Kanji kompleks N1", "target": "Membaca literatur", "phase": "Pakar", "path": "/kanji/n1" },
+  { "id": 101, "title": "Video Pembelajaran N1", "desc": "Video kurasi N1 dari YouTube", "target": "Pemahaman N1", "phase": "Pakar", "path": "/video/n1" },
   { "id": 23, "title": "Latihan Kuis N1", "desc": "Ujian akhir kemampuan bahasa", "target": "Penguasaan total", "phase": "Pakar", "path": "/quiz" }
 ]

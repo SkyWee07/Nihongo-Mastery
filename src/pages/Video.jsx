@@ -1,114 +1,9 @@
 import { useState, useEffect, useCallback } from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
+import { useAuth } from '../contexts/AuthContext';
+import { getVideos, addVideo } from '../services/videoService';
+import { hasProfanity } from '../utils/profanityFilter';
 import './Video.css';
-
-const categories = [
-  { id: 'all', label: 'Semua', icon: '📚' },
-  { id: 'hiragana-katakana', label: 'Hiragana & Katakana', icon: 'あ' },
-  { id: 'kosakata', label: 'Kosakata', icon: '📝' },
-  { id: 'tata-bahasa', label: 'Tata Bahasa', icon: '📖' },
-  { id: 'kanji', label: 'Kanji', icon: '漢' },
-  { id: 'budaya', label: 'Budaya Jepang', icon: '🏯' },
-  { id: 'jlpt', label: 'Tips JLPT', icon: '🎯' },
-];
-
-const videos = [
-  {
-    id: '6p9Il_j0zjc',
-    title: 'Learn ALL Hiragana in 1 Hour',
-    description: 'Pelajari semua huruf Hiragana dalam 1 jam! Cocok untuk pemula yang ingin menguasai dasar penulisan Jepang.',
-    category: 'hiragana-katakana',
-    channel: 'JapanesePod101',
-    duration: '1:00:00',
-  },
-  {
-    id: 's6DKRgtVLGA',
-    title: 'Learn ALL Katakana in 1 Hour',
-    description: 'Kuasai semua huruf Katakana dengan metode yang mudah diikuti. Lengkap dengan contoh pengucapan.',
-    category: 'hiragana-katakana',
-    channel: 'JapanesePod101',
-    duration: '1:00:00',
-  },
-  {
-    id: 'tkMOsYrtV74',
-    title: '800 Japanese Words for Everyday Life',
-    description: '800 kosakata Jepang yang paling sering digunakan dalam kehidupan sehari-hari. Wajib dihafal!',
-    category: 'kosakata',
-    channel: 'JapanesePod101',
-    duration: '2:26:24',
-  },
-  {
-    id: 'Uo3VWJrsyfI',
-    title: '1500 Japanese Words You Need to Know',
-    description: 'Kumpulan 1500 kata penting bahasa Jepang yang akan meningkatkan kemampuan berbicara dan mendengarmu.',
-    category: 'kosakata',
-    channel: 'JapanesePod101',
-    duration: '3:30:00',
-  },
-  {
-    id: 'BckC9gXghIc',
-    title: 'Japanese Grammar Basics',
-    description: 'Dasar-dasar tata bahasa Jepang yang harus kamu ketahui. Penjelasan sederhana dan mudah dipahami.',
-    category: 'tata-bahasa',
-    channel: 'JapanesePod101',
-    duration: '1:15:00',
-  },
-  {
-    id: 'E-sv73KP8Iw',
-    title: 'Essential Japanese Grammar Patterns',
-    description: 'Pola-pola tata bahasa esensial yang sering muncul dalam percakapan sehari-hari dan ujian JLPT.',
-    category: 'tata-bahasa',
-    channel: 'JapanesePod101',
-    duration: '0:45:00',
-  },
-  {
-    id: '9mI0_zL8SDk',
-    title: 'Learn 200 Kanji for JLPT N5 & N4',
-    description: 'Pelajari 200 Kanji yang dibutuhkan untuk lulus ujian JLPT N5 dan N4. Termasuk cara tulis dan artinya.',
-    category: 'kanji',
-    channel: 'JapanesePod101',
-    duration: '2:00:00',
-  },
-  {
-    id: 'h5B8ZyYRczU',
-    title: 'Kanji Radicals - Building Blocks',
-    description: 'Pahami radikal Kanji sebagai blok pembangun. Teknik ini akan mempermudah menghafal ribuan Kanji.',
-    category: 'kanji',
-    channel: 'JapanesePod101',
-    duration: '0:35:00',
-  },
-  {
-    id: 'Dnsp06Q-fc4',
-    title: 'Japanese Culture 101',
-    description: 'Pengenalan budaya Jepang yang komprehensif. Dari tradisi kuno hingga budaya pop modern.',
-    category: 'budaya',
-    channel: 'JapanesePod101',
-    duration: '0:50:00',
-  },
-  {
-    id: 'C6jypFauRlU',
-    title: 'Daily Life in Japan',
-    description: 'Intip kehidupan sehari-hari orang Jepang. Pelajari kebiasaan dan etiket penting yang harus kamu tahu.',
-    category: 'budaya',
-    channel: 'JapanesePod101',
-    duration: '0:40:00',
-  },
-  {
-    id: 'zirR05lhtYc',
-    title: 'How to Pass JLPT N5',
-    description: 'Strategi dan tips ampuh untuk lulus ujian JLPT N5. Termasuk rekomendasi buku dan metode belajar.',
-    category: 'jlpt',
-    channel: 'JapanesePod101',
-    duration: '0:30:00',
-  },
-  {
-    id: 'Y4dnlvGBznU',
-    title: 'Japanese Study Tips',
-    description: 'Tips belajar bahasa Jepang yang efektif dari para poliglot. Tingkatkan kemampuanmu lebih cepat!',
-    category: 'jlpt',
-    channel: 'JapanesePod101',
-    duration: '0:25:00',
-  },
-];
 
 const categoryLabels = {
   'hiragana-katakana': 'Hiragana & Katakana',
@@ -117,6 +12,16 @@ const categoryLabels = {
   'kanji': 'Kanji',
   'budaya': 'Budaya Jepang',
   'jlpt': 'Tips JLPT',
+};
+
+const levelLabels = {
+  'all': 'Semua Level',
+  'n5': 'Level N5',
+  'n4': 'Level N4',
+  'n3': 'Level N3',
+  'n2': 'Level N2',
+  'n1': 'Level N1',
+  'umum': 'Umum / Dasar',
 };
 
 const categoryColors = {
@@ -128,14 +33,64 @@ const categoryColors = {
   'jlpt': '#ef4444',
 };
 
+// Ekstrak YouTube ID dari berbagai format URL
+const extractYouTubeId = (url) => {
+  const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
+  const match = url.match(regExp);
+  return (match && match[2].length === 11) ? match[2] : null;
+};
+
 export default function Video() {
-  const [activeCategory, setActiveCategory] = useState('all');
+  const { level } = useParams();
+  const navigate = useNavigate();
+  const { user } = useAuth();
+  
+  const [activeLevel, setActiveLevel] = useState(level || 'all');
+  const [videos, setVideos] = useState([]);
+  const [loading, setLoading] = useState(true);
+  
   const [selectedVideo, setSelectedVideo] = useState(null);
   const [modalVisible, setModalVisible] = useState(false);
+  
+  // Add Video Form State
+  const [showAddForm, setShowAddForm] = useState(false);
+  const [formData, setFormData] = useState({ url: '', title: '', description: '', level: 'n5', category: 'kosakata' });
+  const [formError, setFormError] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const filteredVideos = activeCategory === 'all'
-    ? videos
-    : videos.filter(v => v.category === activeCategory);
+  // Sync state dengan parameter URL
+  useEffect(() => {
+    if (level) {
+      setActiveLevel(level);
+    } else {
+      setActiveLevel('all');
+    }
+  }, [level]);
+
+  // Fetch videos
+  const fetchVideosData = async () => {
+    setLoading(true);
+    try {
+      const data = await getVideos(activeLevel);
+      setVideos(data);
+    } catch (err) {
+      console.error("Gagal memuat video");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    fetchVideosData();
+  }, [activeLevel]);
+
+  const handleLevelChange = (newLevel) => {
+    if (newLevel === 'all') {
+      navigate('/video');
+    } else {
+      navigate(`/video/${newLevel}`);
+    }
+  };
 
   const openModal = useCallback((video) => {
     setSelectedVideo(video);
@@ -147,96 +102,245 @@ export default function Video() {
     setTimeout(() => setSelectedVideo(null), 300);
   }, []);
 
+  // Handle Add Video Submit
+  const handleAddVideo = async (e) => {
+    e.preventDefault();
+    setFormError('');
+
+    if (!user) {
+      setFormError('Anda harus login untuk menambahkan video.');
+      return;
+    }
+
+    const { url, title, description, level: vLevel, category } = formData;
+    
+    if (!url || !title) {
+      setFormError('URL dan Judul wajib diisi.');
+      return;
+    }
+
+    const youtubeId = extractYouTubeId(url);
+    if (!youtubeId) {
+      setFormError('URL YouTube tidak valid.');
+      return;
+    }
+
+    if (hasProfanity(title) || hasProfanity(description)) {
+      setFormError('⚠️ Ditolak: Judul atau deskripsi mengandung kata-kata yang tidak pantas.');
+      return;
+    }
+
+    setIsSubmitting(true);
+    try {
+      await addVideo({
+        youtube_id: youtubeId,
+        title: title.trim(),
+        description: description.trim(),
+        level: vLevel,
+        category,
+        added_by: user.id
+      });
+      
+      setFormData({ url: '', title: '', description: '', level: 'n5', category: 'kosakata' });
+      setShowAddForm(false);
+      fetchVideosData(); // Refresh list
+    } catch (err) {
+      setFormError('Gagal menambahkan video.');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  // Keyboard escape
   useEffect(() => {
     const handleKeyDown = (e) => {
-      if (e.key === 'Escape' && selectedVideo) {
-        closeModal();
+      if (e.key === 'Escape') {
+        if (selectedVideo) closeModal();
+        if (showAddForm) setShowAddForm(false);
       }
     };
     document.addEventListener('keydown', handleKeyDown);
     return () => document.removeEventListener('keydown', handleKeyDown);
-  }, [selectedVideo, closeModal]);
+  }, [selectedVideo, showAddForm, closeModal]);
 
   return (
     <div className="video-page">
-      {/* Header */}
       <section className="video-header">
         <div className="video-header-glow" />
         <h1 className="video-title">🎬 Video Pembelajaran (ビデオ)</h1>
         <p className="video-subtitle">
-          Tonton video pilihan dari YouTube untuk mempercepat proses belajar bahasa Jepangmu.
-          Semua video dikurasi khusus untuk pelajar Indonesia.
+          Tonton video pilihan dari YouTube untuk mempercepat proses belajar. 
+          Pilih level JLPT Anda atau tambahkan video favoritmu ke koleksi!
         </p>
       </section>
 
-      {/* Category Tabs */}
+      {/* Tabs Level */}
       <nav className="video-categories">
         <div className="video-categories-track">
-          {categories.map(cat => (
+          {Object.entries(levelLabels).map(([key, label]) => (
             <button
-              key={cat.id}
-              className={`video-cat-tab ${activeCategory === cat.id ? 'active' : ''}`}
-              onClick={() => setActiveCategory(cat.id)}
+              key={key}
+              className={`video-cat-tab ${activeLevel === key ? 'active' : ''}`}
+              onClick={() => handleLevelChange(key)}
             >
-              <span className="video-cat-icon">{cat.icon}</span>
-              <span className="video-cat-label">{cat.label}</span>
+              <span className="video-cat-label">{label}</span>
             </button>
           ))}
         </div>
       </nav>
+      
+      <div className="video-actions">
+        <button className="add-video-btn" onClick={() => setShowAddForm(true)}>
+          ➕ Kontribusi Video Baru
+        </button>
+      </div>
 
       {/* Video Grid */}
       <section className="video-grid-section">
-        <div className="video-grid">
-          {filteredVideos.map((video, index) => (
-            <article
-              key={video.id}
-              className="video-card glass-panel"
-              onClick={() => openModal(video)}
-              style={{ animationDelay: `${index * 0.06}s` }}
-            >
-              <div className="video-card-thumb">
-                <img
-                  src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
-                  alt={video.title}
-                  loading="lazy"
-                  className="video-thumb-img"
-                />
-                <div className="video-play-overlay">
-                  <div className="video-play-btn">
-                    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
-                      <path d="M8 5v14l11-7z" />
-                    </svg>
+        {loading ? (
+          <div className="loading-spinner"></div>
+        ) : (
+          <>
+            <div className="video-grid">
+              {videos.map((video, index) => (
+                <article
+                  key={video.id}
+                  className="video-card glass-panel"
+                  onClick={() => openModal(video)}
+                  style={{ animationDelay: `${index * 0.06}s` }}
+                >
+                  <div className="video-card-thumb">
+                    <img
+                      src={`https://img.youtube.com/vi/${video.youtube_id}/hqdefault.jpg`}
+                      alt={video.title}
+                      loading="lazy"
+                      className="video-thumb-img"
+                    />
+                    <div className="video-play-overlay">
+                      <div className="video-play-btn">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+                          <path d="M8 5v14l11-7z" />
+                        </svg>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <span className="video-duration-badge">{video.duration}</span>
-              </div>
-              <div className="video-card-body">
-                <div className="video-card-meta">
-                  <span
-                    className="video-category-badge"
-                    style={{ background: categoryColors[video.category] + '22', color: categoryColors[video.category], borderColor: categoryColors[video.category] + '44' }}
-                  >
-                    {categoryLabels[video.category]}
-                  </span>
-                </div>
-                <h3 className="video-card-title">{video.title}</h3>
-                <p className="video-card-desc">{video.description}</p>
-                <span className="video-card-channel">📺 {video.channel}</span>
-              </div>
-            </article>
-          ))}
-        </div>
+                  <div className="video-card-body">
+                    <div className="video-card-meta">
+                      <span
+                        className="video-category-badge"
+                        style={{ 
+                          background: categoryColors[video.category] + '22', 
+                          color: categoryColors[video.category] || '#94A3B8', 
+                          borderColor: categoryColors[video.category] + '44' 
+                        }}
+                      >
+                        {categoryLabels[video.category] || video.category}
+                      </span>
+                      {video.profiles && (
+                        <span className="video-uploader">👤 {video.profiles.username}</span>
+                      )}
+                    </div>
+                    <h3 className="video-card-title">{video.title}</h3>
+                    <p className="video-card-desc">{video.description}</p>
+                  </div>
+                </article>
+              ))}
+            </div>
 
-        {filteredVideos.length === 0 && (
-          <div className="video-empty">
-            <span className="video-empty-icon">🎌</span>
-            <p>Belum ada video untuk kategori ini.</p>
-          </div>
+            {videos.length === 0 && (
+              <div className="video-empty">
+                <span className="video-empty-icon">🎌</span>
+                <p>Belum ada video untuk level ini.</p>
+              </div>
+            )}
+          </>
         )}
       </section>
 
-      {/* Video Modal */}
+      {/* Add Video Modal Form */}
+      {showAddForm && (
+        <div className="video-modal-backdrop visible" onClick={() => !isSubmitting && setShowAddForm(false)}>
+          <div className="video-modal form-modal glass-panel visible" onClick={(e) => e.stopPropagation()}>
+            <div className="video-modal-header">
+              <h2>➕ Tambah Video YouTube</h2>
+              <button className="video-modal-close" onClick={() => !isSubmitting && setShowAddForm(false)}>
+                ✖
+              </button>
+            </div>
+            {!user ? (
+              <div className="form-error-msg">Silakan Login terlebih dahulu untuk menambahkan video.</div>
+            ) : (
+              <form className="add-video-form" onSubmit={handleAddVideo}>
+                {formError && <div className="form-error-msg">{formError}</div>}
+                
+                <div className="form-group">
+                  <label>URL / Link YouTube</label>
+                  <input 
+                    type="url" 
+                    placeholder="https://www.youtube.com/watch?v=..." 
+                    value={formData.url}
+                    onChange={e => setFormData({...formData, url: e.target.value})}
+                    required 
+                  />
+                </div>
+                
+                <div className="form-group">
+                  <label>Judul Video</label>
+                  <input 
+                    type="text" 
+                    maxLength={100}
+                    placeholder="Judul yang mendeskripsikan video..." 
+                    value={formData.title}
+                    onChange={e => setFormData({...formData, title: e.target.value})}
+                    required 
+                  />
+                </div>
+                
+                <div className="form-group">
+                  <label>Deskripsi Singkat (Opsional)</label>
+                  <textarea 
+                    maxLength={200}
+                    placeholder="Video ini tentang apa..." 
+                    value={formData.description}
+                    onChange={e => setFormData({...formData, description: e.target.value})}
+                  />
+                </div>
+                
+                <div className="form-row">
+                  <div className="form-group">
+                    <label>Level JLPT</label>
+                    <select value={formData.level} onChange={e => setFormData({...formData, level: e.target.value})}>
+                      <option value="umum">Umum</option>
+                      <option value="n5">N5</option>
+                      <option value="n4">N4</option>
+                      <option value="n3">N3</option>
+                      <option value="n2">N2</option>
+                      <option value="n1">N1</option>
+                    </select>
+                  </div>
+                  
+                  <div className="form-group">
+                    <label>Kategori</label>
+                    <select value={formData.category} onChange={e => setFormData({...formData, category: e.target.value})}>
+                      {Object.entries(categoryLabels).map(([key, label]) => (
+                        <option key={key} value={key}>{label}</option>
+                      ))}
+                    </select>
+                  </div>
+                </div>
+
+                <div className="form-actions">
+                  <button type="submit" className="save-btn" disabled={isSubmitting}>
+                    {isSubmitting ? 'Mengunggah...' : 'Bagikan Video'}
+                  </button>
+                </div>
+              </form>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* Video Player Modal */}
       {selectedVideo && (
         <div
           className={`video-modal-backdrop ${modalVisible ? 'visible' : ''}`}
@@ -249,30 +353,18 @@ export default function Video() {
             <div className="video-modal-header">
               <h2 className="video-modal-title">{selectedVideo.title}</h2>
               <button className="video-modal-close" onClick={closeModal} aria-label="Close modal">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22">
-                  <line x1="18" y1="6" x2="6" y2="18" />
-                  <line x1="6" y1="6" x2="18" y2="18" />
-                </svg>
+                ✖
               </button>
             </div>
             <div className="video-modal-player">
               <iframe
-                src={`https://www.youtube.com/embed/${selectedVideo.id}?autoplay=1`}
+                src={`https://www.youtube.com/embed/${selectedVideo.youtube_id}?autoplay=1`}
                 title={selectedVideo.title}
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 className="video-iframe"
               />
-            </div>
-            <div className="video-modal-info">
-              <span
-                className="video-category-badge"
-                style={{ background: categoryColors[selectedVideo.category] + '22', color: categoryColors[selectedVideo.category], borderColor: categoryColors[selectedVideo.category] + '44' }}
-              >
-                {categoryLabels[selectedVideo.category]}
-              </span>
-              <p className="video-modal-desc">{selectedVideo.description}</p>
             </div>
           </div>
         </div>
