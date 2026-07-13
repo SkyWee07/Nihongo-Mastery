@@ -68,7 +68,16 @@ export default function Hiragana() {
               {char.romaji}
             </span>
             <div className="flex gap-2 mt-1 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-              <span className="text-xs opacity-70">🔊</span>
+              <button 
+                className="bg-white/10 border border-white/20 rounded-full w-8 h-8 flex items-center justify-center text-xs cursor-pointer transition-all duration-200 hover:bg-primary hover:border-primary hover:shadow-[0_0_10px_rgba(99,102,241,0.5)]" 
+                onClick={(e) => {
+                  e.stopPropagation();
+                  speakKana(char.kana);
+                }}
+                title="Dengarkan Suara"
+              >
+                🔊
+              </button>
               <button 
                 className="bg-white/10 border border-white/20 rounded-full w-8 h-8 flex items-center justify-center text-xs cursor-pointer transition-all duration-200 hover:bg-primary hover:border-primary hover:shadow-[0_0_10px_rgba(99,102,241,0.5)]" 
                 onClick={(e) => {
