@@ -1,7 +1,8 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { getMasteredItems, toggleMasteredItem } from '../services/progressService';
+import SpeechPracticeModal from '../components/SpeechPracticeModal';
 import './Kotoba.css';
 
 import kotobaN5 from '../data/kotobaN5.json';
@@ -33,8 +34,52 @@ export default function Kotoba() {
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState('');
   const [masteredIds, setMasteredIds] = useState(new Set());
+  const [speechTarget, setSpeechTarget] = useState(null);
+  const [voicesReady, setVoicesReady] = useState(false);
+  const japaneseVoiceRef = useRef(null);
   
   const validLevels = ['n5', 'n4', 'n3', 'n2', 'n1'];
+
+  useEffect(() => {
+    const loadVoices = () => {
+      const voices = window.speechSynthesis.getVoices();
+      if (voices.length > 0) {
+        const jpVoice = voices.find(v => v.lang.startsWith('ja'));
+        japaneseVoiceRef.current = jpVoice || null;
+        setVoicesReady(true);
+      }
+    };
+
+    if ('speechSynthesis' in window) {
+      loadVoices();
+      window.speechSynthesis.onvoiceschanged = loadVoices;
+    }
+
+    return () => {
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.onvoiceschanged = null;
+      }
+    };
+  }, []);
+
+  const speakKotoba = (text) => {
+    if (!('speechSynthesis' in window) || !text) return;
+    
+    window.speechSynthesis.cancel();
+    setTimeout(() => {
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'ja-JP';
+      utterance.rate = 0.8;
+      utterance.volume = 1;
+      
+      if (japaneseVoiceRef.current) {
+        utterance.voice = japaneseVoiceRef.current;
+      }
+
+      window.speechSynthesis.speak(utterance);
+    }, 50);
+  };
+
 
   useEffect(() => {
     if (!validLevels.includes(level?.toLowerCase())) return;
@@ -168,6 +213,34 @@ export default function Kotoba() {
                   <div className="kotoba-contoh">
                     <em>{word.contoh}</em>
                   </div>
+                  <div className="card-actions" style={{ position: 'absolute', bottom: '1rem', right: '1rem', display: 'flex', gap: '0.5rem' }}>
+                    <button 
+                      className="audio-icon" 
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        speakKotoba(word.kana);
+                      }}
+                      title="Dengar Pengucapan"
+                      style={{ background: 'none', border: 'none', fontSize: '1.2rem', cursor: 'pointer' }}
+                    >
+                      🔊
+                    </button>
+                    <button 
+                      className="write-icon-btn" 
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setSpeechTarget({
+                          text: word.kanji !== word.kana ? word.kanji : word.kana,
+                          kana: word.kana,
+                          arti: word.arti
+                        });
+                      }}
+                      title="Latihan Pengucapan"
+                      style={{ background: 'none', border: 'none', fontSize: '1.2rem', cursor: 'pointer' }}
+                    >
+                      🎙️
+                    </button>
+                  </div>
                 </div>
               );
             })}
@@ -196,6 +269,16 @@ export default function Kotoba() {
             </div>
           )}
         </>
+      )}
+
+      {speechTarget && (
+        <SpeechPracticeModal 
+          isOpen={!!speechTarget} 
+          onClose={() => setSpeechTarget(null)}
+          targetText={speechTarget.text}
+          targetReading={speechTarget.kana}
+          type="word"
+        />
       )}
     </div>
   );

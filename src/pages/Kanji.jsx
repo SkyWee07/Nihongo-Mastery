@@ -1,8 +1,9 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { getMasteredItems, toggleMasteredItem } from '../services/progressService';
 import WritingCanvas from '../components/WritingCanvas';
+import SpeechPracticeModal from '../components/SpeechPracticeModal';
 import './Kanji.css';
 
 import kanjiN5 from '../data/kanjiN5.json';
@@ -27,8 +28,54 @@ export default function Kanji() {
   const [search, setSearch] = useState('');
   const [writingChar, setWritingChar] = useState(null);
   const [masteredIds, setMasteredIds] = useState(new Set());
+  const [speechTarget, setSpeechTarget] = useState(null);
+  const [voicesReady, setVoicesReady] = useState(false);
+  const japaneseVoiceRef = useRef(null);
 
   const validLevels = ['n5', 'n4', 'n3', 'n2', 'n1'];
+
+  useEffect(() => {
+    const loadVoices = () => {
+      const voices = window.speechSynthesis.getVoices();
+      if (voices.length > 0) {
+        const jpVoice = voices.find(v => v.lang.startsWith('ja'));
+        japaneseVoiceRef.current = jpVoice || null;
+        setVoicesReady(true);
+      }
+    };
+
+    if ('speechSynthesis' in window) {
+      loadVoices();
+      window.speechSynthesis.onvoiceschanged = loadVoices;
+    }
+
+    return () => {
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.onvoiceschanged = null;
+      }
+    };
+  }, []);
+
+  const speakKanji = (text) => {
+    if (!('speechSynthesis' in window) || !text) return;
+    
+    // Hilangkan karakter non-huruf Jepang seperti tanda strip pada kunyomi ("-masu")
+    const cleanText = text.replace(/[-]/g, '');
+    
+    window.speechSynthesis.cancel();
+    setTimeout(() => {
+      const utterance = new SpeechSynthesisUtterance(cleanText);
+      utterance.lang = 'ja-JP';
+      utterance.rate = 0.8;
+      utterance.volume = 1;
+      
+      if (japaneseVoiceRef.current) {
+        utterance.voice = japaneseVoiceRef.current;
+      }
+
+      window.speechSynthesis.speak(utterance);
+    }, 50);
+  };
 
   useEffect(() => {
     if (!validLevels.includes(level?.toLowerCase())) return;
@@ -172,7 +219,33 @@ export default function Kanji() {
                   </div>
                 </div>
                 
-                <div className="kanji-actions">
+                <div className="kanji-actions" style={{ display: 'flex', gap: '0.5rem', justifyContent: 'center' }}>
+                  <button 
+                    className="audio-icon"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      // Baca onyomi jika ada, atau kunyomi
+                      speakKanji(kanji.onyomi !== '-' ? kanji.onyomi : kanji.kunyomi);
+                    }}
+                    title="Dengar Pengucapan"
+                    style={{ background: 'var(--primary-color)', color: 'white', border: 'none', padding: '0.5rem 1rem', borderRadius: '50px', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+                  >
+                    🔊
+                  </button>
+                  <button 
+                    className="write-icon-btn"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setSpeechTarget({
+                        text: char,
+                        reading: kanji.onyomi !== '-' ? kanji.onyomi + ' / ' + kanji.kunyomi : kanji.kunyomi
+                      });
+                    }}
+                    title="Latihan Pengucapan"
+                    style={{ background: 'var(--primary-color)', color: 'white', border: 'none', padding: '0.5rem 1rem', borderRadius: '50px', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+                  >
+                    🎙️
+                  </button>
                   <button 
                     className="write-kanji-btn"
                     onClick={() => setWritingChar(char)}
@@ -214,6 +287,16 @@ export default function Kanji() {
         <WritingCanvas 
           character={writingChar} 
           onClose={() => setWritingChar(null)} 
+        />
+      )}
+
+      {speechTarget && (
+        <SpeechPracticeModal 
+          isOpen={!!speechTarget} 
+          onClose={() => setSpeechTarget(null)}
+          targetText={speechTarget.text}
+          targetReading={speechTarget.reading}
+          type="kanji"
         />
       )}
     </div>

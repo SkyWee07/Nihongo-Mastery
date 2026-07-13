@@ -21,9 +21,11 @@ export default function DictionaryModal({ isOpen, onClose }) {
     setIsLoading(true);
     setError('');
     try {
-      // Gunakan serverless function Vercel internal kita untuk bypass CORS
+      // Gunakan serverless function Vercel internal kita untuk bypass CORS di production
+      // Jika di localhost (saat npm run dev), kita gunakan proxy dari vite.config.js
       const proxyUrl = `/api/jisho?keyword=${encodeURIComponent(keyword)}`;
-      
+
+
       const res = await fetch(proxyUrl);
       if (!res.ok) throw new Error('Network response was not ok');
       const data = await res.json();

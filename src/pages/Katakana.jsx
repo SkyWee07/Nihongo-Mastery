@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import katakanaData from '../data/katakanaData.json';
 import WritingCanvas from '../components/WritingCanvas';
 import SpeechPracticeModal from '../components/SpeechPracticeModal';
+import './Hiragana.css'; // Meminjam gaya grid dan kartu dari Hiragana
 import './Katakana.css';
 
 export default function Katakana() {
