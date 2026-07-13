@@ -4,7 +4,6 @@ import { useAuth } from '../contexts/AuthContext';
 import { getMasteredItems, toggleMasteredItem } from '../services/progressService';
 import WritingCanvas from '../components/WritingCanvas';
 import SpeechPracticeModal from '../components/SpeechPracticeModal';
-import './Kanji.css';
 
 import kanjiN5 from '../data/kanjiN5.json';
 import kanjiN4 from '../data/kanjiN4.json';
@@ -59,7 +58,6 @@ export default function Kanji() {
   const speakKanji = (text) => {
     if (!('speechSynthesis' in window) || !text) return;
     
-    // Hilangkan karakter non-huruf Jepang seperti tanda strip pada kunyomi ("-masu")
     const cleanText = text.replace(/[-]/g, '');
     
     window.speechSynthesis.cancel();
@@ -135,7 +133,6 @@ export default function Kanji() {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 30;
 
-  // Reset page when search changes
   useEffect(() => {
     setCurrentPage(1);
   }, [search]);
@@ -166,74 +163,68 @@ export default function Kanji() {
   };
 
   return (
-    <div className="kanji-container">
-      <div className="kanji-header glass-panel">
-        <h1>Kanji (漢字) {level.toUpperCase()}</h1>
-        <p>Kumpulan Kanji dasar untuk JLPT {level.toUpperCase()}.</p>
-        <div className="search-bar">
+    <div className="flex flex-col gap-8 w-full max-w-7xl mx-auto px-4 md:px-6">
+      <div className="glass-panel p-8 text-center rounded-[20px]">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">Kanji (漢字) {level.toUpperCase()}</h1>
+        <p className="text-text-muted mb-6">Kumpulan Kanji dasar untuk JLPT {level.toUpperCase()}.</p>
+        <div className="max-w-2xl mx-auto relative">
           <input 
             type="text" 
             placeholder="Cari kanji, onyomi, kunyomi, atau arti..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
+            className="w-full p-4 rounded-xl border border-white/20 bg-bg-dark/50 text-text-main text-base outline-none transition-all duration-300 focus:border-primary focus:shadow-[0_0_15px_rgba(99,102,241,0.3)] placeholder:text-text-muted/70"
           />
         </div>
       </div>
 
       {loading ? (
-        <div className="loading">Memuat data...</div>
+        <div className="text-center text-text-muted py-12 text-xl font-medium animate-pulse">Memuat data...</div>
       ) : (
         <>
-          <div className="kanji-grid">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {currentData.map(kanji => {
               const char = kanji.kanji || kanji.karakter || '';
               const id = kanji.id || char;
               const isMastered = masteredIds.has(id);
               
               return (
-              <div key={id} className={`kanji-card glass-panel ${isMastered ? 'mastered' : ''}`}>
+              <div key={id} className={`group relative flex flex-col p-6 min-h-[250px] transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] glass-panel border border-white/5 border-t-white/10 border-l-white/10 ${isMastered ? 'border-amber-500/30 shadow-[0_0_20px_rgba(245,158,11,0.15)]' : ''} hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(0,0,0,0.4),0_0_15px_rgba(168,85,247,0.25)] hover:border-purple-500/50`}>
                 <button 
-                  className={`mastered-btn ${isMastered ? 'active' : ''}`}
+                  className={`absolute top-4 right-4 bg-bg-dark/50 border border-white/10 rounded-full px-3 py-1.5 text-xs font-semibold cursor-pointer transition-all duration-300 hover:scale-105 z-10 ${isMastered ? 'bg-amber-500 text-white border-amber-500 shadow-[0_0_10px_rgba(245,158,11,0.4)]' : 'text-text-muted hover:border-text-main'}`}
                   onClick={() => handleToggleMaster(id)}
                   title={isMastered ? "Batal tandai" : "Tandai sudah dikuasai"}
                 >
                   {isMastered ? '✅ Dikuasai' : '⬜ Tandai'}
                 </button>
-                <div className="kanji-main">
-                  <span className="kanji-char">{char}</span>
+                <div className="flex justify-center items-center py-2 mb-4 border-b border-white/10">
+                  <span className="text-5xl font-black text-text-main filter drop-shadow-md">{char}</span>
                 </div>
-                <div className="kanji-details">
-                  <div className="kanji-arti">{kanji.arti}</div>
-                  <div className="kanji-reading">
-                    <div className="reading-row">
-                      <span className="reading-label">On:</span>
-                      <span className="reading-value">{kanji.onyomi}</span>
-                    </div>
-                    <div className="reading-row">
-                      <span className="reading-label">Kun:</span>
-                      <span className="reading-value">{kanji.kunyomi}</span>
-                    </div>
+                <div className="flex flex-col gap-2">
+                  <div className="text-center font-bold text-lg text-primary">{kanji.arti}</div>
+                  <div className="bg-bg-dark/40 rounded-lg p-3 text-sm grid grid-cols-[auto_1fr] gap-2 items-center">
+                    <span className="text-rose-400 font-semibold text-right w-8">On:</span>
+                    <span className="text-text-main">{kanji.onyomi}</span>
+                    <span className="text-cyan-400 font-semibold text-right w-8">Kun:</span>
+                    <span className="text-text-main">{kanji.kunyomi}</span>
                   </div>
-                  <div className="kanji-contoh">
-                    Contoh: <strong>{kanji.contoh}</strong>
+                  <div className="text-xs text-text-muted italic text-center mt-2 leading-relaxed">
+                    Contoh: <strong className="text-text-main">{kanji.contoh}</strong>
                   </div>
                 </div>
                 
-                <div className="kanji-actions" style={{ display: 'flex', gap: '0.5rem', justifyContent: 'center' }}>
+                <div className="absolute inset-x-0 bottom-4 flex justify-center gap-2 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                   <button 
-                    className="audio-icon"
                     onClick={(e) => {
                       e.stopPropagation();
-                      // Baca onyomi jika ada, atau kunyomi
                       speakKanji(kanji.onyomi !== '-' ? kanji.onyomi : kanji.kunyomi);
                     }}
                     title="Dengar Pengucapan"
-                    style={{ background: 'var(--primary-color)', color: 'white', border: 'none', padding: '0.5rem 1rem', borderRadius: '50px', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+                    className="bg-primary hover:bg-primary-hover text-white border-none rounded-full w-10 h-10 flex items-center justify-center text-lg cursor-pointer transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-1"
                   >
                     🔊
                   </button>
                   <button 
-                    className="write-icon-btn"
                     onClick={(e) => {
                       e.stopPropagation();
                       setSpeechTarget({
@@ -242,39 +233,39 @@ export default function Kanji() {
                       });
                     }}
                     title="Latihan Pengucapan"
-                    style={{ background: 'var(--primary-color)', color: 'white', border: 'none', padding: '0.5rem 1rem', borderRadius: '50px', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+                    className="bg-primary hover:bg-primary-hover text-white border-none rounded-full w-10 h-10 flex items-center justify-center text-lg cursor-pointer transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-1"
                   >
                     🎙️
                   </button>
                   <button 
-                    className="write-kanji-btn"
+                    className="bg-purple-600 hover:bg-purple-700 text-white border-none rounded-full px-4 h-10 flex items-center justify-center text-sm font-bold cursor-pointer transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-1"
                     onClick={() => setWritingChar(char)}
                   >
-                    ✍️ Latihan Menulis
+                    ✍️ Latihan
                   </button>
                 </div>
               </div>
               );
             })}
             {filteredData.length === 0 && (
-              <div className="no-results">Tidak ada kanji yang cocok.</div>
+              <div className="col-span-full text-center p-12 text-text-muted bg-white/5 rounded-xl border border-white/10">Tidak ada kanji yang cocok.</div>
             )}
           </div>
 
           {totalPages > 1 && (
-            <div className="pagination">
+            <div className="flex justify-center items-center gap-6 mt-8 p-4 glass-panel rounded-xl">
               <button 
                 onClick={() => handlePageChange(currentPage - 1)} 
                 disabled={currentPage === 1}
-                className="page-btn"
+                className="bg-bg-dark border border-white/20 text-text-main px-5 py-2.5 rounded-lg cursor-pointer transition-all duration-300 font-semibold hover:bg-white/10 hover:-translate-y-0.5 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0"
               >
                 &laquo; Prev
               </button>
-              <span className="page-info">Halaman {currentPage} dari {totalPages}</span>
+              <span className="text-text-muted font-medium">Halaman <strong className="text-text-main">{currentPage}</strong> dari {totalPages}</span>
               <button 
                 onClick={() => handlePageChange(currentPage + 1)} 
                 disabled={currentPage === totalPages}
-                className="page-btn"
+                className="bg-bg-dark border border-white/20 text-text-main px-5 py-2.5 rounded-lg cursor-pointer transition-all duration-300 font-semibold hover:bg-white/10 hover:-translate-y-0.5 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0"
               >
                 Next &raquo;
               </button>

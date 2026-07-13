@@ -2,8 +2,6 @@ import { useState, useEffect, useRef } from 'react';
 import katakanaData from '../data/katakanaData.json';
 import WritingCanvas from '../components/WritingCanvas';
 import SpeechPracticeModal from '../components/SpeechPracticeModal';
-import './Hiragana.css'; // Meminjam gaya grid dan kartu dari Hiragana
-import './Katakana.css';
 
 export default function Katakana() {
   const [showRomaji, setShowRomaji] = useState(true);
@@ -55,24 +53,24 @@ export default function Katakana() {
   };
 
   const renderGrid = (data, isYoon = false) => (
-    <div className={`kana-grid ${isYoon ? 'yoon-grid' : ''}`}>
+    <div className={`grid gap-4 ${isYoon ? 'grid-cols-3 md:grid-cols-3' : 'grid-cols-5 md:grid-cols-5 max-sm:grid-cols-4 max-[400px]:grid-cols-3'}`}>
       {data.map((char, index) => {
-        if (!char.kana) return <div key={`empty-${index}`} className="kana-card empty"></div>;
+        if (!char.kana) return <div key={`empty-${index}`} className="bg-transparent border-none cursor-default"></div>;
         return (
           <div 
             key={char.id} 
-            className="kana-card glass-panel" 
+            className="group flex flex-col items-center justify-center p-4 md:p-6 aspect-square transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] cursor-pointer glass-panel border border-white/5 border-t-white/10 border-l-white/10 hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(0,0,0,0.4),0_0_15px_rgba(244,63,94,0.2)] hover:border-rose-500/50"
             onClick={() => speakKana(char.kana)}
             title="Klik untuk mendengar pengucapan"
           >
-            <span className="kana-char">{char.kana}</span>
-            <span className={`kana-romaji ${showRomaji ? 'visible' : ''}`}>
+            <span className="text-4xl md:text-5xl font-medium text-text-main mb-2">{char.kana}</span>
+            <span className={`text-lg md:text-xl text-accent transition-opacity duration-300 ${showRomaji ? 'opacity-100' : 'opacity-0'}`}>
               {char.romaji}
             </span>
-            <div className="card-actions">
-              <span className="audio-icon">🔊</span>
+            <div className="flex gap-2 mt-1 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+              <span className="text-xs opacity-70">🔊</span>
               <button 
-                className="write-icon-btn" 
+                className="bg-white/10 border border-white/20 rounded-full w-8 h-8 flex items-center justify-center text-xs cursor-pointer transition-all duration-200 hover:bg-primary hover:border-primary hover:shadow-[0_0_10px_rgba(99,102,241,0.5)]" 
                 onClick={(e) => {
                   e.stopPropagation();
                   setSpeechTarget(char);
@@ -82,7 +80,7 @@ export default function Katakana() {
                 🎙️
               </button>
               <button 
-                className="write-icon-btn" 
+                className="bg-white/10 border border-white/20 rounded-full w-8 h-8 flex items-center justify-center text-xs cursor-pointer transition-all duration-200 hover:bg-primary hover:border-primary hover:shadow-[0_0_10px_rgba(99,102,241,0.5)]" 
                 onClick={(e) => {
                   e.stopPropagation();
                   setWritingChar(char.kana);
@@ -99,41 +97,32 @@ export default function Katakana() {
   );
 
   return (
-    <div className="kana-container">
-      <div className="kana-header glass-panel">
-        <h1>Katakana (カタカナ)</h1>
-        <p>Katakana digunakan untuk menulis kata serapan asing, nama, dan istilah teknis. Klik kartu untuk mendengar pengucapannya!</p>
+    <div className="flex flex-col gap-8 w-full max-w-4xl mx-auto px-4 md:px-0">
+      <div className="glass-panel p-8 text-center rounded-[20px]">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-rose-500 to-amber-500 bg-clip-text text-transparent">Katakana (カタカナ)</h1>
+        <p className="text-text-muted">Katakana digunakan untuk menulis kata serapan asing, nama, dan istilah teknis. Klik kartu untuk mendengar pengucapannya!</p>
         
         {!voicesReady && (
-          <p className="voice-warning">⚠️ Suara belum siap. Pastikan browser mendukung Text-to-Speech dan bahasa Jepang sudah terinstal di Windows.</p>
+          <p className="text-amber-500 text-sm mt-2 p-2 bg-amber-500/10 border border-amber-500/30 rounded-lg">⚠️ Suara belum siap. Pastikan browser mendukung Text-to-Speech dan bahasa Jepang sudah terinstal di Windows.</p>
         )}
 
         <button 
-          className="toggle-btn"
+          className="mt-4 bg-primary text-white border-none py-3 px-6 rounded-lg font-semibold cursor-pointer transition-all duration-300 hover:bg-primary-hover hover:-translate-y-1"
           onClick={() => setShowRomaji(!showRomaji)}
         >
           {showRomaji ? 'Sembunyikan Romaji' : 'Tampilkan Romaji'}
         </button>
 
-        <div className="kana-tabs">
-          <button 
-            className={`tab-btn ${activeTab === 'basic' ? 'active' : ''}`} 
-            onClick={() => setActiveTab('basic')}
-          >
-            Seion (Dasar)
-          </button>
-          <button 
-            className={`tab-btn ${activeTab === 'dakuon' ? 'active' : ''}`} 
-            onClick={() => setActiveTab('dakuon')}
-          >
-            Dakuon (Teng-teng/Maru)
-          </button>
-          <button 
-            className={`tab-btn ${activeTab === 'yoon' ? 'active' : ''}`} 
-            onClick={() => setActiveTab('yoon')}
-          >
-            Yōon (Kombinasi)
-          </button>
+        <div className="flex justify-center gap-4 mt-8 flex-wrap">
+          {['basic', 'dakuon', 'yoon'].map((tab) => (
+            <button 
+              key={tab}
+              className={`bg-transparent border px-5 py-2 rounded-lg font-semibold cursor-pointer transition-all duration-300 ${activeTab === tab ? 'bg-primary text-white border-primary' : 'text-text-muted border-text-muted hover:border-text-main hover:text-text-main'}`}
+              onClick={() => setActiveTab(tab)}
+            >
+              {tab === 'basic' ? 'Seion (Dasar)' : tab === 'dakuon' ? 'Dakuon (Teng-teng/Maru)' : 'Yōon (Kombinasi)'}
+            </button>
+          ))}
         </div>
       </div>
 

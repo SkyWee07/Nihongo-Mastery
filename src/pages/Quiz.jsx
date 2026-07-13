@@ -13,7 +13,6 @@ import kotobaN4 from '../data/kotobaN4.json';
 import kotobaN3 from '../data/kotobaN3.json';
 import kotobaN2 from '../data/kotobaN2.json';
 import kotobaN1 from '../data/kotobaN1.json';
-import './Quiz.css';
 
 // Flatten kana
 const buildKanaPool = (data) => [...data.basic, ...data.dakuon, ...data.yoon].filter(c => c.kana !== '');
@@ -169,69 +168,69 @@ export default function Quiz() {
 
   if (!started) {
     return (
-      <div className="quiz-container">
-        <div className="quiz-setup glass-panel">
-          <h1>🎯 Kuis Interaktif</h1>
-          <p>Uji kemampuan Kana, Kosakata, dan Kanji kamu secara acak!</p>
+      <div className="flex flex-col items-center gap-8 max-w-[700px] mx-auto w-full">
+        <div className="glass-panel p-6 md:p-12 text-center w-full">
+          <h1 className="text-3xl md:text-4xl mb-2 bg-gradient-to-r from-amber-500 to-red-500 bg-clip-text text-transparent font-bold">🎯 Kuis Interaktif</h1>
+          <p className="text-text-muted mb-8">Uji kemampuan Kana, Kosakata, dan Kanji kamu secara acak!</p>
 
-          <div className="setup-group">
-            <label>Pilih Kategori:</label>
-            <div className="setup-options">
-              <button className={`setup-btn ${category === 'kana' ? 'active' : ''}`} onClick={() => setCategory('kana')}>あ Kana</button>
-              <button className={`setup-btn ${category === 'kotoba' ? 'active' : ''}`} onClick={() => setCategory('kotoba')}>📝 Kosakata</button>
-              <button className={`setup-btn ${category === 'kanji' ? 'active' : ''}`} onClick={() => setCategory('kanji')}>漢 Kanji</button>
+          <div className="mb-6 text-left">
+            <label className="block font-semibold mb-3 text-text-main">Pilih Kategori:</label>
+            <div className="flex gap-3 flex-wrap">
+              <button className={`flex-1 min-w-[80px] bg-transparent py-2.5 px-4 rounded-xl font-semibold cursor-pointer transition-all duration-300 border ${category === 'kana' ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(99,102,241,0.4)]' : 'text-text-muted border-text-muted hover:border-text-main hover:text-text-main'}`} onClick={() => setCategory('kana')}>あ Kana</button>
+              <button className={`flex-1 min-w-[80px] bg-transparent py-2.5 px-4 rounded-xl font-semibold cursor-pointer transition-all duration-300 border ${category === 'kotoba' ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(99,102,241,0.4)]' : 'text-text-muted border-text-muted hover:border-text-main hover:text-text-main'}`} onClick={() => setCategory('kotoba')}>📝 Kosakata</button>
+              <button className={`flex-1 min-w-[80px] bg-transparent py-2.5 px-4 rounded-xl font-semibold cursor-pointer transition-all duration-300 border ${category === 'kanji' ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(99,102,241,0.4)]' : 'text-text-muted border-text-muted hover:border-text-main hover:text-text-main'}`} onClick={() => setCategory('kanji')}>漢 Kanji</button>
             </div>
           </div>
 
-          <div className="setup-group">
-            <label>Pilih Level/Materi:</label>
-            <div className="setup-options">
+          <div className="mb-6 text-left">
+            <label className="block font-semibold mb-3 text-text-main">Pilih Level/Materi:</label>
+            <div className="flex gap-3 flex-wrap">
               {category === 'kana' ? (
                 <>
-                  <button className={`setup-btn ${level === 'hiragana' ? 'active' : ''}`} onClick={() => setLevel('hiragana')}>Hiragana</button>
-                  <button className={`setup-btn ${level === 'katakana' ? 'active' : ''}`} onClick={() => setLevel('katakana')}>Katakana</button>
-                  <button className={`setup-btn ${level === 'mixed' ? 'active' : ''}`} onClick={() => setLevel('mixed')}>Campur</button>
+                  <button className={`flex-1 min-w-[80px] bg-transparent py-2.5 px-4 rounded-xl font-semibold cursor-pointer transition-all duration-300 border ${level === 'hiragana' ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(99,102,241,0.4)]' : 'text-text-muted border-text-muted hover:border-text-main hover:text-text-main'}`} onClick={() => setLevel('hiragana')}>Hiragana</button>
+                  <button className={`flex-1 min-w-[80px] bg-transparent py-2.5 px-4 rounded-xl font-semibold cursor-pointer transition-all duration-300 border ${level === 'katakana' ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(99,102,241,0.4)]' : 'text-text-muted border-text-muted hover:border-text-main hover:text-text-main'}`} onClick={() => setLevel('katakana')}>Katakana</button>
+                  <button className={`flex-1 min-w-[80px] bg-transparent py-2.5 px-4 rounded-xl font-semibold cursor-pointer transition-all duration-300 border ${level === 'mixed' ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(99,102,241,0.4)]' : 'text-text-muted border-text-muted hover:border-text-main hover:text-text-main'}`} onClick={() => setLevel('mixed')}>Campur</button>
                 </>
               ) : (
                 <>
-                  <button className={`setup-btn ${level === 'n5' ? 'active' : ''}`} onClick={() => setLevel('n5')}>JLPT N5</button>
-                  <button className={`setup-btn ${level === 'n4' ? 'active' : ''}`} onClick={() => setLevel('n4')}>JLPT N4</button>
-                  <button className={`setup-btn ${level === 'n3' ? 'active' : ''}`} onClick={() => setLevel('n3')}>JLPT N3</button>
-                  <button className={`setup-btn ${level === 'n2' ? 'active' : ''}`} onClick={() => setLevel('n2')}>JLPT N2</button>
-                  <button className={`setup-btn ${level === 'n1' ? 'active' : ''}`} onClick={() => setLevel('n1')}>JLPT N1</button>
-                  <button className={`setup-btn ${level === 'mixed' ? 'active' : ''}`} onClick={() => setLevel('mixed')}>Campur Semua</button>
+                  <button className={`flex-1 min-w-[80px] bg-transparent py-2.5 px-4 rounded-xl font-semibold cursor-pointer transition-all duration-300 border ${level === 'n5' ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(99,102,241,0.4)]' : 'text-text-muted border-text-muted hover:border-text-main hover:text-text-main'}`} onClick={() => setLevel('n5')}>JLPT N5</button>
+                  <button className={`flex-1 min-w-[80px] bg-transparent py-2.5 px-4 rounded-xl font-semibold cursor-pointer transition-all duration-300 border ${level === 'n4' ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(99,102,241,0.4)]' : 'text-text-muted border-text-muted hover:border-text-main hover:text-text-main'}`} onClick={() => setLevel('n4')}>JLPT N4</button>
+                  <button className={`flex-1 min-w-[80px] bg-transparent py-2.5 px-4 rounded-xl font-semibold cursor-pointer transition-all duration-300 border ${level === 'n3' ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(99,102,241,0.4)]' : 'text-text-muted border-text-muted hover:border-text-main hover:text-text-main'}`} onClick={() => setLevel('n3')}>JLPT N3</button>
+                  <button className={`flex-1 min-w-[80px] bg-transparent py-2.5 px-4 rounded-xl font-semibold cursor-pointer transition-all duration-300 border ${level === 'n2' ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(99,102,241,0.4)]' : 'text-text-muted border-text-muted hover:border-text-main hover:text-text-main'}`} onClick={() => setLevel('n2')}>JLPT N2</button>
+                  <button className={`flex-1 min-w-[80px] bg-transparent py-2.5 px-4 rounded-xl font-semibold cursor-pointer transition-all duration-300 border ${level === 'n1' ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(99,102,241,0.4)]' : 'text-text-muted border-text-muted hover:border-text-main hover:text-text-main'}`} onClick={() => setLevel('n1')}>JLPT N1</button>
+                  <button className={`flex-1 min-w-[80px] bg-transparent py-2.5 px-4 rounded-xl font-semibold cursor-pointer transition-all duration-300 border ${level === 'mixed' ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(99,102,241,0.4)]' : 'text-text-muted border-text-muted hover:border-text-main hover:text-text-main'}`} onClick={() => setLevel('mixed')}>Campur Semua</button>
                 </>
               )}
             </div>
           </div>
 
-          <div className="setup-group">
-            <label>Mode Kuis:</label>
-            <div className="setup-options">
+          <div className="mb-6 text-left">
+            <label className="block font-semibold mb-3 text-text-main">Mode Kuis:</label>
+            <div className="flex gap-3 flex-wrap">
               {category === 'kana' ? (
                 <>
-                  <button className={`setup-btn ${mode === 'kana-to-romaji' ? 'active' : ''}`} onClick={() => setMode('kana-to-romaji')}>Kana → Romaji</button>
-                  <button className={`setup-btn ${mode === 'romaji-to-kana' ? 'active' : ''}`} onClick={() => setMode('romaji-to-kana')}>Romaji → Kana</button>
+                  <button className={`flex-1 min-w-[80px] bg-transparent py-2.5 px-4 rounded-xl font-semibold cursor-pointer transition-all duration-300 border ${mode === 'kana-to-romaji' ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(99,102,241,0.4)]' : 'text-text-muted border-text-muted hover:border-text-main hover:text-text-main'}`} onClick={() => setMode('kana-to-romaji')}>Kana → Romaji</button>
+                  <button className={`flex-1 min-w-[80px] bg-transparent py-2.5 px-4 rounded-xl font-semibold cursor-pointer transition-all duration-300 border ${mode === 'romaji-to-kana' ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(99,102,241,0.4)]' : 'text-text-muted border-text-muted hover:border-text-main hover:text-text-main'}`} onClick={() => setMode('romaji-to-kana')}>Romaji → Kana</button>
                 </>
               ) : (
                 <>
-                  <button className={`setup-btn ${mode === 'jepang-to-arti' || mode === 'kanji-to-arti' ? 'active' : ''}`} onClick={() => setMode(category === 'kanji' ? 'kanji-to-arti' : 'jepang-to-arti')}>Jepang → Arti</button>
-                  <button className={`setup-btn ${mode === 'arti-to-jepang' || mode === 'arti-to-kanji' ? 'active' : ''}`} onClick={() => setMode(category === 'kanji' ? 'arti-to-kanji' : 'arti-to-jepang')}>Arti → Jepang</button>
+                  <button className={`flex-1 min-w-[80px] bg-transparent py-2.5 px-4 rounded-xl font-semibold cursor-pointer transition-all duration-300 border ${mode === 'jepang-to-arti' || mode === 'kanji-to-arti' ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(99,102,241,0.4)]' : 'text-text-muted border-text-muted hover:border-text-main hover:text-text-main'}`} onClick={() => setMode(category === 'kanji' ? 'kanji-to-arti' : 'jepang-to-arti')}>Jepang → Arti</button>
+                  <button className={`flex-1 min-w-[80px] bg-transparent py-2.5 px-4 rounded-xl font-semibold cursor-pointer transition-all duration-300 border ${mode === 'arti-to-jepang' || mode === 'arti-to-kanji' ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(99,102,241,0.4)]' : 'text-text-muted border-text-muted hover:border-text-main hover:text-text-main'}`} onClick={() => setMode(category === 'kanji' ? 'arti-to-kanji' : 'arti-to-jepang')}>Arti → Jepang</button>
                 </>
               )}
             </div>
           </div>
 
-          <div className="setup-group">
-            <label>Jumlah Soal:</label>
-            <div className="setup-options">
+          <div className="mb-6 text-left">
+            <label className="block font-semibold mb-3 text-text-main">Jumlah Soal:</label>
+            <div className="flex gap-3 flex-wrap">
               {[10, 20, 30, 50].map(n => (
-                <button key={n} className={`setup-btn ${questionCount === n ? 'active' : ''}`} onClick={() => setQuestionCount(n)}>{n}</button>
+                <button key={n} className={`flex-1 min-w-[80px] bg-transparent py-2.5 px-4 rounded-xl font-semibold cursor-pointer transition-all duration-300 border ${questionCount === n ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(99,102,241,0.4)]' : 'text-text-muted border-text-muted hover:border-text-main hover:text-text-main'}`} onClick={() => setQuestionCount(n)}>{n}</button>
               ))}
             </div>
           </div>
 
-          <button className="start-btn" onClick={startQuiz}>Mulai Kuis! 🚀</button>
+          <button className="mt-6 w-full md:w-auto bg-gradient-to-br from-indigo-500 to-purple-500 text-white border-none py-4 px-10 rounded-xl text-lg font-bold cursor-pointer transition-all duration-300 shadow-[0_5px_20px_rgba(99,102,241,0.4)] hover:-translate-y-1 hover:shadow-[0_8px_25px_rgba(99,102,241,0.6)]" onClick={startQuiz}>Mulai Kuis! 🚀</button>
         </div>
       </div>
     );
@@ -246,33 +245,33 @@ export default function Quiz() {
     else { grade = 'Terus Berlatih!'; emoji = '📚'; }
 
     return (
-      <div className="quiz-container">
-        <div className="quiz-result glass-panel">
-          <h1>{emoji} {grade}</h1>
-          <div className="result-score">
-            <span className="big-score">{score}/{questions.length}</span>
-            <span className="big-percent">{percentage}%</span>
+      <div className="flex flex-col items-center gap-8 max-w-[700px] mx-auto w-full">
+        <div className="glass-panel p-6 md:p-12 text-center w-full">
+          <h1 className="text-3xl md:text-4xl mb-4">{emoji} {grade}</h1>
+          <div className="flex justify-center gap-8 mb-8">
+            <span className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-green-500 to-blue-500 bg-clip-text text-transparent">{score}/{questions.length}</span>
+            <span className="text-4xl md:text-5xl font-extrabold text-text-muted">{percentage}%</span>
           </div>
 
-          <div className="result-review">
-            <h2>Rincian Jawaban:</h2>
+          <div className="text-left my-8">
+            <h2 className="text-xl mb-4 font-semibold text-text-main">Rincian Jawaban:</h2>
             {answerHistory.map((item, i) => (
-              <div key={i} className={`review-item ${item.isCorrect ? 'correct' : 'wrong'}`}>
-                <span className="review-num">#{i + 1}</span>
-                <span className="review-question">{getQuestionText(item.question)}</span>
-                <span className="review-answer">
+              <div key={i} className={`flex items-center gap-4 p-3 md:p-4 rounded-xl mb-2 flex-wrap ${item.isCorrect ? 'bg-green-500/10' : 'bg-red-500/10'}`}>
+                <span className="font-bold text-text-muted min-w-[30px]">#{i + 1}</span>
+                <span className="text-2xl min-w-[40px] text-text-main">{getQuestionText(item.question)}</span>
+                <span className="flex-1 text-text-main">
                   {item.isCorrect ? '✅' : '❌'} {getOptionText(item.selected)}
                 </span>
                 {!item.isCorrect && (
-                  <span className="review-correct">Benar: {getOptionText(item.question)}</span>
+                  <span className="w-full text-green-500 font-semibold text-sm pl-[calc(30px+40px+2rem)] md:pl-[calc(30px+40px+2rem)] pl-0 mt-1 md:mt-0">Benar: {getOptionText(item.question)}</span>
                 )}
               </div>
             ))}
           </div>
 
-          <div className="result-actions">
-            <button className="start-btn" onClick={startQuiz}>Ulangi Kuis 🔄</button>
-            <button className="setup-btn back-btn" onClick={() => setStarted(false)}>Kembali ke Menu</button>
+          <div className="flex flex-col md:flex-row gap-4 justify-center flex-wrap">
+            <button className="w-full md:w-auto bg-gradient-to-br from-indigo-500 to-purple-500 text-white border-none py-3.5 px-8 rounded-xl text-base font-bold cursor-pointer transition-all duration-300 hover:-translate-y-1 shadow-[0_5px_15px_rgba(99,102,241,0.5)]" onClick={startQuiz}>Ulangi Kuis 🔄</button>
+            <button className="w-full md:w-auto bg-transparent border border-text-muted text-text-muted py-3.5 px-8 rounded-xl text-base font-bold cursor-pointer transition-all duration-300 hover:border-text-main hover:text-text-main" onClick={() => setStarted(false)}>Kembali ke Menu</button>
           </div>
         </div>
       </div>
@@ -282,35 +281,36 @@ export default function Quiz() {
   const currentQ = questions[currentIndex];
 
   return (
-    <div className="quiz-container">
-      <div className="quiz-header glass-panel">
-        <div className="quiz-progress-info">
+    <div className="flex flex-col items-center gap-8 max-w-[700px] mx-auto w-full">
+      <div className="glass-panel w-full p-4 md:p-6">
+        <div className="flex justify-between font-semibold mb-2 text-text-main text-sm md:text-base">
           <span>Soal {currentIndex + 1} / {questions.length}</span>
           <span>Skor: {score}</span>
         </div>
-        <div className="quiz-progress-bar">
-          <div className="quiz-progress-fill" style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }}></div>
+        <div className="h-1.5 bg-white/10 rounded-full overflow-hidden">
+          <div className="h-full bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full transition-all duration-400 ease-out" style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }}></div>
         </div>
       </div>
 
-      <div className="quiz-question glass-panel">
+      <div className="glass-panel p-6 md:p-12 text-center w-full">
         <span 
-          className="question-char" 
+          className="text-[4rem] md:text-[6rem] font-medium text-text-main block mb-4 cursor-pointer relative" 
           onClick={() => (mode === 'kana-to-romaji' || mode === 'jepang-to-arti' || mode === 'kanji-to-arti') && speak(getAudioText(currentQ.correct))}
           title="Klik untuk mendengar"
         >
           {getQuestionText(currentQ.correct)}
-          {(mode === 'kana-to-romaji' || mode === 'jepang-to-arti' || mode === 'kanji-to-arti') && <span className="question-audio-hint">🔊</span>}
+          {(mode === 'kana-to-romaji' || mode === 'jepang-to-arti' || mode === 'kanji-to-arti') && <span className="text-xl absolute -bottom-1.5 right-[calc(50%-40px)] md:right-[calc(50%-60px)] opacity-50">🔊</span>}
         </span>
-        <p className="question-prompt">Pilih jawaban yang paling tepat!</p>
+        <p className="text-text-muted text-base md:text-lg">Pilih jawaban yang paling tepat!</p>
       </div>
 
-      <div className="quiz-options">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4 w-full">
         {currentQ.options.map(option => {
-          let btnClass = 'option-btn glass-panel';
+          let btnClass = 'glass-panel p-4 md:p-6 text-lg md:text-2xl font-semibold text-text-main cursor-pointer border-2 border-transparent transition-all duration-300 text-center hover:-translate-y-1 hover:border-primary hover:shadow-[0_5px_20px_rgba(99,102,241,0.3)] ';
           if (selectedAnswer) {
-            if (option.id === currentQ.correct.id) btnClass += ' correct';
-            else if (option.id === selectedAnswer.id) btnClass += ' wrong';
+            if (option.id === currentQ.correct.id) btnClass += ' border-green-500 bg-green-500/15 shadow-[0_0_20px_rgba(34,197,94,0.3)] hover:-translate-y-0 hover:border-green-500 hover:shadow-[0_0_20px_rgba(34,197,94,0.3)]';
+            else if (option.id === selectedAnswer.id) btnClass += ' border-red-500 bg-red-500/15 shadow-[0_0_20px_rgba(239,68,68,0.3)] hover:-translate-y-0 hover:border-red-500 hover:shadow-[0_0_20px_rgba(239,68,68,0.3)]';
+            else btnClass += ' hover:-translate-y-0 hover:border-transparent hover:shadow-none'; // disable hover effects for unselected wrong answers when something is selected
           }
           return (
             <button key={option.id} className={btnClass} onClick={() => handleAnswer(option)}>
@@ -321,7 +321,7 @@ export default function Quiz() {
       </div>
 
       {selectedAnswer && (
-        <button className="next-btn" onClick={nextQuestion}>
+        <button className="w-full md:w-auto bg-gradient-to-br from-indigo-500 to-purple-500 text-white border-none py-3.5 px-8 rounded-xl text-base font-bold cursor-pointer transition-all duration-300 shadow-[0_5px_15px_rgba(99,102,241,0.5)] hover:-translate-y-1" onClick={nextQuestion}>
           {currentIndex + 1 >= questions.length ? 'Lihat Hasil 📊' : 'Soal Berikutnya →'}
         </button>
       )}

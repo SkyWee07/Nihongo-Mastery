@@ -3,7 +3,6 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { getProfile } from '../services/profileService';
 import DictionaryModal from './DictionaryModal';
-import './Navbar.css';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -41,15 +40,21 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="navbar glass-panel">
-        <div className="nav-brand">
-          <Link to="/" onClick={() => setIsMenuOpen(false)}>⛩️ Nihongo Mastery</Link>
+      <nav className="flex justify-between items-center px-4 md:px-10 py-4 mx-2 md:mx-auto mt-2 md:mt-6 max-w-7xl sticky top-2 md:top-6 z-[100] bg-bg-dark/70 backdrop-blur-xl border border-white/10 rounded-full shadow-lg transition-all duration-300 hover:shadow-2xl hover:border-white/20">
+        <div className="text-xl md:text-2xl font-extrabold">
+          <Link 
+            to="/" 
+            onClick={() => setIsMenuOpen(false)}
+            className="bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent hover:opacity-80 transition-opacity"
+          >
+            ⛩️ Nihongo Mastery
+          </Link>
         </div>
         
-        <div className="nav-actions">
+        <div className="flex items-center gap-4 md:gap-6 z-[101]">
           {/* Dictionary Search Button */}
           <button 
-            className="dict-toggle-btn" 
+            className="text-2xl cursor-pointer transition-transform duration-200 text-text-main grayscale hover:grayscale-0 hover:scale-110 flex items-center justify-center p-0 bg-transparent border-none"
             onClick={() => setIsDictOpen(true)}
             title="Buka Kamus"
           >
@@ -58,49 +63,68 @@ export default function Navbar() {
 
           {/* Hamburger Toggle Button */}
           <button 
-            className="hamburger-btn" 
+            className="flex flex-col justify-between w-[30px] h-[21px] bg-transparent border-none cursor-pointer group" 
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
-            <span className={`hamburger-line ${isMenuOpen ? 'open' : ''}`}></span>
-            <span className={`hamburger-line ${isMenuOpen ? 'open' : ''}`}></span>
-            <span className={`hamburger-line ${isMenuOpen ? 'open' : ''}`}></span>
+            <span className={`w-full h-[3px] bg-text-main rounded-full transition-all duration-300 ease-in-out ${isMenuOpen ? 'translate-y-[9px] rotate-45' : ''}`}></span>
+            <span className={`w-full h-[3px] bg-text-main rounded-full transition-all duration-300 ease-in-out ${isMenuOpen ? 'opacity-0' : ''}`}></span>
+            <span className={`w-full h-[3px] bg-text-main rounded-full transition-all duration-300 ease-in-out ${isMenuOpen ? '-translate-y-[9px] -rotate-45' : ''}`}></span>
           </button>
         </div>
 
         {/* Flyout Menu */}
-        <div className={`nav-links-container ${isMenuOpen ? 'active' : ''} glass-panel`}>
-          <div className="nav-links">
-            <Link to="/learn" onClick={() => setIsMenuOpen(false)}>🗺️ Roadmap</Link>
-            <Link to="/hiragana" onClick={() => setIsMenuOpen(false)}>あ Hiragana</Link>
-            <Link to="/katakana" onClick={() => setIsMenuOpen(false)}>カ Katakana</Link>
-            <Link to="/quiz" onClick={() => setIsMenuOpen(false)}>🎯 Kuis Kana</Link>
-            <Link to="/kotoba/n5" onClick={() => setIsMenuOpen(false)}>📖 Kotoba N5</Link>
-            <Link to="/bunpo/n5" onClick={() => setIsMenuOpen(false)}>✏️ Bunpo N5</Link>
-            <Link to="/kanji/n5" onClick={() => setIsMenuOpen(false)}>漢 Kanji N5</Link>
-            <Link to="/video" onClick={() => setIsMenuOpen(false)}>🎬 Video</Link>
-            <Link to="/game" onClick={() => setIsMenuOpen(false)}>🎮 Smart Game</Link>
-            <Link to="/leaderboard" onClick={() => setIsMenuOpen(false)}>🏆 Papan Peringkat</Link>
+        <div className={`absolute top-[calc(100%+15px)] right-0 p-6 rounded-2xl min-w-[250px] shadow-[0_10px_30px_rgba(0,0,0,0.5)] transition-all duration-300 ease-in-out bg-[#0f172a]/95 backdrop-blur-[24px] border border-white/10 ${isMenuOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-4'}`}>
+          <div className="flex flex-col gap-2">
+            {[
+              { to: '/learn', label: '🗺️ Roadmap' },
+              { to: '/hiragana', label: 'あ Hiragana' },
+              { to: '/katakana', label: 'カ Katakana' },
+              { to: '/quiz', label: '🎯 Kuis Kana' },
+              { to: '/kotoba/n5', label: '📖 Kotoba N5' },
+              { to: '/bunpo/n5', label: '✏️ Bunpo N5' },
+              { to: '/kanji/n5', label: '漢 Kanji N5' },
+              { to: '/video', label: '🎬 Video' },
+              { to: '/game', label: '🎮 Smart Game' },
+              { to: '/leaderboard', label: '🏆 Papan Peringkat' },
+            ].map((link) => (
+              <Link 
+                key={link.to}
+                to={link.to} 
+                onClick={() => setIsMenuOpen(false)}
+                className="text-text-muted font-medium px-4 py-3 rounded-lg transition-all duration-300 hover:text-text-main hover:bg-white/5 hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]"
+              >
+                {link.label}
+              </Link>
+            ))}
             
-            <div className="nav-divider"></div>
+            <div className="h-px bg-white/10 my-2"></div>
             
             {user ? (
-              <div className="nav-auth-section">
-                <Link to="/profile" className="nav-user-email" onClick={() => setIsMenuOpen(false)}>
+              <div className="flex flex-col gap-2">
+                <Link 
+                  to="/profile" 
+                  onClick={() => setIsMenuOpen(false)}
+                  className="text-text-muted font-medium px-4 py-3 rounded-lg flex items-center gap-2 truncate hover:text-text-main hover:bg-white/5"
+                >
                   {profile?.avatar_url || '👤'} {profile?.username || user.email?.split('@')[0]}
                 </Link>
                 <button 
-                  className="nav-btn nav-logout-btn" 
                   onClick={() => {
                     handleLogout();
                     setIsMenuOpen(false);
                   }}
+                  className="mt-2 w-full px-4 py-3 rounded-xl border-2 border-danger/50 text-danger bg-transparent font-bold cursor-pointer transition-all duration-300 hover:bg-danger/10 hover:shadow-[0_0_15px_rgba(239,68,68,0.3)] hover:-translate-y-1"
                 >
                   Logout
                 </button>
               </div>
             ) : (
-              <Link to="/auth" className="nav-btn nav-login-btn" onClick={() => setIsMenuOpen(false)}>
+              <Link 
+                to="/auth" 
+                onClick={() => setIsMenuOpen(false)}
+                className="mt-2 text-center w-full px-4 py-3 rounded-xl border-none bg-gradient-to-r from-primary to-purple-500 text-white font-bold cursor-pointer transition-all duration-300 shadow-[0_4px_15px_rgba(99,102,241,0.4)] hover:-translate-y-1 hover:shadow-[0_6px_25px_rgba(99,102,241,0.6)]"
+              >
                 🔐 Login
               </Link>
             )}

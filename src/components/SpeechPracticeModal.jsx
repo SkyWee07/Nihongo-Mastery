@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from 'react';
-import './SpeechPracticeModal.css';
 
 export default function SpeechPracticeModal({ isOpen, onClose, targetText, targetReading, type }) {
   const [isListening, setIsListening] = useState(false);
@@ -18,7 +17,6 @@ export default function SpeechPracticeModal({ isOpen, onClose, targetText, targe
       return;
     }
 
-    // Inisialisasi Web Speech API
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (SpeechRecognition) {
       const recognition = new SpeechRecognition();
@@ -55,9 +53,6 @@ export default function SpeechPracticeModal({ isOpen, onClose, targetText, targe
     }
   }, [isOpen]);
 
-  // Evaluasi ketika transcript berubah dan tidak lagi listening (atau kita bisa pasang tombol Cek)
-  // Tapi lebih aman evaluasi manual lewat tombol atau saat onend.
-  
   const toggleListening = () => {
     if (!recognitionRef.current) return;
 
@@ -71,11 +66,8 @@ export default function SpeechPracticeModal({ isOpen, onClose, targetText, targe
   const evaluateSpeech = () => {
     if (!transcript) return;
     
-    // Normalisasi teks (hapus spasi, ubah ke hiragana jika perlu, tapi SpeechRecognition JP biasanya menghasilkan Kanji/Kana campuran)
-    // Evaluasi sederhana: Jika transcript mengandung target reading ATAU target text
     const cleanTranscript = transcript.replace(/\s+/g, '').toLowerCase();
     
-    // Memecah targetReading jika formatnya "onyomi / kunyomi"
     const validReadings = targetReading ? targetReading.split('/').map(r => r.trim().replace(/[-\s]/g, '').toLowerCase()) : [];
     
     let isCorrect = false;
@@ -98,43 +90,43 @@ export default function SpeechPracticeModal({ isOpen, onClose, targetText, targe
   if (!isOpen) return null;
 
   return (
-    <div className="speech-overlay" onClick={onClose}>
-      <div className="speech-modal glass-panel" onClick={e => e.stopPropagation()}>
-        <button className="speech-close-btn" onClick={onClose}>&times;</button>
+    <div className="fixed inset-0 bg-slate-900/85 backdrop-blur-sm z-[2000] flex justify-center items-center animate-[fadeIn_0.3s_ease-out_forwards]" onClick={onClose}>
+      <div className="w-[90%] max-w-[500px] p-10 rounded-3xl relative text-center flex flex-col gap-6 shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] border border-white/10 bg-gradient-to-br from-slate-800/95 to-slate-900/95 animate-[scaleUp_0.4s_cubic-bezier(0.175,0.885,0.32,1.275)_forwards]" onClick={e => e.stopPropagation()}>
+        <button className="absolute top-4 right-6 bg-transparent border-none text-4xl text-text-muted cursor-pointer transition-colors duration-200 hover:text-red-500" onClick={onClose}>&times;</button>
         
-        <h2>Latihan Pengucapan 🎙️</h2>
-        <p className="speech-target-label">Ucapkan kata berikut:</p>
+        <h2 className="m-0 text-white text-3xl font-bold">Latihan Pengucapan 🎙️</h2>
+        <p className="text-slate-400 m-0 text-base">Ucapkan kata berikut:</p>
         
-        <div className="speech-target-card">
-          <h1 className="speech-target-text">{targetText}</h1>
-          {targetReading && <p className="speech-target-reading">{targetReading}</p>}
+        <div className="bg-white/5 p-8 rounded-2xl border border-purple-500/30">
+          <h1 className="text-6xl md:text-7xl m-0 text-white drop-shadow-[0_0_20px_rgba(139,92,246,0.4)]">{targetText}</h1>
+          {targetReading && <p className="text-xl text-purple-300 mt-4 mb-0">{targetReading}</p>}
         </div>
 
-        <div className="speech-controls">
+        <div className="flex justify-center">
           <button 
-            className={`mic-btn ${isListening ? 'listening' : ''}`}
+            className={`text-white border-none px-8 py-4 rounded-full text-lg font-semibold cursor-pointer transition-all duration-300 shadow-[0_4px_15px_rgba(99,102,241,0.4)] ${isListening ? 'bg-gradient-to-br from-red-500 to-rose-500 animate-[pulse-mic_1.5s_infinite] shadow-[0_0_20px_rgba(239,68,68,0.6)]' : 'bg-gradient-to-br from-indigo-500 to-purple-500 hover:-translate-y-1 hover:shadow-[0_6px_20px_rgba(99,102,241,0.6)]'}`}
             onClick={toggleListening}
           >
             {isListening ? '🛑 Berhenti Mendengar' : '🎤 Mulai Bicara'}
           </button>
         </div>
 
-        <div className="speech-transcript-area">
-          <p className="transcript-label">Terdengar sebagai:</p>
-          <div className="transcript-box">
-            {transcript || <span className="transcript-placeholder">Menunggu suara Anda...</span>}
+        <div className="text-left mt-2">
+          <p className="text-slate-400 text-sm mb-2">Terdengar sebagai:</p>
+          <div className="bg-black/30 min-h-[3rem] p-4 rounded-xl border border-white/10 text-white text-xl flex items-center">
+            {transcript || <span className="text-slate-500 italic text-base">Menunggu suara Anda...</span>}
           </div>
         </div>
 
         {feedback === 'correct' && (
-          <div className="speech-feedback correct">
-            <span className="feedback-icon">✅</span> Sempurna! Pengucapan Anda akurat.
+          <div className="bg-emerald-500/20 text-emerald-400 p-4 rounded-xl border border-emerald-500/30 font-medium animate-[fadeIn_0.3s_ease-out] flex items-center justify-center gap-3">
+            <span className="text-2xl">✅</span> Sempurna! Pengucapan Anda akurat.
           </div>
         )}
         
         {feedback === 'wrong' && (
-          <div className="speech-feedback wrong">
-            <span className="feedback-icon">❌</span> Belum tepat. Coba ucapkan lebih jelas.
+          <div className="bg-rose-500/20 text-rose-400 p-4 rounded-xl border border-rose-500/30 font-medium animate-[fadeIn_0.3s_ease-out] flex items-center justify-center gap-3">
+            <span className="text-2xl">❌</span> Belum tepat. Coba ucapkan lebih jelas.
           </div>
         )}
 

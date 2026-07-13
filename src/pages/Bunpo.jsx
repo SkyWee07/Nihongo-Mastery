@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { getMasteredItems, toggleMasteredItem } from '../services/progressService';
-import './Bunpo.css';
 
 import bunpoN5 from '../data/bunpoN5.json';
 import bunpoN4 from '../data/bunpoN4.json';
@@ -125,85 +124,92 @@ export default function Bunpo() {
   };
 
   return (
-    <div className="bunpo-container">
-      <div className="bunpo-header glass-panel">
-        <h1>Tata Bahasa (Bunpō) {level.toUpperCase()}</h1>
-        <p>Pola tata bahasa untuk menyusun kalimat JLPT {level.toUpperCase()}.</p>
-        <div className="search-bar">
+    <div className="flex flex-col gap-8 max-w-[900px] mx-auto w-full">
+      <div className="glass-panel p-8 text-center rounded-2xl">
+        <h1 className="text-3xl md:text-4xl font-extrabold mb-2 bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
+          Tata Bahasa (Bunpō) {level.toUpperCase()}
+        </h1>
+        <p className="text-text-muted text-base mb-6">
+          Pola tata bahasa untuk menyusun kalimat JLPT {level.toUpperCase()}.
+        </p>
+        <div className="max-w-[500px] mx-auto">
           <input 
             type="text" 
             placeholder="Cari pola, arti, atau penjelasan..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
+            className="w-full bg-slate-900/60 border border-white/10 text-text-main py-3 px-4 rounded-xl focus:outline-none focus:border-purple-500 transition-colors"
           />
         </div>
       </div>
 
       {loading ? (
-        <div className="loading">Memuat data...</div>
+        <div className="text-center p-8 text-text-muted text-lg animate-pulse">Memuat data...</div>
       ) : (
         <>
-          <div className="bunpo-list">
+          <div className="flex flex-col gap-6">
             {currentData.map(bunpo => {
               const isMastered = masteredIds.has(bunpo.id);
               return (
-              <div key={bunpo.id} className={`bunpo-card glass-panel ${isMastered ? 'mastered' : ''}`}>
+              <div key={bunpo.id} className={`glass-panel p-6 md:p-8 flex flex-col gap-6 relative transition-colors duration-300 ${isMastered ? 'border-emerald-400 bg-emerald-500/5' : ''}`}>
                 <button 
-                  className={`mastered-btn ${isMastered ? 'active' : ''}`}
+                  className={`absolute top-4 right-4 py-1.5 px-3 rounded-lg text-xs font-medium cursor-pointer transition-all duration-200 z-10 ${isMastered ? 'bg-emerald-500/20 border border-emerald-400 text-emerald-400 hover:bg-emerald-500/30' : 'bg-white/10 border border-white/20 text-text-muted hover:bg-white/20'}`}
                   onClick={() => handleToggleMaster(bunpo.id)}
                   title={isMastered ? "Batal tandai" : "Tandai sudah dikuasai"}
                 >
                   {isMastered ? '✅ Dikuasai' : '⬜ Tandai'}
                 </button>
-                <div className="bunpo-card-header">
-                  <h2 className="bunpo-pattern">{bunpo.pattern}</h2>
-                  <span className="bunpo-arti">{bunpo.arti}</span>
+                <div className="flex items-baseline gap-4 border-b border-white/10 pb-4 flex-wrap pr-24">
+                  <h2 className="text-2xl md:text-[2rem] text-text-main m-0 font-bold">{bunpo.pattern}</h2>
+                  <span className="text-lg md:text-[1.2rem] text-pink-500 font-medium">{bunpo.arti}</span>
                 </div>
-                <div className="bunpo-penjelasan">
+                <div className="text-text-muted text-base md:text-[1.1rem] leading-relaxed">
                   <p>{bunpo.penjelasan}</p>
                 </div>
                 
-                <div className="bunpo-contoh-list">
-                  <h3>Contoh Kalimat:</h3>
-                  {bunpo.contoh.map((c, idx) => (
-                    <div key={idx} className="contoh-item">
-                      <div className="contoh-jp">
-                        <span>{c.jp}</span>
-                        <button 
-                          className="play-audio-btn" 
-                          onClick={() => speak(c.jp)}
-                          title="Dengarkan"
-                        >
-                          🔊
-                        </button>
+                <div className="mt-2">
+                  <h3 className="text-[1.1rem] text-text-main mb-4 font-semibold">Contoh Kalimat:</h3>
+                  <div className="flex flex-col gap-4">
+                    {bunpo.contoh.map((c, idx) => (
+                      <div key={idx} className="bg-black/20 p-4 rounded-xl border-l-4 border-purple-500">
+                        <div className="text-xl md:text-[1.3rem] text-text-main mb-1.5 flex items-center gap-2.5 font-medium">
+                          <span>{c.jp}</span>
+                          <button 
+                            className="bg-transparent border-none cursor-pointer text-base opacity-70 hover:opacity-100 hover:scale-110 transition-all" 
+                            onClick={() => speak(c.jp)}
+                            title="Dengarkan"
+                          >
+                            🔊
+                          </button>
+                        </div>
+                        <div className="text-[0.95rem] text-text-muted italic mb-1.5">{c.id}</div>
+                        <div className="text-base text-purple-300 font-medium">{c.id_arti}</div>
                       </div>
-                      <div className="contoh-romaji">{c.id}</div>
-                      <div className="contoh-arti-id">{c.id_arti}</div>
-                    </div>
-                  ))}
+                    ))}
+                  </div>
                 </div>
               </div>
               );
             })}
             {filteredData.length === 0 && (
-              <div className="no-results">Tidak ada tata bahasa yang cocok.</div>
+              <div className="text-center p-8 text-text-muted italic bg-black/20 rounded-xl">Tidak ada tata bahasa yang cocok.</div>
             )}
           </div>
 
           {totalPages > 1 && (
-            <div className="pagination">
+            <div className="flex justify-center items-center gap-4 mt-12 p-4">
               <button 
                 onClick={() => handlePageChange(currentPage - 1)} 
                 disabled={currentPage === 1}
-                className="page-btn"
+                className="bg-purple-500/20 border border-purple-500/50 text-purple-300 py-2 px-4 rounded-lg font-semibold cursor-pointer transition-all duration-300 hover:bg-purple-500 hover:text-white hover:-translate-y-0.5 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-purple-500/20 disabled:hover:translate-y-0 disabled:hover:text-purple-300"
               >
                 &laquo; Prev
               </button>
-              <span className="page-info">Halaman {currentPage} dari {totalPages}</span>
+              <span className="text-[0.9rem] text-text-muted bg-black/30 py-2 px-4 rounded-full">Halaman {currentPage} dari {totalPages}</span>
               <button 
                 onClick={() => handlePageChange(currentPage + 1)} 
                 disabled={currentPage === totalPages}
-                className="page-btn"
+                className="bg-purple-500/20 border border-purple-500/50 text-purple-300 py-2 px-4 rounded-lg font-semibold cursor-pointer transition-all duration-300 hover:bg-purple-500 hover:text-white hover:-translate-y-0.5 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-purple-500/20 disabled:hover:translate-y-0 disabled:hover:text-purple-300"
               >
                 Next &raquo;
               </button>
