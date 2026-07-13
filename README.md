@@ -63,5 +63,9 @@ Kami sangat terbuka dengan segala bentuk kontribusi! Jika Anda memiliki ide mate
 
 Proyek ini didistribusikan di bawah lisensi MIT. Silakan gunakan untuk keperluan pribadi maupun pembelajaran.
 
+
+## Support 
+If you enjoy what I do, consider supporting me! Every little bit means the world! https://ko-fi.com/skywee
+
 ---
 *Dibuat dengan ❤️ untuk mempermudah perjalanan belajar bahasa Jepang Anda.*
