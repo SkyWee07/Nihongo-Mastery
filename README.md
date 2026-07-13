@@ -9,13 +9,15 @@
 ## ✨ Fitur Utama
 
 - **📝 Hiragana & Katakana Mastery**: Pelajari huruf dasar bahasa Jepang yang dilengkapi dengan simulasi kanvas *stroke order* (urutan coretan) animasi.
-- **📚 JLPT N5 - N3 Terintegrasi**: 
-  - **Kotoba (Kosakata)**: Ribuan kosakata penting untuk persiapan JLPT N5 hingga N3.
+- **📚 JLPT N5 - N1 Terintegrasi**: 
+  - **Kotoba (Kosakata)**: Ribuan kosakata penting untuk persiapan JLPT N5 hingga N1.
   - **Bunpo (Tata Bahasa)**: Penjelasan pola kalimat bahasa Jepang yang mudah dipahami beserta contohnya.
-  - **Kanji**: Panduan membaca Kanji (Onyomi & Kunyomi) lengkap dengan arti dan fitur Latihan Menulis interaktif langsung di *browser* Anda.
+  - **Kanji**: Panduan membaca Kanji (Onyomi & Kunyomi) lengkap dengan arti dan fitur Latihan Menulis interaktif.
+- **🗣️ Audio & Speech Practice (AI)**: Dengarkan pelafalan *native* Jepang yang akurat (Text-to-Speech) dan latih pengucapan Anda dengan fitur **Speech Practice Modal** yang mendeteksi dan mengevaluasi keakuratan suara Anda (*Speech Recognition*).
 - **🎯 Kuis Interaktif Dinamis**: Uji seberapa jauh pemahaman Anda dengan sistem kuis cerdas. Evaluasi skor Anda untuk Kotoba, Kanji, maupun huruf Kana dalam berbagai mode.
 - **🎬 Video Pembelajaran Terkurasi**: Nikmati kurasi video pembelajaran YouTube terbaik yang telah dikelompokkan berdasarkan tingkat kesulitan dan topiknya (Tata Bahasa, JLPT Tips, Budaya, dll).
-- **🎨 UI/UX Premium (Glassmorphism)**: Tampilan visual modern bertemakan *dark mode* dengan nuansa *glassmorphism* untuk pengalaman belajar yang menenangkan dan fokus.
+- **🎨 Premium UI/UX (Glassmorphism & Micro-animations)**: Tampilan visual modern bertemakan *dark mode* dengan nuansa *glassmorphism* tingkat lanjut. Menggunakan animasi mulus, pencahayaan *glow*, dan interaksi UX yang sangat memanjakan mata untuk durasi belajar yang lama.
+- **📖 Kamus Pintar Bawaan**: Modul pencarian kosakata instan terintegrasi dengan gaya *slide-down* elegan untuk pencarian referensi kata yang cepat kapan saja.
 
 ## 🛠️ Teknologi yang Digunakan
 
