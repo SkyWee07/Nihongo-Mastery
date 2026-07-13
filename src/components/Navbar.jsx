@@ -40,7 +40,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="flex justify-between items-center px-4 md:px-10 py-4 mx-2 md:mx-auto mt-2 md:mt-6 max-w-7xl sticky top-2 md:top-6 z-[100] bg-bg-dark/70 backdrop-blur-xl border border-white/10 rounded-full shadow-lg transition-all duration-300 hover:shadow-2xl hover:border-white/20">
+      <nav className="flex justify-between items-center px-4 md:px-8 py-3 md:py-4 mx-auto mt-2 md:mt-6 w-[calc(100%-1rem)] md:w-[calc(100%-2rem)] max-w-7xl sticky top-2 md:top-6 z-[100] bg-bg-dark/70 backdrop-blur-xl border border-white/10 rounded-full shadow-lg transition-all duration-300 hover:shadow-2xl hover:border-white/20">
         <div className="text-xl md:text-2xl font-extrabold">
           <Link 
             to="/" 
