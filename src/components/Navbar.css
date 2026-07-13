@@ -110,6 +110,9 @@
   transition: all 0.3s ease;
   min-width: 250px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  background: rgba(15, 23, 42, 0.95) !important;
+  backdrop-filter: blur(24px) !important;
+  -webkit-backdrop-filter: blur(24px) !important;
 }
 
 .nav-links-container.active {
