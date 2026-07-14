@@ -5,18 +5,16 @@ import { getMasteredItems, toggleMasteredItem } from '../services/progressServic
 import WritingCanvas from '../components/WritingCanvas';
 import SpeechPracticeModal from '../components/SpeechPracticeModal';
 
-import kanjiN5 from '../data/kanjiN5.json';
-import kanjiN4 from '../data/kanjiN4.json';
-import kanjiN3 from '../data/kanjiN3.json';
-import kanjiN2 from '../data/kanjiN2.json';
-import kanjiN1 from '../data/kanjiN1.json';
-
-const kanjiDataMap = {
-  n5: kanjiN5,
-  n4: kanjiN4,
-  n3: kanjiN3,
-  n2: kanjiN2,
-  n1: kanjiN1
+// Dynamic imports to reduce initial bundle size
+const loadKanjiData = async (level) => {
+  switch (level.toLowerCase()) {
+    case 'n5': return (await import('../data/kanjiN5.json')).default;
+    case 'n4': return (await import('../data/kanjiN4.json')).default;
+    case 'n3': return (await import('../data/kanjiN3.json')).default;
+    case 'n2': return (await import('../data/kanjiN2.json')).default;
+    case 'n1': return (await import('../data/kanjiN1.json')).default;
+    default: return [];
+  }
 };
 
 export default function Kanji() {
@@ -80,7 +78,13 @@ export default function Kanji() {
 
     const fetchData = async () => {
       setLoading(true);
-      setData(kanjiDataMap[level.toLowerCase()] || []);
+      try {
+        const kanjiData = await loadKanjiData(level);
+        setData(kanjiData);
+      } catch (err) {
+        console.error("Failed to load kanji data", err);
+        setData([]);
+      }
       
       if (user) {
         try {

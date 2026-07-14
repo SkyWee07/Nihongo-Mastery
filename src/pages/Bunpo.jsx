@@ -3,18 +3,16 @@ import { useParams, Navigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { getMasteredItems, toggleMasteredItem } from '../services/progressService';
 
-import bunpoN5 from '../data/bunpoN5.json';
-import bunpoN4 from '../data/bunpoN4.json';
-import bunpoN3 from '../data/bunpoN3.json';
-import bunpoN2 from '../data/bunpoN2.json';
-import bunpoN1 from '../data/bunpoN1.json';
-
-const bunpoDataMap = {
-  n5: bunpoN5,
-  n4: bunpoN4,
-  n3: bunpoN3,
-  n2: bunpoN2,
-  n1: bunpoN1
+// Dynamic imports to reduce initial bundle size
+const loadBunpoData = async (level) => {
+  switch (level.toLowerCase()) {
+    case 'n5': return (await import('../data/bunpoN5.json')).default;
+    case 'n4': return (await import('../data/bunpoN4.json')).default;
+    case 'n3': return (await import('../data/bunpoN3.json')).default;
+    case 'n2': return (await import('../data/bunpoN2.json')).default;
+    case 'n1': return (await import('../data/bunpoN1.json')).default;
+    default: return [];
+  }
 };
 
 export default function Bunpo() {
@@ -31,7 +29,13 @@ export default function Bunpo() {
 
     const fetchData = async () => {
       setLoading(true);
-      setData(bunpoDataMap[level.toLowerCase()] || []);
+      try {
+        const bunpoData = await loadBunpoData(level);
+        setData(bunpoData);
+      } catch (err) {
+        console.error("Failed to load bunpo data", err);
+        setData([]);
+      }
       
       if (user) {
         try {

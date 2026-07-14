@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, memo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { getVideos, addVideo, updateVideo, deleteVideo } from '../services/videoService';
@@ -38,6 +38,69 @@ const extractYouTubeId = (url) => {
   const match = url.match(regExp);
   return (match && match[2].length === 11) ? match[2] : null;
 };
+
+// Memoized Video Card component for better performance
+const VideoCard = memo(({ video, index, onOpen, onEdit, onDelete, user, categoryColors, categoryLabels }) => (
+  <article
+    className="glass-panel cursor-pointer overflow-hidden transition-all duration-300 animate-[videoCardIn_0.5s_cubic-bezier(0.16,1,0.3,1)_both] hover:-translate-y-1.5 hover:scale-[1.015] hover:shadow-[0_12px_40px_rgba(99,102,241,0.18)] hover:border-indigo-500/20 group"
+    onClick={() => onOpen(video)}
+    style={{ animationDelay: `${index * 0.06}s` }}
+  >
+    <div className="relative w-full aspect-video overflow-hidden bg-slate-900/50 video-card-thumb">
+      <img
+        src={`https://img.youtube.com/vi/${video.youtube_id}/hqdefault.jpg`}
+        alt={video.title}
+        loading="lazy"
+        className="w-full h-full object-cover block transition-all duration-400 group-hover:scale-[1.06] group-hover:brightness-75"
+      />
+      <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 z-10 group-hover:opacity-100">
+        <div className="video-play-btn w-12 h-12 md:w-14 md:h-14 rounded-full bg-indigo-500/85 backdrop-blur-md flex items-center justify-center text-white shadow-[0_6px_24px_rgba(99,102,241,0.4)] transition-all duration-300 pl-[3px]">
+          <svg viewBox="0 0 24 24" fill="currentColor" className="w-[22px] h-[22px] md:w-7 md:h-7">
+            <path d="M8 5v14l11-7z" />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div className="p-4 md:p-5 flex flex-col gap-2">
+      <div className="flex items-center gap-2">
+        <span
+          className="text-[0.72rem] font-semibold py-[3px] px-2.5 rounded-full border uppercase tracking-wider"
+          style={{ 
+            background: categoryColors[video.category] + '22', 
+            color: categoryColors[video.category] || '#94A3B8', 
+            borderColor: categoryColors[video.category] + '44' 
+          }}
+        >
+          {categoryLabels[video.category] || video.category}
+        </span>
+        {video.profiles && (
+          <span className="text-[0.75rem] text-slate-400 bg-slate-400/10 py-[3px] px-2 rounded-full">👤 {video.profiles.username}</span>
+        )}
+      </div>
+      <h3 className="text-[0.92rem] md:text-base font-bold text-text-main leading-tight line-clamp-2">{video.title}</h3>
+      <p className="text-[0.8rem] md:text-[0.85rem] text-text-muted leading-relaxed line-clamp-2">{video.description}</p>
+      
+      {user && (
+        <div className="flex gap-2 mt-4 pt-3 border-t border-white/5" onClick={(e) => e.stopPropagation()}>
+          <button 
+            className="flex-1 py-1.5 px-2 rounded-md text-xs font-medium cursor-pointer border border-transparent transition-all duration-200 bg-white/5 text-text-muted hover:-translate-y-0.5 hover:bg-blue-500/20 hover:text-blue-400 hover:border-blue-500/40"
+            onClick={() => onEdit(video)}
+            title="Edit Video"
+          >
+            ✏️ Edit
+          </button>
+          <button 
+            className="flex-1 py-1.5 px-2 rounded-md text-xs font-medium cursor-pointer border border-transparent transition-all duration-200 bg-white/5 text-text-muted hover:-translate-y-0.5 hover:bg-red-500/20 hover:text-red-400 hover:border-red-500/40"
+            onClick={() => onDelete(video.id)}
+            title="Hapus Video"
+          >
+            🗑️ Hapus
+          </button>
+        </div>
+      )}
+    </div>
+  </article>
+));
 
 export default function Video() {
   const { level } = useParams();
@@ -285,67 +348,17 @@ export default function Video() {
           <>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
               {videos.map((video, index) => (
-                <article
-                  key={video.id}
-                  className="glass-panel cursor-pointer overflow-hidden transition-all duration-300 animate-[videoCardIn_0.5s_cubic-bezier(0.16,1,0.3,1)_both] hover:-translate-y-1.5 hover:scale-[1.015] hover:shadow-[0_12px_40px_rgba(99,102,241,0.18)] hover:border-indigo-500/20 group"
-                  onClick={() => openModal(video)}
-                  style={{ animationDelay: `${index * 0.06}s` }}
-                >
-                  <div className="relative w-full aspect-video overflow-hidden bg-slate-900/50 video-card-thumb">
-                    <img
-                      src={`https://img.youtube.com/vi/${video.youtube_id}/hqdefault.jpg`}
-                      alt={video.title}
-                      loading="lazy"
-                      className="w-full h-full object-cover block transition-all duration-400 group-hover:scale-[1.06] group-hover:brightness-75"
-                    />
-                    <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 z-10 group-hover:opacity-100">
-                      <div className="video-play-btn w-12 h-12 md:w-14 md:h-14 rounded-full bg-indigo-500/85 backdrop-blur-md flex items-center justify-center text-white shadow-[0_6px_24px_rgba(99,102,241,0.4)] transition-all duration-300 pl-[3px]">
-                        <svg viewBox="0 0 24 24" fill="currentColor" className="w-[22px] h-[22px] md:w-7 md:h-7">
-                          <path d="M8 5v14l11-7z" />
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="p-4 md:p-5 flex flex-col gap-2">
-                    <div className="flex items-center gap-2">
-                      <span
-                        className="text-[0.72rem] font-semibold py-[3px] px-2.5 rounded-full border uppercase tracking-wider"
-                        style={{ 
-                          background: categoryColors[video.category] + '22', 
-                          color: categoryColors[video.category] || '#94A3B8', 
-                          borderColor: categoryColors[video.category] + '44' 
-                        }}
-                      >
-                        {categoryLabels[video.category] || video.category}
-                      </span>
-                      {video.profiles && (
-                        <span className="text-[0.75rem] text-slate-400 bg-slate-400/10 py-[3px] px-2 rounded-full">👤 {video.profiles.username}</span>
-                      )}
-                    </div>
-                    <h3 className="text-[0.92rem] md:text-base font-bold text-text-main leading-tight line-clamp-2">{video.title}</h3>
-                    <p className="text-[0.8rem] md:text-[0.85rem] text-text-muted leading-relaxed line-clamp-2">{video.description}</p>
-                    
-                    {/* Admin/User Edit Actions */}
-                    {user && (
-                      <div className="flex gap-2 mt-4 pt-3 border-t border-white/5" onClick={(e) => e.stopPropagation()}>
-                        <button 
-                          className="flex-1 py-1.5 px-2 rounded-md text-xs font-medium cursor-pointer border border-transparent transition-all duration-200 bg-white/5 text-text-muted hover:-translate-y-0.5 hover:bg-blue-500/20 hover:text-blue-400 hover:border-blue-500/40"
-                          onClick={() => openEditForm(video)}
-                          title="Edit Video"
-                        >
-                          ✏️ Edit
-                        </button>
-                        <button 
-                          className="flex-1 py-1.5 px-2 rounded-md text-xs font-medium cursor-pointer border border-transparent transition-all duration-200 bg-white/5 text-text-muted hover:-translate-y-0.5 hover:bg-red-500/20 hover:text-red-400 hover:border-red-500/40"
-                          onClick={() => handleDeleteVideo(video.id)}
-                          title="Hapus Video"
-                        >
-                          🗑️ Hapus
-                        </button>
-                      </div>
-                    )}
-                  </div>
-                </article>
+                <VideoCard 
+                  key={video.id} 
+                  video={video} 
+                  index={index} 
+                  onOpen={openModal} 
+                  onEdit={openEditForm} 
+                  onDelete={handleDeleteVideo}
+                  user={user}
+                  categoryColors={categoryColors}
+                  categoryLabels={categoryLabels}
+                />
               ))}
             </div>
 

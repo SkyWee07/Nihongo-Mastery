@@ -4,26 +4,16 @@ import { useAuth } from '../contexts/AuthContext';
 import { getMasteredItems, toggleMasteredItem } from '../services/progressService';
 import SpeechPracticeModal from '../components/SpeechPracticeModal';
 
-import kotobaN5 from '../data/kotobaN5.json';
-import kotobaN4 from '../data/kotobaN4.json';
-import kotobaN3 from '../data/kotobaN3.json';
-import kotobaN2 from '../data/kotobaN2.json';
-import kotobaN1 from '../data/kotobaN1.json';
-
-const levelMap = {
-  n5: { title: 'Kotoba (Kosakata) N5', desc: 'Kosakata dasar JLPT N5', data: kotobaN5 },
-  n4: { title: 'Kotoba (Kosakata) N4', desc: 'Kosakata lanjutan JLPT N4', data: kotobaN4 },
-  n3: { title: 'Kotoba (Kosakata) N3', desc: 'Kosakata menengah JLPT N3', data: kotobaN3 },
-  n2: { title: 'Kotoba (Kosakata) N2', desc: 'Kosakata bisnis JLPT N2', data: kotobaN2 },
-  n1: { title: 'Kotoba (Kosakata) N1', desc: 'Kosakata native JLPT N1', data: kotobaN1 }
-};
-
-const kotobaDataMap = {
-  n5: kotobaN5,
-  n4: kotobaN4,
-  n3: kotobaN3,
-  n2: kotobaN2,
-  n1: kotobaN1
+// Dynamic imports to reduce initial bundle size
+const loadKotobaData = async (level) => {
+  switch (level.toLowerCase()) {
+    case 'n5': return (await import('../data/kotobaN5.json')).default;
+    case 'n4': return (await import('../data/kotobaN4.json')).default;
+    case 'n3': return (await import('../data/kotobaN3.json')).default;
+    case 'n2': return (await import('../data/kotobaN2.json')).default;
+    case 'n1': return (await import('../data/kotobaN1.json')).default;
+    default: return [];
+  }
 };
 
 export default function Kotoba() {
@@ -84,7 +74,13 @@ export default function Kotoba() {
 
     const fetchData = async () => {
       setLoading(true);
-      setData(kotobaDataMap[level.toLowerCase()] || []);
+      try {
+        const kotobaData = await loadKotobaData(level);
+        setData(kotobaData);
+      } catch (err) {
+        console.error("Failed to load kotoba data", err);
+        setData([]);
+      }
       
       if (user) {
         try {
