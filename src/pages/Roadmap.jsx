@@ -32,14 +32,20 @@ export default function Roadmap() {
       <div className="flex flex-col gap-4">
         {roadmapData.map((item, index) => {
           const isCompleted = progress.includes(item.id);
+          // Menemukan langkah pertama yang belum selesai sebagai langkah 'aktif'
+          const isNextStep = !isCompleted && roadmapData.findIndex(r => !progress.includes(r.id)) === index;
+          
           return (
             <div 
               key={item.id} 
-              className={`glass-panel flex flex-col md:flex-row items-start md:items-center p-4 md:p-6 gap-3 md:gap-6 transition-all duration-300 cursor-pointer hover:-translate-y-1 hover:border-white/30 ${isCompleted ? 'opacity-80 border-l-4 border-l-emerald-500' : ''}`}
+              className={`glass-panel flex flex-col md:flex-row items-start md:items-center p-4 md:p-6 gap-3 md:gap-6 transition-all duration-300 cursor-pointer hover:-translate-y-1 hover:border-white/30 ${isCompleted ? 'opacity-70 border-l-4 border-l-emerald-500' : isNextStep ? 'border-l-4 border-l-indigo-500 bg-indigo-500/5 shadow-[0_0_20px_rgba(99,102,241,0.1)]' : ''}`}
             >
               <div className={`text-[1.4rem] md:text-[2rem] font-extrabold min-w-[35px] md:min-w-[50px] ${isCompleted ? 'text-emerald-500' : 'text-indigo-400/50'}`}>{index + 1}</div>
               <div className="flex-1">
-                <h2 className="text-base md:text-xl font-bold mb-2 text-text-main">{item.title}</h2>
+                <h2 className="text-base md:text-xl font-bold mb-2 text-text-main flex items-center gap-2">
+                  {item.title}
+                  {isNextStep && <span className="text-[10px] bg-indigo-500 text-white px-2 py-0.5 rounded-full uppercase tracking-wider animate-pulse">Langkah Saat Ini</span>}
+                </h2>
                 <p className="text-sm md:text-[0.95rem] text-text-muted mb-3">{item.desc}</p>
                 <span className="inline-block px-3 py-1 bg-white/10 rounded-full text-xs md:text-sm text-indigo-300">Target: {item.target}</span>
               </div>

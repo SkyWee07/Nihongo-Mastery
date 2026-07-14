@@ -112,7 +112,13 @@ export default function Katakana() {
         <p className="text-text-muted">Katakana digunakan untuk menulis kata serapan asing, nama, dan istilah teknis. Klik kartu untuk mendengar pengucapannya!</p>
         
         {!voicesReady && (
-          <p className="text-amber-500 text-sm mt-2 p-2 bg-amber-500/10 border border-amber-500/30 rounded-lg">⚠️ Suara belum siap. Pastikan browser mendukung Text-to-Speech dan bahasa Jepang sudah terinstal di Windows.</p>
+          <div className="mt-4 p-4 bg-amber-500/5 border border-amber-500/20 rounded-xl flex items-center gap-3 text-left">
+            <span className="text-xl">⚠️</span>
+            <div>
+              <p className="text-amber-500 text-sm font-semibold">Suara belum siap</p>
+              <p className="text-text-muted text-xs">Pastikan browser mendukung Text-to-Speech dan bahasa Jepang sudah terinstal di sistem Anda.</p>
+            </div>
+          </div>
         )}
 
         <button 

@@ -61,8 +61,20 @@ export default function Landing() {
         `}
       </style>
 
+      {/* Navbar (Landing Page Version) */}
+      <nav className="flex justify-between items-center px-4 md:px-8 py-3 md:py-4 mx-auto mt-2 md:mt-6 w-[calc(100%-1rem)] md:w-[calc(100%-2rem)] max-w-7xl sticky top-2 md:top-6 z-[100] bg-bg-dark/70 backdrop-blur-xl border border-white/10 rounded-full shadow-lg">
+        <div className="text-xl md:text-2xl font-extrabold">
+          <Link to="/" className="bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
+            ⛩️ Nihongo Mastery
+          </Link>
+        </div>
+        <Link to="/learn" className="bg-primary text-white px-5 py-2 rounded-full font-bold text-sm transition-all hover:bg-primary-hover">
+          Mulai Belajar 🚀
+        </Link>
+      </nav>
+
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center relative p-6 md:p-8 overflow-hidden">
+      <section className="min-h-[90vh] flex items-center justify-center relative p-6 md:p-8 overflow-hidden">
         <div className="absolute rounded-full blur-[60px] md:blur-[80px] opacity-30 md:opacity-40 animate-[float_8s_ease-in-out_infinite] bg-indigo-500 w-[250px] h-[250px] md:w-[400px] md:h-[400px] -top-[100px] -left-[100px]" style={{ animationDelay: '0s' }}></div>
         <div className="absolute rounded-full blur-[60px] md:blur-[80px] opacity-30 md:opacity-40 animate-[float_8s_ease-in-out_infinite] bg-pink-500 w-[200px] h-[200px] md:w-[300px] md:h-[300px] -bottom-[50px] -right-[50px]" style={{ animationDelay: '2s' }}></div>
         <div className="absolute rounded-full blur-[60px] md:blur-[80px] opacity-30 md:opacity-40 animate-[float_8s_ease-in-out_infinite] bg-green-500 w-[150px] h-[150px] md:w-[250px] md:h-[250px] top-[40%] right-[20%]" style={{ animationDelay: '4s' }}></div>
