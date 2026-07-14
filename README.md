@@ -65,7 +65,10 @@ Proyek ini didistribusikan di bawah lisensi MIT. Silakan gunakan untuk keperluan
 
 
 ## Support 
-If you enjoy what I do, consider supporting me! Every little bit means the world! https://ko-fi.com/skywee
+If you enjoy what I do, consider supporting me! Every little bit means the world! 
+
+https://ko-fi.com/skywee
+https://saweria.co/Skywee07
 
 ---
 *Dibuat dengan ❤️ untuk mempermudah perjalanan belajar bahasa Jepang Anda.*
